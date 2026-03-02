@@ -1,0 +1,608 @@
+{
+  "metadata": {
+    "title": "Global Group Korea | International Commodity Trading",
+    "description": "Crude Oil, Copper, Quartz, Gold - Your trusted partner in global commodity trading"
+  },
+  "common": {
+    "companyName": "Global Group Korea",
+    "slogan": "Hub of the World",
+    "tagline": "Your trusted international business partner, connecting Korea with global markets through strategic partnerships and expert consultation services",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "language": "Language",
+    "freeConsultation": "FREE Consultation Available"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Company",
+    "business": "Business Areas",
+    "market": "Market Insights",
+    "partners": "Partnership",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "Global Group Korea",
+    "subtitle": "Welcome to Global Group Korea Co., LTD.",
+    "description": "Since 1987, Global Group Korea (GGK) has been inquiring closely into business and project consultations, and performance of business activities for Public infrastructures, General and International trading, socio-economic differential projects, especially in Africa and Middle East.",
+    "description2": "GGK puts customer interests first and is ready to work with you on all kinds of projects around the world. If you have any suggestions, we will work with you in the best possible way.",
+    "cta": "Get Free Consultation",
+    "exploreBusiness": "Explore Business Areas",
+    "yearsExcellence": "Years of Global Excellence"
+  },
+  "about": {
+    "title": "Expanding Horizons Through Strategic Global Presence",
+    "description": "Global Group Korea (GGK) operates from our headquarters in Seoul, Korea, serving as the central hub for finance, general affairs, administration, and international business development. Our comprehensive approach to global expansion ensures seamless operations across multiple continents.",
+    "description2": "Established through Foreign Direct Investment (FDI) frameworks, our international network spans five strategic locations: Cape Town in South Africa, Accra in Ghana, Dubai in the UAE, Dhaka in Bangladesh, and Montreal in Canada. Each office is strategically positioned to capitalize on regional opportunities while maintaining direct communication with our Seoul headquarters.",
+    "description3": "Our organizational structure combines local market expertise with Korean business excellence, creating a unique advantage in cross-border transactions and partnerships. Through our network of affiliated companies and co-working partnerships, we deliver comprehensive solutions tailored to each market's specific requirements."
+  },
+  "leadership": {
+    "title": "Executive Leadership Team",
+    "subtitle": "Our leadership combines decades of international business experience with deep market knowledge across multiple industries and regions.",
+    "advisoryTitle": "Strategic Advisory and Technical Excellence",
+    "advisorySubtitle": "Our advisory team provides specialized expertise across technical, operational, and strategic domains to ensure project success.",
+    "regionalTitle": "Regional Market Leadership",
+    "regionalSubtitle": "Our regional directors bring deep local market knowledge and cultural expertise to facilitate successful business operations across diverse markets.",
+    "executives": {
+      "michaelLee": {
+        "name": "Michael Lee",
+        "position": "Chairman",
+        "description": "Strategic vision and corporate governance leadership with extensive experience in international market development and cross-cultural business operations."
+      },
+      "davidHan": {
+        "name": "David Han",
+        "position": "CEO/Managing Director",
+        "description": "Operational excellence and business development expertise, driving growth initiatives across our global network of partnerships and investments."
+      },
+      "huhSeongphil": {
+        "name": "Dr. Huh, Seong-phil",
+        "position": "Vice Chairman",
+        "description": "Academic and industry leadership combining research excellence with practical business applications in emerging markets and technology sectors."
+      }
+    },
+    "advisors": {
+      "byungheunJang": {
+        "name": "Byungheun Jang",
+        "position": "Special Advisor",
+        "description": "Provides strategic counsel on complex international transactions and regulatory compliance across multiple jurisdictions. His expertise encompasses risk assessment, market entry strategies, and partnership structuring."
+      },
+      "seongtaekHong": {
+        "name": "Dr. Seongtaek Hong",
+        "position": "Technical Director",
+        "description": "Leads technical due diligence and project feasibility assessments. His research background ensures thorough evaluation of technical specifications, quality standards, and implementation methodologies for complex projects."
+      },
+      "kateLee": {
+        "name": "Kate Lee",
+        "position": "Overseas Marketing Director",
+        "description": "Develops and executes international marketing strategies, managing brand positioning and market penetration across multiple regions. Coordinates cross-cultural marketing campaigns and partnership development initiatives."
+      }
+    },
+    "regional": {
+      "ramiReddy": {
+        "name": "Dr. Pallapolu Venkata Rami Reddy",
+        "position": "Overseas Director (Trading Dept.)",
+        "description": "The Overseas Director leads our international commodity trading operations, specializing in gold, copper, and crude oil. This position oversees strategic sourcing and negotiations with global suppliers, conducts comprehensive market analysis and risk management, and develops key partnerships across international markets."
+      },
+      "ansahJoseph": {
+        "name": "Ansah Joseph",
+        "position": "Director/Ghana",
+        "description": "Manages West African operations with particular expertise in mining, agriculture, and infrastructure sectors. Provides critical insights into regulatory frameworks and business practices across the region."
+      },
+      "alexKakoma": {
+        "name": "Alex Chinyama Kakoma",
+        "position": "Regional Representative - Southern Africa",
+        "description": "Oversees Southern Africa regional operations based out of the Cape Town office. Leads business development and partnership building across Southern African markets, leveraging deep local market expertise to drive strategic expansion."
+      }
+    }
+  },
+  "investment": {
+    "title": "Our Investment Approach",
+    "research": {
+      "title": "Market Research & Analysis",
+      "description": "Comprehensive due diligence and risk assessment through our network of local experts and market intelligence."
+    },
+    "partnership": {
+      "title": "Strategic Partnership Development",
+      "description": "Building sustainable relationships with local partners and government entities to ensure long-term success."
+    },
+    "risk": {
+      "title": "Risk Mitigation & Optimization",
+      "description": "Implementing proven strategies to minimize investment risks while maximizing returns through careful project management."
+    }
+  },
+  "globalNetwork": {
+    "title": "Our Global Network",
+    "subtitle": "Strategic presence across five continents with 7 key locations",
+    "locations": {
+      "seoul": {
+        "city": "Seoul",
+        "country": "South Korea",
+        "role": "Headquarters",
+        "description": "Finance, General Affairs, Administration & International Business Development"
+      },
+      "capeTown": {
+        "city": "Cape Town",
+        "country": "South Africa",
+        "role": "Africa Regional Office",
+        "description": "Southern Africa operations and regional coordination"
+      },
+      "accra": {
+        "city": "Accra",
+        "country": "Ghana",
+        "role": "West Africa Office",
+        "description": "Mining, Agriculture & Infrastructure sectors"
+      },
+      "morogoro": {
+        "city": "Morogoro",
+        "country": "Tanzania",
+        "role": "Quartz Production Hub",
+        "description": "Strategic partnership with VISH KVARTZ INTANZ - Exclusive global quartz supply, Factory planned"
+      },
+      "dubai": {
+        "city": "Dubai",
+        "country": "UAE",
+        "role": "Middle East Office",
+        "description": "Trade Finance, Logistics & Energy sector partnerships"
+      },
+      "dhaka": {
+        "city": "Dhaka",
+        "country": "Bangladesh",
+        "role": "South Asia Office",
+        "description": "South Asian market development and partnerships"
+      },
+      "montreal": {
+        "city": "Montreal",
+        "country": "Canada",
+        "role": "North America Office",
+        "description": "North American operations and market access"
+      }
+    }
+  },
+  "business": {
+    "title": "Business Areas",
+    "subtitle": "Leading the Global Resource Market",
+    "crudeOil": {
+      "title": "Crude Oil Trading",
+      "subtitle": "Energy Resources",
+      "description": "We provide stable crude oil supply from the Middle East, Russia, and the Americas, achieving competitive trading through partnerships with global refineries."
+    },
+    "copper": {
+      "title": "Copper Trading",
+      "subtitle": "Industrial Metals",
+      "description": "Through our network with major copper-producing countries like Chile, Peru, and Australia, we provide stable supply of high-quality copper materials."
+    },
+    "quartz": {
+      "title": "Quartz Trading",
+      "subtitle": "Industrial Minerals",
+      "description": "We specialize in high-purity quartz essential for semiconductor and solar industries, with rigorous quality control standards."
+    },
+    "gold": {
+      "title": "Gold Trading",
+      "subtitle": "Precious Metals",
+      "description": "We provide safe and transparent gold trading services centered on LBMA-certified gold bars, meeting both investment and industrial demands."
+    }
+  },
+  "stats": {
+    "title": "Global Group in Numbers",
+    "countries": "Countries",
+    "partners": "Global Partners",
+    "experience": "Years of Excellence",
+    "volume": "Annual Trading Volume",
+    "countriesValue": "25+",
+    "partnersValue": "150+",
+    "experienceValue": "37",
+    "volumeValue": "$2B+"
+  },
+  "cta": {
+    "title": "Ready to Expand Globally?",
+    "description": "Connect with our qualified experts to discuss your international business opportunities. Our team provides comprehensive consultation on cross-border investments, market entry strategies, and partnership development across our global network.",
+    "button": "Get Free Consultation",
+    "callText": "Call us today",
+    "phone": "+82 (0)2 400 3084",
+    "projectText": "Tell us about your project requirements for cooperation and detailed analysis. Our expert team will provide tailored solutions to help you navigate international markets successfully."
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Start Your Successful Business Journey with Global Group Korea"
+    },
+    "info": {
+      "title": "Contact Information",
+      "text": "For inquiries about resource trading, partnerships, or other business matters, please contact us anytime. Our expert consultation team will respond promptly.",
+      "address": {
+        "label": "Address",
+        "value": "#507 New Family Officetels 2, 28 Gil 6 Songpa-dae-ro, Songpa-gu, Seoul, Korea"
+      },
+      "phone": {
+        "label": "Phone"
+      },
+      "fax": {
+        "label": "Fax"
+      },
+      "hours": {
+        "label": "Business Hours",
+        "value": "Mon-Fri 09:00 - 18:00 (Closed on weekends and holidays)"
+      }
+    },
+    "form": {
+      "title": "Inquiry Form",
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "selectSubject": "Please select a subject",
+      "subjects": {
+        "crudeOil": "Crude Oil Trading",
+        "copper": "Copper Trading",
+        "quartz": "Quartz Trading",
+        "gold": "Gold Trading",
+        "partnership": "Partnership",
+        "other": "Other"
+      },
+      "message": "Message",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "success": "Your inquiry has been sent successfully. We will respond shortly.",
+      "error": "An error occurred while sending your inquiry. Please try again."
+    }
+  },
+  "businessPage": {
+    "hero": {
+      "title": "Business Areas",
+      "subtitle": "Comprehensive Solutions Leading the Global Resource Market"
+    },
+    "intro": "Global Group Korea delivers exceptional value through stable supply chains for key resources including crude oil, copper, quartz, and gold. With 37 years of accumulated expertise and our global network, we stand as your trusted trading partner.",
+    "exclusive": "Exclusive",
+    "why": {
+      "title": "Why Global Group Korea",
+      "network": {
+        "title": "Global Network",
+        "text": "Direct connections to major resource production sites worldwide through 7 locations across 5 continents."
+      },
+      "expertise": {
+        "title": "Expertise",
+        "text": "37 years of experience and industry experts delivering optimal solutions."
+      },
+      "trust": {
+        "title": "Trust",
+        "text": "Building long-term partnerships through transparent transactions and rigorous quality control."
+      }
+    },
+    "cta": {
+      "title": "Trading Inquiries",
+      "text": "Contact us anytime for consultation on resource trading.",
+      "button": "Contact Us"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "About Us",
+      "subtitle": "Your Trusted Partner Connecting Global Markets Since 1987"
+    },
+    "ceo": {
+      "title": "Message from the Chairman",
+      "message1": "Welcome to Global Group Korea.",
+      "message2": "Since our founding in 1987, we have built a global network spanning Africa, the Middle East, and Asia, pioneering new horizons in international business over 37 years. We have secured stable supply chains for key resources including crude oil, copper, quartz, and gold, working with regional experts to deliver exceptional value to our clients.",
+      "message3": "Notably, our strategic partnership with VISH KVARTZ INTANZ in Tanzania has secured exclusive worldwide distribution rights for high-purity quartz, marking a significant milestone in shaping the future of the semiconductor and solar industries. Global Group Korea will continue to prioritize our clients' success, growing together through trust and innovation.",
+      "name": "Michael Lee",
+      "position": "Chairman"
+    },
+    "vision": {
+      "title": "Vision",
+      "text": "As a leading partner in the global resource market, we deliver exceptional value to clients worldwide through sustainable supply chains and innovative business solutions."
+    },
+    "mission": {
+      "title": "Mission",
+      "text": "Built on trust, expertise, and our global network, we support our clients' business success and build sustainable ecosystems of mutual prosperity with our partners."
+    },
+    "values": {
+      "title": "Core Values",
+      "trust": {
+        "title": "Trust",
+        "text": "We practice transparent and honest business built on 37 years of earned trust."
+      },
+      "global": {
+        "title": "Global Reach",
+        "text": "Our network of 7 locations across 5 continents provides access to markets worldwide."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "text": "Top experts in each field deliver the highest quality service."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "text": "Our clients' and partners' success is our success."
+      }
+    },
+    "history": {
+      "title": "Our History",
+      "founded": {
+        "title": "Global Group Korea Founded",
+        "text": "Established headquarters in Seoul, beginning international trading and consulting operations"
+      },
+      "africa": {
+        "title": "African Market Entry",
+        "text": "Established offices in Cape Town, South Africa and Accra, Ghana"
+      },
+      "middleEast": {
+        "title": "Middle East Expansion",
+        "text": "Opened regional office in Dubai, UAE"
+      },
+      "expansion": {
+        "title": "Global Network Expansion",
+        "text": "Established offices in Dhaka, Bangladesh and Montreal, Canada"
+      },
+      "quartz": {
+        "title": "Strategic Quartz Partnership",
+        "text": "Signed exclusive worldwide supply agreement with VISH KVARTZ INTANZ in Tanzania"
+      }
+    }
+  },
+  "footer": {
+    "companyInfo": "Company Info",
+    "companyFullName": "GLOBAL GROUP KOREA CO.,LTD",
+    "address": "#507 New Family Officetels 2, 28 Gil 6 Songpa-dae-ro, Songpa-gu, Seoul, Korea",
+    "businessAreas": "Business Areas",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "fax": "Fax",
+    "tel": "+82-(0)2-400-3084",
+    "faxNum": "+82-(0)2-3444-3084",
+    "copyright": "© 2026 GLOBAL GROUP KOREA CO.,LTD. All Rights Reserved."
+  },
+  "businessDetail": {
+    "backToBusiness": "Back to Business Areas",
+    "features": "Key Features",
+    "process": "Trading Process",
+    "cta": {
+      "title": "Interested in This Business?",
+      "text": "Contact us for expert consultation",
+      "button": "Contact Us"
+    },
+    "crudeOil": {
+      "overview": {
+        "title": "Business Overview",
+        "text1": "Global Group Korea provides stable crude oil supply through partnerships with major production sites in the Middle East, Russia, and the Americas. We specialize in optimizing supply chains tailored to each client's needs.",
+        "text2": "Through long-term contracts with global refineries, we achieve competitive pricing and guarantee stable supply. With 37 years of industry expertise, we manage all stages from risk management to logistics optimization."
+      },
+      "stats": {
+        "stat1": { "value": "15+", "label": "Partner Countries" },
+        "stat2": { "value": "500K", "label": "Barrels/Month" },
+        "stat3": { "value": "99.5%", "label": "Delivery Rate" }
+      },
+      "features": {
+        "feature1": { "title": "Global Sourcing", "text": "Direct access to major production sites in the Middle East, Russia, and the Americas, offering optimal procurement conditions for each region." },
+        "feature2": { "title": "Flexible Contracts", "text": "Provides various contract options from spot trading to long-term contracts, building optimal strategies according to client needs." },
+        "feature3": { "title": "Quality Assurance", "text": "Supplies various crude oil grades including light sweet crude and heavy sour crude, with thorough quality management." },
+        "feature4": { "title": "Logistics Optimization", "text": "Optimizes the entire transportation route from production site to refinery, achieving cost efficiency through partnerships with major shipping companies." }
+      },
+      "process": {
+        "process1": { "title": "Demand Analysis", "text": "Understand requirements and propose optimal sourcing strategies" },
+        "process2": { "title": "Contract Negotiation", "text": "Price negotiation and contract drafting with production sites" },
+        "process3": { "title": "Logistics Arrangement", "text": "Shipping booking and insurance, transportation route optimization" },
+        "process4": { "title": "Delivery & Settlement", "text": "On-time delivery and transparent settlement processing" }
+      }
+    },
+    "copper": {
+      "overview": {
+        "title": "Business Overview",
+        "text1": "Global Group Korea maintains a network with major copper-producing countries including Chile, Peru, and Australia to provide a stable supply of high-quality copper materials. We handle various products from copper cathode to copper wire.",
+        "text2": "The importance of copper is growing in the transition to a low-carbon economy, making it essential for the electric vehicle, renewable energy, and electronics industries. We build stable supply chains based on demand from these growth sectors."
+      },
+      "stats": {
+        "stat1": { "value": "8", "label": "Partner Mines" },
+        "stat2": { "value": "99.99%", "label": "Purity Standard" },
+        "stat3": { "value": "10K+", "label": "Tons/Month" }
+      },
+      "features": {
+        "feature1": { "title": "Premium Quality", "text": "We primarily supply LME-registered Grade A copper cathode (99.99% purity or higher) and also handle various processed products as needed." },
+        "feature2": { "title": "Stable Supply", "text": "Secure stable sourcing through long-term partnerships with major mines in Chile, Peru, and Australia." },
+        "feature3": { "title": "Price Competitiveness", "text": "Provide competitive pricing through large-volume trading based on LME standard prices." },
+        "feature4": { "title": "Custom Solutions", "text": "Flexibly respond to various forms and specifications from copper cathode to wire and tubes." }
+      },
+      "process": {
+        "process1": { "title": "Requirement Confirmation", "text": "Confirm specifications, quantity, and delivery schedule" },
+        "process2": { "title": "Supply Source Selection", "text": "Select optimal supply source and negotiate pricing" },
+        "process3": { "title": "Quality Inspection", "text": "Quality certification before shipment and insurance arrangement" },
+        "process4": { "title": "Delivery Completion", "text": "International logistics and customs clearance support" }
+      }
+    },
+    "quartz": {
+      "overview": {
+        "title": "Business Overview",
+        "text1": "Global Group Korea has secured exclusive worldwide distribution rights for high-purity quartz through a strategic partnership with VISH KVARTZ INTANZ in Tanzania. Our quartz is an essential material for the semiconductor and solar industries.",
+        "text2": "Tanzanian quartz has the advantage of supplying quartz of consistent quality from a single mine, utilizing reserves of approximately 150,000 tons to provide long-term stable supply and meeting the growing global demand for high-purity quartz."
+      },
+      "stats": {
+        "stat1": { "value": "150K", "label": "Ton Reserves" },
+        "stat2": { "value": "99.99%", "label": "Purity" },
+        "stat3": { "value": "Only", "label": "Exclusive Partner" }
+      },
+      "features": {
+        "feature1": { "title": "Exclusive Distribution", "text": "Sole company with worldwide distribution rights for VISH KVARTZ INTANZ Tanzanian quartz." },
+        "feature2": { "title": "Ultra-High Purity", "text": "Supplies high-purity quartz of 99.99% or higher, meeting semiconductor and solar industry standards." },
+        "feature3": { "title": "Stable Supply", "text": "Guarantees long-term supply stability based on confirmed reserves of approximately 150,000 tons." },
+        "feature4": { "title": "Consistent Quality", "text": "Quartz from a single mine enables consistent quality management, minimizing production deviation." }
+      },
+      "process": {
+        "process1": { "title": "Inquiry", "text": "Requirement confirmation and supply feasibility review" },
+        "process2": { "title": "Sample Supply", "text": "Provide samples for quality verification" },
+        "process3": { "title": "Contract Signing", "text": "Contract for quantity, schedule, and pricing" },
+        "process4": { "title": "Production & Shipping", "text": "Mining, processing, and international shipping" }
+      }
+    },
+    "gold": {
+      "overview": {
+        "title": "Business Overview",
+        "text1": "Global Group Korea provides safe and transparent gold trading services centered on LBMA (London Bullion Market Association) certified gold bars. We supply gold to meet both investment and industrial demands.",
+        "text2": "We handle various products including investment gold bars, jewelry raw materials, and industrial gold, building stable supply chains based on long-term partnerships with refineries in Switzerland and Hong Kong."
+      },
+      "stats": {
+        "stat1": { "value": "LBMA", "label": "Certified" },
+        "stat2": { "value": "99.99%", "label": "Purity" },
+        "stat3": { "value": "24/7", "label": "Price Monitoring" }
+      },
+      "features": {
+        "feature1": { "title": "LBMA Certification", "text": "All gold bars are LBMA certified, guaranteeing reliable quality and transparent origin." },
+        "feature2": { "title": "Diverse Products", "text": "Supplies various specifications from 1oz gold coins to 1kg bars, meeting both investment and industrial needs." },
+        "feature3": { "title": "Real-time Pricing", "text": "Provides competitive trading conditions based on international gold prices with 24-hour real-time price monitoring." },
+        "feature4": { "title": "Secure Logistics", "text": "Safe delivery through partnerships with specialized precious metals logistics companies, with full insurance coverage." }
+      },
+      "process": {
+        "process1": { "title": "Inquiry", "text": "Confirm product specifications and quantity" },
+        "process2": { "title": "Quote", "text": "Real-time quote based on international prices" },
+        "process3": { "title": "Payment & Insurance", "text": "Secure payment processing and insurance arrangement" },
+        "process4": { "title": "Secure Delivery", "text": "Delivery through specialized precious metals logistics" }
+      }
+    }
+  },
+  "marketPage": {
+    "hero": {
+      "title": "Market Insight",
+      "subtitle": "Real-time trends and insights in the global commodity market"
+    },
+    "overview": {
+      "title": "Market Overview",
+      "text": "Global Group Korea leverages 37 years of market expertise and a global network spanning 7 locations across 5 continents to closely monitor commodity market trends. We analyze price fluctuations and supply-demand dynamics of key commodities including gold, copper, crude oil, and quartz to provide clients with optimal trading timing and strategies."
+    },
+    "prices": {
+      "title": "Key Commodity Prices",
+      "subtitle": "Real-time international market prices",
+      "gold": {
+        "name": "Gold",
+        "symbol": "XAU",
+        "unit": "USD/oz"
+      },
+      "copper": {
+        "name": "Copper",
+        "symbol": "HG",
+        "unit": "USD/lb"
+      },
+      "oil": {
+        "name": "Crude Oil",
+        "symbol": "WTI",
+        "unit": "USD/bbl"
+      },
+      "quartz": {
+        "name": "Quartz",
+        "symbol": "SiO2",
+        "unit": "Contact Us",
+        "note": "High-purity quartz is not publicly traded. We offer exclusive supply through our strategic partnership with VISH KVARTZ INTANZ in Tanzania.",
+        "contact": "Inquire for Quote"
+      },
+      "asOf": "As of",
+      "note": "※ Prices are powered by TradingView. Actual trading prices are confirmed through consultation."
+    },
+    "marketOverview": {
+      "title": "Commodity Market Overview",
+      "subtitle": "Real-time market data for key commodities"
+    },
+    "insights": {
+      "title": "Market Trends",
+      "subtitle": "Expert analysis on global commodity markets",
+      "global": {
+        "title": "Global Economic Trends",
+        "text": "We analyze how global economic flows and monetary policies impact commodity markets. We monitor key economic indicators and geopolitical risks to provide market outlook."
+      },
+      "energy": {
+        "title": "Energy Markets",
+        "text": "We analyze global supply-demand dynamics of energy resources including crude oil and natural gas, and how OPEC+ policies and the renewable energy transition affect prices."
+      },
+      "minerals": {
+        "title": "Minerals Markets",
+        "text": "We analyze mining operations, demand forecasts, and supply chain trends for key minerals including copper, gold, and quartz. We particularly focus on demand changes driven by semiconductor and EV market growth."
+      }
+    },
+    "cta": {
+      "title": "Need Customized Market Analysis?",
+      "text": "Our expert analysts provide market analysis reports tailored to your business needs.",
+      "button": "Consult an Expert"
+    }
+  },
+  "partnersPage": {
+    "hero": {
+      "title": "Partnership",
+      "subtitle": "Strategic Collaboration Through Our Global Network"
+    },
+    "intro": {
+      "title": "Partners in Growth",
+      "text": "For 37 years, Global Group Korea has built trust-based partnerships with outstanding companies worldwide. Together with partners who bring the best expertise in their fields, we deliver exceptional value to our clients."
+    },
+    "types": {
+      "title": "Partnership Types",
+      "subtitle": "Various forms of strategic collaboration",
+      "trading": {
+        "title": "Trading Partners",
+        "text": "Global network of producers and suppliers ensuring stable supply of commodities including crude oil, copper, gold, and quartz"
+      },
+      "logistics": {
+        "title": "Logistics Partners",
+        "text": "Collaboration with international shipping and logistics specialists connected to major ports worldwide"
+      },
+      "financial": {
+        "title": "Financial Partners",
+        "text": "Partnerships with global financial institutions for trade finance, foreign exchange, and risk management"
+      },
+      "technical": {
+        "title": "Technical Partners",
+        "text": "Collaboration with specialized agencies for quality verification, technical due diligence, and project management"
+      }
+    },
+    "regions": {
+      "title": "Regional Partner Network",
+      "subtitle": "Global partnerships across 5 continents",
+      "africa": {
+        "region": "Africa",
+        "countries": "South Africa, Ghana, Tanzania",
+        "focus": "Mining, Agriculture, Infrastructure"
+      },
+      "middleEast": {
+        "region": "Middle East",
+        "countries": "UAE, Saudi Arabia, Qatar",
+        "focus": "Energy, Trade Finance, Logistics"
+      },
+      "asia": {
+        "region": "Asia",
+        "countries": "Korea, Bangladesh, India",
+        "focus": "Manufacturing, Technology, Trade"
+      },
+      "americas": {
+        "region": "Americas",
+        "countries": "Canada, USA, Chile",
+        "focus": "Mining, Energy, Finance"
+      }
+    },
+    "featured": {
+      "title": "Strategic Partnership",
+      "subtitle": "Key Business Partners",
+      "vish": {
+        "name": "VISH KVARTZ INTANZ",
+        "location": "Tanzania",
+        "description": "Exclusive worldwide distribution partner for high-purity quartz. Through our quartz production hub in Morogoro, Tanzania, we supply premium quality quartz essential for the semiconductor and solar industries.",
+        "badge": "Exclusive Partner"
+      }
+    },
+    "benefits": {
+      "title": "Partnership Benefits",
+      "global": {
+        "title": "Global Access",
+        "text": "Local market access and business opportunity discovery through 7 international locations"
+      },
+      "expertise": {
+        "title": "Expert Support",
+        "text": "Market analysis and consulting provided by our team with 37 years of experience"
+      },
+      "network": {
+        "title": "Network Expansion",
+        "text": "Leverage a network of over 150 global partner companies"
+      }
+    },
+    "cta": {
+      "title": "Become a Partner",
+      "text": "Create new business opportunities together with Global Group Korea.",
+      "button": "Partnership Inquiry"
+    }
+  }
+}

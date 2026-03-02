@@ -1,0 +1,139 @@
+.section {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.goldLine {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #c9a962, #a88a3d);
+  margin: 0 auto 20px;
+}
+
+.title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 600;
+  color: #0a1628;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card {
+  text-align: center;
+  padding: 40px 30px;
+  background: #f8f9fa;
+  border-radius: 16px;
+  transition: all 0.4s ease;
+  animation: fadeInUp 0.6s ease forwards;
+  animation-delay: var(--delay);
+  opacity: 0;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(10, 22, 40, 0.1);
+  background: #ffffff;
+}
+
+.iconWrapper {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%);
+  border-radius: 50%;
+  color: #c9a962;
+  transition: all 0.3s ease;
+}
+
+.card:hover .iconWrapper {
+  background: linear-gradient(135deg, #c9a962 0%, #a88a3d 100%);
+  color: #0a1628;
+  transform: scale(1.1);
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0a1628;
+  margin-bottom: 16px;
+}
+
+.cardDescription {
+  font-size: 0.95rem;
+  color: #6c757d;
+  line-height: 1.7;
+  margin: 0;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 80px 0;
+  }
+
+  .card {
+    padding: 30px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .iconWrapper {
+    width: 70px;
+    height: 70px;
+  }
+
+  .iconWrapper svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .cardTitle {
+    font-size: 1.125rem;
+  }
+
+  .cardDescription {
+    font-size: 0.875rem;
+  }
+}

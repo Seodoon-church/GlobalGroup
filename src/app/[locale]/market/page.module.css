@@ -1,0 +1,451 @@
+.main {
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 50vh;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%);
+  overflow: hidden;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c9a962' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 0 24px;
+}
+
+.goldLine {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #c9a962, #a88a3d);
+  margin: 0 auto 24px;
+}
+
+.heroTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Ticker Section */
+.tickerSection {
+  background: #1e222d;
+  position: relative;
+  z-index: 10;
+}
+
+/* Loading States */
+.widgetLoading {
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1e222d;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+}
+
+.chartLoading {
+  height: 180px;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}
+
+.marketOverviewLoading {
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  border-radius: 16px;
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Section Header */
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.sectionTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 600;
+  color: #0a1628;
+  margin: 0 0 12px;
+}
+
+.sectionSubtitle {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin: 0;
+}
+
+/* Overview Section */
+.overviewSection {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.overviewContent {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.overviewTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 600;
+  color: #0a1628;
+  margin-bottom: 24px;
+}
+
+.overviewText {
+  font-size: 1.1rem;
+  color: #495057;
+  line-height: 1.9;
+  margin: 0;
+}
+
+/* Prices Section - Chart Grid */
+.pricesSection {
+  padding: 100px 0;
+  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.chartsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.chartCard {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.chartCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+}
+
+.chartHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.chartIcon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%);
+  border-radius: 12px;
+  color: #c9a962;
+  flex-shrink: 0;
+}
+
+.chartInfo {
+  flex: 1;
+}
+
+.commodityName {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #0a1628;
+  margin: 0 0 4px;
+}
+
+.commoditySymbol {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.chartContainer {
+  margin: 0 -24px -24px;
+  border-radius: 0 0 16px 16px;
+  overflow: hidden;
+}
+
+/* Quartz Card - No market data */
+.quartzCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.quartzContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: linear-gradient(135deg, rgba(201, 169, 98, 0.05) 0%, rgba(168, 138, 61, 0.08) 100%);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.quartzNote {
+  font-size: 0.95rem;
+  color: #6c757d;
+  line-height: 1.7;
+  margin: 0 0 20px;
+}
+
+.quartzButton {
+  display: inline-block;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #c9a962 0%, #a88a3d 100%);
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.quartzButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(201, 169, 98, 0.4);
+}
+
+.pricesMeta {
+  text-align: center;
+}
+
+.pricesNote {
+  font-size: 0.875rem;
+  color: #9ca3af;
+  margin: 0;
+}
+
+/* Market Overview Section */
+.marketOverviewSection {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.marketOverviewWidget {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Insights Section */
+.insightsSection {
+  padding: 100px 0;
+  background: #f8f9fa;
+}
+
+.insightsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.insightCard {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 40px 32px;
+  transition: all 0.3s ease;
+}
+
+.insightCard:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+
+.insightNumber {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #c9a962 0%, #a88a3d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 20px;
+}
+
+.insightTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0a1628;
+  margin-bottom: 16px;
+}
+
+.insightText {
+  font-size: 0.95rem;
+  color: #6c757d;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* CTA Section */
+.ctaSection {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%);
+  text-align: center;
+}
+
+.ctaTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.ctaText {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 32px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 16px 40px;
+  background: linear-gradient(135deg, #c9a962 0%, #a88a3d 100%);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.ctaButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(201, 169, 98, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .chartsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .insightsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 40vh;
+    min-height: 300px;
+  }
+
+  .overviewSection,
+  .pricesSection,
+  .marketOverviewSection,
+  .insightsSection,
+  .ctaSection {
+    padding: 80px 0;
+  }
+
+  .chartsGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .chartCard {
+    padding: 20px;
+  }
+
+  .chartContainer {
+    margin: 0 -20px -20px;
+  }
+
+  .marketOverviewLoading {
+    height: 400px;
+  }
+
+  .insightsGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .insightCard {
+    padding: 32px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    height: 35vh;
+  }
+
+  .overviewSection,
+  .pricesSection,
+  .marketOverviewSection,
+  .insightsSection,
+  .ctaSection {
+    padding: 60px 0;
+  }
+
+  .sectionHeader {
+    margin-bottom: 40px;
+  }
+
+  .chartHeader {
+    gap: 12px;
+  }
+
+  .chartIcon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .commodityName {
+    font-size: 1rem;
+  }
+}

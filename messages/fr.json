@@ -1,0 +1,608 @@
+{
+  "metadata": {
+    "title": "Global Group Korea | Negoce International de Matieres Premieres",
+    "description": "Petrole brut, Cuivre, Quartz, Or - Votre partenaire de confiance dans le negoce international de matieres premieres"
+  },
+  "common": {
+    "companyName": "Global Group Korea",
+    "slogan": "Hub of the World",
+    "tagline": "Votre partenaire commercial international de confiance, reliant la Coree aux marches mondiaux grace a des partenariats strategiques et des services de conseil specialises",
+    "contactUs": "Nous Contacter",
+    "learnMore": "En Savoir Plus",
+    "language": "Langue",
+    "freeConsultation": "Consultation GRATUITE disponible"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "Societe",
+    "business": "Secteurs d'Activite",
+    "market": "Analyses de Marche",
+    "partners": "Partenariat",
+    "contact": "Nous Contacter"
+  },
+  "hero": {
+    "title": "Global Group Korea",
+    "subtitle": "Bienvenue chez Global Group Korea Co., LTD.",
+    "description": "Depuis 1987, Global Group Korea (GGK) se consacre aux consultations commerciales et de projets, ainsi qu'a la realisation d'activites commerciales dans les infrastructures publiques, le commerce general et international, et les projets socio-economiques differentiels, notamment en Afrique et au Moyen-Orient.",
+    "description2": "GGK place les interets de ses clients en priorite et est pret a collaborer avec vous sur tous types de projets a travers le monde. Si vous avez des propositions, nous travaillerons avec vous de la maniere la plus optimale possible.",
+    "cta": "Obtenir une Consultation Gratuite",
+    "exploreBusiness": "Decouvrir nos Secteurs d'Activite",
+    "yearsExcellence": "Annees d'Excellence Mondiale"
+  },
+  "about": {
+    "title": "Elargir les Horizons Grace a une Presence Mondiale Strategique",
+    "description": "Global Group Korea (GGK) opere depuis son siege social a Seoul, en Coree, servant de centre nevralgique pour les finances, les affaires generales, l'administration et le developpement commercial international. Notre approche globale de l'expansion internationale garantit des operations fluides sur plusieurs continents.",
+    "description2": "Etabli dans le cadre d'Investissements Directs Etrangers (IDE), notre reseau international s'etend sur cinq sites strategiques : Le Cap en Afrique du Sud, Accra au Ghana, Dubai aux Emirats Arabes Unis, Dacca au Bangladesh et Montreal au Canada. Chaque bureau est strategiquement positionne pour tirer parti des opportunites regionales tout en maintenant une communication directe avec notre siege de Seoul.",
+    "description3": "Notre structure organisationnelle combine l'expertise des marches locaux avec l'excellence commerciale coreenne, creant un avantage unique dans les transactions et partenariats transfrontaliers. Grace a notre reseau de societes affiliees et de partenariats collaboratifs, nous proposons des solutions completes adaptees aux exigences specifiques de chaque marche."
+  },
+  "leadership": {
+    "title": "Equipe de Direction",
+    "subtitle": "Notre direction allie des decennies d'experience commerciale internationale a une connaissance approfondie des marches dans de multiples secteurs et regions.",
+    "advisoryTitle": "Conseil Strategique et Excellence Technique",
+    "advisorySubtitle": "Notre equipe de conseillers apporte une expertise specialisee dans les domaines techniques, operationnels et strategiques pour garantir le succes des projets.",
+    "regionalTitle": "Direction Regionale des Marches",
+    "regionalSubtitle": "Nos directeurs regionaux apportent une connaissance approfondie des marches locaux et une expertise culturelle pour faciliter le succes des operations commerciales sur des marches diversifies.",
+    "executives": {
+      "michaelLee": {
+        "name": "Michael Lee",
+        "position": "President du Conseil",
+        "description": "Vision strategique et leadership en gouvernance d'entreprise avec une vaste experience dans le developpement des marches internationaux et les operations commerciales interculturelles."
+      },
+      "davidHan": {
+        "name": "David Han",
+        "position": "PDG / Directeur General",
+        "description": "Excellence operationnelle et expertise en developpement commercial, pilotant les initiatives de croissance a travers notre reseau mondial de partenariats et d'investissements."
+      },
+      "huhSeongphil": {
+        "name": "Dr. Huh, Seong-phil",
+        "position": "Vice-President",
+        "description": "Leadership academique et industriel combinant l'excellence en recherche avec des applications commerciales pratiques dans les marches emergents et les secteurs technologiques."
+      }
+    },
+    "advisors": {
+      "byungheunJang": {
+        "name": "Byungheun Jang",
+        "position": "Conseiller Special",
+        "description": "Fournit des conseils strategiques sur les transactions internationales complexes et la conformite reglementaire dans de multiples juridictions. Son expertise englobe l'evaluation des risques, les strategies d'entree sur les marches et la structuration de partenariats."
+      },
+      "seongtaekHong": {
+        "name": "Dr. Seongtaek Hong",
+        "position": "Directeur Technique",
+        "description": "Dirige les audits techniques et les evaluations de faisabilite des projets. Son parcours en recherche garantit une evaluation rigoureuse des specifications techniques, des normes de qualite et des methodologies de mise en oeuvre pour les projets complexes."
+      },
+      "kateLee": {
+        "name": "Kate Lee",
+        "position": "Directrice du Marketing International",
+        "description": "Elabore et execute les strategies de marketing international, gerant le positionnement de la marque et la penetration des marches dans plusieurs regions. Coordonne les campagnes de marketing interculturelles et les initiatives de developpement de partenariats."
+      }
+    },
+    "regional": {
+      "ramiReddy": {
+        "name": "Dr. Pallapolu Venkata Rami Reddy",
+        "position": "Directeur International (Dept. Negoce)",
+        "description": "Le Directeur International dirige nos operations de negoce international de matieres premieres, specialise dans l'or, le cuivre et le petrole brut. Ce poste supervise l'approvisionnement strategique et les negociations avec les fournisseurs mondiaux, mene des analyses de marche completes et la gestion des risques, et developpe des partenariats cles sur les marches internationaux."
+      },
+      "ansahJoseph": {
+        "name": "Ansah Joseph",
+        "position": "Directeur / Ghana",
+        "description": "Gere les operations en Afrique de l'Ouest avec une expertise particuliere dans les secteurs minier, agricole et des infrastructures. Apporte des informations essentielles sur les cadres reglementaires et les pratiques commerciales de la region."
+      },
+      "alexKakoma": {
+        "name": "Alex Chinyama Kakoma",
+        "position": "Representant Regional - Afrique Australe",
+        "description": "Supervise les operations regionales en Afrique australe depuis le bureau du Cap. Dirige le developpement commercial et le renforcement des partenariats sur les marches d'Afrique australe, tirant parti d'une expertise approfondie du marche local pour stimuler l'expansion strategique."
+      }
+    }
+  },
+  "investment": {
+    "title": "Notre Approche d'Investissement",
+    "research": {
+      "title": "Etude et Analyse de Marche",
+      "description": "Audit prealable complet et evaluation des risques grace a notre reseau d'experts locaux et de veille strategique."
+    },
+    "partnership": {
+      "title": "Developpement de Partenariats Strategiques",
+      "description": "Construction de relations durables avec les partenaires locaux et les entites gouvernementales pour assurer un succes a long terme."
+    },
+    "risk": {
+      "title": "Attenuation et Optimisation des Risques",
+      "description": "Mise en oeuvre de strategies eprouvees pour minimiser les risques d'investissement tout en maximisant les rendements grace a une gestion de projet rigoureuse."
+    }
+  },
+  "globalNetwork": {
+    "title": "Notre Reseau Mondial",
+    "subtitle": "Presence strategique sur cinq continents avec 7 implantations cles",
+    "locations": {
+      "seoul": {
+        "city": "Seoul",
+        "country": "Coree du Sud",
+        "role": "Siege Social",
+        "description": "Finances, Affaires Generales, Administration et Developpement Commercial International"
+      },
+      "capeTown": {
+        "city": "Cape Town",
+        "country": "Afrique du Sud",
+        "role": "Bureau Regional Afrique",
+        "description": "Operations en Afrique australe et coordination regionale"
+      },
+      "accra": {
+        "city": "Accra",
+        "country": "Ghana",
+        "role": "Bureau Afrique de l'Ouest",
+        "description": "Secteurs minier, agricole et des infrastructures"
+      },
+      "morogoro": {
+        "city": "Morogoro",
+        "country": "Tanzanie",
+        "role": "Centre de Production de Quartz",
+        "description": "Partenariat strategique avec VISH KVARTZ INTANZ - Approvisionnement mondial exclusif en quartz, Usine en projet"
+      },
+      "dubai": {
+        "city": "Dubai",
+        "country": "Emirats Arabes Unis",
+        "role": "Bureau Moyen-Orient",
+        "description": "Financement du commerce, Logistique et Partenariats dans le secteur energetique"
+      },
+      "dhaka": {
+        "city": "Dhaka",
+        "country": "Bangladesh",
+        "role": "Bureau Asie du Sud",
+        "description": "Developpement du marche sud-asiatique et partenariats"
+      },
+      "montreal": {
+        "city": "Montreal",
+        "country": "Canada",
+        "role": "Bureau Amerique du Nord",
+        "description": "Operations nord-americaines et acces au marche"
+      }
+    }
+  },
+  "business": {
+    "title": "Secteurs d'Activite",
+    "subtitle": "Leader sur le Marche Mondial des Ressources",
+    "crudeOil": {
+      "title": "Negoce de Petrole Brut",
+      "subtitle": "Ressources Energetiques",
+      "description": "Nous assurons un approvisionnement stable en petrole brut depuis le Moyen-Orient, la Russie et les Ameriques, en realisant des operations competitives grace a des partenariats avec des raffineries mondiales."
+    },
+    "copper": {
+      "title": "Negoce de Cuivre",
+      "subtitle": "Metaux Industriels",
+      "description": "Grace a notre reseau avec les principaux pays producteurs de cuivre tels que le Chili, le Perou et l'Australie, nous assurons un approvisionnement stable en materiaux de cuivre de haute qualite."
+    },
+    "quartz": {
+      "title": "Negoce de Quartz",
+      "subtitle": "Mineraux Industriels",
+      "description": "Nous sommes specialises dans le quartz de haute purete, essentiel pour les industries des semi-conducteurs et du solaire, avec des normes rigoureuses de controle qualite."
+    },
+    "gold": {
+      "title": "Negoce d'Or",
+      "subtitle": "Metaux Precieux",
+      "description": "Nous offrons des services de negoce d'or surs et transparents centres sur les lingots certifies LBMA, repondant aux besoins d'investissement et industriels."
+    }
+  },
+  "stats": {
+    "title": "Global Group en Chiffres",
+    "countries": "Pays",
+    "partners": "Partenaires Mondiaux",
+    "experience": "Annees d'Excellence",
+    "volume": "Volume Annuel de Transactions",
+    "countriesValue": "25+",
+    "partnersValue": "150+",
+    "experienceValue": "37",
+    "volumeValue": "$2B+"
+  },
+  "cta": {
+    "title": "Pret a Vous Developper a l'International ?",
+    "description": "Entrez en contact avec nos experts qualifies pour discuter de vos opportunites commerciales internationales. Notre equipe fournit des conseils complets sur les investissements transfrontaliers, les strategies d'entree sur les marches et le developpement de partenariats a travers notre reseau mondial.",
+    "button": "Obtenir une Consultation Gratuite",
+    "callText": "Appelez-nous des aujourd'hui",
+    "phone": "+82 (0)2 400 3084",
+    "projectText": "Faites-nous part de vos besoins en matiere de cooperation et d'analyse detaillee. Notre equipe d'experts vous fournira des solutions sur mesure pour vous accompagner avec succes sur les marches internationaux."
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Nous Contacter",
+      "subtitle": "Demarrez Votre Parcours Commercial avec Global Group Korea"
+    },
+    "info": {
+      "title": "Coordonnees",
+      "text": "Pour toute demande concernant le negoce de ressources, les partenariats ou d'autres affaires commerciales, n'hesitez pas a nous contacter. Notre equipe de consultants experts vous repondra dans les meilleurs delais.",
+      "address": {
+        "label": "Adresse",
+        "value": "#507 New Family Officetels 2, 28 Gil 6 Songpa-dae-ro, Songpa-gu, Seoul, Korea"
+      },
+      "phone": {
+        "label": "Telephone"
+      },
+      "fax": {
+        "label": "Fax"
+      },
+      "hours": {
+        "label": "Horaires d'Ouverture",
+        "value": "Lun-Ven 09:00 - 18:00 (Ferme les week-ends et jours feries)"
+      }
+    },
+    "form": {
+      "title": "Formulaire de Demande",
+      "name": "Nom",
+      "company": "Societe",
+      "email": "E-mail",
+      "phone": "Telephone",
+      "subject": "Objet",
+      "selectSubject": "Veuillez selectionner un objet",
+      "subjects": {
+        "crudeOil": "Negoce de Petrole Brut",
+        "copper": "Negoce de Cuivre",
+        "quartz": "Negoce de Quartz",
+        "gold": "Negoce d'Or",
+        "partnership": "Partenariat",
+        "other": "Autre"
+      },
+      "message": "Message",
+      "submit": "Envoyer",
+      "submitting": "Envoi en cours...",
+      "success": "Votre demande a ete envoyee avec succes. Nous vous repondrons dans les meilleurs delais.",
+      "error": "Une erreur est survenue lors de l'envoi de votre demande. Veuillez reessayer."
+    }
+  },
+  "businessPage": {
+    "hero": {
+      "title": "Secteurs d'Activite",
+      "subtitle": "Des Solutions Completes pour le Marche Mondial des Ressources"
+    },
+    "intro": "Global Group Korea offre une valeur exceptionnelle grace a des chaines d'approvisionnement stables pour les ressources cles, notamment le petrole brut, le cuivre, le quartz et l'or. Fort de 37 annees d'expertise accumulee et de notre reseau mondial, nous sommes votre partenaire commercial de confiance.",
+    "exclusive": "Exclusif",
+    "why": {
+      "title": "Pourquoi Global Group Korea",
+      "network": {
+        "title": "Reseau Mondial",
+        "text": "Connexions directes aux principaux sites de production de ressources dans le monde grace a 7 implantations sur 5 continents."
+      },
+      "expertise": {
+        "title": "Expertise",
+        "text": "37 annees d'experience et des experts sectoriels offrant des solutions optimales."
+      },
+      "trust": {
+        "title": "Confiance",
+        "text": "Construction de partenariats a long terme grace a des transactions transparentes et un controle qualite rigoureux."
+      }
+    },
+    "cta": {
+      "title": "Demandes Commerciales",
+      "text": "N'hesitez pas a nous contacter pour une consultation sur le negoce de ressources.",
+      "button": "Nous Contacter"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "A Propos",
+      "subtitle": "Votre Partenaire de Confiance Reliant les Marches Mondiaux Depuis 1987"
+    },
+    "ceo": {
+      "title": "Message du President",
+      "message1": "Bienvenue chez Global Group Korea.",
+      "message2": "Depuis notre fondation en 1987, nous avons bati un reseau mondial couvrant l'Afrique, le Moyen-Orient et l'Asie, ouvrant de nouveaux horizons dans le commerce international depuis 37 ans. Nous avons securise des chaines d'approvisionnement stables pour des ressources cles, notamment le petrole brut, le cuivre, le quartz et l'or, en collaborant avec des experts regionaux pour offrir une valeur exceptionnelle a nos clients.",
+      "message3": "En particulier, notre partenariat strategique avec VISH KVARTZ INTANZ en Tanzanie nous a permis d'obtenir les droits de distribution exclusifs mondiaux pour le quartz de haute purete, marquant une etape importante dans la construction de l'avenir des industries des semi-conducteurs et du solaire. Global Group Korea continuera de placer le succes de ses clients au premier plan, en grandissant ensemble grace a la confiance et l'innovation.",
+      "name": "Michael Lee",
+      "position": "President du Conseil"
+    },
+    "vision": {
+      "title": "Vision",
+      "text": "En tant que partenaire de premier plan sur le marche mondial des ressources, nous offrons une valeur exceptionnelle a nos clients dans le monde entier grace a des chaines d'approvisionnement durables et des solutions commerciales innovantes."
+    },
+    "mission": {
+      "title": "Mission",
+      "text": "Fondes sur la confiance, l'expertise et notre reseau mondial, nous accompagnons le succes commercial de nos clients et batissons des ecosystemes durables de prosperite mutuelle avec nos partenaires."
+    },
+    "values": {
+      "title": "Valeurs Fondamentales",
+      "trust": {
+        "title": "Confiance",
+        "text": "Nous pratiquons un commerce transparent et honnete, bati sur 37 annees de confiance meritee."
+      },
+      "global": {
+        "title": "Portee Mondiale",
+        "text": "Notre reseau de 7 implantations sur 5 continents offre un acces aux marches du monde entier."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "text": "Des experts de premier plan dans chaque domaine offrent un service de la plus haute qualite."
+      },
+      "partnership": {
+        "title": "Partenariat",
+        "text": "Le succes de nos clients et partenaires est notre succes."
+      }
+    },
+    "history": {
+      "title": "Notre Histoire",
+      "founded": {
+        "title": "Fondation de Global Group Korea",
+        "text": "Etablissement du siege social a Seoul, debut des operations de commerce international et de conseil"
+      },
+      "africa": {
+        "title": "Entree sur le Marche Africain",
+        "text": "Ouverture de bureaux au Cap, Afrique du Sud et a Accra, Ghana"
+      },
+      "middleEast": {
+        "title": "Expansion au Moyen-Orient",
+        "text": "Ouverture d'un bureau regional a Dubai, Emirats Arabes Unis"
+      },
+      "expansion": {
+        "title": "Expansion du Reseau Mondial",
+        "text": "Ouverture de bureaux a Dacca, Bangladesh et Montreal, Canada"
+      },
+      "quartz": {
+        "title": "Partenariat Strategique pour le Quartz",
+        "text": "Signature d'un accord d'approvisionnement exclusif mondial avec VISH KVARTZ INTANZ en Tanzanie"
+      }
+    }
+  },
+  "footer": {
+    "companyInfo": "Informations Societe",
+    "companyFullName": "GLOBAL GROUP KOREA CO.,LTD",
+    "address": "#507 New Family Officetels 2, 28 Gil 6 Songpa-dae-ro, Songpa-gu, Seoul, Korea",
+    "businessAreas": "Secteurs d'Activite",
+    "quickLinks": "Liens Rapides",
+    "contactInfo": "Contact",
+    "email": "E-mail",
+    "phone": "Telephone",
+    "fax": "Fax",
+    "tel": "+82-(0)2-400-3084",
+    "faxNum": "+82-(0)2-3444-3084",
+    "copyright": "\u00a9 2026 GLOBAL GROUP KOREA CO.,LTD. Tous Droits Reserves."
+  },
+  "businessDetail": {
+    "backToBusiness": "Retour aux Secteurs d'Activite",
+    "features": "Caracteristiques Cles",
+    "process": "Processus de Negoce",
+    "cta": {
+      "title": "Interesse par ce Secteur ?",
+      "text": "Contactez-nous pour une consultation specialisee",
+      "button": "Nous Contacter"
+    },
+    "crudeOil": {
+      "overview": {
+        "title": "Apercu de l'Activite",
+        "text1": "Global Group Korea assure un approvisionnement stable en petrole brut grace a des partenariats avec les principaux sites de production au Moyen-Orient, en Russie et dans les Ameriques. Nous sommes specialises dans l'optimisation des chaines d'approvisionnement adaptees aux besoins de chaque client.",
+        "text2": "Grace a des contrats a long terme avec des raffineries mondiales, nous obtenons des prix competitifs et garantissons un approvisionnement stable. Forts de 37 annees d'expertise sectorielle, nous gerons toutes les etapes, de la gestion des risques a l'optimisation logistique."
+      },
+      "stats": {
+        "stat1": { "value": "15+", "label": "Pays Partenaires" },
+        "stat2": { "value": "500K", "label": "Barils/Mois" },
+        "stat3": { "value": "99.5%", "label": "Taux de Livraison" }
+      },
+      "features": {
+        "feature1": { "title": "Approvisionnement Mondial", "text": "Acces direct aux principaux sites de production au Moyen-Orient, en Russie et dans les Ameriques, offrant des conditions d'approvisionnement optimales pour chaque region." },
+        "feature2": { "title": "Contrats Flexibles", "text": "Propose diverses options contractuelles, du negoce au comptant aux contrats a long terme, elaborant des strategies optimales selon les besoins des clients." },
+        "feature3": { "title": "Assurance Qualite", "text": "Fournit differentes qualites de petrole brut, incluant le brut leger non sulfure et le brut lourd sulfure, avec une gestion qualite rigoureuse." },
+        "feature4": { "title": "Optimisation Logistique", "text": "Optimise l'ensemble de la chaine de transport du site de production a la raffinerie, realisant des economies grace a des partenariats avec les principales compagnies maritimes." }
+      },
+      "process": {
+        "process1": { "title": "Analyse de la Demande", "text": "Comprendre les besoins et proposer des strategies d'approvisionnement optimales" },
+        "process2": { "title": "Negociation Contractuelle", "text": "Negociation des prix et redaction des contrats avec les sites de production" },
+        "process3": { "title": "Organisation Logistique", "text": "Reservation du fret et assurance, optimisation des itineraires de transport" },
+        "process4": { "title": "Livraison et Reglement", "text": "Livraison dans les delais et traitement transparent des reglements" }
+      }
+    },
+    "copper": {
+      "overview": {
+        "title": "Apercu de l'Activite",
+        "text1": "Global Group Korea entretient un reseau avec les principaux pays producteurs de cuivre, notamment le Chili, le Perou et l'Australie, pour assurer un approvisionnement stable en materiaux de cuivre de haute qualite. Nous traitons divers produits, de la cathode de cuivre au fil de cuivre.",
+        "text2": "L'importance du cuivre croit dans la transition vers une economie bas carbone, ce qui en fait un element essentiel pour les industries des vehicules electriques, des energies renouvelables et de l'electronique. Nous construisons des chaines d'approvisionnement stables basees sur la demande de ces secteurs en croissance."
+      },
+      "stats": {
+        "stat1": { "value": "8", "label": "Mines Partenaires" },
+        "stat2": { "value": "99.99%", "label": "Norme de Purete" },
+        "stat3": { "value": "10K+", "label": "Tonnes/Mois" }
+      },
+      "features": {
+        "feature1": { "title": "Qualite Premium", "text": "Nous fournissons principalement des cathodes de cuivre Grade A enregistrees au LME (purete de 99,99% ou superieure) et traitons egalement divers produits transformes selon les besoins." },
+        "feature2": { "title": "Approvisionnement Stable", "text": "Securisation de l'approvisionnement grace a des partenariats a long terme avec les principales mines au Chili, au Perou et en Australie." },
+        "feature3": { "title": "Competitivite des Prix", "text": "Des prix competitifs grace a des transactions en gros volumes bases sur les cours de reference du LME." },
+        "feature4": { "title": "Solutions Sur Mesure", "text": "Reponse flexible a diverses formes et specifications, de la cathode de cuivre aux fils et tubes." }
+      },
+      "process": {
+        "process1": { "title": "Confirmation des Besoins", "text": "Confirmation des specifications, quantites et calendrier de livraison" },
+        "process2": { "title": "Selection des Fournisseurs", "text": "Selection de la source d'approvisionnement optimale et negociation des prix" },
+        "process3": { "title": "Inspection Qualite", "text": "Certification qualite avant expedition et souscription d'assurance" },
+        "process4": { "title": "Livraison Finalisee", "text": "Logistique internationale et accompagnement au dedouanement" }
+      }
+    },
+    "quartz": {
+      "overview": {
+        "title": "Apercu de l'Activite",
+        "text1": "Global Group Korea a obtenu les droits de distribution exclusifs mondiaux pour le quartz de haute purete grace a un partenariat strategique avec VISH KVARTZ INTANZ en Tanzanie. Notre quartz est un materiau essentiel pour les industries des semi-conducteurs et du solaire.",
+        "text2": "Le quartz tanzanien presente l'avantage de fournir un quartz de qualite constante provenant d'une seule mine, utilisant des reserves d'environ 150 000 tonnes pour assurer un approvisionnement stable a long terme et repondre a la demande mondiale croissante de quartz de haute purete."
+      },
+      "stats": {
+        "stat1": { "value": "150K", "label": "Tonnes de Reserves" },
+        "stat2": { "value": "99.99%", "label": "Purete" },
+        "stat3": { "value": "Only", "label": "Partenaire Exclusif" }
+      },
+      "features": {
+        "feature1": { "title": "Distribution Exclusive", "text": "Seule societe detenant les droits de distribution mondiaux pour le quartz tanzanien de VISH KVARTZ INTANZ." },
+        "feature2": { "title": "Ultra-Haute Purete", "text": "Fournit du quartz de haute purete de 99,99% ou superieure, conforme aux normes des industries des semi-conducteurs et du solaire." },
+        "feature3": { "title": "Approvisionnement Stable", "text": "Garantit une stabilite d'approvisionnement a long terme basee sur des reserves confirmees d'environ 150 000 tonnes." },
+        "feature4": { "title": "Qualite Constante", "text": "Le quartz provenant d'une seule mine permet une gestion qualite constante, minimisant les ecarts de production." }
+      },
+      "process": {
+        "process1": { "title": "Demande de Renseignements", "text": "Confirmation des besoins et etude de faisabilite d'approvisionnement" },
+        "process2": { "title": "Fourniture d'Echantillons", "text": "Mise a disposition d'echantillons pour verification de la qualite" },
+        "process3": { "title": "Signature du Contrat", "text": "Contrat portant sur les quantites, le calendrier et les prix" },
+        "process4": { "title": "Production et Expedition", "text": "Extraction, transformation et expedition internationale" }
+      }
+    },
+    "gold": {
+      "overview": {
+        "title": "Apercu de l'Activite",
+        "text1": "Global Group Korea offre des services de negoce d'or surs et transparents centres sur les lingots certifies LBMA (London Bullion Market Association). Nous fournissons de l'or pour repondre aux besoins d'investissement et industriels.",
+        "text2": "Nous traitons divers produits, notamment les lingots d'investissement, les matieres premieres pour la joaillerie et l'or industriel, en construisant des chaines d'approvisionnement stables basees sur des partenariats a long terme avec des raffineries en Suisse et a Hong Kong."
+      },
+      "stats": {
+        "stat1": { "value": "LBMA", "label": "Certifie" },
+        "stat2": { "value": "99.99%", "label": "Purete" },
+        "stat3": { "value": "24/7", "label": "Suivi des Cours" }
+      },
+      "features": {
+        "feature1": { "title": "Certification LBMA", "text": "Tous les lingots sont certifies LBMA, garantissant une qualite fiable et une origine transparente." },
+        "feature2": { "title": "Produits Diversifies", "text": "Fournit diverses specifications, des pieces d'or de 1 oz aux lingots de 1 kg, repondant aux besoins d'investissement et industriels." },
+        "feature3": { "title": "Cours en Temps Reel", "text": "Offre des conditions de negoce competitives basees sur les cours internationaux de l'or avec un suivi en temps reel 24 heures sur 24." },
+        "feature4": { "title": "Logistique Securisee", "text": "Livraison securisee grace a des partenariats avec des societes de logistique specialisees dans les metaux precieux, avec une couverture d'assurance complete." }
+      },
+      "process": {
+        "process1": { "title": "Demande de Renseignements", "text": "Confirmation des specifications produit et des quantites" },
+        "process2": { "title": "Devis", "text": "Devis en temps reel base sur les cours internationaux" },
+        "process3": { "title": "Paiement et Assurance", "text": "Traitement securise des paiements et souscription d'assurance" },
+        "process4": { "title": "Livraison Securisee", "text": "Livraison par logistique specialisee en metaux precieux" }
+      }
+    }
+  },
+  "marketPage": {
+    "hero": {
+      "title": "Analyses de Marche",
+      "subtitle": "Tendances en temps reel et analyses du marche mondial des matieres premieres"
+    },
+    "overview": {
+      "title": "Apercu du Marche",
+      "text": "Global Group Korea s'appuie sur 37 annees d'expertise de marche et un reseau mondial de 7 implantations sur 5 continents pour suivre de pres les tendances du marche des matieres premieres. Nous analysons les fluctuations des prix et la dynamique de l'offre et de la demande des principales matieres premieres, notamment l'or, le cuivre, le petrole brut et le quartz, afin de fournir a nos clients le calendrier et les strategies de negoce optimaux."
+    },
+    "prices": {
+      "title": "Cours des Principales Matieres Premieres",
+      "subtitle": "Cours internationaux en temps reel",
+      "gold": {
+        "name": "Or",
+        "symbol": "XAU",
+        "unit": "USD/oz"
+      },
+      "copper": {
+        "name": "Cuivre",
+        "symbol": "HG",
+        "unit": "USD/lb"
+      },
+      "oil": {
+        "name": "Petrole Brut",
+        "symbol": "WTI",
+        "unit": "USD/bbl"
+      },
+      "quartz": {
+        "name": "Quartz",
+        "symbol": "SiO2",
+        "unit": "Nous Contacter",
+        "note": "Le quartz de haute purete n'est pas cote en bourse. Nous proposons un approvisionnement exclusif grace a notre partenariat strategique avec VISH KVARTZ INTANZ en Tanzanie.",
+        "contact": "Demander un Devis"
+      },
+      "asOf": "En date du",
+      "note": "\u203b Les cours sont fournis par TradingView. Les prix de transaction reels sont confirmes lors de la consultation."
+    },
+    "marketOverview": {
+      "title": "Apercu du Marche des Matieres Premieres",
+      "subtitle": "Donnees de marche en temps reel pour les principales matieres premieres"
+    },
+    "insights": {
+      "title": "Tendances du Marche",
+      "subtitle": "Analyses d'experts sur les marches mondiaux des matieres premieres",
+      "global": {
+        "title": "Tendances Economiques Mondiales",
+        "text": "Nous analysons l'impact des flux economiques mondiaux et des politiques monetaires sur les marches des matieres premieres. Nous surveillons les principaux indicateurs economiques et les risques geopolitiques pour fournir des perspectives de marche."
+      },
+      "energy": {
+        "title": "Marches de l'Energie",
+        "text": "Nous analysons la dynamique mondiale de l'offre et de la demande des ressources energetiques, notamment le petrole brut et le gaz naturel, et l'impact des politiques de l'OPEP+ et de la transition vers les energies renouvelables sur les prix."
+      },
+      "minerals": {
+        "title": "Marches des Mineraux",
+        "text": "Nous analysons les operations minieres, les previsions de demande et les tendances des chaines d'approvisionnement pour les principaux mineraux, notamment le cuivre, l'or et le quartz. Nous nous concentrons particulierement sur les evolutions de la demande liees a la croissance des marches des semi-conducteurs et des vehicules electriques."
+      }
+    },
+    "cta": {
+      "title": "Besoin d'une Analyse de Marche Personnalisee ?",
+      "text": "Nos analystes experts fournissent des rapports d'analyse de marche adaptes a vos besoins commerciaux.",
+      "button": "Consulter un Expert"
+    }
+  },
+  "partnersPage": {
+    "hero": {
+      "title": "Partenariat",
+      "subtitle": "Collaboration Strategique a Travers Notre Reseau Mondial"
+    },
+    "intro": {
+      "title": "Partenaires de Croissance",
+      "text": "Depuis 37 ans, Global Group Korea a bati des partenariats fondes sur la confiance avec des entreprises d'excellence dans le monde entier. En collaboration avec des partenaires qui apportent la meilleure expertise dans leurs domaines respectifs, nous offrons une valeur exceptionnelle a nos clients."
+    },
+    "types": {
+      "title": "Types de Partenariat",
+      "subtitle": "Diverses formes de collaboration strategique",
+      "trading": {
+        "title": "Partenaires Commerciaux",
+        "text": "Reseau mondial de producteurs et fournisseurs assurant un approvisionnement stable en matieres premieres, notamment le petrole brut, le cuivre, l'or et le quartz"
+      },
+      "logistics": {
+        "title": "Partenaires Logistiques",
+        "text": "Collaboration avec des specialistes du transport maritime et de la logistique internationale connectes aux principaux ports du monde"
+      },
+      "financial": {
+        "title": "Partenaires Financiers",
+        "text": "Partenariats avec des institutions financieres mondiales pour le financement du commerce, le change et la gestion des risques"
+      },
+      "technical": {
+        "title": "Partenaires Techniques",
+        "text": "Collaboration avec des agences specialisees pour la verification de la qualite, l'audit technique et la gestion de projet"
+      }
+    },
+    "regions": {
+      "title": "Reseau de Partenaires Regionaux",
+      "subtitle": "Partenariats mondiaux sur 5 continents",
+      "africa": {
+        "region": "Afrique",
+        "countries": "Afrique du Sud, Ghana, Tanzanie",
+        "focus": "Mines, Agriculture, Infrastructures"
+      },
+      "middleEast": {
+        "region": "Moyen-Orient",
+        "countries": "Emirats Arabes Unis, Arabie Saoudite, Qatar",
+        "focus": "Energie, Financement du Commerce, Logistique"
+      },
+      "asia": {
+        "region": "Asie",
+        "countries": "Coree, Bangladesh, Inde",
+        "focus": "Industrie, Technologie, Commerce"
+      },
+      "americas": {
+        "region": "Ameriques",
+        "countries": "Canada, Etats-Unis, Chili",
+        "focus": "Mines, Energie, Finance"
+      }
+    },
+    "featured": {
+      "title": "Partenariat Strategique",
+      "subtitle": "Partenaires Commerciaux Cles",
+      "vish": {
+        "name": "VISH KVARTZ INTANZ",
+        "location": "Tanzanie",
+        "description": "Partenaire de distribution exclusif mondial pour le quartz de haute purete. Grace a notre centre de production de quartz a Morogoro, en Tanzanie, nous fournissons du quartz de qualite premium essentiel pour les industries des semi-conducteurs et du solaire.",
+        "badge": "Partenaire Exclusif"
+      }
+    },
+    "benefits": {
+      "title": "Avantages du Partenariat",
+      "global": {
+        "title": "Acces Mondial",
+        "text": "Acces aux marches locaux et identification d'opportunites commerciales grace a 7 implantations internationales"
+      },
+      "expertise": {
+        "title": "Accompagnement Expert",
+        "text": "Analyses de marche et conseil fournis par notre equipe forte de 37 annees d'experience"
+      },
+      "network": {
+        "title": "Extension du Reseau",
+        "text": "Tirez parti d'un reseau de plus de 150 entreprises partenaires dans le monde"
+      }
+    },
+    "cta": {
+      "title": "Devenir Partenaire",
+      "text": "Creez de nouvelles opportunites commerciales aux cotes de Global Group Korea.",
+      "button": "Demande de Partenariat"
+    }
+  }
+}

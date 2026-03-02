@@ -1,0 +1,608 @@
+{
+  "metadata": {
+    "title": "Global Group Korea | Biashara ya Bidhaa za Kimataifa",
+    "description": "Mafuta Ghafi, Shaba, Quarzi, Dhahabu - Mshirika wako wa kuaminika katika biashara ya bidhaa za kimataifa"
+  },
+  "common": {
+    "companyName": "Global Group Korea",
+    "slogan": "Kitovu cha Dunia",
+    "tagline": "Mshirika wako wa kuaminika wa biashara za kimataifa, anayeunganisha Korea na masoko ya dunia kupitia ushirikiano wa kimkakati na huduma za ushauri wa kitaalamu",
+    "contactUs": "Wasiliana Nasi",
+    "learnMore": "Jifunze Zaidi",
+    "language": "Lugha",
+    "freeConsultation": "Ushauri wa BURE Unapatikana"
+  },
+  "nav": {
+    "home": "Nyumbani",
+    "about": "Kampuni",
+    "business": "Maeneo ya Biashara",
+    "market": "Maarifa ya Soko",
+    "partners": "Ushirikiano",
+    "contact": "Wasiliana Nasi"
+  },
+  "hero": {
+    "title": "Global Group Korea",
+    "subtitle": "Karibu Global Group Korea Co., LTD.",
+    "description": "Tangu mwaka 1987, Global Group Korea (GGK) imekuwa ikijishughulisha kwa karibu na ushauri wa biashara na miradi, na utekelezaji wa shughuli za biashara kwa Miundombinu ya Umma, Biashara ya Jumla na ya Kimataifa, miradi ya kijamii na kiuchumi, hasa barani Afrika na Mashariki ya Kati.",
+    "description2": "GGK inaweka maslahi ya wateja mbele na iko tayari kufanya kazi nawe katika miradi ya aina zote duniani kote. Ukiwa na mapendekezo yoyote, tutafanya kazi nawe kwa njia bora iwezekanavyo.",
+    "cta": "Pata Ushauri wa Bure",
+    "exploreBusiness": "Gundua Maeneo ya Biashara",
+    "yearsExcellence": "Miaka ya Ubora wa Kimataifa"
+  },
+  "about": {
+    "title": "Kupanua Upeo Kupitia Uwepo wa Kimkakati Duniani",
+    "description": "Global Group Korea (GGK) inafanya kazi kutoka makao yetu makuu jijini Seoul, Korea, ikihudumu kama kitovu kikuu cha fedha, mambo ya jumla, utawala, na maendeleo ya biashara za kimataifa. Mbinu yetu ya kina ya upanuzi wa kimataifa inahakikisha shughuli zisizo na vikwazo katika mabara mengi.",
+    "description2": "Iliyoanzishwa kupitia mifumo ya Uwekezaji wa Moja kwa Moja wa Kigeni (FDI), mtandao wetu wa kimataifa unaenea katika maeneo matano ya kimkakati: Cape Town nchini Afrika Kusini, Accra nchini Ghana, Dubai katika UAE, Dhaka nchini Bangladesh, na Montreal nchini Canada. Kila ofisi imewekwa kimkakati ili kutumia fursa za kikanda huku ikidumisha mawasiliano ya moja kwa moja na makao yetu makuu ya Seoul.",
+    "description3": "Muundo wetu wa shirika unachanganya utaalamu wa soko la ndani na ubora wa biashara wa Kikorea, na kuunda faida ya kipekee katika shughuli na ushirikiano wa kuvuka mipaka. Kupitia mtandao wetu wa makampuni yanayoshirikiana na ushirikiano wa kufanya kazi pamoja, tunatoa suluhisho kamili zilizobinafsishwa kulingana na mahitaji mahususi ya kila soko."
+  },
+  "leadership": {
+    "title": "Timu ya Uongozi Mkuu",
+    "subtitle": "Uongozi wetu unachanganya miongo ya uzoefu wa biashara za kimataifa na maarifa ya kina ya soko katika sekta na maeneo mengi.",
+    "advisoryTitle": "Ushauri wa Kimkakati na Ubora wa Kiufundi",
+    "advisorySubtitle": "Timu yetu ya ushauri inatoa utaalamu maalum katika nyanja za kiufundi, za uendeshaji, na za kimkakati ili kuhakikisha mafanikio ya miradi.",
+    "regionalTitle": "Uongozi wa Masoko ya Kikanda",
+    "regionalSubtitle": "Wakurugenzi wetu wa kikanda wanaleta maarifa ya kina ya soko la ndani na utaalamu wa kitamaduni ili kuwezesha shughuli za biashara zenye mafanikio katika masoko mbalimbali.",
+    "executives": {
+      "michaelLee": {
+        "name": "Michael Lee",
+        "position": "Mwenyekiti",
+        "description": "Maono ya kimkakati na uongozi wa utawala bora wa shirika wenye uzoefu mpana katika maendeleo ya masoko ya kimataifa na shughuli za biashara za tamaduni mbalimbali."
+      },
+      "davidHan": {
+        "name": "David Han",
+        "position": "Mkurugenzi Mtendaji/Mkurugenzi Msimamizi",
+        "description": "Ubora wa uendeshaji na utaalamu wa maendeleo ya biashara, akisukuma mipango ya ukuaji katika mtandao wetu wa kimataifa wa ushirikiano na uwekezaji."
+      },
+      "huhSeongphil": {
+        "name": "Dr. Huh, Seong-phil",
+        "position": "Makamu Mwenyekiti",
+        "description": "Uongozi wa kitaaluma na kisekta unaounganisha ubora wa utafiti na matumizi ya vitendo ya biashara katika masoko yanayoibuka na sekta za teknolojia."
+      }
+    },
+    "advisors": {
+      "byungheunJang": {
+        "name": "Byungheun Jang",
+        "position": "Mshauri Maalum",
+        "description": "Anatoa ushauri wa kimkakati kuhusu shughuli ngumu za kimataifa na utiifu wa kanuni katika mamlaka mbalimbali. Utaalamu wake unajumuisha tathmini ya hatari, mikakati ya kuingia sokoni, na muundo wa ushirikiano."
+      },
+      "seongtaekHong": {
+        "name": "Dr. Seongtaek Hong",
+        "position": "Mkurugenzi wa Kiufundi",
+        "description": "Anaongoza uchunguzi wa kina wa kiufundi na tathmini za uwezekano wa miradi. Asili yake ya utafiti inahakikisha tathmini ya kina ya vipimo vya kiufundi, viwango vya ubora, na mbinu za utekelezaji kwa miradi changamano."
+      },
+      "kateLee": {
+        "name": "Kate Lee",
+        "position": "Mkurugenzi wa Masoko ya Nje",
+        "description": "Anaendeleza na kutekeleza mikakati ya masoko ya kimataifa, akisimamia nafasi ya chapa na kupenya soko katika maeneo mengi. Anaratibu kampeni za masoko ya tamaduni mbalimbali na mipango ya maendeleo ya ushirikiano."
+      }
+    },
+    "regional": {
+      "ramiReddy": {
+        "name": "Dr. Pallapolu Venkata Rami Reddy",
+        "position": "Mkurugenzi wa Nje (Idara ya Biashara)",
+        "description": "Mkurugenzi wa Nje anaongoza shughuli zetu za biashara ya bidhaa za kimataifa, akibobea katika dhahabu, shaba, na mafuta ghafi. Nafasi hii inasimamia ununuzi wa kimkakati na mazungumzo na wauzaji wa kimataifa, inafanya uchambuzi wa kina wa soko na usimamizi wa hatari, na kuendeleza ushirikiano muhimu katika masoko ya kimataifa."
+      },
+      "ansahJoseph": {
+        "name": "Ansah Joseph",
+        "position": "Mkurugenzi/Ghana",
+        "description": "Anasimamia shughuli za Afrika Magharibi akiwa na utaalamu maalum katika sekta za uchimbaji madini, kilimo, na miundombinu. Anatoa maarifa muhimu kuhusu mifumo ya kisheria na mazoea ya biashara katika eneo hilo."
+      },
+      "alexKakoma": {
+        "name": "Alex Chinyama Kakoma",
+        "position": "Mwakilishi wa Kikanda - Kusini mwa Afrika",
+        "description": "Anasimamia shughuli za kikanda za Kusini mwa Afrika kutoka ofisi ya Cape Town. Anaongoza maendeleo ya biashara na ujenzi wa ushirikiano katika masoko ya Kusini mwa Afrika, akitumia utaalamu wa kina wa soko la ndani kusukuma upanuzi wa kimkakati."
+      }
+    }
+  },
+  "investment": {
+    "title": "Mbinu Yetu ya Uwekezaji",
+    "research": {
+      "title": "Utafiti na Uchambuzi wa Soko",
+      "description": "Uchunguzi wa kina na tathmini ya hatari kupitia mtandao wetu wa wataalamu wa ndani na akili ya soko."
+    },
+    "partnership": {
+      "title": "Maendeleo ya Ushirikiano wa Kimkakati",
+      "description": "Kujenga mahusiano endelevu na washirika wa ndani na taasisi za serikali ili kuhakikisha mafanikio ya muda mrefu."
+    },
+    "risk": {
+      "title": "Kupunguza Hatari na Kuboresha",
+      "description": "Kutekeleza mikakati iliyothibitishwa kupunguza hatari za uwekezaji huku tukiongeza faida kupitia usimamizi makini wa miradi."
+    }
+  },
+  "globalNetwork": {
+    "title": "Mtandao Wetu wa Kimataifa",
+    "subtitle": "Uwepo wa kimkakati katika mabara matano na maeneo 7 muhimu",
+    "locations": {
+      "seoul": {
+        "city": "Seoul",
+        "country": "Korea Kusini",
+        "role": "Makao Makuu",
+        "description": "Fedha, Mambo ya Jumla, Utawala na Maendeleo ya Biashara za Kimataifa"
+      },
+      "capeTown": {
+        "city": "Cape Town",
+        "country": "Afrika Kusini",
+        "role": "Ofisi ya Kikanda ya Afrika",
+        "description": "Shughuli za Kusini mwa Afrika na uratibu wa kikanda"
+      },
+      "accra": {
+        "city": "Accra",
+        "country": "Ghana",
+        "role": "Ofisi ya Afrika Magharibi",
+        "description": "Sekta za Uchimbaji Madini, Kilimo na Miundombinu"
+      },
+      "morogoro": {
+        "city": "Morogoro",
+        "country": "Tanzania",
+        "role": "Kitovu cha Uzalishaji wa Quarzi",
+        "description": "Ushirikiano wa kimkakati na VISH KVARTZ INTANZ - Ugavi wa kipekee wa quarzi duniani, Kiwanda kinapangwa"
+      },
+      "dubai": {
+        "city": "Dubai",
+        "country": "UAE",
+        "role": "Ofisi ya Mashariki ya Kati",
+        "description": "Fedha za Biashara, Vifaa vya Usafirishaji na Ushirikiano wa Sekta ya Nishati"
+      },
+      "dhaka": {
+        "city": "Dhaka",
+        "country": "Bangladesh",
+        "role": "Ofisi ya Asia Kusini",
+        "description": "Maendeleo ya soko la Asia Kusini na ushirikiano"
+      },
+      "montreal": {
+        "city": "Montreal",
+        "country": "Canada",
+        "role": "Ofisi ya Amerika Kaskazini",
+        "description": "Shughuli za Amerika Kaskazini na ufikio wa soko"
+      }
+    }
+  },
+  "business": {
+    "title": "Maeneo ya Biashara",
+    "subtitle": "Kuongoza Soko la Rasilimali Duniani",
+    "crudeOil": {
+      "title": "Biashara ya Mafuta Ghafi",
+      "subtitle": "Rasilimali za Nishati",
+      "description": "Tunatoa ugavi thabiti wa mafuta ghafi kutoka Mashariki ya Kati, Urusi, na Amerika, tukipata biashara yenye ushindani kupitia ushirikiano na viwanda vya kusafisha mafuta duniani."
+    },
+    "copper": {
+      "title": "Biashara ya Shaba",
+      "subtitle": "Metali za Viwandani",
+      "description": "Kupitia mtandao wetu na nchi kuu zinazozalisha shaba kama Chile, Peru, na Australia, tunatoa ugavi thabiti wa malighafi ya shaba bora."
+    },
+    "quartz": {
+      "title": "Biashara ya Quarzi",
+      "subtitle": "Madini ya Viwandani",
+      "description": "Tunabobea katika quarzi ya usafi wa juu muhimu kwa sekta za semiconductor na nishati ya jua, tukiwa na viwango vikali vya udhibiti wa ubora."
+    },
+    "gold": {
+      "title": "Biashara ya Dhahabu",
+      "subtitle": "Metali za Thamani",
+      "description": "Tunatoa huduma salama na za uwazi za biashara ya dhahabu zinazozingatia baa za dhahabu zilizoidhinishwa na LBMA, tukikidhi mahitaji ya uwekezaji na ya kiviwanda."
+    }
+  },
+  "stats": {
+    "title": "Global Group kwa Nambari",
+    "countries": "Nchi",
+    "partners": "Washirika wa Kimataifa",
+    "experience": "Miaka ya Ubora",
+    "volume": "Kiasi cha Biashara kwa Mwaka",
+    "countriesValue": "25+",
+    "partnersValue": "150+",
+    "experienceValue": "37",
+    "volumeValue": "$2B+"
+  },
+  "cta": {
+    "title": "Uko Tayari Kupanuka Kimataifa?",
+    "description": "Wasiliana na wataalamu wetu wenye sifa kujadili fursa zako za biashara za kimataifa. Timu yetu inatoa ushauri wa kina kuhusu uwekezaji wa kuvuka mipaka, mikakati ya kuingia sokoni, na maendeleo ya ushirikiano katika mtandao wetu wa kimataifa.",
+    "button": "Pata Ushauri wa Bure",
+    "callText": "Tupigie leo",
+    "phone": "+82 (0)2 400 3084",
+    "projectText": "Tuambie kuhusu mahitaji ya mradi wako kwa ushirikiano na uchambuzi wa kina. Timu yetu ya wataalamu itatoa suluhisho maalum kukusaidia kuvinjari masoko ya kimataifa kwa mafanikio."
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Wasiliana Nasi",
+      "subtitle": "Anza Safari Yako ya Biashara Yenye Mafanikio na Global Group Korea"
+    },
+    "info": {
+      "title": "Taarifa za Mawasiliano",
+      "text": "Kwa maswali kuhusu biashara ya rasilimali, ushirikiano, au mambo mengine ya kibiashara, tafadhali wasiliana nasi wakati wowote. Timu yetu ya ushauri wa kitaalamu itajibu kwa haraka.",
+      "address": {
+        "label": "Anwani",
+        "value": "#507 New Family Officetels 2, 28 Gil 6 Songpa-dae-ro, Songpa-gu, Seoul, Korea"
+      },
+      "phone": {
+        "label": "Simu"
+      },
+      "fax": {
+        "label": "Faksi"
+      },
+      "hours": {
+        "label": "Masaa ya Kazi",
+        "value": "Jumatatu-Ijumaa 09:00 - 18:00 (Imefungwa wikendi na siku za sikukuu)"
+      }
+    },
+    "form": {
+      "title": "Fomu ya Maswali",
+      "name": "Jina",
+      "company": "Kampuni",
+      "email": "Barua Pepe",
+      "phone": "Simu",
+      "subject": "Mada",
+      "selectSubject": "Tafadhali chagua mada",
+      "subjects": {
+        "crudeOil": "Biashara ya Mafuta Ghafi",
+        "copper": "Biashara ya Shaba",
+        "quartz": "Biashara ya Quarzi",
+        "gold": "Biashara ya Dhahabu",
+        "partnership": "Ushirikiano",
+        "other": "Nyingine"
+      },
+      "message": "Ujumbe",
+      "submit": "Tuma",
+      "submitting": "Inatuma...",
+      "success": "Swali lako limetumwa kwa mafanikio. Tutajibu hivi karibuni.",
+      "error": "Hitilafu imetokea wakati wa kutuma swali lako. Tafadhali jaribu tena."
+    }
+  },
+  "businessPage": {
+    "hero": {
+      "title": "Maeneo ya Biashara",
+      "subtitle": "Suluhisho Kamili Zinazongoza Soko la Rasilimali Duniani"
+    },
+    "intro": "Global Group Korea inatoa thamani ya kipekee kupitia minyororo thabiti ya ugavi kwa rasilimali muhimu ikiwa ni pamoja na mafuta ghafi, shaba, quarzi, na dhahabu. Kwa miaka 37 ya utaalamu uliokusanywa na mtandao wetu wa kimataifa, tunasimama kama mshirika wako wa kuaminika wa biashara.",
+    "exclusive": "Kipekee",
+    "why": {
+      "title": "Kwa Nini Global Group Korea",
+      "network": {
+        "title": "Mtandao wa Kimataifa",
+        "text": "Miunganisho ya moja kwa moja na maeneo makuu ya uzalishaji wa rasilimali duniani kupitia maeneo 7 katika mabara 5."
+      },
+      "expertise": {
+        "title": "Utaalamu",
+        "text": "Miaka 37 ya uzoefu na wataalamu wa sekta wanaotoa suluhisho bora."
+      },
+      "trust": {
+        "title": "Uaminifu",
+        "text": "Kujenga ushirikiano wa muda mrefu kupitia shughuli za uwazi na udhibiti mkali wa ubora."
+      }
+    },
+    "cta": {
+      "title": "Maswali ya Biashara",
+      "text": "Wasiliana nasi wakati wowote kwa ushauri kuhusu biashara ya rasilimali.",
+      "button": "Wasiliana Nasi"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Kuhusu Sisi",
+      "subtitle": "Mshirika Wako wa Kuaminika Anayeunganisha Masoko ya Kimataifa Tangu 1987"
+    },
+    "ceo": {
+      "title": "Ujumbe kutoka kwa Mwenyekiti",
+      "message1": "Karibu Global Group Korea.",
+      "message2": "Tangu kuanzishwa kwetu mwaka 1987, tumejenga mtandao wa kimataifa unaoenea Afrika, Mashariki ya Kati, na Asia, tukifungua upeo mpya katika biashara za kimataifa kwa miaka 37. Tumehakikisha minyororo thabiti ya ugavi kwa rasilimali muhimu ikiwa ni pamoja na mafuta ghafi, shaba, quarzi, na dhahabu, tukifanya kazi na wataalamu wa kikanda kutoa thamani ya kipekee kwa wateja wetu.",
+      "message3": "Hasa, ushirikiano wetu wa kimkakati na VISH KVARTZ INTANZ nchini Tanzania umehakikisha haki za kipekee za usambazaji duniani kote za quarzi ya usafi wa juu, ukiweka alama muhimu katika kuunda mustakabali wa sekta za semiconductor na nishati ya jua. Global Group Korea itaendelea kuweka kipaumbele mafanikio ya wateja wetu, tukikua pamoja kupitia uaminifu na uvumbuzi.",
+      "name": "Michael Lee",
+      "position": "Mwenyekiti"
+    },
+    "vision": {
+      "title": "Maono",
+      "text": "Kama mshirika mkuu katika soko la rasilimali duniani, tunatoa thamani ya kipekee kwa wateja duniani kote kupitia minyororo endelevu ya ugavi na suluhisho za kibunifu za biashara."
+    },
+    "mission": {
+      "title": "Dhamira",
+      "text": "Tukijengwa juu ya uaminifu, utaalamu, na mtandao wetu wa kimataifa, tunasaidia mafanikio ya biashara ya wateja wetu na kujenga mazingira endelevu ya ustawi wa pande zote na washirika wetu."
+    },
+    "values": {
+      "title": "Thamani Kuu",
+      "trust": {
+        "title": "Uaminifu",
+        "text": "Tunatekeleza biashara ya uwazi na uaminifu iliyojengwa juu ya miaka 37 ya kuaminika."
+      },
+      "global": {
+        "title": "Ufikio wa Kimataifa",
+        "text": "Mtandao wetu wa maeneo 7 katika mabara 5 unatoa ufikio wa masoko duniani kote."
+      },
+      "excellence": {
+        "title": "Ubora",
+        "text": "Wataalamu wakuu katika kila nyanja wanatoa huduma za ubora wa juu."
+      },
+      "partnership": {
+        "title": "Ushirikiano",
+        "text": "Mafanikio ya wateja wetu na washirika wetu ni mafanikio yetu."
+      }
+    },
+    "history": {
+      "title": "Historia Yetu",
+      "founded": {
+        "title": "Global Group Korea Kuanzishwa",
+        "text": "Kuanzisha makao makuu jijini Seoul, kuanza shughuli za biashara ya kimataifa na ushauri"
+      },
+      "africa": {
+        "title": "Kuingia Soko la Afrika",
+        "text": "Kufungua ofisi jijini Cape Town, Afrika Kusini na Accra, Ghana"
+      },
+      "middleEast": {
+        "title": "Upanuzi wa Mashariki ya Kati",
+        "text": "Kufungua ofisi ya kikanda jijini Dubai, UAE"
+      },
+      "expansion": {
+        "title": "Upanuzi wa Mtandao wa Kimataifa",
+        "text": "Kufungua ofisi jijini Dhaka, Bangladesh na Montreal, Canada"
+      },
+      "quartz": {
+        "title": "Ushirikiano wa Kimkakati wa Quarzi",
+        "text": "Kusaini mkataba wa kipekee wa ugavi duniani kote na VISH KVARTZ INTANZ nchini Tanzania"
+      }
+    }
+  },
+  "footer": {
+    "companyInfo": "Taarifa za Kampuni",
+    "companyFullName": "GLOBAL GROUP KOREA CO.,LTD",
+    "address": "#507 New Family Officetels 2, 28 Gil 6 Songpa-dae-ro, Songpa-gu, Seoul, Korea",
+    "businessAreas": "Maeneo ya Biashara",
+    "quickLinks": "Viungo vya Haraka",
+    "contactInfo": "Mawasiliano",
+    "email": "Barua Pepe",
+    "phone": "Simu",
+    "fax": "Faksi",
+    "tel": "+82-(0)2-400-3084",
+    "faxNum": "+82-(0)2-3444-3084",
+    "copyright": "© 2026 GLOBAL GROUP KOREA CO.,LTD. Haki Zote Zimehifadhiwa."
+  },
+  "businessDetail": {
+    "backToBusiness": "Rudi kwenye Maeneo ya Biashara",
+    "features": "Vipengele Muhimu",
+    "process": "Mchakato wa Biashara",
+    "cta": {
+      "title": "Una Nia na Biashara Hii?",
+      "text": "Wasiliana nasi kwa ushauri wa kitaalamu",
+      "button": "Wasiliana Nasi"
+    },
+    "crudeOil": {
+      "overview": {
+        "title": "Muhtasari wa Biashara",
+        "text1": "Global Group Korea inatoa ugavi thabiti wa mafuta ghafi kupitia ushirikiano na maeneo makuu ya uzalishaji katika Mashariki ya Kati, Urusi, na Amerika. Tunabobea katika kuboresha minyororo ya ugavi iliyobinafsishwa kulingana na mahitaji ya kila mteja.",
+        "text2": "Kupitia mikataba ya muda mrefu na viwanda vya kusafisha mafuta duniani, tunapata bei zenye ushindani na kudhamini ugavi thabiti. Kwa miaka 37 ya utaalamu wa sekta, tunasimamia hatua zote kutoka usimamizi wa hatari hadi kuboresha vifaa vya usafirishaji."
+      },
+      "stats": {
+        "stat1": { "value": "15+", "label": "Nchi Washirika" },
+        "stat2": { "value": "500K", "label": "Mapipa/Mwezi" },
+        "stat3": { "value": "99.5%", "label": "Kiwango cha Uwasilishaji" }
+      },
+      "features": {
+        "feature1": { "title": "Ununuzi wa Kimataifa", "text": "Ufikio wa moja kwa moja wa maeneo makuu ya uzalishaji katika Mashariki ya Kati, Urusi, na Amerika, yakitoa masharti bora ya ununuzi kwa kila eneo." },
+        "feature2": { "title": "Mikataba Inayobadilika", "text": "Inatoa chaguzi mbalimbali za mikataba kutoka biashara ya papo hapo hadi mikataba ya muda mrefu, ikijenga mikakati bora kulingana na mahitaji ya mteja." },
+        "feature3": { "title": "Uhakikisho wa Ubora", "text": "Inasambaza aina mbalimbali za mafuta ghafi ikiwa ni pamoja na mafuta nyepesi matamu na mafuta mazito yenye salfa, kwa usimamizi wa kina wa ubora." },
+        "feature4": { "title": "Kuboresha Usafirishaji", "text": "Inaboresha njia yote ya usafirishaji kutoka eneo la uzalishaji hadi kiwanda cha kusafisha, ikipata ufanisi wa gharama kupitia ushirikiano na makampuni makuu ya usafiri wa baharini." }
+      },
+      "process": {
+        "process1": { "title": "Uchambuzi wa Mahitaji", "text": "Kuelewa mahitaji na kupendekeza mikakati bora ya ununuzi" },
+        "process2": { "title": "Mazungumzo ya Mkataba", "text": "Mazungumzo ya bei na uandishi wa mkataba na maeneo ya uzalishaji" },
+        "process3": { "title": "Mpangilio wa Usafirishaji", "text": "Uhifadhi wa usafiri wa baharini na bima, kuboresha njia za usafirishaji" },
+        "process4": { "title": "Uwasilishaji na Malipo", "text": "Uwasilishaji kwa wakati na usindikaji wa malipo kwa uwazi" }
+      }
+    },
+    "copper": {
+      "overview": {
+        "title": "Muhtasari wa Biashara",
+        "text1": "Global Group Korea inadumisha mtandao na nchi kuu zinazozalisha shaba ikiwa ni pamoja na Chile, Peru, na Australia ili kutoa ugavi thabiti wa malighafi ya shaba bora. Tunashughulikia bidhaa mbalimbali kutoka cathode ya shaba hadi waya wa shaba.",
+        "text2": "Umuhimu wa shaba unakua katika mpito kuelekea uchumi wenye kaboni kidogo, na kuifanya kuwa muhimu kwa sekta za magari ya umeme, nishati mbadala, na umeme. Tunajenga minyororo thabiti ya ugavi kulingana na mahitaji kutoka sekta hizi zinazokua."
+      },
+      "stats": {
+        "stat1": { "value": "8", "label": "Migodi Washirika" },
+        "stat2": { "value": "99.99%", "label": "Kiwango cha Usafi" },
+        "stat3": { "value": "10K+", "label": "Tani/Mwezi" }
+      },
+      "features": {
+        "feature1": { "title": "Ubora wa Hali ya Juu", "text": "Tunasambaza hasa cathode ya shaba ya Daraja A iliyosajiliwa na LME (usafi wa 99.99% au zaidi) na pia tunashughulikia bidhaa mbalimbali zilizosindikwa kadri inavyohitajika." },
+        "feature2": { "title": "Ugavi Thabiti", "text": "Kuhakikisha ununuzi thabiti kupitia ushirikiano wa muda mrefu na migodi mikubwa nchini Chile, Peru, na Australia." },
+        "feature3": { "title": "Ushindani wa Bei", "text": "Kutoa bei zenye ushindani kupitia biashara ya kiasi kikubwa kulingana na bei za kawaida za LME." },
+        "feature4": { "title": "Suluhisho Maalum", "text": "Kujibu kwa kubadilika aina na vipimo mbalimbali kutoka cathode ya shaba hadi waya na mabomba." }
+      },
+      "process": {
+        "process1": { "title": "Uthibitisho wa Mahitaji", "text": "Kuthibitisha vipimo, kiasi, na ratiba ya uwasilishaji" },
+        "process2": { "title": "Uchaguzi wa Chanzo cha Ugavi", "text": "Kuchagua chanzo bora cha ugavi na kujadili bei" },
+        "process3": { "title": "Ukaguzi wa Ubora", "text": "Uidhinishaji wa ubora kabla ya usafirishaji na mpangilio wa bima" },
+        "process4": { "title": "Kukamilisha Uwasilishaji", "text": "Usafirishaji wa kimataifa na msaada wa forodha" }
+      }
+    },
+    "quartz": {
+      "overview": {
+        "title": "Muhtasari wa Biashara",
+        "text1": "Global Group Korea imehakikisha haki za kipekee za usambazaji duniani kote za quarzi ya usafi wa juu kupitia ushirikiano wa kimkakati na VISH KVARTZ INTANZ nchini Tanzania. Quarzi yetu ni malighafi muhimu kwa sekta za semiconductor na nishati ya jua.",
+        "text2": "Quarzi ya Tanzania ina faida ya kusambaza quarzi ya ubora thabiti kutoka mgodi mmoja, ikitumia akiba ya takriban tani 150,000 kutoa ugavi thabiti wa muda mrefu na kukidhi mahitaji yanayokua ya kimataifa ya quarzi ya usafi wa juu."
+      },
+      "stats": {
+        "stat1": { "value": "150K", "label": "Akiba ya Tani" },
+        "stat2": { "value": "99.99%", "label": "Usafi" },
+        "stat3": { "value": "Pekee", "label": "Mshirika Kipekee" }
+      },
+      "features": {
+        "feature1": { "title": "Usambazaji Kipekee", "text": "Kampuni pekee yenye haki za usambazaji duniani kote za quarzi ya VISH KVARTZ INTANZ ya Tanzania." },
+        "feature2": { "title": "Usafi wa Juu Sana", "text": "Inasambaza quarzi ya usafi wa juu wa 99.99% au zaidi, inayokidhi viwango vya sekta za semiconductor na nishati ya jua." },
+        "feature3": { "title": "Ugavi Thabiti", "text": "Inadhamini utulivu wa ugavi wa muda mrefu kulingana na akiba iliyothibitishwa ya takriban tani 150,000." },
+        "feature4": { "title": "Ubora Thabiti", "text": "Quarzi kutoka mgodi mmoja inawezesha usimamizi thabiti wa ubora, ikipunguza tofauti za uzalishaji." }
+      },
+      "process": {
+        "process1": { "title": "Swali", "text": "Uthibitisho wa mahitaji na mapitio ya uwezekano wa ugavi" },
+        "process2": { "title": "Ugavi wa Sampuli", "text": "Kutoa sampuli kwa uthibitishaji wa ubora" },
+        "process3": { "title": "Kusaini Mkataba", "text": "Mkataba wa kiasi, ratiba, na bei" },
+        "process4": { "title": "Uzalishaji na Usafirishaji", "text": "Uchimbaji, usindikaji, na usafirishaji wa kimataifa" }
+      }
+    },
+    "gold": {
+      "overview": {
+        "title": "Muhtasari wa Biashara",
+        "text1": "Global Group Korea inatoa huduma salama na za uwazi za biashara ya dhahabu zinazozingatia baa za dhahabu zilizoidhinishwa na LBMA (London Bullion Market Association). Tunasambaza dhahabu kukidhi mahitaji ya uwekezaji na ya kiviwanda.",
+        "text2": "Tunashughulikia bidhaa mbalimbali ikiwa ni pamoja na baa za dhahabu za uwekezaji, malighafi ya urembo, na dhahabu ya viwandani, tukijenga minyororo thabiti ya ugavi kulingana na ushirikiano wa muda mrefu na viwanda vya kusafisha nchini Uswisi na Hong Kong."
+      },
+      "stats": {
+        "stat1": { "value": "LBMA", "label": "Imeidhinishwa" },
+        "stat2": { "value": "99.99%", "label": "Usafi" },
+        "stat3": { "value": "24/7", "label": "Ufuatiliaji wa Bei" }
+      },
+      "features": {
+        "feature1": { "title": "Uidhinishaji wa LBMA", "text": "Baa zote za dhahabu zimeidhinishwa na LBMA, zikidhamini ubora wa kuaminika na asili ya uwazi." },
+        "feature2": { "title": "Bidhaa Mbalimbali", "text": "Inasambaza vipimo mbalimbali kutoka sarafu za dhahabu za 1oz hadi baa za 1kg, ikikidhi mahitaji ya uwekezaji na ya kiviwanda." },
+        "feature3": { "title": "Bei za Wakati Halisi", "text": "Inatoa masharti ya biashara yenye ushindani kulingana na bei za dhahabu za kimataifa na ufuatiliaji wa bei wa saa 24 kwa wakati halisi." },
+        "feature4": { "title": "Usafirishaji Salama", "text": "Uwasilishaji salama kupitia ushirikiano na makampuni maalum ya usafirishaji wa metali za thamani, na bima kamili." }
+      },
+      "process": {
+        "process1": { "title": "Swali", "text": "Kuthibitisha vipimo na kiasi cha bidhaa" },
+        "process2": { "title": "Bei", "text": "Bei ya wakati halisi kulingana na bei za kimataifa" },
+        "process3": { "title": "Malipo na Bima", "text": "Usindikaji salama wa malipo na mpangilio wa bima" },
+        "process4": { "title": "Uwasilishaji Salama", "text": "Uwasilishaji kupitia usafirishaji maalum wa metali za thamani" }
+      }
+    }
+  },
+  "marketPage": {
+    "hero": {
+      "title": "Maarifa ya Soko",
+      "subtitle": "Mwenendo na maarifa ya wakati halisi katika soko la bidhaa duniani"
+    },
+    "overview": {
+      "title": "Muhtasari wa Soko",
+      "text": "Global Group Korea inatumia miaka 37 ya utaalamu wa soko na mtandao wa kimataifa unaoenea maeneo 7 katika mabara 5 kufuatilia kwa karibu mwenendo wa soko la bidhaa. Tunachambua mabadiliko ya bei na mienendo ya ugavi na mahitaji ya bidhaa muhimu ikiwa ni pamoja na dhahabu, shaba, mafuta ghafi, na quarzi kutoa wateja wakati bora wa biashara na mikakati."
+    },
+    "prices": {
+      "title": "Bei za Bidhaa Muhimu",
+      "subtitle": "Bei za wakati halisi za masoko ya kimataifa",
+      "gold": {
+        "name": "Dhahabu",
+        "symbol": "XAU",
+        "unit": "USD/oz"
+      },
+      "copper": {
+        "name": "Shaba",
+        "symbol": "HG",
+        "unit": "USD/lb"
+      },
+      "oil": {
+        "name": "Mafuta Ghafi",
+        "symbol": "WTI",
+        "unit": "USD/bbl"
+      },
+      "quartz": {
+        "name": "Quarzi",
+        "symbol": "SiO2",
+        "unit": "Wasiliana Nasi",
+        "note": "Quarzi ya usafi wa juu haijaorodheshwa kwenye soko la umma. Tunatoa ugavi wa kipekee kupitia ushirikiano wetu wa kimkakati na VISH KVARTZ INTANZ nchini Tanzania.",
+        "contact": "Uliza Bei"
+      },
+      "asOf": "Kuanzia",
+      "note": "※ Bei zinaendeshwa na TradingView. Bei halisi za biashara zinathibitishwa kupitia ushauri."
+    },
+    "marketOverview": {
+      "title": "Muhtasari wa Soko la Bidhaa",
+      "subtitle": "Data ya soko ya wakati halisi kwa bidhaa muhimu"
+    },
+    "insights": {
+      "title": "Mwenendo wa Soko",
+      "subtitle": "Uchambuzi wa kitaalamu kuhusu masoko ya bidhaa duniani",
+      "global": {
+        "title": "Mwenendo wa Uchumi wa Kimataifa",
+        "text": "Tunachambua jinsi mtiririko wa uchumi wa kimataifa na sera za fedha unavyoathiri masoko ya bidhaa. Tunafuatilia viashiria muhimu vya kiuchumi na hatari za kisiasa ili kutoa mtazamo wa soko."
+      },
+      "energy": {
+        "title": "Masoko ya Nishati",
+        "text": "Tunachambua mienendo ya ugavi na mahitaji ya kimataifa ya rasilimali za nishati ikiwa ni pamoja na mafuta ghafi na gesi asilia, na jinsi sera za OPEC+ na mpito wa nishati mbadala unavyoathiri bei."
+      },
+      "minerals": {
+        "title": "Masoko ya Madini",
+        "text": "Tunachambua shughuli za uchimbaji, utabiri wa mahitaji, na mwenendo wa minyororo ya ugavi kwa madini muhimu ikiwa ni pamoja na shaba, dhahabu, na quarzi. Tunazingatia hasa mabadiliko ya mahitaji yanayosukumwa na ukuaji wa soko la semiconductor na magari ya umeme."
+      }
+    },
+    "cta": {
+      "title": "Unahitaji Uchambuzi Maalum wa Soko?",
+      "text": "Wachambuzi wetu wataalamu wanatoa ripoti za uchambuzi wa soko zilizobinafsishwa kulingana na mahitaji ya biashara yako.",
+      "button": "Shauri na Mtaalamu"
+    }
+  },
+  "partnersPage": {
+    "hero": {
+      "title": "Ushirikiano",
+      "subtitle": "Ushirikiano wa Kimkakati Kupitia Mtandao Wetu wa Kimataifa"
+    },
+    "intro": {
+      "title": "Washirika katika Ukuaji",
+      "text": "Kwa miaka 37, Global Group Korea imejenga ushirikiano unaozingatia uaminifu na makampuni bora duniani kote. Pamoja na washirika wanaoleta utaalamu bora katika nyanja zao, tunatoa thamani ya kipekee kwa wateja wetu."
+    },
+    "types": {
+      "title": "Aina za Ushirikiano",
+      "subtitle": "Aina mbalimbali za ushirikiano wa kimkakati",
+      "trading": {
+        "title": "Washirika wa Biashara",
+        "text": "Mtandao wa kimataifa wa wazalishaji na wauzaji unaohakikisha ugavi thabiti wa bidhaa ikiwa ni pamoja na mafuta ghafi, shaba, dhahabu, na quarzi"
+      },
+      "logistics": {
+        "title": "Washirika wa Usafirishaji",
+        "text": "Ushirikiano na wataalamu wa usafirishaji wa kimataifa na vifaa vya usafiri waliounganishwa na bandari kuu duniani kote"
+      },
+      "financial": {
+        "title": "Washirika wa Kifedha",
+        "text": "Ushirikiano na taasisi za kifedha za kimataifa kwa fedha za biashara, ubadilishaji wa fedha za kigeni, na usimamizi wa hatari"
+      },
+      "technical": {
+        "title": "Washirika wa Kiufundi",
+        "text": "Ushirikiano na mashirika maalum kwa uthibitishaji wa ubora, uchunguzi wa kina wa kiufundi, na usimamizi wa miradi"
+      }
+    },
+    "regions": {
+      "title": "Mtandao wa Washirika wa Kikanda",
+      "subtitle": "Ushirikiano wa kimataifa katika mabara 5",
+      "africa": {
+        "region": "Afrika",
+        "countries": "Afrika Kusini, Ghana, Tanzania",
+        "focus": "Uchimbaji Madini, Kilimo, Miundombinu"
+      },
+      "middleEast": {
+        "region": "Mashariki ya Kati",
+        "countries": "UAE, Saudi Arabia, Qatar",
+        "focus": "Nishati, Fedha za Biashara, Usafirishaji"
+      },
+      "asia": {
+        "region": "Asia",
+        "countries": "Korea, Bangladesh, India",
+        "focus": "Utengenezaji, Teknolojia, Biashara"
+      },
+      "americas": {
+        "region": "Amerika",
+        "countries": "Canada, USA, Chile",
+        "focus": "Uchimbaji Madini, Nishati, Fedha"
+      }
+    },
+    "featured": {
+      "title": "Ushirikiano wa Kimkakati",
+      "subtitle": "Washirika Muhimu wa Biashara",
+      "vish": {
+        "name": "VISH KVARTZ INTANZ",
+        "location": "Tanzania",
+        "description": "Mshirika wa kipekee wa usambazaji duniani kote wa quarzi ya usafi wa juu. Kupitia kitovu chetu cha uzalishaji wa quarzi jijini Morogoro, Tanzania, tunasambaza quarzi bora muhimu kwa sekta za semiconductor na nishati ya jua.",
+        "badge": "Mshirika Kipekee"
+      }
+    },
+    "benefits": {
+      "title": "Faida za Ushirikiano",
+      "global": {
+        "title": "Ufikio wa Kimataifa",
+        "text": "Ufikio wa soko la ndani na ugunduzi wa fursa za biashara kupitia maeneo 7 ya kimataifa"
+      },
+      "expertise": {
+        "title": "Msaada wa Kitaalamu",
+        "text": "Uchambuzi wa soko na ushauri unaotolewa na timu yetu yenye miaka 37 ya uzoefu"
+      },
+      "network": {
+        "title": "Upanuzi wa Mtandao",
+        "text": "Kutumia mtandao wa makampuni washirika zaidi ya 150 duniani kote"
+      }
+    },
+    "cta": {
+      "title": "Kuwa Mshirika",
+      "text": "Tengeneza fursa mpya za biashara pamoja na Global Group Korea.",
+      "button": "Swali la Ushirikiano"
+    }
+  }
+}

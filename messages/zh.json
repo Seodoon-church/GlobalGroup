@@ -1,0 +1,608 @@
+{
+  "metadata": {
+    "title": "Global Group Korea | 国际大宗商品贸易",
+    "description": "原油、铜、石英、黄金 - 您值得信赖的全球大宗商品贸易伙伴"
+  },
+  "common": {
+    "companyName": "Global Group Korea",
+    "slogan": "世界的枢纽",
+    "tagline": "您值得信赖的国际商务伙伴，通过战略合作与专业咨询服务，连接韩国与全球市场",
+    "contactUs": "联系我们",
+    "learnMore": "了解更多",
+    "language": "语言",
+    "freeConsultation": "免费咨询服务"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "公司介绍",
+    "business": "业务领域",
+    "market": "市场资讯",
+    "partners": "合作伙伴",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "title": "Global Group Korea",
+    "subtitle": "欢迎访问 Global Group Korea Co., LTD.",
+    "description": "自1987年以来，Global Group Korea（GGK）一直深入开展商务及项目咨询，执行公共基础设施、一般及国际贸易、社会经济差异化项目等商业活动，尤其在非洲和中东地区积累了丰富经验。",
+    "description2": "GGK始终以客户利益为先，随时准备与您在全球各类项目中开展合作。如果您有任何建议，我们将以最佳方式与您携手共进。",
+    "cta": "获取免费咨询",
+    "exploreBusiness": "探索业务领域",
+    "yearsExcellence": "年全球卓越发展"
+  },
+  "about": {
+    "title": "通过战略性全球布局拓展视野",
+    "description": "Global Group Korea（GGK）总部位于韩国首尔，作为财务、综合事务、行政管理及国际业务开发的核心枢纽。我们全面的全球化战略确保在多个大洲实现无缝运营。",
+    "description2": "通过外商直接投资（FDI）框架建立的国际网络，覆盖五个战略据点：南非开普敦、加纳阿克拉、阿联酋迪拜、孟加拉国达卡和加拿大蒙特利尔。每个办事处均经过精心布局，以充分把握区域机遇，同时与首尔总部保持紧密沟通。",
+    "description3": "我们的组织架构将本地市场专业知识与韩国商业精粹相结合，在跨境交易和合作中形成独特优势。通过关联公司和协作伙伴网络，我们为每个市场的特定需求提供全面的定制化解决方案。"
+  },
+  "leadership": {
+    "title": "高层管理团队",
+    "subtitle": "我们的领导团队汇聚数十年国际商务经验，对多个行业和地区的市场有着深刻洞察。",
+    "advisoryTitle": "战略顾问与技术卓越",
+    "advisorySubtitle": "我们的顾问团队在技术、运营和战略领域提供专业知识，确保项目成功。",
+    "regionalTitle": "区域市场负责人",
+    "regionalSubtitle": "我们的区域总监凭借深厚的本地市场知识和文化专长，助力在多元化市场中成功开展业务。",
+    "executives": {
+      "michaelLee": {
+        "name": "Michael Lee",
+        "position": "董事长",
+        "description": "在国际市场开拓和跨文化商务运营方面拥有丰富经验，引领战略愿景与公司治理。"
+      },
+      "davidHan": {
+        "name": "David Han",
+        "position": "首席执行官/常务董事",
+        "description": "卓越的运营能力与业务拓展专长，推动全球合作伙伴网络及投资的增长计划。"
+      },
+      "huhSeongphil": {
+        "name": "Dr. Huh, Seong-phil",
+        "position": "副董事长",
+        "description": "融合学术与产业领导力，将研究成果与新兴市场及技术领域的实际商业应用相结合。"
+      }
+    },
+    "advisors": {
+      "byungheunJang": {
+        "name": "Byungheun Jang",
+        "position": "特别顾问",
+        "description": "就复杂的国际交易和多法域合规事务提供战略建议。其专业领域涵盖风险评估、市场进入策略和合作架构设计。"
+      },
+      "seongtaekHong": {
+        "name": "Dr. Seongtaek Hong",
+        "position": "技术总监",
+        "description": "负责技术尽职调查和项目可行性评估。凭借深厚的研究背景，确保对复杂项目的技术规格、质量标准和实施方法进行全面评估。"
+      },
+      "kateLee": {
+        "name": "Kate Lee",
+        "position": "海外市场总监",
+        "description": "制定并执行国际市场营销策略，管理多地区品牌定位与市场渗透。统筹跨文化营销活动和合作伙伴关系建设。"
+      }
+    },
+    "regional": {
+      "ramiReddy": {
+        "name": "Dr. Pallapolu Venkata Rami Reddy",
+        "position": "海外总监（贸易部）",
+        "description": "海外总监负责领导我们的国际大宗商品贸易业务，专注于黄金、铜和原油。该职位负责与全球供应商的战略采购和谈判、全面的市场分析和风险管理，以及国际市场的关键伙伴关系拓展。"
+      },
+      "ansahJoseph": {
+        "name": "Ansah Joseph",
+        "position": "总监/加纳",
+        "description": "管理西非地区业务，在矿业、农业和基础设施领域拥有丰富专业经验。对该地区的监管框架和商业惯例提供关键洞察。"
+      },
+      "alexKakoma": {
+        "name": "Alex Chinyama Kakoma",
+        "position": "区域代表 - 南部非洲",
+        "description": "以开普敦办事处为基地，负责南部非洲区域业务运营。凭借深厚的本地市场专业知识，引领业务拓展和合作伙伴关系建设，推动战略扩张。"
+      }
+    }
+  },
+  "investment": {
+    "title": "我们的投资策略",
+    "research": {
+      "title": "市场研究与分析",
+      "description": "通过本地专家网络和市场情报，进行全面的尽职调查和风险评估。"
+    },
+    "partnership": {
+      "title": "战略合作伙伴关系建设",
+      "description": "与本地合作伙伴和政府机构建立可持续的关系，确保长期成功。"
+    },
+    "risk": {
+      "title": "风险管控与优化",
+      "description": "实施成熟策略，通过精细化项目管理最大限度降低投资风险，同时实现收益最大化。"
+    }
+  },
+  "globalNetwork": {
+    "title": "全球网络",
+    "subtitle": "横跨五大洲的战略布局，设有7个核心据点",
+    "locations": {
+      "seoul": {
+        "city": "Seoul",
+        "country": "韩国",
+        "role": "总部",
+        "description": "财务、综合事务、行政管理及国际业务开发"
+      },
+      "capeTown": {
+        "city": "Cape Town",
+        "country": "南非",
+        "role": "非洲区域办事处",
+        "description": "南部非洲业务运营及区域统筹"
+      },
+      "accra": {
+        "city": "Accra",
+        "country": "加纳",
+        "role": "西非办事处",
+        "description": "矿业、农业及基础设施领域"
+      },
+      "morogoro": {
+        "city": "Morogoro",
+        "country": "坦桑尼亚",
+        "role": "石英生产基地",
+        "description": "与 VISH KVARTZ INTANZ 战略合作 - 全球石英独家供应，工厂建设规划中"
+      },
+      "dubai": {
+        "city": "Dubai",
+        "country": "阿联酋",
+        "role": "中东办事处",
+        "description": "贸易融资、物流及能源领域合作"
+      },
+      "dhaka": {
+        "city": "Dhaka",
+        "country": "孟加拉国",
+        "role": "南亚办事处",
+        "description": "南亚市场开拓与合作伙伴发展"
+      },
+      "montreal": {
+        "city": "Montreal",
+        "country": "加拿大",
+        "role": "北美办事处",
+        "description": "北美业务运营及市场拓展"
+      }
+    }
+  },
+  "business": {
+    "title": "业务领域",
+    "subtitle": "引领全球资源市场",
+    "crudeOil": {
+      "title": "原油贸易",
+      "subtitle": "能源资源",
+      "description": "我们提供来自中东、俄罗斯和美洲的稳定原油供应，通过与全球炼油厂的合作实现具有竞争力的交易。"
+    },
+    "copper": {
+      "title": "铜贸易",
+      "subtitle": "工业金属",
+      "description": "通过与智利、秘鲁和澳大利亚等主要产铜国的网络，我们提供高品质铜材的稳定供应。"
+    },
+    "quartz": {
+      "title": "石英贸易",
+      "subtitle": "工业矿物",
+      "description": "我们专注于半导体和太阳能产业所需的高纯度石英，执行严格的质量管控标准。"
+    },
+    "gold": {
+      "title": "黄金贸易",
+      "subtitle": "贵金属",
+      "description": "我们以LBMA认证金条为核心，提供安全透明的黄金交易服务，满足投资和工业的双重需求。"
+    }
+  },
+  "stats": {
+    "title": "数字看 Global Group",
+    "countries": "进入国家",
+    "partners": "全球合作伙伴",
+    "experience": "年卓越发展",
+    "volume": "年交易额",
+    "countriesValue": "25+",
+    "partnersValue": "150+",
+    "experienceValue": "37",
+    "volumeValue": "$2B+"
+  },
+  "cta": {
+    "title": "准备好拓展全球业务了吗？",
+    "description": "与我们专业的专家团队联系，探讨您的国际商务机遇。我们的团队提供跨境投资、市场进入策略及合作伙伴开发的全方位咨询服务，覆盖我们的全球网络。",
+    "button": "获取免费咨询",
+    "callText": "立即致电",
+    "phone": "+82 (0)2 400 3084",
+    "projectText": "请告诉我们您的项目合作需求，以便进行详细分析。我们的专家团队将提供量身定制的解决方案，助您成功开拓国际市场。"
+  },
+  "contactPage": {
+    "hero": {
+      "title": "联系我们",
+      "subtitle": "与 Global Group Korea 开启您的成功商务之旅"
+    },
+    "info": {
+      "title": "联系方式",
+      "text": "如有资源贸易、合作伙伴或其他商务咨询，请随时与我们联系。我们的专业咨询团队将及时回复。",
+      "address": {
+        "label": "地址",
+        "value": "#507 New Family Officetels 2, 28 Gil 6 Songpa-dae-ro, Songpa-gu, Seoul, Korea"
+      },
+      "phone": {
+        "label": "电话"
+      },
+      "fax": {
+        "label": "传真"
+      },
+      "hours": {
+        "label": "办公时间",
+        "value": "周一至周五 09:00 - 18:00（周末及法定节假日休息）"
+      }
+    },
+    "form": {
+      "title": "咨询表单",
+      "name": "姓名",
+      "company": "公司名称",
+      "email": "电子邮箱",
+      "phone": "联系电话",
+      "subject": "咨询主题",
+      "selectSubject": "请选择咨询主题",
+      "subjects": {
+        "crudeOil": "原油贸易",
+        "copper": "铜贸易",
+        "quartz": "石英贸易",
+        "gold": "黄金贸易",
+        "partnership": "合作伙伴",
+        "other": "其他"
+      },
+      "message": "留言内容",
+      "submit": "提交",
+      "submitting": "提交中...",
+      "success": "您的咨询已成功发送，我们将尽快回复。",
+      "error": "发送咨询时出现错误，请重试。"
+    }
+  },
+  "businessPage": {
+    "hero": {
+      "title": "业务领域",
+      "subtitle": "引领全球资源市场的综合解决方案"
+    },
+    "intro": "Global Group Korea 通过原油、铜、石英和黄金等核心资源的稳定供应链，为客户创造卓越价值。凭借37年的深厚积淀和全球网络，我们是您值得信赖的贸易伙伴。",
+    "exclusive": "独家",
+    "why": {
+      "title": "为什么选择 Global Group Korea",
+      "network": {
+        "title": "全球网络",
+        "text": "横跨5大洲7个据点，与全球主要资源产地直接对接。"
+      },
+      "expertise": {
+        "title": "专业实力",
+        "text": "37年行业经验与资深专家团队，提供最优解决方案。"
+      },
+      "trust": {
+        "title": "信赖保障",
+        "text": "通过透明交易和严格的质量管控，建立长期合作伙伴关系。"
+      }
+    },
+    "cta": {
+      "title": "贸易咨询",
+      "text": "如需资源贸易咨询，请随时与我们联系。",
+      "button": "联系我们"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "关于我们",
+      "subtitle": "自1987年以来，您连接全球市场的值得信赖的伙伴"
+    },
+    "ceo": {
+      "title": "董事长致辞",
+      "message1": "欢迎访问 Global Group Korea。",
+      "message2": "自1987年创立以来，我们建立了横跨非洲、中东和亚洲的全球网络，在37年间不断开拓国际商务新疆界。我们为原油、铜、石英和黄金等核心资源建立了稳定的供应链，与各地区专家合作，为客户创造卓越价值。",
+      "message3": "特别值得一提的是，我们与坦桑尼亚 VISH KVARTZ INTANZ 的战略合作已获得高纯度石英的全球独家分销权，这是我们在塑造半导体和太阳能产业未来道路上的重要里程碑。Global Group Korea 将一如既往地以客户的成功为首要目标，通过信任与创新实现共同成长。",
+      "name": "Michael Lee",
+      "position": "董事长"
+    },
+    "vision": {
+      "title": "愿景",
+      "text": "作为全球资源市场的领先合作伙伴，通过可持续供应链和创新商业方案，为全球客户创造卓越价值。"
+    },
+    "mission": {
+      "title": "使命",
+      "text": "以信任、专业和全球网络为基石，助力客户商业成功，与合作伙伴共建可持续的共赢生态。"
+    },
+    "values": {
+      "title": "核心价值观",
+      "trust": {
+        "title": "信任",
+        "text": "凭借37年积累的信誉，践行透明诚信的商业准则。"
+      },
+      "global": {
+        "title": "全球视野",
+        "text": "横跨5大洲7个据点的网络，为全球市场提供通达之路。"
+      },
+      "excellence": {
+        "title": "卓越品质",
+        "text": "各领域顶尖专家团队，提供最高品质的服务。"
+      },
+      "partnership": {
+        "title": "合作共赢",
+        "text": "客户与合作伙伴的成功，就是我们的成功。"
+      }
+    },
+    "history": {
+      "title": "发展历程",
+      "founded": {
+        "title": "Global Group Korea 成立",
+        "text": "在首尔设立总部，开展国际贸易和咨询业务"
+      },
+      "africa": {
+        "title": "进入非洲市场",
+        "text": "在南非开普敦和加纳阿克拉设立办事处"
+      },
+      "middleEast": {
+        "title": "中东市场拓展",
+        "text": "在阿联酋迪拜设立区域办事处"
+      },
+      "expansion": {
+        "title": "全球网络扩展",
+        "text": "在孟加拉国达卡和加拿大蒙特利尔设立办事处"
+      },
+      "quartz": {
+        "title": "石英战略合作",
+        "text": "与坦桑尼亚 VISH KVARTZ INTANZ 签署全球独家供应协议"
+      }
+    }
+  },
+  "footer": {
+    "companyInfo": "公司信息",
+    "companyFullName": "GLOBAL GROUP KOREA CO.,LTD",
+    "address": "#507 New Family Officetels 2, 28 Gil 6 Songpa-dae-ro, Songpa-gu, Seoul, Korea",
+    "businessAreas": "业务领域",
+    "quickLinks": "快速链接",
+    "contactInfo": "联系方式",
+    "email": "电子邮箱",
+    "phone": "电话",
+    "fax": "传真",
+    "tel": "+82-(0)2-400-3084",
+    "faxNum": "+82-(0)2-3444-3084",
+    "copyright": "© 2026 GLOBAL GROUP KOREA CO.,LTD. All Rights Reserved."
+  },
+  "businessDetail": {
+    "backToBusiness": "返回业务领域",
+    "features": "核心优势",
+    "process": "交易流程",
+    "cta": {
+      "title": "对该业务感兴趣？",
+      "text": "联系我们获取专业咨询",
+      "button": "联系我们"
+    },
+    "crudeOil": {
+      "overview": {
+        "title": "业务概述",
+        "text1": "Global Group Korea 通过与中东、俄罗斯和美洲主要产地的合作，提供稳定的原油供应。我们专注于根据每位客户的需求优化供应链。",
+        "text2": "通过与全球炼油厂的长期合同，我们实现了具有竞争力的定价并保证稳定供应。凭借37年的行业专业经验，我们管理从风险管控到物流优化的全流程。"
+      },
+      "stats": {
+        "stat1": { "value": "15+", "label": "合作国家" },
+        "stat2": { "value": "500K", "label": "桶/月" },
+        "stat3": { "value": "99.5%", "label": "交付率" }
+      },
+      "features": {
+        "feature1": { "title": "全球采购", "text": "直达中东、俄罗斯和美洲主要产地，为各地区提供最优采购条件。" },
+        "feature2": { "title": "灵活合同", "text": "提供从现货交易到长期合同的多种合同选项，根据客户需求制定最佳策略。" },
+        "feature3": { "title": "品质保障", "text": "供应包括轻质低硫原油和重质含硫原油在内的各类原油品级，执行严格的质量管控。" },
+        "feature4": { "title": "物流优化", "text": "优化从产地到炼油厂的全程运输路线，通过与主要航运公司合作实现成本效益。" }
+      },
+      "process": {
+        "process1": { "title": "需求分析", "text": "了解客户需求并提出最优采购策略" },
+        "process2": { "title": "合同谈判", "text": "与产地进行价格谈判和合同起草" },
+        "process3": { "title": "物流安排", "text": "船舶订舱与保险、运输路线优化" },
+        "process4": { "title": "交付与结算", "text": "按时交付和透明结算处理" }
+      }
+    },
+    "copper": {
+      "overview": {
+        "title": "业务概述",
+        "text1": "Global Group Korea 与智利、秘鲁和澳大利亚等主要产铜国保持紧密网络，提供高品质铜材的稳定供应。我们经营从铜阴极板到铜线的各类产品。",
+        "text2": "在向低碳经济转型的过程中，铜的重要性日益凸显，已成为电动汽车、可再生能源和电子产业不可或缺的材料。我们基于这些增长领域的需求，构建稳定的供应链。"
+      },
+      "stats": {
+        "stat1": { "value": "8", "label": "合作矿山" },
+        "stat2": { "value": "99.99%", "label": "纯度标准" },
+        "stat3": { "value": "10K+", "label": "吨/月" }
+      },
+      "features": {
+        "feature1": { "title": "优质品质", "text": "主要供应LME注册的A级铜阴极板（纯度99.99%以上），并根据需要提供各类加工产品。" },
+        "feature2": { "title": "稳定供应", "text": "通过与智利、秘鲁和澳大利亚主要矿山的长期合作，确保稳定的采购来源。" },
+        "feature3": { "title": "价格竞争力", "text": "基于LME标准价格进行大批量交易，提供具有竞争力的价格。" },
+        "feature4": { "title": "定制方案", "text": "灵活应对从铜阴极板到铜线、铜管等各种形态和规格的需求。" }
+      },
+      "process": {
+        "process1": { "title": "需求确认", "text": "确认规格、数量和交货时间" },
+        "process2": { "title": "供应源选择", "text": "选择最优供应源并协商价格" },
+        "process3": { "title": "质量检验", "text": "发货前质量认证及保险安排" },
+        "process4": { "title": "交付完成", "text": "国际物流及清关支持" }
+      }
+    },
+    "quartz": {
+      "overview": {
+        "title": "业务概述",
+        "text1": "Global Group Korea 通过与坦桑尼亚 VISH KVARTZ INTANZ 的战略合作，获得了高纯度石英的全球独家分销权。我们的石英是半导体和太阳能产业的核心材料。",
+        "text2": "坦桑尼亚石英具有从单一矿区供应品质一致的石英的优势，利用约15万吨的储量实现长期稳定供应，满足全球日益增长的高纯度石英需求。"
+      },
+      "stats": {
+        "stat1": { "value": "150K", "label": "吨储量" },
+        "stat2": { "value": "99.99%", "label": "纯度" },
+        "stat3": { "value": "Only", "label": "独家合作伙伴" }
+      },
+      "features": {
+        "feature1": { "title": "独家分销", "text": "唯一拥有 VISH KVARTZ INTANZ 坦桑尼亚石英全球分销权的企业。" },
+        "feature2": { "title": "超高纯度", "text": "供应纯度达99.99%以上的高纯度石英，满足半导体和太阳能产业标准。" },
+        "feature3": { "title": "稳定供应", "text": "基于约15万吨已探明储量，保障长期供应稳定性。" },
+        "feature4": { "title": "品质一致", "text": "源自单一矿区的石英实现一致的品质管控，最大限度减少生产偏差。" }
+      },
+      "process": {
+        "process1": { "title": "需求咨询", "text": "确认需求并评估供应可行性" },
+        "process2": { "title": "样品供应", "text": "提供样品用于品质验证" },
+        "process3": { "title": "合同签订", "text": "就数量、时间和价格签订合同" },
+        "process4": { "title": "生产与发运", "text": "开采、加工和国际运输" }
+      }
+    },
+    "gold": {
+      "overview": {
+        "title": "业务概述",
+        "text1": "Global Group Korea 以LBMA（伦敦金银市场协会）认证金条为核心，提供安全透明的黄金交易服务。我们供应黄金以满足投资和工业的双重需求。",
+        "text2": "我们经营包括投资金条、珠宝原料和工业用金在内的多种产品，基于与瑞士和香港炼金厂的长期合作关系，构建稳定的供应链。"
+      },
+      "stats": {
+        "stat1": { "value": "LBMA", "label": "认证" },
+        "stat2": { "value": "99.99%", "label": "纯度" },
+        "stat3": { "value": "24/7", "label": "价格监控" }
+      },
+      "features": {
+        "feature1": { "title": "LBMA认证", "text": "所有金条均获LBMA认证，保证可靠的品质和透明的来源。" },
+        "feature2": { "title": "产品多样", "text": "供应从1盎司金币到1公斤金条等多种规格，满足投资和工业需求。" },
+        "feature3": { "title": "实时报价", "text": "基于国际金价进行24小时实时价格监控，提供具有竞争力的交易条件。" },
+        "feature4": { "title": "安全物流", "text": "通过贵金属专业物流公司合作实现安全交付，提供全额保险保障。" }
+      },
+      "process": {
+        "process1": { "title": "需求咨询", "text": "确认产品规格和数量" },
+        "process2": { "title": "报价", "text": "基于国际价格的实时报价" },
+        "process3": { "title": "付款与保险", "text": "安全支付处理和保险安排" },
+        "process4": { "title": "安全交付", "text": "通过贵金属专业物流交付" }
+      }
+    }
+  },
+  "marketPage": {
+    "hero": {
+      "title": "市场资讯",
+      "subtitle": "全球大宗商品市场的实时动态与深度洞察"
+    },
+    "overview": {
+      "title": "市场概览",
+      "text": "Global Group Korea 凭借37年的市场经验和横跨5大洲7个据点的全球网络，密切关注大宗商品市场动态。我们分析黄金、铜、原油和石英等主要商品的价格波动及供需变化，为客户提供最佳交易时机和策略。"
+    },
+    "prices": {
+      "title": "主要商品价格",
+      "subtitle": "实时国际市场价格",
+      "gold": {
+        "name": "黄金",
+        "symbol": "XAU",
+        "unit": "USD/oz"
+      },
+      "copper": {
+        "name": "铜",
+        "symbol": "HG",
+        "unit": "USD/lb"
+      },
+      "oil": {
+        "name": "原油",
+        "symbol": "WTI",
+        "unit": "USD/bbl"
+      },
+      "quartz": {
+        "name": "石英",
+        "symbol": "SiO2",
+        "unit": "联系我们",
+        "note": "高纯度石英为非公开交易商品。我们通过与坦桑尼亚 VISH KVARTZ INTANZ 的战略合作提供独家供应。",
+        "contact": "询价咨询"
+      },
+      "asOf": "截至",
+      "note": "※ 价格数据由 TradingView 提供。实际交易价格以咨询确认为准。"
+    },
+    "marketOverview": {
+      "title": "大宗商品市场概览",
+      "subtitle": "主要商品实时市场数据"
+    },
+    "insights": {
+      "title": "市场动态",
+      "subtitle": "全球大宗商品市场专家分析",
+      "global": {
+        "title": "全球经济趋势",
+        "text": "我们分析全球经济走势和货币政策对大宗商品市场的影响，监测关键经济指标和地缘政治风险，提供市场展望。"
+      },
+      "energy": {
+        "title": "能源市场",
+        "text": "我们分析包括原油和天然气在内的能源资源全球供需变化，以及OPEC+政策和可再生能源转型对价格的影响。"
+      },
+      "minerals": {
+        "title": "矿产市场",
+        "text": "我们分析包括铜、黄金和石英在内的主要矿产的开采运营、需求预测和供应链趋势，特别关注半导体和电动汽车市场增长带来的需求变化。"
+      }
+    },
+    "cta": {
+      "title": "需要定制化市场分析？",
+      "text": "我们的专业分析师为您提供符合业务需求的市场分析报告。",
+      "button": "咨询专家"
+    }
+  },
+  "partnersPage": {
+    "hero": {
+      "title": "合作伙伴",
+      "subtitle": "通过全球网络实现战略协作"
+    },
+    "intro": {
+      "title": "携手共进的伙伴",
+      "text": "37年来，Global Group Korea 与全球优秀企业建立了以信任为基础的合作伙伴关系。与各领域最具专业实力的伙伴携手，为客户创造卓越价值。"
+    },
+    "types": {
+      "title": "合作类型",
+      "subtitle": "多元化的战略合作形式",
+      "trading": {
+        "title": "贸易伙伴",
+        "text": "全球生产商和供应商网络，确保原油、铜、黄金和石英等大宗商品的稳定供应"
+      },
+      "logistics": {
+        "title": "物流伙伴",
+        "text": "与连接全球主要港口的国际航运和物流专业企业合作"
+      },
+      "financial": {
+        "title": "金融伙伴",
+        "text": "与全球金融机构合作，提供贸易融资、外汇和风险管理服务"
+      },
+      "technical": {
+        "title": "技术伙伴",
+        "text": "与专业机构合作，提供质量验证、技术尽职调查和项目管理服务"
+      }
+    },
+    "regions": {
+      "title": "区域合作伙伴网络",
+      "subtitle": "横跨五大洲的全球合作伙伴关系",
+      "africa": {
+        "region": "非洲",
+        "countries": "南非、加纳、坦桑尼亚",
+        "focus": "矿业、农业、基础设施"
+      },
+      "middleEast": {
+        "region": "中东",
+        "countries": "阿联酋、沙特阿拉伯、卡塔尔",
+        "focus": "能源、贸易融资、物流"
+      },
+      "asia": {
+        "region": "亚洲",
+        "countries": "韩国、孟加拉国、印度",
+        "focus": "制造业、科技、贸易"
+      },
+      "americas": {
+        "region": "美洲",
+        "countries": "加拿大、美国、智利",
+        "focus": "矿业、能源、金融"
+      }
+    },
+    "featured": {
+      "title": "战略合作伙伴",
+      "subtitle": "核心业务伙伴",
+      "vish": {
+        "name": "VISH KVARTZ INTANZ",
+        "location": "坦桑尼亚",
+        "description": "高纯度石英全球独家分销合作伙伴。通过位于坦桑尼亚莫罗戈罗的石英生产基地，供应半导体和太阳能产业所需的优质石英。",
+        "badge": "独家合作伙伴"
+      }
+    },
+    "benefits": {
+      "title": "合作优势",
+      "global": {
+        "title": "全球通达",
+        "text": "通过7个国际据点，实现本地市场准入和商机发掘"
+      },
+      "expertise": {
+        "title": "专家支持",
+        "text": "拥有37年经验的专业团队提供市场分析和咨询服务"
+      },
+      "network": {
+        "title": "网络拓展",
+        "text": "依托150余家全球合作伙伴企业网络"
+      }
+    },
+    "cta": {
+      "title": "成为合作伙伴",
+      "text": "与 Global Group Korea 共同创造新的商业机遇。",
+      "button": "合作咨询"
+    }
+  }
+}
