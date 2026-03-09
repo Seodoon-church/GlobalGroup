@@ -469,6 +469,18 @@
         "feature5": { "title": "Kiwango cha Semiconducta", "text": "Inakidhi matumizi muhimu ikiwa ni pamoja na uzalishaji wa silicon wafer za semiconducta, utengenezaji wa seli za PV za nishati ya jua, na mifumo ya nyuzi za macho." },
         "feature6": { "title": "Akiba Kubwa", "text": "Kwa akiba iliyothibitishwa ya tani milioni 18 za metriki katika migodi 18, tunahakikisha ugavi usiokatizwa kwa miongo kadhaa kwa miradi yako ya muda mrefu." }
       },
+      "gallery": {
+        "title": "Shughuli za Quarzi Tanzania",
+        "subtitle": "Picha na video kutoka eneo la shughuli za uchimbaji wa VISH KVARTZ INTANZ",
+        "intro": "VISH KVARTZ INTANZ ilianzishwa mwaka 2019 na Dr. Chandra Sekhar Paul Kassey, inabobea katika uzalishaji wa quarzi ya usafi wa juu, ikihudumia masoko muhimu ikiwa ni pamoja na China, Japan, Taiwan, na India kwa ajili ya uzalishaji wa semiconductor wafer, utengenezaji wa seli za photovoltaic, na mifumo ya nyuzi za macho.",
+        "partnerLabel": "VISH KVARTZ INTANZ — Usafi Uliokamilishwa kwa Teknolojia za Baadaye",
+        "photo1": "Eneo la Amana ya Quarzi — Morogoro, Tanzania",
+        "photo2": "Sampuli za Quarzi ya Usafi wa Juu",
+        "photo3": "Usafirishaji wa Bidhaa — Upakiaji wa Kontena kwa Usafirishaji",
+        "photo4": "Cheti cha Uchambuzi wa Kemikali — SiO₂ 99.98%+",
+        "video1": "Shughuli za Uchimbaji wa Quarzi",
+        "video2": "Usindikaji na Ufungashaji wa Quarzi"
+      },
       "chemicalAnalysis": {
         "title": "Ripoti ya Uchambuzi wa Kemikali",
         "subtitle": "Matokeo ya uchambuzi wa ubora wa quartz ya Tanzania ya usafi wa juu",
@@ -660,7 +672,12 @@
         "exclusiveRightsLabel": "Upeo",
         "exclusiveRights": "Haki za Usambazaji wa Kipekee Duniani",
         "contractTermLabel": "Muda",
-        "contractTerm": "Bila Kikomo"
+        "contractTerm": "Bila Kikomo",
+        "photoMining": "Eneo la Amana ya Quartz",
+        "photoSamples": "Sampuli za Quartz Safi",
+        "photoLogistics": "Upakiaji wa Kontena za Usafirishaji",
+        "slogan": "Usafi Kamili kwa Teknolojia za Kesho",
+        "viewBusiness": "Tazama Maelezo ya Biashara ya Quartz"
       }
     },
     "benefits": {

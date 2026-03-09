@@ -119,6 +119,29 @@ export default function PartnersContent() {
                 <p className={styles.featuredDescription}>{t('featured.vish.description')}</p>
               </div>
             </div>
+            <div className={styles.featuredPhotos}>
+              <div className={styles.featuredPhoto}>
+                <img src="/images/quartz/mining-site.jpg" alt={t('featured.vish.photoMining')} loading="lazy" />
+                <div className={styles.featuredPhotoCaption}>{t('featured.vish.photoMining')}</div>
+              </div>
+              <div className={styles.featuredPhoto}>
+                <img src="/images/quartz/quartz-samples.jpg" alt={t('featured.vish.photoSamples')} loading="lazy" />
+                <div className={styles.featuredPhotoCaption}>{t('featured.vish.photoSamples')}</div>
+              </div>
+              <div className={styles.featuredPhoto}>
+                <img src="/images/quartz/shipping-logistics.jpg" alt={t('featured.vish.photoLogistics')} loading="lazy" />
+                <div className={styles.featuredPhotoCaption}>{t('featured.vish.photoLogistics')}</div>
+              </div>
+            </div>
+            <p className={styles.featuredSlogan}>&ldquo;{t('featured.vish.slogan')}&rdquo;</p>
+            <div className={styles.featuredLinkWrapper}>
+              <Link href={`/${locale}/business/quartz`} className={styles.featuredLink}>
+                {t('featured.vish.viewBusiness')}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
             <div className={styles.contractHighlights}>
               <h4 className={styles.contractTitle}>{t('featured.vish.contractTitle')}</h4>
               <div className={styles.contractGrid}>

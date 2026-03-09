@@ -469,6 +469,18 @@
         "feature5": { "title": "半导体级材料", "text": "满足半导体硅晶圆制造、光伏PV电池生产及光纤系统等关键先进产业应用需求。" },
         "feature6": { "title": "大规模储量", "text": "18座矿山共计1,800万公吨已确认储量，保障长期项目数十年不间断供应。" }
       },
+      "gallery": {
+        "title": "坦桑尼亚石英业务",
+        "subtitle": "VISH KVARTZ INTANZ矿山运营现场照片与视频",
+        "intro": "VISH KVARTZ INTANZ由Dr. Chandra Sekhar Paul Kassey于2019年创立，专注于高纯度石英生产，服务于中国、日本、台湾和印度等关键市场，产品应用于半导体晶圆制造、光伏电池生产和光纤系统。",
+        "partnerLabel": "VISH KVARTZ INTANZ — 为未来科技铸就极致纯度",
+        "photo1": "石英矿床 — 坦桑尼亚 Morogoro",
+        "photo2": "高纯度石英矿石样品",
+        "photo3": "出口物流 — 集装箱装载发运",
+        "photo4": "化学分析证书 — SiO₂ 99.98%+",
+        "video1": "石英矿山开采作业",
+        "video2": "石英加工与包装"
+      },
       "chemicalAnalysis": {
         "title": "化学分析报告",
         "subtitle": "坦桑尼亚高纯度石英认证质量分析结果",
@@ -660,7 +672,12 @@
         "exclusiveRightsLabel": "合同范围",
         "exclusiveRights": "全球独家供应权",
         "contractTermLabel": "合同期限",
-        "contractTerm": "无限期"
+        "contractTerm": "无限期",
+        "photoMining": "石英矿床现场",
+        "photoSamples": "高纯度石英样品",
+        "photoLogistics": "出口集装箱装载",
+        "slogan": "为未来科技打造完美纯度",
+        "viewBusiness": "查看石英业务详情"
       }
     },
     "benefits": {

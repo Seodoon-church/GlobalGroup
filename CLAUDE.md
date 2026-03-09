@@ -312,6 +312,8 @@ GlobalGroup/
   - Partners: contractGrid 768px에서 이미 1fr 처리 확인 (이슈 없음)
 - **빌드 성공** (111개 페이지 정적 생성)
   - 기존 102개 → 111개 (news 9개 추가)
+- **커밋**: `c9187a3` (63 files changed, +6032/-1104)
+- **배포 완료**: Firebase Hosting (https://global-group-777.web.app)
 
 ## 다음 작업
 - [x] 빌드 테스트 및 에러 수정

@@ -317,6 +317,18 @@
         "feature5": { "title": "반도체급 소재", "text": "반도체 실리콘 웨이퍼, 태양광 PV셀, 광섬유 시스템 등 첨단 산업의 핵심 소재로 활용" },
         "feature6": { "title": "대규모 매장량", "text": "18개 광산에 걸쳐 1,800만 메트릭톤의 확인 매장량으로 수십 년간의 중단 없는 공급 보장" }
       },
+      "gallery": {
+        "title": "탄자니아 석영 생산 현장",
+        "subtitle": "VISH KVARTZ INTANZ 채굴 현장의 사진과 영상",
+        "intro": "2019년 Dr. Chandra Sekhar Paul Kassey가 설립한 VISH KVARTZ INTANZ는 고순도 석영 생산 전문 기업으로, 중국·일본·대만·인도 등 주요 시장에 반도체 웨이퍼 생산, 태양광 셀 제조, 광섬유 시스템용 석영을 공급하고 있습니다.",
+        "partnerLabel": "VISH KVARTZ INTANZ — 미래 기술을 위한 완벽한 순도",
+        "photo1": "석영 채굴 현장 — 탄자니아 모로고로",
+        "photo2": "고순도 석영 원석 샘플",
+        "photo3": "수출 물류 — 컨테이너 선적 작업",
+        "photo4": "화학 분석 인증서 — SiO₂ 99.98%+",
+        "video1": "석영 채굴 작업 영상",
+        "video2": "석영 가공 및 포장 영상"
+      },
       "chemicalAnalysis": {
         "title": "화학 분석 리포트",
         "subtitle": "탄자니아 고순도 석영의 공인 품질 분석 결과",
@@ -660,7 +672,12 @@
         "exclusiveRightsLabel": "계약 범위",
         "exclusiveRights": "전세계 독점 공급권",
         "contractTermLabel": "계약 기간",
-        "contractTerm": "무기한"
+        "contractTerm": "무기한",
+        "photoMining": "석영 채굴 현장",
+        "photoSamples": "고순도 석영 샘플",
+        "photoLogistics": "수출 컨테이너 선적",
+        "slogan": "미래 기술을 위한 완벽한 순도",
+        "viewBusiness": "석영 사업 상세 보기"
       }
     },
     "benefits": {

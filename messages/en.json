@@ -469,6 +469,18 @@
         "feature5": { "title": "Semiconductor Grade", "text": "Catering to critical applications including semiconductor silicon wafer production, photovoltaic (PV) cell manufacturing, and fibre optic systems." },
         "feature6": { "title": "Massive Reserves", "text": "With 18 million metric tons of confirmed reserves across 18 mines, we ensure decades of uninterrupted supply for your long-term projects." }
       },
+      "gallery": {
+        "title": "Tanzania Quartz Operations",
+        "subtitle": "On-site photos and videos from VISH KVARTZ INTANZ mining operations",
+        "intro": "Founded in 2019 by Dr. Chandra Sekhar Paul Kassey, VISH KVARTZ INTANZ specializes in high-purity quartz production, serving key markets including China, Japan, Taiwan, and India for semiconductor wafer production, photovoltaic cell manufacturing, and fibre optic systems.",
+        "partnerLabel": "VISH KVARTZ INTANZ — Purity Perfected for Future Technologies",
+        "photo1": "Quartz Deposit Site — Morogoro, Tanzania",
+        "photo2": "High-Purity Quartz Ore Samples",
+        "photo3": "Export Logistics — Container Loading for Shipment",
+        "photo4": "Chemical Analysis Certificate — SiO₂ 99.98%+",
+        "video1": "Quartz Mining Operations",
+        "video2": "Quartz Processing & Packaging"
+      },
       "chemicalAnalysis": {
         "title": "Chemical Analysis Report",
         "subtitle": "Certified quality analysis of our Tanzanian high-purity quartz",
@@ -660,7 +672,12 @@
         "exclusiveRightsLabel": "Scope",
         "exclusiveRights": "Exclusive Global Supply Rights",
         "contractTermLabel": "Duration",
-        "contractTerm": "Indefinite Term"
+        "contractTerm": "Indefinite Term",
+        "photoMining": "Quartz Deposit Site",
+        "photoSamples": "High-Purity Quartz Samples",
+        "photoLogistics": "Export Container Loading",
+        "slogan": "Purity Perfected for Future Technologies",
+        "viewBusiness": "View Quartz Business Details"
       }
     },
     "benefits": {

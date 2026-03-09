@@ -239,6 +239,81 @@
   max-width: 600px;
 }
 
+/* Featured Photos */
+.featuredPhotos {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.featuredPhoto {
+  border-radius: 12px;
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
+}
+
+.featuredPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.featuredPhoto:hover img {
+  transform: scale(1.05);
+}
+
+.featuredPhotoCaption {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding-top: 6px;
+}
+
+.featuredSlogan {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin-top: 28px;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: #c9a962;
+  letter-spacing: 0.5px;
+}
+
+.featuredLink {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #c9a962 0%, #a88a3d 100%);
+  color: #0a1628;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.featuredLink:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(201, 169, 98, 0.4);
+}
+
+.featuredLinkWrapper {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin-top: 24px;
+}
+
 /* Contract Highlights */
 .contractHighlights {
   position: relative;
@@ -459,6 +534,10 @@
   .contractGrid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .featuredPhotos {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
@@ -504,6 +583,11 @@
 
   .contractGrid {
     grid-template-columns: 1fr;
+  }
+
+  .featuredPhotos {
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .benefitsGrid {

@@ -188,6 +188,92 @@ export default async function BusinessDetailPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Quartz-Only: Gallery Section */}
+      {isQuartz && (
+        <section className={styles.gallerySection}>
+          <div className={styles.container}>
+            <div className={styles.sectionHeader}>
+              <div className={styles.goldLine}></div>
+              <h2 className={styles.sectionTitle}>{t('quartz.gallery.title')}</h2>
+              <p className={styles.sectionSubtitle}>{t('quartz.gallery.subtitle')}</p>
+            </div>
+            <div className={styles.galleryIntro}>
+              <p className={styles.galleryIntroText}>{t('quartz.gallery.intro')}</p>
+              <div className={styles.partnerBadge}>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+                {t('quartz.gallery.partnerLabel')}
+              </div>
+            </div>
+            <div className={styles.galleryGrid}>
+              <div className={styles.galleryItem}>
+                <img
+                  src="/images/quartz/mining-site.jpg"
+                  alt={t('quartz.gallery.photo1')}
+                  className={styles.galleryImage}
+                  loading="lazy"
+                />
+                <div className={styles.galleryCaption}>{t('quartz.gallery.photo1')}</div>
+              </div>
+              <div className={styles.galleryItem}>
+                <img
+                  src="/images/quartz/quartz-samples.jpg"
+                  alt={t('quartz.gallery.photo2')}
+                  className={styles.galleryImage}
+                  loading="lazy"
+                />
+                <div className={styles.galleryCaption}>{t('quartz.gallery.photo2')}</div>
+              </div>
+              <div className={styles.galleryItem}>
+                <img
+                  src="/images/quartz/shipping-logistics.jpg"
+                  alt={t('quartz.gallery.photo3')}
+                  className={styles.galleryImage}
+                  loading="lazy"
+                />
+                <div className={styles.galleryCaption}>{t('quartz.gallery.photo3')}</div>
+              </div>
+              <div className={styles.galleryItem}>
+                <img
+                  src="/images/quartz/chemical-analysis.jpg"
+                  alt={t('quartz.gallery.photo4')}
+                  className={styles.galleryImage}
+                  loading="lazy"
+                />
+                <div className={styles.galleryCaption}>{t('quartz.gallery.photo4')}</div>
+              </div>
+            </div>
+            <div className={styles.videoGrid}>
+              <div className={styles.videoItem}>
+                <video
+                  className={styles.videoPlayer}
+                  controls
+                  preload="metadata"
+                  playsInline
+                  poster="/images/quartz/mining-site.jpg"
+                >
+                  <source src="/images/quartz/quartz-mining-1.mp4" type="video/mp4" />
+                </video>
+                <div className={styles.videoCaption}>{t('quartz.gallery.video1')}</div>
+              </div>
+              <div className={styles.videoItem}>
+                <video
+                  className={styles.videoPlayer}
+                  controls
+                  preload="metadata"
+                  playsInline
+                  poster="/images/quartz/quartz-samples.jpg"
+                >
+                  <source src="/images/quartz/quartz-mining-2.mp4" type="video/mp4" />
+                </video>
+                <div className={styles.videoCaption}>{t('quartz.gallery.video2')}</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Quartz-Only: Chemical Analysis Section */}
       {isQuartz && (
         <section className={styles.analysisSection}>

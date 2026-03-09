@@ -469,6 +469,18 @@
         "feature5": { "title": "半導体グレード", "text": "半導体シリコンウェーハ製造、太陽光PVセル製造、光ファイバーシステムなど、重要な先端産業用途に対応しております。" },
         "feature6": { "title": "大規模埋蔵量", "text": "18鉱山にわたる1,800万メトリックトンの確認埋蔵量により、長期プロジェクトへの数十年にわたる中断のない供給を保証いたします。" }
       },
+      "gallery": {
+        "title": "タンザニア石英事業",
+        "subtitle": "VISH KVARTZ INTANZ鉱山運営の現地写真・動画",
+        "intro": "VISH KVARTZ INTANZは、Dr. Chandra Sekhar Paul Kasseyにより2019年に設立され、高純度石英の生産を専門としています。半導体ウェーハ製造、太陽光PVセル製造、光ファイバーシステム向けに、中国、日本、台湾、インドなどの主要市場にサービスを提供しています。",
+        "partnerLabel": "VISH KVARTZ INTANZ — 未来技術のために極められた純度",
+        "photo1": "石英鉱床 — タンザニア、Morogoro",
+        "photo2": "高純度石英鉱石サンプル",
+        "photo3": "輸出物流 — 出荷用コンテナ積込み",
+        "photo4": "化学分析証明書 — SiO₂ 99.98%+",
+        "video1": "石英鉱山運営",
+        "video2": "石英加工・梱包"
+      },
       "chemicalAnalysis": {
         "title": "化学分析レポート",
         "subtitle": "タンザニア産高純度石英の公認品質分析結果",
@@ -660,7 +672,12 @@
         "exclusiveRightsLabel": "契約範囲",
         "exclusiveRights": "世界独占供給権",
         "contractTermLabel": "契約期間",
-        "contractTerm": "無期限"
+        "contractTerm": "無期限",
+        "photoMining": "石英鉱床現場",
+        "photoSamples": "高純度石英サンプル",
+        "photoLogistics": "輸出コンテナ積込",
+        "slogan": "未来技術のための究極の純度",
+        "viewBusiness": "石英事業の詳細を見る"
       }
     },
     "benefits": {

@@ -469,6 +469,18 @@
         "feature5": { "title": "Qualité Semi-conducteur", "text": "Répond aux applications critiques incluant la production de plaquettes de silicium pour semi-conducteurs, la fabrication de cellules PV solaires et les systèmes de fibre optique." },
         "feature6": { "title": "Réserves Massives", "text": "Avec 18 millions de tonnes métriques de réserves confirmées réparties sur 18 mines, nous garantissons des décennies d'approvisionnement ininterrompu pour vos projets à long terme." }
       },
+      "gallery": {
+        "title": "Opérations de Quartz en Tanzanie",
+        "subtitle": "Photos et vidéos sur site des opérations minières de VISH KVARTZ INTANZ",
+        "intro": "Fondée en 2019 par Dr. Chandra Sekhar Paul Kassey, VISH KVARTZ INTANZ est spécialisée dans la production de quartz de haute pureté, desservant des marchés clés dont la Chine, le Japon, Taïwan et l'Inde pour la production de plaquettes de silicium pour semi-conducteurs, la fabrication de cellules photovoltaïques et les systèmes de fibre optique.",
+        "partnerLabel": "VISH KVARTZ INTANZ — Pureté Perfectionnée pour les Technologies du Futur",
+        "photo1": "Site de Gisement de Quartz — Morogoro, Tanzania",
+        "photo2": "Échantillons de Minerai de Quartz de Haute Pureté",
+        "photo3": "Logistique d'Exportation — Chargement de Conteneurs pour l'Expédition",
+        "photo4": "Certificat d'Analyse Chimique — SiO₂ 99,98%+",
+        "video1": "Opérations Minières de Quartz",
+        "video2": "Traitement et Conditionnement du Quartz"
+      },
       "chemicalAnalysis": {
         "title": "Rapport d'Analyse Chimique",
         "subtitle": "Résultats d'analyse qualité certifiés du quartz tanzanien de haute pureté",
@@ -660,7 +672,12 @@
         "exclusiveRightsLabel": "Portée",
         "exclusiveRights": "Droits d'approvisionnement exclusifs mondiaux",
         "contractTermLabel": "Durée",
-        "contractTerm": "Durée indéterminée"
+        "contractTerm": "Durée indéterminée",
+        "photoMining": "Site de gisement de quartz",
+        "photoSamples": "Échantillons de quartz haute pureté",
+        "photoLogistics": "Chargement de conteneurs d'exportation",
+        "slogan": "Une pureté parfaite pour les technologies de demain",
+        "viewBusiness": "Voir les détails de l'activité quartz"
       }
     },
     "benefits": {

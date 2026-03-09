@@ -339,6 +339,104 @@
   margin-right: auto;
 }
 
+/* Gallery Section */
+.gallerySection {
+  padding: 100px 0;
+  background: #f8f9fa;
+}
+
+.galleryIntro {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 48px;
+}
+
+.galleryIntroText {
+  font-size: 1.05rem;
+  color: #6c757d;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.partnerBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%);
+  border-radius: 8px;
+  color: #c9a962;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.galleryItem {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.galleryItem:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+
+.galleryImage {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.galleryCaption {
+  padding: 16px 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #0a1628;
+  background: #ffffff;
+}
+
+.videoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.videoItem {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  background: #000;
+}
+
+.videoPlayer {
+  width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.videoCaption {
+  padding: 16px 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #ffffff;
+  background: linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%);
+}
+
 /* Chemical Analysis Section */
 .analysisSection {
   padding: 100px 0;
@@ -633,7 +731,8 @@
   .processSection,
   .analysisSection,
   .miningSection,
-  .productionSection {
+  .productionSection,
+  .gallerySection {
     padding: 80px 0;
   }
 
@@ -663,6 +762,20 @@
   .processTimeline {
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+
+  .galleryGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .galleryImage {
+    height: 240px;
+  }
+
+  .videoGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .miningGrid {
