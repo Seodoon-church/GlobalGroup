@@ -1,6 +1,7 @@
 import { initializeApp, getApps, getApp } from 'firebase/app';
 import { getAnalytics, isSupported } from 'firebase/analytics';
 import { getFirestore } from 'firebase/firestore';
+import { getAuth } from 'firebase/auth';
 
 // Firebase configuration
 const firebaseConfig = {
@@ -32,4 +33,7 @@ const initializeAnalytics = async () => {
   return analytics;
 };
 
-export { app, db, analytics, initializeAnalytics };
+// Initialize Auth
+const auth = getAuth(app);
+
+export { app, db, auth, analytics, initializeAnalytics };

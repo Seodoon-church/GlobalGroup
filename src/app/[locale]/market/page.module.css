@@ -448,4 +448,12 @@
   .commodityName {
     font-size: 1rem;
   }
+
+  .marketOverviewLoading {
+    height: 300px;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
 }

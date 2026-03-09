@@ -1,7 +1,46 @@
 {
   "metadata": {
     "title": "Global Group Korea | Biashara ya Bidhaa za Kimataifa",
-    "description": "Mafuta Ghafi, Shaba, Quarzi, Dhahabu - Mshirika wako wa kuaminika katika biashara ya bidhaa za kimataifa"
+    "description": "Mafuta Ghafi, Shaba, Quarzi, Dhahabu - Mshirika wako wa kuaminika katika biashara ya bidhaa za kimataifa",
+    "shortName": "GGK",
+    "ogDescription": "Tangu 1987, mshirika wako wa kuaminika katika biashara ya bidhaa duniani katika nchi zaidi ya 25 - mafuta ghafi, shaba, quarzi, na dhahabu."
+  },
+  "seo": {
+    "home": {
+      "title": "Global Group Korea | Biashara ya Bidhaa za Kimataifa",
+      "description": "Global Group Korea - Miaka 37 ya biashara ya bidhaa za kimataifa. Wataalamu wa mafuta ghafi, shaba, quartz na dhahabu katika nchi 25+.",
+      "keywords": "biashara ya bidhaa, mafuta ghafi, shaba, quartz, dhahabu, biashara ya kimataifa, Global Group Korea"
+    },
+    "about": {
+      "title": "Kuhusu Sisi",
+      "description": "Jifunze kuhusu historia ya miaka 37 ya Global Group Korea inayounganisha Korea na masoko ya kimataifa kupitia biashara ya mafuta ghafi, shaba, quarzi, na dhahabu.",
+      "keywords": "Global Group Korea historia, kampuni ya biashara ya bidhaa, biashara ya kimataifa"
+    },
+    "business": {
+      "title": "Maeneo ya Biashara",
+      "description": "Gundua maeneo yetu manne ya biashara kuu: biashara ya mafuta ghafi, shaba, quarzi, na dhahabu katika nchi zaidi ya 25.",
+      "keywords": "biashara ya mafuta, biashara ya shaba, uchimbaji wa quartz, biashara ya dhahabu"
+    },
+    "contact": {
+      "title": "Wasiliana Nasi",
+      "description": "Wasiliana na Global Group Korea kwa maswali ya biashara ya bidhaa, fursa za ushirikiano, na ushauri wa biashara.",
+      "keywords": "wasiliana Global Group Korea, maswali ya biashara ya bidhaa"
+    },
+    "market": {
+      "title": "Maarifa ya Soko",
+      "description": "Bei za bidhaa za wakati halisi na uchambuzi wa soko kwa dhahabu, shaba, mafuta ghafi, na quarzi.",
+      "keywords": "bei za bidhaa, bei ya dhahabu, bei ya shaba, bei ya mafuta, uchambuzi wa soko"
+    },
+    "partners": {
+      "title": "Ushirikiano",
+      "description": "Fursa za ushirikiano wa kimkakati na mtandao wa Global Group Korea unaoenea mabara 5.",
+      "keywords": "ushirikiano wa biashara ya bidhaa, mshirika wa biashara, VISH KVARTZ"
+    },
+    "news": {
+      "title": "Habari na Matangazo",
+      "description": "Habari za hivi karibuni, matangazo ya kampuni, na maarifa ya soko kutoka Global Group Korea.",
+      "keywords": "Global Group Korea habari, habari za soko la bidhaa, matangazo ya kampuni, ushirikiano wa quarzi, biashara ya Afrika"
+    }
   },
   "common": {
     "companyName": "Global Group Korea",
@@ -18,13 +57,14 @@
     "business": "Maeneo ya Biashara",
     "market": "Maarifa ya Soko",
     "partners": "Ushirikiano",
-    "contact": "Wasiliana Nasi"
+    "contact": "Wasiliana Nasi",
+    "news": "Habari"
   },
   "hero": {
     "title": "Global Group Korea",
-    "subtitle": "Karibu Global Group Korea Co., LTD.",
-    "description": "Tangu mwaka 1987, Global Group Korea (GGK) imekuwa ikijishughulisha kwa karibu na ushauri wa biashara na miradi, na utekelezaji wa shughuli za biashara kwa Miundombinu ya Umma, Biashara ya Jumla na ya Kimataifa, miradi ya kijamii na kiuchumi, hasa barani Afrika na Mashariki ya Kati.",
-    "description2": "GGK inaweka maslahi ya wateja mbele na iko tayari kufanya kazi nawe katika miradi ya aina zote duniani kote. Ukiwa na mapendekezo yoyote, tutafanya kazi nawe kwa njia bora iwezekanavyo.",
+    "subtitle": "Mshirika wa Biashara na Uwekezaji wa Bidhaa za Kimataifa",
+    "description": "Tangu 1987, Global Group Korea (GGK) imekuwa kiongozi wa kuaminika katika biashara ya bidhaa za kimataifa — ikibobea katika mafuta ghafi, shaba, quartz, na dhahabu katika nchi 25+ barani Afrika, Mashariki ya Kati, na zaidi.",
+    "description2": "Kwa uzoefu wa miaka 37 katika biashara ya rasilimali za kimataifa, GGK inatoa suluhisho za usambazaji wa kimkakati, fedha za biashara, na msururu wa ugavi kwa washirika duniani kote.",
     "cta": "Pata Ushauri wa Bure",
     "exploreBusiness": "Gundua Maeneo ya Biashara",
     "yearsExcellence": "Miaka ya Ubora wa Kimataifa"
@@ -135,7 +175,7 @@
         "city": "Morogoro",
         "country": "Tanzania",
         "role": "Kitovu cha Uzalishaji wa Quarzi",
-        "description": "Ushirikiano wa kimkakati na VISH KVARTZ INTANZ - Ugavi wa kipekee wa quarzi duniani, Kiwanda kinapangwa"
+        "description": "Ushirikiano wa kimkakati na VISH KVARTZ INTANZ - migodi 18, akiba ya tani milioni 18, haki za usambazaji wa kipekee duniani kote. Usafirishaji kupitia Bandari ya Dar es Salaam"
       },
       "dubai": {
         "city": "Dubai",
@@ -412,19 +452,49 @@
     "quartz": {
       "overview": {
         "title": "Muhtasari wa Biashara",
-        "text1": "Global Group Korea imehakikisha haki za kipekee za usambazaji duniani kote za quarzi ya usafi wa juu kupitia ushirikiano wa kimkakati na VISH KVARTZ INTANZ nchini Tanzania. Quarzi yetu ni malighafi muhimu kwa sekta za semiconductor na nishati ya jua.",
-        "text2": "Quarzi ya Tanzania ina faida ya kusambaza quarzi ya ubora thabiti kutoka mgodi mmoja, ikitumia akiba ya takriban tani 150,000 kutoa ugavi thabiti wa muda mrefu na kukidhi mahitaji yanayokua ya kimataifa ya quarzi ya usafi wa juu."
+        "text1": "Global Group Korea imesaini rasmi Mkataba wa Ushirikiano wa Kimkakati (SPA) na VISH KVARTZ INTANZ nchini Tanzania, ikihakikisha haki za kipekee za usambazaji duniani kote za quarzi ya usafi wa juu. Quarzi yetu ni malighafi muhimu kwa sekta za semiconductor na nishati ya jua.",
+        "text2": "VISH KVARTZ INTANZ inaendesha migodi 18 ya quartz katika mikoa 2 na maeneo 3 nchini Tanzania, ikiwa na akiba iliyothibitishwa ya tani milioni 18 za metriki. Kwa usafi wa SiO₂ wa +99.9% hadi +99.99% na uwezo wa umeme chini ya 4 μS/cm, quartz yetu inakidhi mahitaji makali ya sekta za semiconducta, nishati ya jua, na nyuzi za macho duniani kote."
       },
       "stats": {
-        "stat1": { "value": "150K", "label": "Akiba ya Tani" },
+        "stat1": { "value": "18M", "label": "Tani za Metriki Akiba" },
         "stat2": { "value": "99.99%", "label": "Usafi" },
-        "stat3": { "value": "Pekee", "label": "Mshirika Kipekee" }
+        "stat3": { "value": "18", "label": "Migodi ya Quartz" },
+        "stat4": { "value": "Kipekee", "label": "SPA ya Kimataifa" }
       },
       "features": {
         "feature1": { "title": "Usambazaji Kipekee", "text": "Kampuni pekee yenye haki za usambazaji duniani kote za quarzi ya VISH KVARTZ INTANZ ya Tanzania." },
         "feature2": { "title": "Usafi wa Juu Sana", "text": "Inasambaza quarzi ya usafi wa juu wa 99.99% au zaidi, inayokidhi viwango vya sekta za semiconductor na nishati ya jua." },
-        "feature3": { "title": "Ugavi Thabiti", "text": "Inadhamini utulivu wa ugavi wa muda mrefu kulingana na akiba iliyothibitishwa ya takriban tani 150,000." },
-        "feature4": { "title": "Ubora Thabiti", "text": "Quarzi kutoka mgodi mmoja inawezesha usimamizi thabiti wa ubora, ikipunguza tofauti za uzalishaji." }
+        "feature3": { "title": "Ugavi Thabiti", "text": "Inahakikisha ugavi thabiti wa muda mrefu kulingana na akiba iliyothibitishwa ya tani milioni 18 za metriki na migodi 18, kila mgodi ukiwa na uwezo wa tani 5,000 hadi 10,000 kwa mwezi." },
+        "feature4": { "title": "Ubora Thabiti", "text": "Quarzi kutoka mgodi mmoja inawezesha usimamizi thabiti wa ubora, ikipunguza tofauti za uzalishaji." },
+        "feature5": { "title": "Kiwango cha Semiconducta", "text": "Inakidhi matumizi muhimu ikiwa ni pamoja na uzalishaji wa silicon wafer za semiconducta, utengenezaji wa seli za PV za nishati ya jua, na mifumo ya nyuzi za macho." },
+        "feature6": { "title": "Akiba Kubwa", "text": "Kwa akiba iliyothibitishwa ya tani milioni 18 za metriki katika migodi 18, tunahakikisha ugavi usiokatizwa kwa miongo kadhaa kwa miradi yako ya muda mrefu." }
+      },
+      "chemicalAnalysis": {
+        "title": "Ripoti ya Uchambuzi wa Kemikali",
+        "subtitle": "Matokeo ya uchambuzi wa ubora wa quartz ya Tanzania ya usafi wa juu",
+        "parameter": "Vigezo vya Mtihani",
+        "result": "Matokeo ya Uchambuzi (% / ppm)",
+        "ec": "Uwezo wa Umeme (EC)"
+      },
+      "mining": {
+        "title": "Shughuli za Migodi na Usafirishaji",
+        "subtitle": "Migodi 18 ya quartz katika mikoa 2 na maeneo 3 nchini Tanzania",
+        "kwaluguru": { "name": "Kwaluguru", "region": "Mkoa wa Tanga" },
+        "magali": { "name": "Magali", "region": "Mkoa wa Morogoro" },
+        "msongozi": { "name": "Msongozi", "region": "Mkoa wa Morogoro" },
+        "mineLabel": "Migodi ya Quartz",
+        "highway": "Barabara Kuu",
+        "port": "Bandari ya Dar es Salaam",
+        "global": "Usafirishaji wa Kimataifa"
+      },
+      "production": {
+        "title": "Uwezo wa Uzalishaji",
+        "subtitle": "Uzalishaji unaoweza kupanuliwa kutoka kila mgodi kukidhi mahitaji yanayoongezeka",
+        "sizeLabel": "Ukubwa",
+        "capacityLabel": "Uwezo",
+        "boulders": { "title": "Mawe Yaliyopangwa", "size": "50–300 mm", "capacity": "Tani 5,000–10,000/mwezi kwa kila mgodi" },
+        "lumps": { "title": "Vipande Vilivyosafishwa", "size": "50–150 mm", "capacity": "Tani 1,000–2,000/mwezi kwa kila eneo" },
+        "scalable": "Uwezo wa uzalishaji unaweza kupanuliwa kulingana na ongezeko la mahitaji na uhakikisho wa ubora thabiti."
       },
       "process": {
         "process1": { "title": "Swali", "text": "Uthibitisho wa mahitaji na mapitio ya uwezekano wa ugavi" },
@@ -489,7 +559,7 @@
         "name": "Quarzi",
         "symbol": "SiO2",
         "unit": "Wasiliana Nasi",
-        "note": "Quarzi ya usafi wa juu haijaorodheshwa kwenye soko la umma. Tunatoa ugavi wa kipekee kupitia ushirikiano wetu wa kimkakati na VISH KVARTZ INTANZ nchini Tanzania.",
+        "note": "Quartz ya usafi wa juu haifanywi biashara kwenye soko la umma. Tunamiliki haki za usambazaji wa kipekee duniani kupitia VISH KVARTZ INTANZ Tanzania — migodi 18, akiba ya tani milioni 18, usafi wa SiO₂ +99.9% hadi +99.99%.",
         "contact": "Uliza Bei"
       },
       "asOf": "Kuanzia",
@@ -580,8 +650,17 @@
       "vish": {
         "name": "VISH KVARTZ INTANZ",
         "location": "Tanzania",
-        "description": "Mshirika wa kipekee wa usambazaji duniani kote wa quarzi ya usafi wa juu. Kupitia kitovu chetu cha uzalishaji wa quarzi jijini Morogoro, Tanzania, tunasambaza quarzi bora muhimu kwa sekta za semiconductor na nishati ya jua.",
-        "badge": "Mshirika Kipekee"
+        "description": "Mshirika wa kipekee wa usambazaji duniani kote wa quartz ya usafi wa juu. Inaendesha migodi 18 nchini Tanzania ikiwa na akiba ya tani milioni 18 za metriki na usafi wa SiO₂ wa +99.9% hadi +99.99%, ikisambaza quartz bora kwa sekta za semiconducta, nishati ya jua, na nyuzi za macho.",
+        "badge": "Mshirika Kipekee",
+        "contractTitle": "Maelezo ya Mkataba",
+        "effectiveDateLabel": "Tarehe ya Kuanza",
+        "effectiveDate": "Januari 2026",
+        "agreementTypeLabel": "Aina ya Mkataba",
+        "agreementType": "Mkataba wa Ushirikiano wa Kimkakati (SPA)",
+        "exclusiveRightsLabel": "Upeo",
+        "exclusiveRights": "Haki za Usambazaji wa Kipekee Duniani",
+        "contractTermLabel": "Muda",
+        "contractTerm": "Bila Kikomo"
       }
     },
     "benefits": {
@@ -603,6 +682,62 @@
       "title": "Kuwa Mshirika",
       "text": "Tengeneza fursa mpya za biashara pamoja na Global Group Korea.",
       "button": "Swali la Ushirikiano"
+    }
+  },
+  "newsSection": {
+    "title": "Habari za Hivi Karibuni",
+    "subtitle": "Fuatilia habari za hivi karibuni za kampuni yetu na maarifa ya soko",
+    "categories": {
+      "company": "Kampuni",
+      "market": "Soko"
+    },
+    "article1": {
+      "title": "GGK Yasaini Ushirikiano wa Kimkakati kwa Kitovu cha Uzalishaji wa Quarzi nchini Tanzania",
+      "excerpt": "Global Group Korea na VISH KVARTZ INTANZ wamerasimisha mkataba wa kipekee wa usambazaji duniani kote wa quarzi ya usafi wa juu kutoka Morogoro, Tanzania."
+    },
+    "article2": {
+      "title": "Mtazamo wa Soko la Bidhaa Duniani 2026: Mwenendo Muhimu wa Kufuatilia",
+      "excerpt": "Wachambuzi wetu wanachunguza nguvu kuu zinazounda bei za bidhaa mwaka 2026, kutoka mpito wa nishati hadi ukuaji wa mahitaji ya semiconducta."
+    },
+    "article3": {
+      "title": "GGK Yapanua Shughuli za Asia Kusini kwa Kupanua Ofisi ya Dhaka",
+      "excerpt": "Global Group Korea yaimarisha uwepo wake nchini Bangladesh kwa vifaa na timu iliyopanuliwa kusaidia biashara inayokua ya kikanda."
+    },
+    "readMore": "Soma Zaidi",
+    "viewAll": "Tazama Habari Zote"
+  },
+  "newsPage": {
+    "hero": {
+      "title": "Habari na Matangazo",
+      "subtitle": "Taarifa za hivi karibuni kutoka Global Group Korea"
+    },
+    "categories": {
+      "company": "Kampuni",
+      "market": "Soko"
+    },
+    "article1": {
+      "title": "GGK Yasaini Ushirikiano wa Kimkakati kwa Kitovu cha Uzalishaji wa Quarzi nchini Tanzania",
+      "excerpt": "Global Group Korea na VISH KVARTZ INTANZ wamerasimisha mkataba wa kipekee wa usambazaji duniani kote wa quarzi ya usafi wa juu.",
+      "body": "Global Group Korea imesaini rasmi Mkataba wa Ushirikiano wa Kimkakati (SPA) na VISH KVARTZ INTANZ, ikianzisha haki za kipekee za usambazaji duniani kote za quarzi bora kutoka eneo la Morogoro nchini Tanzania. Ushirikiano huu unashughulikia migodi 18 ya quarzi yenye akiba iliyothibitishwa ya tani milioni 18 za metriki, inayozalisha quarzi yenye usafi wa SiO₂ kuanzia +99.9% hadi +99.99%. Hatua hii muhimu inaweka GGK kama msambazaji pekee wa kimataifa wa quarzi ya usafi wa juu ya Tanzania, ambayo ni muhimu kwa sekta za semiconducta, nishati ya jua, na nyuzi za macho."
+    },
+    "article2": {
+      "title": "Mtazamo wa Soko la Bidhaa Duniani 2026: Mwenendo Muhimu wa Kufuatilia",
+      "excerpt": "Wachambuzi wetu wanachunguza nguvu kuu zinazounda bei za bidhaa mwaka 2026.",
+      "body": "Tunaposonga zaidi katika mwaka 2026, mambo kadhaa muhimu yanabadilisha masoko ya bidhaa duniani. Mpito unaoendelea wa nishati unaendelea kusukuma mahitaji ya shaba, huku uzalishaji wa magari ya umeme na miundombinu ya nishati mbadala ikihitaji viwango visivyokuwa na kifani. Dhahabu inadumisha nafasi yake kama mali salama katika hali ya kutokuwa na uhakika wa kisiasa, huku masoko ya mafuta ghafi yakijibadilisha kulingana na sera za OPEC+ zinazobadilika. Ukuaji wa sekta ya semiconducta unachochea mahitaji ya quarzi ya usafi wa juu, ukiunda fursa mpya katika minyororo ya ugavi wa madini."
+    },
+    "article3": {
+      "title": "GGK Yapanua Shughuli za Asia Kusini kwa Kupanua Ofisi ya Dhaka",
+      "excerpt": "Global Group Korea yaimarisha uwepo wake nchini Bangladesh kwa shughuli zilizopanuliwa.",
+      "body": "Global Group Korea inawekeza katika upanuzi wa ofisi yake ya Dhaka ili kuhudumia soko linalokua la Asia Kusini kwa ufanisi zaidi. Kituo kilichoboreshwa kitakuwa na shughuli za biashara zilizoimarishwa, timu kubwa zaidi ya wataalamu wa kikanda, na uwezo ulioboreshwa wa uratibu wa usafirishaji. Upanuzi huu unaonyesha kujitolea kwa GGK katika kuimarisha uwepo wake katika eneo lote, kusaidia ushirikiano wa biashara, na kutumia uchumi unaokua kwa kasi wa Bangladesh."
+    },
+    "article4": {
+      "title": "Ukuaji wa Soko la Madini la Afrika: Fursa na Mtazamo",
+      "excerpt": "Kuchunguza ongezeko la utafutaji wa madini barani Afrika na athari zake kwa biashara ya kimataifa.",
+      "body": "Sekta ya madini ya Afrika inakua kwa kasi kubwa, ikisukumwa na mahitaji ya kimataifa ya madini muhimu na uwekezaji unaongezeka katika miundombinu ya uchimbaji. Nchi kama Tanzania, Ghana, na Afrika Kusini zinajitokeza kama wachezaji wakuu katika ugavi wa madini muhimu kwa mpito wa nishati ya kijani. Global Group Korea, kwa mtandao wake mpana wa Afrika unaoenea Cape Town, Accra, na Morogoro, iko katika nafasi ya kipekee kuunganisha rasilimali hizi na masoko ya kimataifa, hasa katika quarzi ya usafi wa juu, shaba, na dhahabu."
+    },
+    "cta": {
+      "title": "Ungependa Kupata Taarifa?",
+      "text": "Wasiliana nasi kwa maarifa ya soko yaliyobinafsishwa na taarifa za hivi karibuni za sekta."
     }
   }
 }

@@ -1,7 +1,46 @@
 {
   "metadata": {
     "title": "Global Group Korea | 国际大宗商品贸易",
-    "description": "原油、铜、石英、黄金 - 您值得信赖的全球大宗商品贸易伙伴"
+    "description": "原油、铜、石英、黄金 - 您值得信赖的全球大宗商品贸易伙伴",
+    "shortName": "GGK",
+    "ogDescription": "自1987年以来，在25个以上国家开展原油、铜、石英和黄金贸易，值得信赖的全球合作伙伴。"
+  },
+  "seo": {
+    "home": {
+      "title": "环球集团韩国 | 国际大宗商品贸易",
+      "description": "环球集团韩国 - 37年国际大宗商品贸易经验。专注原油、铜、石英、黄金交易，业务遍及25+国家。",
+      "keywords": "大宗商品贸易, 原油交易, 铜交易, 石英开采, 黄金交易, 国际贸易, 环球集团韩国, GGK"
+    },
+    "about": {
+      "title": "关于我们",
+      "description": "了解Global Group Korea通过原油、铜、石英和黄金贸易连接韩国与全球市场的37年历程。",
+      "keywords": "环球集团韩国 历史, 大宗商品贸易公司, 国际贸易 韩国"
+    },
+    "business": {
+      "title": "业务领域",
+      "description": "探索我们在25个以上国家开展的原油、铜、石英和黄金贸易等四大核心业务领域。",
+      "keywords": "原油交易, 铜交易, 石英开采, 黄金交易, 大宗商品业务"
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "如需大宗商品贸易咨询、合作机会或商务咨询，请联系Global Group Korea。",
+      "keywords": "环球集团韩国 联系方式, 大宗商品交易咨询"
+    },
+    "market": {
+      "title": "市场资讯",
+      "description": "提供黄金、铜、原油和石英的实时商品价格及市场分析。",
+      "keywords": "大宗商品价格, 黄金价格, 铜价格, 原油价格, 市场分析"
+    },
+    "partners": {
+      "title": "合作伙伴",
+      "description": "与Global Group Korea横跨五大洲的网络建立战略合作伙伴关系。",
+      "keywords": "大宗商品贸易合作, 全球贸易伙伴, VISH KVARTZ"
+    },
+    "news": {
+      "title": "新闻与公告",
+      "description": "Global Group Korea的最新新闻、公司公告及市场洞察。",
+      "keywords": "Global Group Korea 新闻, 大宗商品市场新闻, 公司公告, 石英合作, 非洲贸易"
+    }
   },
   "common": {
     "companyName": "Global Group Korea",
@@ -18,13 +57,14 @@
     "business": "业务领域",
     "market": "市场资讯",
     "partners": "合作伙伴",
-    "contact": "联系我们"
+    "contact": "联系我们",
+    "news": "新闻"
   },
   "hero": {
     "title": "Global Group Korea",
-    "subtitle": "欢迎访问 Global Group Korea Co., LTD.",
-    "description": "自1987年以来，Global Group Korea（GGK）一直深入开展商务及项目咨询，执行公共基础设施、一般及国际贸易、社会经济差异化项目等商业活动，尤其在非洲和中东地区积累了丰富经验。",
-    "description2": "GGK始终以客户利益为先，随时准备与您在全球各类项目中开展合作。如果您有任何建议，我们将以最佳方式与您携手共进。",
+    "subtitle": "国际大宗商品贸易与投资伙伴",
+    "description": "自1987年以来，环球集团韩国（GGK）专注于原油、铜、石英、黄金等核心大宗商品的国际贸易，在非洲、中东等25+国家建立了可靠的贸易网络。",
+    "description2": "凭借37年的全球资源贸易专业经验，GGK为全球合作伙伴提供战略采购、贸易融资和供应链管理解决方案。",
     "cta": "获取免费咨询",
     "exploreBusiness": "探索业务领域",
     "yearsExcellence": "年全球卓越发展"
@@ -135,7 +175,7 @@
         "city": "Morogoro",
         "country": "坦桑尼亚",
         "role": "石英生产基地",
-        "description": "与 VISH KVARTZ INTANZ 战略合作 - 全球石英独家供应，工厂建设规划中"
+        "description": "VISH KVARTZ INTANZ战略合作伙伴关系 - 18座矿山、1,800万公吨储量、全球独家销售权。经达累斯萨拉姆港出口"
       },
       "dubai": {
         "city": "Dubai",
@@ -412,19 +452,49 @@
     "quartz": {
       "overview": {
         "title": "业务概述",
-        "text1": "Global Group Korea 通过与坦桑尼亚 VISH KVARTZ INTANZ 的战略合作，获得了高纯度石英的全球独家分销权。我们的石英是半导体和太阳能产业的核心材料。",
-        "text2": "坦桑尼亚石英具有从单一矿区供应品质一致的石英的优势，利用约15万吨的储量实现长期稳定供应，满足全球日益增长的高纯度石英需求。"
+        "text1": "Global Group Korea 已与坦桑尼亚 VISH KVARTZ INTANZ 正式签署战略合作协议（SPA），获得高纯度石英的全球独家供应权。作为唯一的全球供应商，GGK为半导体和太阳能产业提供核心石英材料。",
+        "text2": "VISH KVARTZ INTANZ在坦桑尼亚2个地区、3个区域运营18座石英矿山，已确认储量达1,800万公吨。SiO₂纯度+99.9%至+99.99%，电导率低于4 μS/cm的超高纯度石英，满足全球半导体、光伏及光纤产业的严格要求。"
       },
       "stats": {
-        "stat1": { "value": "150K", "label": "吨储量" },
+        "stat1": { "value": "18M", "label": "公吨储量" },
         "stat2": { "value": "99.99%", "label": "纯度" },
-        "stat3": { "value": "Only", "label": "独家合作伙伴" }
+        "stat3": { "value": "18", "label": "石英矿山" },
+        "stat4": { "value": "独家", "label": "全球SPA签约" }
       },
       "features": {
         "feature1": { "title": "独家分销", "text": "唯一拥有 VISH KVARTZ INTANZ 坦桑尼亚石英全球分销权的企业。" },
         "feature2": { "title": "超高纯度", "text": "供应纯度达99.99%以上的高纯度石英，满足半导体和太阳能产业标准。" },
-        "feature3": { "title": "稳定供应", "text": "基于约15万吨已探明储量，保障长期供应稳定性。" },
-        "feature4": { "title": "品质一致", "text": "源自单一矿区的石英实现一致的品质管控，最大限度减少生产偏差。" }
+        "feature3": { "title": "稳定供应", "text": "基于1,800万公吨已确认储量和18座矿山，每座矿山月产能5,000至10,000吨，保障长期稳定供应。" },
+        "feature4": { "title": "品质一致", "text": "源自单一矿区的石英实现一致的品质管控，最大限度减少生产偏差。" },
+        "feature5": { "title": "半导体级材料", "text": "满足半导体硅晶圆制造、光伏PV电池生产及光纤系统等关键先进产业应用需求。" },
+        "feature6": { "title": "大规模储量", "text": "18座矿山共计1,800万公吨已确认储量，保障长期项目数十年不间断供应。" }
+      },
+      "chemicalAnalysis": {
+        "title": "化学分析报告",
+        "subtitle": "坦桑尼亚高纯度石英认证质量分析结果",
+        "parameter": "检测项目",
+        "result": "分析结果 (% / ppm)",
+        "ec": "电导率 (EC)"
+      },
+      "mining": {
+        "title": "矿山运营与物流",
+        "subtitle": "坦桑尼亚2个地区、3个区域的18座石英矿山",
+        "kwaluguru": { "name": "Kwaluguru", "region": "坦噶地区" },
+        "magali": { "name": "Magali", "region": "莫罗戈罗地区" },
+        "msongozi": { "name": "Msongozi", "region": "莫罗戈罗地区" },
+        "mineLabel": "石英矿山",
+        "highway": "国家公路",
+        "port": "达累斯萨拉姆港",
+        "global": "全球出口"
+      },
+      "production": {
+        "title": "生产能力",
+        "subtitle": "各矿山可扩展产能，满足不断增长的需求",
+        "sizeLabel": "规格",
+        "capacityLabel": "产能",
+        "boulders": { "title": "分选大块石", "size": "50–300 mm", "capacity": "每矿山月产5,000–10,000吨" },
+        "lumps": { "title": "精选块料", "size": "50–150 mm", "capacity": "每区域月产1,000–2,000吨" },
+        "scalable": "在确保一致品质的前提下，产能可根据需求增长灵活扩展。"
       },
       "process": {
         "process1": { "title": "需求咨询", "text": "确认需求并评估供应可行性" },
@@ -489,7 +559,7 @@
         "name": "石英",
         "symbol": "SiO2",
         "unit": "联系我们",
-        "note": "高纯度石英为非公开交易商品。我们通过与坦桑尼亚 VISH KVARTZ INTANZ 的战略合作提供独家供应。",
+        "note": "高纯度石英不在公开市场交易。我们通过坦桑尼亚VISH KVARTZ INTANZ持有全球独家销售权——18座矿山、1,800万公吨储量、SiO₂纯度+99.9%至+99.99%。",
         "contact": "询价咨询"
       },
       "asOf": "截至",
@@ -580,8 +650,17 @@
       "vish": {
         "name": "VISH KVARTZ INTANZ",
         "location": "坦桑尼亚",
-        "description": "高纯度石英全球独家分销合作伙伴。通过位于坦桑尼亚莫罗戈罗的石英生产基地，供应半导体和太阳能产业所需的优质石英。",
-        "badge": "独家合作伙伴"
+        "description": "高纯度石英全球独家销售合作伙伴。在坦桑尼亚运营18座矿山，拥有1,800万公吨储量，SiO₂纯度+99.9%至+99.99%，为半导体、光伏及光纤产业供应优质石英。",
+        "badge": "独家合作伙伴",
+        "contractTitle": "合同概要",
+        "effectiveDateLabel": "合同生效日",
+        "effectiveDate": "2026年1月",
+        "agreementTypeLabel": "合同类型",
+        "agreementType": "战略合作协议 (SPA)",
+        "exclusiveRightsLabel": "合同范围",
+        "exclusiveRights": "全球独家供应权",
+        "contractTermLabel": "合同期限",
+        "contractTerm": "无限期"
       }
     },
     "benefits": {
@@ -603,6 +682,62 @@
       "title": "成为合作伙伴",
       "text": "与 Global Group Korea 共同创造新的商业机遇。",
       "button": "合作咨询"
+    }
+  },
+  "newsSection": {
+    "title": "最新新闻",
+    "subtitle": "了解我们最新的公司动态和市场洞察",
+    "categories": {
+      "company": "公司动态",
+      "market": "市场资讯"
+    },
+    "article1": {
+      "title": "GGK签署坦桑尼亚石英生产基地战略合作协议",
+      "excerpt": "Global Group Korea与VISH KVARTZ INTANZ正式签署坦桑尼亚Morogoro高纯度石英全球独家分销协议。"
+    },
+    "article2": {
+      "title": "2026年全球大宗商品市场展望：值得关注的关键趋势",
+      "excerpt": "我们的分析师深入解读从能源转型到半导体需求增长等影响2026年大宗商品价格的主要因素。"
+    },
+    "article3": {
+      "title": "GGK升级达卡办事处，扩大南亚业务",
+      "excerpt": "Global Group Korea通过扩大设施和团队规模，加强在孟加拉国的业务布局，以支持日益增长的区域贸易。"
+    },
+    "readMore": "阅读更多",
+    "viewAll": "查看全部新闻"
+  },
+  "newsPage": {
+    "hero": {
+      "title": "新闻与公告",
+      "subtitle": "Global Group Korea最新动态"
+    },
+    "categories": {
+      "company": "公司动态",
+      "market": "市场资讯"
+    },
+    "article1": {
+      "title": "GGK签署坦桑尼亚石英生产基地战略合作协议",
+      "excerpt": "Global Group Korea与VISH KVARTZ INTANZ正式签署高纯度石英全球独家分销协议。",
+      "body": "Global Group Korea已与VISH KVARTZ INTANZ正式签署战略合作协议（SPA），确立了坦桑尼亚Morogoro地区优质石英的全球独家分销权。该合作涵盖18座石英矿山，已确认储量达1,800万公吨，生产SiO₂纯度+99.9%至+99.99%的石英。这一里程碑式的合作使GGK成为坦桑尼亚高纯度石英的唯一全球供应商，该石英是半导体、光伏和光纤产业不可或缺的关键材料。"
+    },
+    "article2": {
+      "title": "2026年全球大宗商品市场展望：值得关注的关键趋势",
+      "excerpt": "我们的分析师深入解读影响2026年大宗商品价格的主要因素。",
+      "body": "进入2026年，多个关键因素正在重塑全球大宗商品市场格局。持续推进的能源转型不断拉动铜需求，电动汽车生产和可再生能源基础设施建设需要前所未有的供应量。在地缘政治不确定性中，黄金继续发挥避险资产的作用，而原油市场正在适应OPEC+政策的调整。半导体行业的增长正推动高纯度石英需求，为矿产供应链创造新的机遇。"
+    },
+    "article3": {
+      "title": "GGK升级达卡办事处，扩大南亚业务",
+      "excerpt": "Global Group Korea通过扩大运营规模加强孟加拉国业务布局。",
+      "body": "Global Group Korea正在投资扩建达卡办事处，以更好地服务不断增长的南亚市场。升级后的设施将配备增强的交易运营能力、更大的区域专家团队以及改进的物流协调能力。此次扩建体现了GGK在加强区域布局、支持贸易合作伙伴关系以及把握孟加拉国快速增长的经济机遇方面的坚定承诺。"
+    },
+    "article4": {
+      "title": "非洲矿产市场增长：机遇与展望",
+      "excerpt": "探索非洲矿产勘探热潮及其对全球贸易的影响。",
+      "body": "受全球关键矿产需求增加和矿业基础设施投资扩大的推动，非洲矿产行业正经历显著增长。坦桑尼亚、加纳和南非等国家正成为绿色能源转型所需关键矿产的重要供应国。Global Group Korea凭借其遍及Cape Town、Accra和Morogoro的广泛非洲网络，在将这些资源对接全球市场方面拥有独特优势，尤其在高纯度石英、铜和黄金领域。"
+    },
+    "cta": {
+      "title": "想要获取最新资讯？",
+      "text": "联系我们获取个性化的市场洞察和行业动态。"
     }
   }
 }

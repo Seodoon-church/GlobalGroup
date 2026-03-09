@@ -1,7 +1,46 @@
 {
   "metadata": {
-    "title": "Global Group Korea | International Commodity Trading",
-    "description": "Crude Oil, Copper, Quartz, Gold - Your trusted partner in global commodity trading"
+    "title": "Global Group Korea | Commodity Trading",
+    "description": "Crude oil, copper, quartz & gold - your trusted global trading partner",
+    "shortName": "GGK",
+    "ogDescription": "Trusted partner in crude oil, copper, quartz & gold trading across 25+ countries since 1987."
+  },
+  "seo": {
+    "home": {
+      "title": "Global Group Korea | Commodity Trading",
+      "description": "Crude oil, copper, quartz & gold trading across 25+ countries since 1987.",
+      "keywords": "commodity trading, crude oil trading, copper trading, quartz mining, gold trading, international trade, Global Group Korea, GGK, Seoul, Korea trading company"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Learn about Global Group Korea's 37-year history connecting Korea with global markets through crude oil, copper, quartz, and gold trading.",
+      "keywords": "Global Group Korea history, commodity trading company, international trade Korea, GGK about"
+    },
+    "business": {
+      "title": "Business Areas",
+      "description": "Explore our four core business areas: crude oil, copper, quartz, and gold trading across 25+ countries.",
+      "keywords": "crude oil trading, copper trading, quartz mining Tanzania, gold trading, commodity business"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Get in touch with Global Group Korea for commodity trading inquiries, partnership opportunities, and business consultation.",
+      "keywords": "contact Global Group Korea, commodity trading inquiry, business consultation Korea"
+    },
+    "market": {
+      "title": "Market Insight",
+      "description": "Real-time commodity prices and market analysis for gold, copper, crude oil, and quartz.",
+      "keywords": "commodity prices, gold price, copper price, crude oil price, market analysis, commodity market"
+    },
+    "partners": {
+      "title": "Partnership",
+      "description": "Strategic partnership opportunities with Global Group Korea's network spanning 5 continents.",
+      "keywords": "commodity trading partnership, global trade partner, VISH KVARTZ, quartz partnership Tanzania"
+    },
+    "news": {
+      "title": "News & Announcements",
+      "description": "Latest news, company announcements, and market insights from Global Group Korea.",
+      "keywords": "Global Group Korea news, commodity market news, company announcements, quartz partnership, Africa trade"
+    }
   },
   "common": {
     "companyName": "Global Group Korea",
@@ -18,13 +57,14 @@
     "business": "Business Areas",
     "market": "Market Insights",
     "partners": "Partnership",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "news": "News"
   },
   "hero": {
     "title": "Global Group Korea",
-    "subtitle": "Welcome to Global Group Korea Co., LTD.",
-    "description": "Since 1987, Global Group Korea (GGK) has been inquiring closely into business and project consultations, and performance of business activities for Public infrastructures, General and International trading, socio-economic differential projects, especially in Africa and Middle East.",
-    "description2": "GGK puts customer interests first and is ready to work with you on all kinds of projects around the world. If you have any suggestions, we will work with you in the best possible way.",
+    "subtitle": "International Commodity Trading & Investment Partner",
+    "description": "Since 1987, Global Group Korea (GGK) has been a trusted leader in international commodity trading — specializing in crude oil, copper, quartz, and gold across 25+ countries in Africa, the Middle East, and beyond.",
+    "description2": "With 37 years of expertise in global resource trading, GGK delivers strategic sourcing, trade finance, and end-to-end supply chain solutions for partners worldwide.",
     "cta": "Get Free Consultation",
     "exploreBusiness": "Explore Business Areas",
     "yearsExcellence": "Years of Global Excellence"
@@ -90,7 +130,7 @@
       "alexKakoma": {
         "name": "Alex Chinyama Kakoma",
         "position": "Regional Representative - Southern Africa",
-        "description": "Oversees Southern Africa regional operations based out of the Cape Town office. Leads business development and partnership building across Southern African markets, leveraging deep local market expertise to drive strategic expansion."
+        "description": "Overseas Southern Africa regional operations based out of the Cape Town office. Leads business development and partnership building across Southern African markets, leveraging deep local market expertise to drive strategic expansion."
       }
     }
   },
@@ -135,7 +175,7 @@
         "city": "Morogoro",
         "country": "Tanzania",
         "role": "Quartz Production Hub",
-        "description": "Strategic partnership with VISH KVARTZ INTANZ - Exclusive global quartz supply, Factory planned"
+        "description": "Strategic partnership with VISH KVARTZ INTANZ - 18 quartz mines, 18M metric ton reserves, exclusive worldwide distribution rights. Export via Dar es Salaam Port."
       },
       "dubai": {
         "city": "Dubai",
@@ -412,19 +452,49 @@
     "quartz": {
       "overview": {
         "title": "Business Overview",
-        "text1": "Global Group Korea has secured exclusive worldwide distribution rights for high-purity quartz through a strategic partnership with VISH KVARTZ INTANZ in Tanzania. Our quartz is an essential material for the semiconductor and solar industries.",
-        "text2": "Tanzanian quartz has the advantage of supplying quartz of consistent quality from a single mine, utilizing reserves of approximately 150,000 tons to provide long-term stable supply and meeting the growing global demand for high-purity quartz."
+        "text1": "Global Group Korea has signed a Strategic Partnership Agreement (SPA) with VISH KVARTZ INTANZ of Tanzania, securing exclusive worldwide distribution rights for high-purity quartz. This formally executed agreement establishes GGK as the sole global supplier of Tanzanian premium quartz, essential for the semiconductor and solar industries.",
+        "text2": "VISH KVARTZ INTANZ operates 18 quartz mines across two regions and three locations in Tanzania, with a confirmed reserve base of 18 million metric tons. Achieving exceptional silica (SiO₂) purity ranging from +99.9% to +99.99% with electrical conductivity below 4 μS/cm, our quartz meets the most stringent demands of the global semiconductor, photovoltaic, and fibre optic industries."
       },
       "stats": {
-        "stat1": { "value": "150K", "label": "Ton Reserves" },
-        "stat2": { "value": "99.99%", "label": "Purity" },
-        "stat3": { "value": "Only", "label": "Exclusive Partner" }
+        "stat1": { "value": "18M", "label": "Metric Ton Reserves" },
+        "stat2": { "value": "99.99%", "label": "SiO₂ Purity" },
+        "stat3": { "value": "18", "label": "Quartz Mines" },
+        "stat4": { "value": "Exclusive", "label": "Global SPA Signed" }
       },
       "features": {
         "feature1": { "title": "Exclusive Distribution", "text": "Sole company with worldwide distribution rights for VISH KVARTZ INTANZ Tanzanian quartz." },
         "feature2": { "title": "Ultra-High Purity", "text": "Supplies high-purity quartz of 99.99% or higher, meeting semiconductor and solar industry standards." },
-        "feature3": { "title": "Stable Supply", "text": "Guarantees long-term supply stability based on confirmed reserves of approximately 150,000 tons." },
-        "feature4": { "title": "Consistent Quality", "text": "Quartz from a single mine enables consistent quality management, minimizing production deviation." }
+        "feature3": { "title": "Stable Supply", "text": "Guarantees long-term supply stability based on a confirmed reserve base of 18 million metric tons across 18 mines, with each site capable of delivering 5,000 to 10,000 tons per month." },
+        "feature4": { "title": "Consistent Quality", "text": "Quartz from a single mine enables consistent quality management, minimizing production deviation." },
+        "feature5": { "title": "Semiconductor Grade", "text": "Catering to critical applications including semiconductor silicon wafer production, photovoltaic (PV) cell manufacturing, and fibre optic systems." },
+        "feature6": { "title": "Massive Reserves", "text": "With 18 million metric tons of confirmed reserves across 18 mines, we ensure decades of uninterrupted supply for your long-term projects." }
+      },
+      "chemicalAnalysis": {
+        "title": "Chemical Analysis Report",
+        "subtitle": "Certified quality analysis of our Tanzanian high-purity quartz",
+        "parameter": "Test Parameters",
+        "result": "Analysis Results (% / ppm)",
+        "ec": "Electrical Conductivity (EC)"
+      },
+      "mining": {
+        "title": "Mining Operations & Logistics",
+        "subtitle": "18 quartz mines across two regions and three locations in Tanzania",
+        "kwaluguru": { "name": "Kwaluguru", "region": "Tanga Region" },
+        "magali": { "name": "Magali", "region": "Morogoro Region" },
+        "msongozi": { "name": "Msongozi", "region": "Morogoro Region" },
+        "mineLabel": "Quartz Mines",
+        "highway": "National Highway",
+        "port": "Dar es Salaam Port",
+        "global": "Global Export"
+      },
+      "production": {
+        "title": "Production Capacity",
+        "subtitle": "Scalable output from each mining site to meet growing demand",
+        "sizeLabel": "Size",
+        "capacityLabel": "Capacity",
+        "boulders": { "title": "Sorted & Sized Boulders", "size": "50–300 mm", "capacity": "5,000–10,000 tons/month per site" },
+        "lumps": { "title": "Dressed Lumps", "size": "50–150 mm", "capacity": "1,000–2,000 tons/month per location" },
+        "scalable": "Production capacity is scalable to match increasing demand with consistent quality assurance."
       },
       "process": {
         "process1": { "title": "Inquiry", "text": "Requirement confirmation and supply feasibility review" },
@@ -489,7 +559,7 @@
         "name": "Quartz",
         "symbol": "SiO2",
         "unit": "Contact Us",
-        "note": "High-purity quartz is not publicly traded. We offer exclusive supply through our strategic partnership with VISH KVARTZ INTANZ in Tanzania.",
+        "note": "High-purity quartz is not publicly traded. We hold exclusive worldwide distribution rights through VISH KVARTZ INTANZ in Tanzania — 18 mines, 18M metric ton reserves, SiO₂ purity +99.9% to +99.99%.",
         "contact": "Inquire for Quote"
       },
       "asOf": "As of",
@@ -580,8 +650,17 @@
       "vish": {
         "name": "VISH KVARTZ INTANZ",
         "location": "Tanzania",
-        "description": "Exclusive worldwide distribution partner for high-purity quartz. Through our quartz production hub in Morogoro, Tanzania, we supply premium quality quartz essential for the semiconductor and solar industries.",
-        "badge": "Exclusive Partner"
+        "description": "Exclusive worldwide distribution partner for high-purity quartz. Operating 18 mines across Tanzania with 18 million metric ton reserves and SiO₂ purity of +99.9% to +99.99%, supplying premium quartz essential for semiconductor, solar, and fibre optic industries.",
+        "badge": "Exclusive Partner",
+        "contractTitle": "Agreement Details",
+        "effectiveDateLabel": "Effective Date",
+        "effectiveDate": "January 2026",
+        "agreementTypeLabel": "Agreement Type",
+        "agreementType": "Strategic Partnership Agreement (SPA)",
+        "exclusiveRightsLabel": "Scope",
+        "exclusiveRights": "Exclusive Global Supply Rights",
+        "contractTermLabel": "Duration",
+        "contractTerm": "Indefinite Term"
       }
     },
     "benefits": {
@@ -603,6 +682,62 @@
       "title": "Become a Partner",
       "text": "Create new business opportunities together with Global Group Korea.",
       "button": "Partnership Inquiry"
+    }
+  },
+  "newsSection": {
+    "title": "Latest News",
+    "subtitle": "Stay updated with our latest company news and market insights",
+    "categories": {
+      "company": "Company",
+      "market": "Market"
+    },
+    "article1": {
+      "title": "GGK Signs Strategic Partnership for Tanzanian Quartz Production Hub",
+      "excerpt": "Global Group Korea and VISH KVARTZ INTANZ formalize exclusive worldwide distribution agreement for high-purity quartz from Morogoro, Tanzania."
+    },
+    "article2": {
+      "title": "2026 Global Commodity Market Outlook: Key Trends to Watch",
+      "excerpt": "Our analysts examine the major forces shaping commodity prices in 2026, from energy transition to semiconductor demand growth."
+    },
+    "article3": {
+      "title": "GGK Expands South Asia Operations with Dhaka Office Upgrade",
+      "excerpt": "Global Group Korea strengthens its Bangladesh presence with expanded facilities and team to support growing regional trade."
+    },
+    "readMore": "Read More",
+    "viewAll": "View All News"
+  },
+  "newsPage": {
+    "hero": {
+      "title": "News & Announcements",
+      "subtitle": "Latest updates from Global Group Korea"
+    },
+    "categories": {
+      "company": "Company",
+      "market": "Market"
+    },
+    "article1": {
+      "title": "GGK Signs Strategic Partnership for Tanzanian Quartz Production Hub",
+      "excerpt": "Global Group Korea and VISH KVARTZ INTANZ formalize exclusive worldwide distribution agreement for high-purity quartz.",
+      "body": "Global Group Korea has officially signed a Strategic Partnership Agreement (SPA) with VISH KVARTZ INTANZ, establishing exclusive worldwide distribution rights for premium quartz from the Morogoro region in Tanzania. The partnership covers 18 quartz mines with confirmed reserves of 18 million metric tons, producing quartz with SiO₂ purity ranging from +99.9% to +99.99%. This milestone positions GGK as the sole global supplier of Tanzanian high-purity quartz, essential for semiconductor, solar, and fibre optic industries."
+    },
+    "article2": {
+      "title": "2026 Global Commodity Market Outlook: Key Trends to Watch",
+      "excerpt": "Our analysts examine the major forces shaping commodity prices in 2026.",
+      "body": "As we move further into 2026, several key factors are reshaping global commodity markets. The ongoing energy transition continues to drive copper demand, with electric vehicle production and renewable energy infrastructure requiring unprecedented volumes. Gold maintains its role as a safe-haven asset amid geopolitical uncertainties, while crude oil markets are adjusting to shifting OPEC+ policies. The semiconductor industry's growth is fueling demand for high-purity quartz, creating new opportunities in mineral supply chains."
+    },
+    "article3": {
+      "title": "GGK Expands South Asia Operations with Dhaka Office Upgrade",
+      "excerpt": "Global Group Korea strengthens its Bangladesh presence with expanded operations.",
+      "body": "Global Group Korea is investing in the expansion of its Dhaka office to better serve the growing South Asian market. The upgraded facility will feature enhanced trading operations, a larger team of regional specialists, and improved logistics coordination capabilities. This expansion reflects GGK's commitment to strengthening its presence across the region, supporting trade partnerships, and capitalizing on Bangladesh's rapidly growing economy."
+    },
+    "article4": {
+      "title": "African Mineral Market Growth: Opportunities and Outlook",
+      "excerpt": "Exploring the surge in African mineral exploration and its implications for global trade.",
+      "body": "Africa's mineral sector is experiencing remarkable growth, driven by global demand for critical minerals and increasing investment in mining infrastructure. Countries like Tanzania, Ghana, and South Africa are emerging as key players in the supply of minerals essential for the green energy transition. Global Group Korea, with its extensive African network spanning Cape Town, Accra, and Morogoro, is uniquely positioned to connect these resources with global markets, particularly in high-purity quartz, copper, and gold."
+    },
+    "cta": {
+      "title": "Want to Stay Informed?",
+      "text": "Contact us for personalized market insights and industry updates."
     }
   }
 }

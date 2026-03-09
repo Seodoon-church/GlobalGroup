@@ -26,6 +26,7 @@ export default function Header() {
     { key: 'business', href: '/business' },
     { key: 'market', href: '/market' },
     { key: 'partners', href: '/partners' },
+    { key: 'news', href: '/news' },
     { key: 'contact', href: '/contact' },
   ];
 

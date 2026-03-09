@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /*/admin/
+
+User-agent: Yeti
+Allow: /
+
+Sitemap: https://www.globalgroupkorea.com/sitemap.xml

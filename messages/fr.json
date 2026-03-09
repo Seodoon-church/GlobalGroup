@@ -1,7 +1,46 @@
 {
   "metadata": {
     "title": "Global Group Korea | Negoce International de Matieres Premieres",
-    "description": "Petrole brut, Cuivre, Quartz, Or - Votre partenaire de confiance dans le negoce international de matieres premieres"
+    "description": "Petrole brut, Cuivre, Quartz, Or - Votre partenaire de confiance dans le negoce international de matieres premieres",
+    "shortName": "GGK",
+    "ogDescription": "Depuis 1987, votre partenaire de confiance dans le negoce mondial de matieres premieres dans plus de 25 pays - petrole brut, cuivre, quartz et or."
+  },
+  "seo": {
+    "home": {
+      "title": "Global Group Korea | Commerce International de Matières Premières",
+      "description": "Global Group Korea - 37 ans de commerce international de matières premières. Spécialisés dans le pétrole brut, le cuivre, le quartz et l'or dans plus de 25 pays.",
+      "keywords": "commerce de matières premières, pétrole brut, cuivre, quartz, or, commerce international, Global Group Korea"
+    },
+    "about": {
+      "title": "A Propos",
+      "description": "Decouvrez les 37 annees d'histoire de Global Group Korea, reliant la Coree aux marches mondiaux a travers le negoce de petrole brut, cuivre, quartz et or.",
+      "keywords": "histoire Global Group Korea, société de négoce de matières premières, commerce international"
+    },
+    "business": {
+      "title": "Secteurs d'Activite",
+      "description": "Explorez nos quatre secteurs d'activite principaux : le negoce de petrole brut, cuivre, quartz et or dans plus de 25 pays.",
+      "keywords": "négoce pétrole brut, négoce cuivre, extraction quartz, négoce or"
+    },
+    "contact": {
+      "title": "Nous Contacter",
+      "description": "Contactez Global Group Korea pour vos demandes de negoce de matieres premieres, opportunites de partenariat et consultation commerciale.",
+      "keywords": "contacter Global Group Korea, demande de renseignements matières premières"
+    },
+    "market": {
+      "title": "Analyses de Marche",
+      "description": "Cours des matieres premieres en temps reel et analyses de marche pour l'or, le cuivre, le petrole brut et le quartz.",
+      "keywords": "prix matières premières, prix de l'or, prix du cuivre, prix du pétrole, analyse de marché"
+    },
+    "partners": {
+      "title": "Partenariat",
+      "description": "Opportunites de partenariat strategique avec le reseau de Global Group Korea couvrant 5 continents.",
+      "keywords": "partenariat matières premières, partenaire commercial mondial, VISH KVARTZ"
+    },
+    "news": {
+      "title": "Actualites et Annonces",
+      "description": "Dernieres actualites, annonces d'entreprise et analyses de marche de Global Group Korea.",
+      "keywords": "actualites Global Group Korea, actualites marche matieres premieres, annonces entreprise, partenariat quartz, commerce Afrique"
+    }
   },
   "common": {
     "companyName": "Global Group Korea",
@@ -18,13 +57,14 @@
     "business": "Secteurs d'Activite",
     "market": "Analyses de Marche",
     "partners": "Partenariat",
+    "news": "Actualites",
     "contact": "Nous Contacter"
   },
   "hero": {
     "title": "Global Group Korea",
-    "subtitle": "Bienvenue chez Global Group Korea Co., LTD.",
-    "description": "Depuis 1987, Global Group Korea (GGK) se consacre aux consultations commerciales et de projets, ainsi qu'a la realisation d'activites commerciales dans les infrastructures publiques, le commerce general et international, et les projets socio-economiques differentiels, notamment en Afrique et au Moyen-Orient.",
-    "description2": "GGK place les interets de ses clients en priorite et est pret a collaborer avec vous sur tous types de projets a travers le monde. Si vous avez des propositions, nous travaillerons avec vous de la maniere la plus optimale possible.",
+    "subtitle": "Partenaire International en Commerce de Matières Premières",
+    "description": "Depuis 1987, Global Group Korea (GGK) est un leader reconnu dans le commerce international de matières premières — spécialisé dans le pétrole brut, le cuivre, le quartz et l'or dans plus de 25 pays en Afrique, au Moyen-Orient et au-delà.",
+    "description2": "Fort de 37 ans d'expertise dans le commerce mondial des ressources, GGK propose des solutions d'approvisionnement stratégique, de financement commercial et de gestion de la chaîne d'approvisionnement à ses partenaires dans le monde entier.",
     "cta": "Obtenir une Consultation Gratuite",
     "exploreBusiness": "Decouvrir nos Secteurs d'Activite",
     "yearsExcellence": "Annees d'Excellence Mondiale"
@@ -135,7 +175,7 @@
         "city": "Morogoro",
         "country": "Tanzanie",
         "role": "Centre de Production de Quartz",
-        "description": "Partenariat strategique avec VISH KVARTZ INTANZ - Approvisionnement mondial exclusif en quartz, Usine en projet"
+        "description": "Partenariat stratégique avec VISH KVARTZ INTANZ - 18 mines, réserves de 18 millions de tonnes métriques, droits de distribution exclusive mondiale. Exportation via le port de Dar es Salaam"
       },
       "dubai": {
         "city": "Dubai",
@@ -412,19 +452,49 @@
     "quartz": {
       "overview": {
         "title": "Apercu de l'Activite",
-        "text1": "Global Group Korea a obtenu les droits de distribution exclusifs mondiaux pour le quartz de haute purete grace a un partenariat strategique avec VISH KVARTZ INTANZ en Tanzanie. Notre quartz est un materiau essentiel pour les industries des semi-conducteurs et du solaire.",
-        "text2": "Le quartz tanzanien presente l'avantage de fournir un quartz de qualite constante provenant d'une seule mine, utilisant des reserves d'environ 150 000 tonnes pour assurer un approvisionnement stable a long terme et repondre a la demande mondiale croissante de quartz de haute purete."
+        "text1": "Global Group Korea a officiellement signé un Accord de Partenariat Stratégique (SPA) avec VISH KVARTZ INTANZ en Tanzanie, obtenant les droits de distribution exclusifs mondiaux pour le quartz de haute pureté. Notre quartz est un matériau essentiel pour les industries des semi-conducteurs et du solaire.",
+        "text2": "VISH KVARTZ INTANZ exploite 18 mines de quartz dans 2 régions et 3 sites en Tanzanie, avec des réserves confirmées de 18 millions de tonnes métriques. Avec une pureté de SiO₂ allant de +99,9% à +99,99% et une conductivité électrique inférieure à 4 μS/cm, notre quartz répond aux exigences les plus strictes des industries mondiales des semi-conducteurs, du photovoltaïque et de la fibre optique."
       },
       "stats": {
-        "stat1": { "value": "150K", "label": "Tonnes de Reserves" },
+        "stat1": { "value": "18M", "label": "Tonnes Métriques de Réserves" },
         "stat2": { "value": "99.99%", "label": "Purete" },
-        "stat3": { "value": "Only", "label": "Partenaire Exclusif" }
+        "stat3": { "value": "18", "label": "Mines de Quartz" },
+        "stat4": { "value": "Exclusif", "label": "SPA mondial signé" }
       },
       "features": {
         "feature1": { "title": "Distribution Exclusive", "text": "Seule societe detenant les droits de distribution mondiaux pour le quartz tanzanien de VISH KVARTZ INTANZ." },
         "feature2": { "title": "Ultra-Haute Purete", "text": "Fournit du quartz de haute purete de 99,99% ou superieure, conforme aux normes des industries des semi-conducteurs et du solaire." },
-        "feature3": { "title": "Approvisionnement Stable", "text": "Garantit une stabilite d'approvisionnement a long terme basee sur des reserves confirmees d'environ 150 000 tonnes." },
-        "feature4": { "title": "Qualite Constante", "text": "Le quartz provenant d'une seule mine permet une gestion qualite constante, minimisant les ecarts de production." }
+        "feature3": { "title": "Approvisionnement Stable", "text": "Garantit la stabilité d'approvisionnement à long terme grâce à des réserves confirmées de 18 millions de tonnes métriques réparties sur 18 mines, chaque site pouvant fournir de 5 000 à 10 000 tonnes par mois." },
+        "feature4": { "title": "Qualite Constante", "text": "Le quartz provenant d'une seule mine permet une gestion qualite constante, minimisant les ecarts de production." },
+        "feature5": { "title": "Qualité Semi-conducteur", "text": "Répond aux applications critiques incluant la production de plaquettes de silicium pour semi-conducteurs, la fabrication de cellules PV solaires et les systèmes de fibre optique." },
+        "feature6": { "title": "Réserves Massives", "text": "Avec 18 millions de tonnes métriques de réserves confirmées réparties sur 18 mines, nous garantissons des décennies d'approvisionnement ininterrompu pour vos projets à long terme." }
+      },
+      "chemicalAnalysis": {
+        "title": "Rapport d'Analyse Chimique",
+        "subtitle": "Résultats d'analyse qualité certifiés du quartz tanzanien de haute pureté",
+        "parameter": "Paramètres de Test",
+        "result": "Résultats d'Analyse (% / ppm)",
+        "ec": "Conductivité Électrique (CE)"
+      },
+      "mining": {
+        "title": "Opérations Minières et Logistique",
+        "subtitle": "18 mines de quartz dans 2 régions et 3 sites en Tanzanie",
+        "kwaluguru": { "name": "Kwaluguru", "region": "Région de Tanga" },
+        "magali": { "name": "Magali", "region": "Région de Morogoro" },
+        "msongozi": { "name": "Msongozi", "region": "Région de Morogoro" },
+        "mineLabel": "Mines de Quartz",
+        "highway": "Route Nationale",
+        "port": "Port de Dar es Salaam",
+        "global": "Exportation Mondiale"
+      },
+      "production": {
+        "title": "Capacité de Production",
+        "subtitle": "Production extensible depuis chaque site minier pour répondre à la demande croissante",
+        "sizeLabel": "Taille",
+        "capacityLabel": "Capacité",
+        "boulders": { "title": "Blocs Triés et Calibrés", "size": "50–300 mm", "capacity": "5 000–10 000 tonnes/mois par site" },
+        "lumps": { "title": "Morceaux Taillés", "size": "50–150 mm", "capacity": "1 000–2 000 tonnes/mois par site" },
+        "scalable": "La capacité de production est extensible pour accompagner la demande croissante avec une assurance qualité constante."
       },
       "process": {
         "process1": { "title": "Demande de Renseignements", "text": "Confirmation des besoins et etude de faisabilite d'approvisionnement" },
@@ -489,7 +559,7 @@
         "name": "Quartz",
         "symbol": "SiO2",
         "unit": "Nous Contacter",
-        "note": "Le quartz de haute purete n'est pas cote en bourse. Nous proposons un approvisionnement exclusif grace a notre partenariat strategique avec VISH KVARTZ INTANZ en Tanzanie.",
+        "note": "Le quartz de haute pureté n'est pas négocié sur les marchés publics. Nous détenons les droits de distribution exclusive mondiale via VISH KVARTZ INTANZ en Tanzanie — 18 mines, réserves de 18 millions de tonnes métriques, pureté SiO₂ de +99,9% à +99,99%.",
         "contact": "Demander un Devis"
       },
       "asOf": "En date du",
@@ -580,8 +650,17 @@
       "vish": {
         "name": "VISH KVARTZ INTANZ",
         "location": "Tanzanie",
-        "description": "Partenaire de distribution exclusif mondial pour le quartz de haute purete. Grace a notre centre de production de quartz a Morogoro, en Tanzanie, nous fournissons du quartz de qualite premium essentiel pour les industries des semi-conducteurs et du solaire.",
-        "badge": "Partenaire Exclusif"
+        "description": "Partenaire de distribution exclusive mondiale pour le quartz de haute pureté. Exploite 18 mines en Tanzanie avec des réserves de 18 millions de tonnes métriques et une pureté de SiO₂ de +99,9% à +99,99%, fournissant du quartz premium aux industries des semi-conducteurs, du solaire et de la fibre optique.",
+        "badge": "Partenaire Exclusif",
+        "contractTitle": "Détails de l'accord",
+        "effectiveDateLabel": "Date d'entrée en vigueur",
+        "effectiveDate": "Janvier 2026",
+        "agreementTypeLabel": "Type d'accord",
+        "agreementType": "Accord de partenariat stratégique (SPA)",
+        "exclusiveRightsLabel": "Portée",
+        "exclusiveRights": "Droits d'approvisionnement exclusifs mondiaux",
+        "contractTermLabel": "Durée",
+        "contractTerm": "Durée indéterminée"
       }
     },
     "benefits": {
@@ -603,6 +682,62 @@
       "title": "Devenir Partenaire",
       "text": "Creez de nouvelles opportunites commerciales aux cotes de Global Group Korea.",
       "button": "Demande de Partenariat"
+    }
+  },
+  "newsSection": {
+    "title": "Dernieres Actualites",
+    "subtitle": "Restez informe de nos dernieres actualites d'entreprise et analyses de marche",
+    "categories": {
+      "company": "Entreprise",
+      "market": "Marche"
+    },
+    "article1": {
+      "title": "GGK signe un partenariat strategique pour le centre de production de quartz en Tanzanie",
+      "excerpt": "Global Group Korea et VISH KVARTZ INTANZ formalisent un accord de distribution exclusive mondiale pour le quartz de haute purete de Morogoro, en Tanzanie."
+    },
+    "article2": {
+      "title": "Perspectives 2026 du marche mondial des matieres premieres : tendances cles a surveiller",
+      "excerpt": "Nos analystes examinent les principales forces qui faconnent les prix des matieres premieres en 2026, de la transition energetique a la croissance de la demande en semi-conducteurs."
+    },
+    "article3": {
+      "title": "GGK etend ses operations en Asie du Sud avec la modernisation du bureau de Dhaka",
+      "excerpt": "Global Group Korea renforce sa presence au Bangladesh avec des installations et une equipe elargies pour soutenir le commerce regional croissant."
+    },
+    "readMore": "Lire la Suite",
+    "viewAll": "Voir Toutes les Actualites"
+  },
+  "newsPage": {
+    "hero": {
+      "title": "Actualites et Annonces",
+      "subtitle": "Dernieres mises a jour de Global Group Korea"
+    },
+    "categories": {
+      "company": "Entreprise",
+      "market": "Marche"
+    },
+    "article1": {
+      "title": "GGK signe un partenariat strategique pour le centre de production de quartz en Tanzanie",
+      "excerpt": "Global Group Korea et VISH KVARTZ INTANZ formalisent un accord de distribution exclusive mondiale pour le quartz de haute purete.",
+      "body": "Global Group Korea a officiellement signe un Accord de Partenariat Strategique (SPA) avec VISH KVARTZ INTANZ, etablissant des droits de distribution exclusive mondiale pour le quartz premium de la region de Morogoro en Tanzanie. Le partenariat couvre 18 mines de quartz avec des reserves confirmees de 18 millions de tonnes metriques, produisant du quartz avec une purete de SiO₂ allant de +99,9% a +99,99%. Cette etape positionne GGK comme le seul fournisseur mondial de quartz tanzanien de haute purete, essentiel pour les industries des semi-conducteurs, du solaire et de la fibre optique."
+    },
+    "article2": {
+      "title": "Perspectives 2026 du marche mondial des matieres premieres : tendances cles a surveiller",
+      "excerpt": "Nos analystes examinent les principales forces qui faconnent les prix des matieres premieres en 2026.",
+      "body": "A mesure que nous avançons dans l'annee 2026, plusieurs facteurs cles redessinent les marches mondiaux des matieres premieres. La transition energetique en cours continue de stimuler la demande de cuivre, la production de vehicules electriques et les infrastructures d'energies renouvelables necessitant des volumes sans precedent. L'or maintient son role de valeur refuge face aux incertitudes geopolitiques, tandis que les marches du petrole brut s'ajustent aux politiques changeantes de l'OPEP+. La croissance de l'industrie des semi-conducteurs alimente la demande de quartz de haute purete, creant de nouvelles opportunites dans les chaines d'approvisionnement en mineraux."
+    },
+    "article3": {
+      "title": "GGK etend ses operations en Asie du Sud avec la modernisation du bureau de Dhaka",
+      "excerpt": "Global Group Korea renforce sa presence au Bangladesh avec des operations elargies.",
+      "body": "Global Group Korea investit dans l'expansion de son bureau de Dhaka pour mieux servir le marche croissant d'Asie du Sud. Les installations modernisees comprendront des operations de negoce ameliorees, une equipe elargie de specialistes regionaux et des capacites de coordination logistique renforcees. Cette expansion reflete l'engagement de GGK a renforcer sa presence dans la region, a soutenir les partenariats commerciaux et a tirer parti de l'economie en croissance rapide du Bangladesh."
+    },
+    "article4": {
+      "title": "Croissance du marche des mineraux africains : opportunites et perspectives",
+      "excerpt": "Exploration de l'essor de l'exploration miniere africaine et de ses implications pour le commerce mondial.",
+      "body": "Le secteur minier africain connait une croissance remarquable, portee par la demande mondiale de mineraux critiques et l'augmentation des investissements dans les infrastructures minieres. Des pays comme la Tanzanie, le Ghana et l'Afrique du Sud emergent comme des acteurs cles dans l'approvisionnement en mineraux essentiels a la transition energetique verte. Global Group Korea, avec son vaste reseau africain couvrant Cape Town, Accra et Morogoro, est uniquement positionne pour connecter ces ressources aux marches mondiaux, en particulier dans le quartz de haute purete, le cuivre et l'or."
+    },
+    "cta": {
+      "title": "Vous souhaitez rester informe ?",
+      "text": "Contactez-nous pour des analyses de marche personnalisees et des mises a jour sectorielles."
     }
   }
 }

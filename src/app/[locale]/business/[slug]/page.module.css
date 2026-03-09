@@ -166,6 +166,11 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
+.statCardExclusive {
+  border: 1px solid rgba(201, 169, 98, 0.4);
+  background: linear-gradient(135deg, #0a1628 0%, #1a2d4a 50%, rgba(201, 169, 98, 0.1) 100%);
+}
+
 /* Features Section */
 .featuresSection {
   padding: 100px 0;
@@ -315,6 +320,285 @@
   box-shadow: 0 10px 30px rgba(201, 169, 98, 0.3);
 }
 
+/* Section Subtitle */
+.sectionSubtitle {
+  font-size: 1.05rem;
+  color: #6c757d;
+  margin-top: 12px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sectionSubtitleLight {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 12px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Chemical Analysis Section */
+.analysisSection {
+  padding: 100px 0;
+  background: #f0f4f8;
+}
+
+.analysisTableWrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.analysisTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.analysisTable thead tr {
+  background: linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%);
+}
+
+.analysisTable th {
+  padding: 18px 24px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #c9a962;
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+
+.analysisTable th:last-child {
+  text-align: right;
+}
+
+.analysisTable td {
+  padding: 14px 24px;
+  font-size: 0.95rem;
+  color: #333;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.analysisTable td:first-child {
+  font-weight: 500;
+  color: #0a1628;
+}
+
+.analysisTable td:last-child {
+  text-align: right;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  color: #495057;
+}
+
+.analysisTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.analysisTable tbody tr:hover {
+  background: #f8f9fa;
+}
+
+.ecBadge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+  padding: 20px;
+  background: linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%);
+  border-radius: 12px;
+}
+
+.ecLabel {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ecValue {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #c9a962;
+}
+
+/* Mining & Logistics Section */
+.miningSection {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%);
+}
+
+.miningGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 60px;
+}
+
+.mineCard {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(201, 169, 98, 0.2);
+  border-radius: 16px;
+  padding: 36px 24px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.mineCard:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(201, 169, 98, 0.4);
+  transform: translateY(-4px);
+}
+
+.mineCount {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #c9a962;
+  margin-bottom: 8px;
+}
+
+.mineName {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.mineRegion {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+
+/* Logistics Flow */
+.logisticsFlow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 40px 0 0;
+}
+
+.logisticsStep {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  min-width: 100px;
+}
+
+.logisticsIcon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(201, 169, 98, 0.15);
+  border: 1px solid rgba(201, 169, 98, 0.3);
+  border-radius: 50%;
+  color: #c9a962;
+}
+
+.logisticsStep span {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  max-width: 120px;
+}
+
+.logisticsArrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: rgba(201, 169, 98, 0.5);
+}
+
+.logisticsArrow span {
+  font-size: 0.75rem;
+  color: rgba(201, 169, 98, 0.6);
+}
+
+/* Production Capacity Section */
+.productionSection {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.productionGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.productionCard {
+  background: #f8f9fa;
+  border-radius: 16px;
+  padding: 36px;
+  border: 1px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.productionCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+}
+
+.productionIcon {
+  color: #9ca3af;
+  margin-bottom: 20px;
+}
+
+.productionTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0a1628;
+  margin-bottom: 20px;
+}
+
+.productionSpec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.productionSpec:last-child {
+  border-bottom: none;
+}
+
+.specLabel {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.specValue {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #0a1628;
+}
+
+.productionNote {
+  text-align: center;
+  font-size: 1rem;
+  color: #6c757d;
+  margin-top: 32px;
+  font-style: italic;
+}
+
+/* Features Grid Wide (6 items for quartz) */
+.featuresGridWide {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
   .processTimeline {
@@ -325,6 +609,18 @@
   .processItem::after {
     display: none;
   }
+
+  .featuresGridWide {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .logisticsFlow {
+    gap: 8px;
+  }
+
+  .logisticsStep {
+    min-width: 80px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -334,7 +630,10 @@
 
   .overviewSection,
   .featuresSection,
-  .processSection {
+  .processSection,
+  .analysisSection,
+  .miningSection,
+  .productionSection {
     padding: 80px 0;
   }
 
@@ -355,7 +654,8 @@
     font-size: 1.75rem;
   }
 
-  .featuresGrid {
+  .featuresGrid,
+  .featuresGridWide {
     grid-template-columns: 1fr;
     gap: 20px;
   }
@@ -363,6 +663,39 @@
   .processTimeline {
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+
+  .miningGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .mineCard {
+    padding: 24px;
+  }
+
+  .mineCount {
+    font-size: 2.5rem;
+  }
+
+  .logisticsFlow {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .logisticsArrow {
+    transform: rotate(90deg);
+  }
+
+  .productionGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .analysisTable th,
+  .analysisTable td {
+    padding: 12px 16px;
+    font-size: 0.85rem;
   }
 }
 

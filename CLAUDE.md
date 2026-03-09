@@ -29,6 +29,10 @@ GlobalGroup/
 │   │   │   ├── market/
 │   │   │       ├── page.tsx
 │   │   │       └── page.module.css
+│   │   │   ├── news/
+│   │   │   │   ├── page.tsx
+│   │   │   │   ├── NewsContent.tsx
+│   │   │   │   └── page.module.css
 │   │   │   └── partners/
 │   │   │       ├── page.tsx
 │   │   │       └── page.module.css
@@ -41,6 +45,7 @@ GlobalGroup/
 │       ├── Leadership.tsx + Leadership.module.css
 │       ├── Stats.tsx + Stats.module.css
 │       ├── InvestmentApproach.tsx + InvestmentApproach.module.css
+│       ├── News.tsx + News.module.css (NEW - 뉴스 미리보기 컴포넌트)
 │       ├── TradingViewWidget.tsx (NEW - TradingView 위젯 컴포넌트)
 │       ├── CTA.tsx + CTA.module.css
 │       └── Footer.tsx + Footer.module.css
@@ -101,6 +106,7 @@ GlobalGroup/
 - `/[locale]/business/[slug]` - 개별 사업 상세 ✅ (동적 라우팅)
 - `/[locale]/contact` - 문의하기 ✅ (연락처 정보, 문의 양식)
 - `/[locale]/market` - 시장정보 ✅ (시장개요, 원자재시세, 시장동향, CTA)
+- `/[locale]/news` - 뉴스 ✅ (Hero, 4개 기사, CTA)
 - `/[locale]/partners` - 파트너십 ✅ (파트너유형, 지역네트워크, VISH 파트너십, 혜택)
 
 ## 개발일지
@@ -260,6 +266,53 @@ GlobalGroup/
   - **빌드 성공** (65개 페이지 정적 생성)
     - 기존 15개 → 65개 (9개 언어 × 7페이지 + business/[slug] 8개 + _not-found)
 
+### 2026-03-10 (Session 10)
+- **Google Search Console 색인 문제 수정**
+  - 문제: 404(2건), 발견됨-미색인(7건), 크롤링됨-미색인(4건), 중복canonical(3건)
+  - **sitemap.xml 전면 확장** (10 URL → 62 URL)
+    - 기존: `/en/` 버전 10개만 등록
+    - 수정: 9개 언어 전체 페이지 등록 (홈/about/business/market/partners/contact × 9언어)
+    - business/[slug] en/ko 2개씩 추가
+    - 모든 URL에 `x-default` hreflang 포함
+  - **서브페이지 x-default 누락 수정** (5개 파일)
+    - about, business, market, partners, contact page.tsx
+    - `languages['x-default']` 추가
+  - **business/[slug] alternates 추가**
+    - 기존: canonical만 있고 languages 없음
+    - 수정: 9개 언어 alternates + x-default 추가
+  - **robots.txt 정리**
+    - 중복 Sitemap 항목 제거 (non-www 삭제)
+  - **빌드 성공** (102개 페이지 정적 생성)
+  - 배포 완료, Search Console 사이트맵 재제출 필요
+
+### 2026-03-10 (Session 11)
+- **뉴스/공지사항 섹션 구현**
+  - `src/components/News.tsx` + `News.module.css` - 메인페이지 뉴스 미리보기 컴포넌트
+    - 최신 뉴스 3개 카드, 카테고리 태그(회사/시장), 날짜, 요약
+    - "전체 보기" 버튼으로 /news 페이지 연결
+  - `src/app/[locale]/news/` 전용 페이지 생성
+    - `page.tsx` - SEO 메타데이터, 9개 언어 hreflang alternates
+    - `NewsContent.tsx` - 클라이언트 컴포넌트, 4개 기사 전체 보기
+    - `page.module.css` - Hero, 기사 카드(이미지+컨텐츠 그리드), CTA
+  - 뉴스 기사 4개 (혼합 구성)
+    1. 회사: 탄자니아 모로고로 석영 생산 허브 파트너십 체결
+    2. 시장: 2026 글로벌 원자재 시장 전망
+    3. 회사: 다카 사무소 확장으로 남아시아 사업 강화
+    4. 시장: 아프리카 광물 시장 성장과 기회
+  - 메인페이지에 News 컴포넌트 추가 (InvestmentApproach ↔ CTA 사이)
+  - Header 네비게이션에 "News" 메뉴 추가
+  - Footer quickLinks에 news 추가
+  - 9개 언어 번역 완료 (en, ko, ja, zh, sw, ar, hi, bn, fr)
+    - seo.news, nav.news, newsSection, newsPage 키 추가
+  - sitemap.xml에 9개 언어 × /news/ URL 추가 (9개)
+- **반응형 디자인 점검 및 수정**
+  - Hero: yearsBadge 768px에서 `display:none` → 축소 표시로 변경
+  - Market: marketOverviewLoading 480px에서 300px 높이 + 패딩 최적화
+  - About: CEO이미지 sticky 768px에서 이미 static 처리 확인 (이슈 없음)
+  - Partners: contractGrid 768px에서 이미 1fr 처리 확인 (이슈 없음)
+- **빌드 성공** (111개 페이지 정적 생성)
+  - 기존 102개 → 111개 (news 9개 추가)
+
 ## 다음 작업
 - [x] 빌드 테스트 및 에러 수정
 - [x] 세계지도 + 7개 거점 GlobalNetwork 컴포넌트
@@ -275,10 +328,11 @@ GlobalGroup/
 - [x] 실시간 시세 위젯 (TradingView 연동) ✅
 - [x] Hero 섹션 세계지도 배경 추가 ✅
 - [x] 7개국 다국어 번역 (ja, zh, sw, ar, hi, bn, fr) ✅
+- [x] Google Search Console 색인 문제 수정 ✅
 - [ ] Hero 세계지도에 7개 거점 마커 추가
 - [ ] 경영진 실제 사진 추가 (현재 이니셜 플레이스홀더)
-- [ ] 뉴스/공지사항 섹션
-- [ ] 반응형 디자인 점검
+- [x] 뉴스/공지사항 섹션 ✅
+- [x] 반응형 디자인 점검 ✅
 
 ## 메모
 - docs/Quartz 폴더에 참고자료 있음 (Dr. Kassey Paul 명함, Vish 법인등록증 등)

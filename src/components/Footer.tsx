@@ -19,6 +19,7 @@ export default function Footer() {
     { key: 'about', href: '/about' },
     { key: 'business', href: '/business' },
     { key: 'partners', href: '/partners' },
+    { key: 'news', href: '/news' },
     { key: 'contact', href: '/contact' },
   ];
 

@@ -1,10 +1,11 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { locales } from '../../../../../i18n';
+import { BASE_URL } from '@/lib/constants';
 import styles from './page.module.css';
 
 const slugs = ['crude-oil', 'copper', 'quartz', 'gold'];
-const locales = ['en', 'ko'];
 
 export function generateStaticParams() {
   return locales.flatMap((locale) =>
@@ -43,6 +44,33 @@ interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }
 
+export async function generateMetadata({ params }: Props) {
+  const { locale, slug } = await params;
+  const tBusiness = await getTranslations({ locale, namespace: 'business' });
+
+  const business = businessData[slug];
+  if (!business) return {};
+
+  const languages: Record<string, string> = {};
+  locales.forEach(loc => {
+    languages[loc] = `${BASE_URL}/${loc}/business/${slug}/`;
+  });
+  languages['x-default'] = `${BASE_URL}/en/business/${slug}/`;
+
+  return {
+    title: tBusiness(`${business.key}.title`),
+    description: tBusiness(`${business.key}.description`),
+    alternates: {
+      canonical: `${BASE_URL}/${locale}/business/${slug}/`,
+      languages,
+    },
+    openGraph: {
+      title: tBusiness(`${business.key}.title`),
+      description: tBusiness(`${business.key}.description`),
+    },
+  };
+}
+
 export default async function BusinessDetailPage({ params }: Props) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
@@ -55,8 +83,28 @@ export default async function BusinessDetailPage({ params }: Props) {
     notFound();
   }
 
-  const features = ['feature1', 'feature2', 'feature3', 'feature4'];
+  const isQuartz = slug === 'quartz';
+  const features = isQuartz
+    ? ['feature1', 'feature2', 'feature3', 'feature4', 'feature5', 'feature6']
+    : ['feature1', 'feature2', 'feature3', 'feature4'];
   const processes = ['process1', 'process2', 'process3', 'process4'];
+
+  const chemicalData = [
+    { param: 'SiO₂ (%)', result: '+99.99 – +99.9' },
+    { param: 'Fe₂O₃ (ppm)', result: '0.0002 – 0.0043' },
+    { param: 'Al₂O₃ (ppm)', result: '0.0021 – 0.0046' },
+    { param: 'Na₂O (ppm)', result: '0.0001 – 0.0004' },
+    { param: 'K₂O (ppm)', result: '0.0002 – 0.0009' },
+    { param: 'CaO (ppm)', result: '0.0004 – 0.0005' },
+    { param: 'MgO (ppm)', result: '0.0002 – 0.0004' },
+    { param: 'Ti (ppm)', result: '0.0005 – 0.0008' },
+  ];
+
+  const mineLocations = [
+    { key: 'kwaluguru', count: 10 },
+    { key: 'magali', count: 5 },
+    { key: 'msongozi', count: 3 },
+  ];
 
   return (
     <main className={styles.main}>
@@ -126,10 +174,171 @@ export default async function BusinessDetailPage({ params }: Props) {
                 <span className={styles.statValue}>{t(`${business.key}.stats.stat3.value`)}</span>
                 <span className={styles.statLabel}>{t(`${business.key}.stats.stat3.label`)}</span>
               </div>
+              {isQuartz && (
+                <div className={`${styles.statCard} ${styles.statCardExclusive}`}>
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c9a962" strokeWidth="1.5" style={{ marginBottom: '8px' }}>
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  </svg>
+                  <span className={styles.statValue}>{t('quartz.stats.stat4.value')}</span>
+                  <span className={styles.statLabel}>{t('quartz.stats.stat4.label')}</span>
+                </div>
+              )}
             </div>
           </div>
         </div>
       </section>
+
+      {/* Quartz-Only: Chemical Analysis Section */}
+      {isQuartz && (
+        <section className={styles.analysisSection}>
+          <div className={styles.container}>
+            <div className={styles.sectionHeader}>
+              <div className={styles.goldLine}></div>
+              <h2 className={styles.sectionTitle}>{t('quartz.chemicalAnalysis.title')}</h2>
+              <p className={styles.sectionSubtitle}>{t('quartz.chemicalAnalysis.subtitle')}</p>
+            </div>
+            <div className={styles.analysisTableWrapper}>
+              <table className={styles.analysisTable}>
+                <thead>
+                  <tr>
+                    <th>{t('quartz.chemicalAnalysis.parameter')}</th>
+                    <th>{t('quartz.chemicalAnalysis.result')}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {chemicalData.map((row) => (
+                    <tr key={row.param}>
+                      <td>{row.param}</td>
+                      <td>{row.result}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+              <div className={styles.ecBadge}>
+                <span className={styles.ecLabel}>{t('quartz.chemicalAnalysis.ec')}</span>
+                <span className={styles.ecValue}>&lt; 4 μS/cm</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Quartz-Only: Mining & Logistics Section */}
+      {isQuartz && (
+        <section className={styles.miningSection}>
+          <div className={styles.container}>
+            <div className={styles.sectionHeader}>
+              <div className={styles.goldLine}></div>
+              <h2 className={styles.sectionTitleLight}>{t('quartz.mining.title')}</h2>
+              <p className={styles.sectionSubtitleLight}>{t('quartz.mining.subtitle')}</p>
+            </div>
+            <div className={styles.miningGrid}>
+              {mineLocations.map((loc) => (
+                <div key={loc.key} className={styles.mineCard}>
+                  <div className={styles.mineCount}>{loc.count}</div>
+                  <h4 className={styles.mineName}>{t(`quartz.mining.${loc.key}.name`)}</h4>
+                  <p className={styles.mineRegion}>{t(`quartz.mining.${loc.key}.region`)}</p>
+                </div>
+              ))}
+            </div>
+            <div className={styles.logisticsFlow}>
+              <div className={styles.logisticsStep}>
+                <div className={styles.logisticsIcon}>
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <polygon points="12,2 22,8.5 22,15.5 12,22 2,15.5 2,8.5" />
+                  </svg>
+                </div>
+                <span>{t('quartz.mining.mineLabel')}</span>
+              </div>
+              <div className={styles.logisticsArrow}>
+                <span>12-15 km</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+              <div className={styles.logisticsStep}>
+                <div className={styles.logisticsIcon}>
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" /><line x1="4" y1="22" x2="4" y2="15" />
+                  </svg>
+                </div>
+                <span>{t('quartz.mining.highway')}</span>
+              </div>
+              <div className={styles.logisticsArrow}>
+                <span>250 km</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+              <div className={styles.logisticsStep}>
+                <div className={styles.logisticsIcon}>
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M2 20h20M5 20V10l7-8 7 8v10" /><rect x="9" y="14" width="6" height="6" />
+                  </svg>
+                </div>
+                <span>{t('quartz.mining.port')}</span>
+              </div>
+              <div className={styles.logisticsArrow}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+              <div className={styles.logisticsStep}>
+                <div className={styles.logisticsIcon}>
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <circle cx="12" cy="12" r="10" /><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+                  </svg>
+                </div>
+                <span>{t('quartz.mining.global')}</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Quartz-Only: Production Capacity Section */}
+      {isQuartz && (
+        <section className={styles.productionSection}>
+          <div className={styles.container}>
+            <div className={styles.sectionHeader}>
+              <div className={styles.goldLine}></div>
+              <h2 className={styles.sectionTitle}>{t('quartz.production.title')}</h2>
+              <p className={styles.sectionSubtitle}>{t('quartz.production.subtitle')}</p>
+            </div>
+            <div className={styles.productionGrid}>
+              <div className={styles.productionCard}>
+                <div className={styles.productionIcon}>
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <rect x="2" y="7" width="20" height="14" rx="2" />
+                    <path d="M16 7V5a4 4 0 00-8 0v2" />
+                  </svg>
+                </div>
+                <h4 className={styles.productionTitle}>{t('quartz.production.boulders.title')}</h4>
+                <div className={styles.productionSpec}>
+                  <span className={styles.specLabel}>{t('quartz.production.sizeLabel')}</span>
+                  <span className={styles.specValue}>{t('quartz.production.boulders.size')}</span>
+                </div>
+                <div className={styles.productionSpec}>
+                  <span className={styles.specLabel}>{t('quartz.production.capacityLabel')}</span>
+                  <span className={styles.specValue}>{t('quartz.production.boulders.capacity')}</span>
+                </div>
+              </div>
+              <div className={styles.productionCard}>
+                <div className={styles.productionIcon}>
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <polygon points="12,2 22,8.5 22,15.5 12,22 2,15.5 2,8.5" />
+                    <line x1="12" y1="22" x2="12" y2="15.5" />
+                  </svg>
+                </div>
+                <h4 className={styles.productionTitle}>{t('quartz.production.lumps.title')}</h4>
+                <div className={styles.productionSpec}>
+                  <span className={styles.specLabel}>{t('quartz.production.sizeLabel')}</span>
+                  <span className={styles.specValue}>{t('quartz.production.lumps.size')}</span>
+                </div>
+                <div className={styles.productionSpec}>
+                  <span className={styles.specLabel}>{t('quartz.production.capacityLabel')}</span>
+                  <span className={styles.specValue}>{t('quartz.production.lumps.capacity')}</span>
+                </div>
+              </div>
+            </div>
+            <p className={styles.productionNote}>{t('quartz.production.scalable')}</p>
+          </div>
+        </section>
+      )}
 
       {/* Features Section */}
       <section className={styles.featuresSection}>
@@ -138,7 +347,7 @@ export default async function BusinessDetailPage({ params }: Props) {
             <div className={styles.goldLine}></div>
             <h2 className={styles.sectionTitle}>{t('features')}</h2>
           </div>
-          <div className={styles.featuresGrid}>
+          <div className={`${styles.featuresGrid} ${isQuartz ? styles.featuresGridWide : ''}`}>
             {features.map((feature, index) => (
               <div key={feature} className={styles.featureCard}>
                 <div className={styles.featureNumber}>{String(index + 1).padStart(2, '0')}</div>

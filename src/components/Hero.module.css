@@ -662,9 +662,10 @@
   }
 
   .yearsBadge {
-    width: 140px;
-    height: 140px;
-    display: none;
+    width: 100px;
+    height: 100px;
+    position: static;
+    margin: 20px auto 0;
   }
 
   .yearsNumber {
