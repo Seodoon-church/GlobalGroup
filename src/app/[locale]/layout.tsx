@@ -103,9 +103,11 @@ export default async function LocaleLayout({
     },
     telephone: '+82-2-400-3084',
     faxNumber: '+82-2-400-3089',
+    email: 'info@globalgroupkorea.com',
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: '+82-2-400-3084',
+      email: 'info@globalgroupkorea.com',
       contactType: 'customer service',
       availableLanguage: ['English', 'Korean', 'Japanese', 'Chinese', 'French', 'Arabic', 'Hindi', 'Bengali', 'Swahili'],
     },

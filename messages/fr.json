@@ -255,6 +255,9 @@
       "phone": {
         "label": "Telephone"
       },
+      "email": {
+        "label": "E-mail"
+      },
       "fax": {
         "label": "Fax"
       },

@@ -403,6 +403,9 @@
       "phone": {
         "label": "전화"
       },
+      "email": {
+        "label": "이메일"
+      },
       "fax": {
         "label": "팩스"
       },
