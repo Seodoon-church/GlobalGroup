@@ -14,6 +14,7 @@ const advisors = [
   { key: 'byungheunJang', image: '/images/leadership/byungheun-jang.jpeg' },
   { key: 'seongtaekHong', image: '/images/leadership/seongtaek-hong.jpeg' },
   { key: 'kateLee', image: '/images/leadership/kate-lee.jpeg' },
+  { key: 'kasseyPaul', image: '/images/leadership/kassey-paul.jpeg' },
 ];
 
 const regional = [
