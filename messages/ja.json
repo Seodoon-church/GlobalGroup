@@ -97,6 +97,11 @@
         "name": "Dr. Huh, Seong-phil",
         "position": "副会長",
         "description": "新興市場およびテクノロジー分野における研究の卓越性と実践的なビジネスアプリケーションを融合した、学術界および産業界でのリーダーシップを発揮しております。"
+      },
+      "kasseyPaul": {
+        "name": "Dr. Kassey Chandra Sekhar Paul",
+        "position": "技術運営ディレクター",
+        "description": "GGKの高純度石英事業における全ての技術および供給オペレーションを統括しております。タンザニアのVish Kvartz Intanz Company Limited (VKICL)の創設者兼代表取締役として、Dr. Paulは鉱物資源開発、鉱山運営、品質認証において25年以上の専門知識を有し、GGKのHPQサプライチェーンの完全性を担う主要技術責任者として活動しております。"
       }
     },
     "advisors": {
@@ -219,6 +224,11 @@
       "title": "金取引",
       "subtitle": "貴金属",
       "description": "LBMA認証の金地金を中心に、安全で透明性の高い金取引サービスを提供し、投資および産業用の需要にお応えしております。"
+    },
+    "energyFuels": {
+      "title": "Energy & Fuels",
+      "subtitle": "Petroleum & Refined Products",
+      "description": "Crude oil, EN590 10ppm diesel and Jet A-1 aviation fuel — supplied through verified refining and supply channels, with KYC-first procedures and secure banking instruments."
     }
   },
   "stats": {
@@ -540,6 +550,152 @@
         "process2": { "title": "お見積り", "text": "国際価格に基づくリアルタイムのお見積り" },
         "process3": { "title": "決済・保険", "text": "安全な決済処理および保険手配" },
         "process4": { "title": "セキュア配送", "text": "貴金属専門物流による配送" }
+      }
+    },
+    "energyFuels": {
+      "overview": {
+        "title": "Business Overview",
+        "text1": "Global Group Korea supplies crude oil and refined petroleum products — EN590 10ppm diesel and Jet A-1 aviation fuel — through verified refining and supply channels across the Middle East, Africa, and the Americas. We are a principal-focused trading company, not a broker chain.",
+        "text2": "Every transaction is built on KYC-cleared counterparties and internationally standard payment structures — transferable L/C, SBLC, or escrow. We do not request advance payments for logistics, customs, or documentation. This standard procedure protects genuine partners and filters out fraudulent approaches."
+      },
+      "stats": {
+        "stat1": {
+          "value": "3",
+          "label": "Core Products"
+        },
+        "stat2": {
+          "value": "SGS",
+          "label": "Independent Inspection"
+        },
+        "stat3": {
+          "value": "L/C",
+          "label": "Secure Settlement"
+        }
+      },
+      "features": {
+        "feature1": {
+          "title": "Verified Supply Chains",
+          "text": "Sourcing through verified refining and supply channels, with certificate of origin and COQ for every cargo. Sanctioned-origin cargoes are not handled."
+        },
+        "feature2": {
+          "title": "Refined & Crude Range",
+          "text": "EN590 10ppm ULSD to EN 590, Jet A-1 to DEF STAN 91-091 / ASTM D1655, and crude oil across light/heavy, sweet/sour grades."
+        },
+        "feature3": {
+          "title": "Bank-Instrument Settlement",
+          "text": "Transferable L/C, SBLC and escrow only. No advance payments for customs, logistics, or documentation at any stage."
+        },
+        "feature4": {
+          "title": "Independent Quality Control",
+          "text": "Cargoes inspected by an international agency such as SGS, with quality confirmed by Certificate of Quality at loading."
+        }
+      },
+      "process": {
+        "process1": {
+          "title": "KYC & Due Diligence",
+          "text": "Mutual verification of buyer and seller identity and standing as a prerequisite"
+        },
+        "process2": {
+          "title": "Soft Offer / ICPO",
+          "text": "Quantity, specification and terms agreed"
+        },
+        "process3": {
+          "title": "Contract & Instrument",
+          "text": "Binding SPA signed; transferable L/C, SBLC or escrow established"
+        },
+        "process4": {
+          "title": "Inspection & Delivery",
+          "text": "SGS/COQ inspection, then shipment and delivery on agreed Incoterms"
+        }
+      },
+      "products": {
+        "title": "Product Line-up",
+        "intro": "Core specifications shown below. Full specifications are available as PDF on each product. Final values are confirmed by SGS inspection and Certificate of Quality at loading.",
+        "fullSpec": "Full specification (PDF)",
+        "en590": {
+          "title": "EN590 10ppm Diesel (ULSD)",
+          "tagline": "EN 590 · Ultra-low sulphur",
+          "spec1": {
+            "label": "Sulphur content",
+            "value": "max 10.0 mg/kg"
+          },
+          "spec2": {
+            "label": "Cetane number",
+            "value": "min 51.0"
+          },
+          "spec3": {
+            "label": "Density @15°C",
+            "value": "820.0–845.0 kg/m³"
+          },
+          "spec4": {
+            "label": "Flash point",
+            "value": "> 55.0°C"
+          },
+          "spec5": {
+            "label": "Viscosity @40°C",
+            "value": "2.000–4.500 mm²/s"
+          },
+          "spec6": {
+            "label": "Distillation, 95%",
+            "value": "max 360.0°C"
+          }
+        },
+        "jetA1": {
+          "title": "Jet A-1",
+          "tagline": "DEF STAN 91-091 / ASTM D1655",
+          "spec1": {
+            "label": "Density @15°C",
+            "value": "775.0–840.0 kg/m³"
+          },
+          "spec2": {
+            "label": "Flash point",
+            "value": "min 38.0°C"
+          },
+          "spec3": {
+            "label": "Freezing point",
+            "value": "max −47.0°C"
+          },
+          "spec4": {
+            "label": "Total sulphur",
+            "value": "max 0.30% m/m"
+          },
+          "spec5": {
+            "label": "Net heat of combustion",
+            "value": "min 42.80 MJ/kg"
+          },
+          "spec6": {
+            "label": "Viscosity @−20°C",
+            "value": "max 8.000 mm²/s"
+          }
+        },
+        "crude": {
+          "title": "Crude Oil",
+          "tagline": "Light/heavy · sweet/sour · spot & term",
+          "spec1": {
+            "label": "Classification",
+            "value": "By API & sulphur"
+          },
+          "spec2": {
+            "label": "API gravity",
+            "value": "Grade-dependent"
+          },
+          "spec3": {
+            "label": "Sulphur",
+            "value": "Sweet <0.5% / Sour ≥0.5%"
+          },
+          "spec4": {
+            "label": "BS&W",
+            "value": "≤ 1.0% v/v"
+          },
+          "spec5": {
+            "label": "Supply",
+            "value": "Spot / Term · CIF / FOB"
+          },
+          "spec6": {
+            "label": "Inspection",
+            "value": "SGS / COQ at loading"
+          }
+        }
       }
     }
   },

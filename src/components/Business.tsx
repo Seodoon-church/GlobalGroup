@@ -3,27 +3,43 @@
 import { useTranslations, useLocale } from 'next-intl';
 import styles from './Business.module.css';
 
-const businessData = [
+const businessData: {
+  key: string;
+  slug: string;
+  icon: string;
+  gradient: string;
+  accent: string;
+  featured?: boolean;
+  badge?: string;
+}[] = [
   {
     key: 'crudeOil',
-    icon: '🛢️',
-    gradient: 'linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%)',
-    accent: '#1a1a1a',
+    slug: 'energy-fuels',
+    icon: '⛽',
+    gradient: 'linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%)',
+    accent: '#c9a962',
+    featured: true,
+    badge: 'Flagship',
+  },
+  {
+    key: 'quartz',
+    slug: 'quartz',
+    icon: '💎',
+    gradient: 'linear-gradient(135deg, #a8a8a8 0%, #d4d4d4 100%)',
+    accent: '#7c8aa0',
+    featured: true,
+    badge: 'Exclusive',
   },
   {
     key: 'copper',
+    slug: 'copper',
     icon: '🔶',
     gradient: 'linear-gradient(135deg, #b87333 0%, #da8a47 100%)',
     accent: '#b87333',
   },
   {
-    key: 'quartz',
-    icon: '💎',
-    gradient: 'linear-gradient(135deg, #a8a8a8 0%, #d4d4d4 100%)',
-    accent: '#a8a8a8',
-  },
-  {
     key: 'gold',
+    slug: 'gold',
     icon: '🥇',
     gradient: 'linear-gradient(135deg, #c9a962 0%, #e0c98a 100%)',
     accent: '#c9a962',
@@ -48,9 +64,10 @@ export default function Business() {
           {businessData.map((item, index) => (
             <div
               key={item.key}
-              className={styles.card}
+              className={`${styles.card} ${item.featured ? styles.featured : ''}`}
               style={{ '--accent-color': item.accent, '--delay': `${index * 0.1}s` } as React.CSSProperties}
             >
+              {item.featured && item.badge && <span className={styles.flagshipBadge}>{item.badge}</span>}
               <div className={styles.cardIcon} style={{ background: item.gradient }}>
                 <span>{item.icon}</span>
               </div>
@@ -60,7 +77,7 @@ export default function Business() {
                 <span className={styles.cardSubtitle}>{t(`${item.key}.subtitle`)}</span>
                 <p className={styles.cardDescription}>{t(`${item.key}.description`)}</p>
 
-                <a href={`/${locale}/business/${item.key}`} className={styles.cardLink}>
+                <a href={`/${locale}/business/${item.slug}`} className={styles.cardLink}>
                   <span>{tCommon('learnMore')}</span>
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <line x1="5" y1="12" x2="19" y2="12"/>

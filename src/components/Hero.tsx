@@ -5,10 +5,15 @@ import { useState, useEffect } from 'react';
 import styles from './Hero.module.css';
 import WorldMapHero from './WorldMapHero';
 
-const businessItems = [
-  { key: 'crudeOil', icon: '🛢️', color: '#1a1a1a' },
-  { key: 'copper', icon: '🔶', color: '#b87333' },
+// Fuel items use hardcoded labels (product names, identical across locales) so the
+// homepage builds safely for all locales without new translation keys. Metals resolve
+// their titles from the `business` namespace.
+const businessItems: { key?: string; label?: string; icon: string; color: string }[] = [
+  { label: 'EN590 10ppm Diesel', icon: '⛽', color: '#1a1a1a' },
+  { label: 'Jet A-1', icon: '✈️', color: '#2d4a63' },
+  { label: 'Crude Oil', icon: '🛢️', color: '#1a1a1a' },
   { key: 'quartz', icon: '💎', color: '#a8a8a8' },
+  { key: 'copper', icon: '🔶', color: '#b87333' },
   { key: 'gold', icon: '🥇', color: '#c9a962' },
 ];
 
@@ -65,23 +70,26 @@ export default function Hero() {
           {/* Rolling Banner */}
           <div className={styles.rollingBanner}>
             <div className={styles.bannerTrack}>
-              {businessItems.map((item, index) => (
-                <div
-                  key={item.key}
-                  className={`${styles.bannerItem} ${index === activeIndex ? styles.bannerItemActive : ''}`}
-                >
-                  <span className={styles.bannerIcon}>{item.icon}</span>
-                  <span className={styles.bannerText}>{tBusiness(`${item.key}.title`)}</span>
-                </div>
-              ))}
+              {businessItems.map((item, index) => {
+                const label = item.label ?? tBusiness(`${item.key}.title`);
+                return (
+                  <div
+                    key={(item.key ?? item.label) as string}
+                    className={`${styles.bannerItem} ${index === activeIndex ? styles.bannerItemActive : ''}`}
+                  >
+                    <span className={styles.bannerIcon}>{item.icon}</span>
+                    <span className={styles.bannerText}>{label}</span>
+                  </div>
+                );
+              })}
             </div>
             <div className={styles.bannerIndicators}>
               {businessItems.map((item, index) => (
                 <button
-                  key={item.key}
+                  key={(item.key ?? item.label) as string}
                   className={`${styles.bannerDot} ${index === activeIndex ? styles.bannerDotActive : ''}`}
                   onClick={() => setActiveIndex(index)}
-                  aria-label={tBusiness(`${item.key}.title`)}
+                  aria-label={item.label ?? tBusiness(`${item.key}.title`)}
                 />
               ))}
             </div>

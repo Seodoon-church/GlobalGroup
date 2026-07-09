@@ -5,7 +5,9 @@ import { locales } from '../../../../../i18n';
 import { BASE_URL } from '@/lib/constants';
 import styles from './page.module.css';
 
-const slugs = ['crude-oil', 'copper', 'quartz', 'gold'];
+// 'energy-fuels' is the canonical slug; 'crude-oil' is kept as an alias so existing
+// links/bookmarks continue to resolve to the same (expanded) content.
+const slugs = ['energy-fuels', 'crude-oil', 'copper', 'quartz', 'gold'];
 
 export function generateStaticParams() {
   return locales.flatMap((locale) =>
@@ -18,10 +20,15 @@ const businessData: Record<string, {
   color: string;
   gradient: string;
 }> = {
+  'energy-fuels': {
+    key: 'energyFuels',
+    color: '#0a1628',
+    gradient: 'linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%)',
+  },
   'crude-oil': {
-    key: 'crudeOil',
-    color: '#1a1a1a',
-    gradient: 'linear-gradient(135deg, #1a1a1a 0%, #333333 100%)',
+    key: 'energyFuels',
+    color: '#0a1628',
+    gradient: 'linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%)',
   },
   'copper': {
     key: 'copper',
@@ -89,6 +96,19 @@ export default async function BusinessDetailPage({ params }: Props) {
     : ['feature1', 'feature2', 'feature3', 'feature4'];
   const processes = ['process1', 'process2', 'process3', 'process4'];
 
+  // Product line-ups per business (rendered as a spec section). Full specs are static PDFs.
+  // NOTE: High-Purity Quartz (HPQ) spec table is intentionally held pending VKICL/SGS
+  // confirmed values, so quartz is not listed here yet.
+  const productMap: Record<string, { key: string; pdf: string }[]> = {
+    energyFuels: [
+      { key: 'en590', pdf: '/specs/GGK-EN590-10ppm-ULSD.pdf' },
+      { key: 'jetA1', pdf: '/specs/GGK-Jet-A1.pdf' },
+      { key: 'crude', pdf: '/specs/GGK-Crude-Oil.pdf' },
+    ],
+  };
+  const products = productMap[business.key] ?? [];
+  const specRows = ['spec1', 'spec2', 'spec3', 'spec4', 'spec5', 'spec6'];
+
   const chemicalData = [
     { param: 'SiO₂ (%)', result: '+99.99 – +99.9' },
     { param: 'Fe₂O₃ (ppm)', result: '0.0002 – 0.0043' },
@@ -119,7 +139,7 @@ export default async function BusinessDetailPage({ params }: Props) {
             {t('backToBusiness')}
           </Link>
           <div className={styles.heroIcon}>
-            {slug === 'crude-oil' && (
+            {(slug === 'energy-fuels' || slug === 'crude-oil') && (
               <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M12 2C12 2 4 8 4 14a8 8 0 1016 0c0-6-8-12-8-12z" />
               </svg>
@@ -187,6 +207,45 @@ export default async function BusinessDetailPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {/* Products / Specification Section */}
+      {products.length > 0 && (
+        <section className={styles.productsSection}>
+          <div className={styles.container}>
+            <div className={styles.sectionHeader}>
+              <div className={styles.goldLine}></div>
+              <h2 className={styles.sectionTitle}>{t(`${business.key}.products.title`)}</h2>
+              <p className={styles.productsIntro}>{t(`${business.key}.products.intro`)}</p>
+            </div>
+            <div className={`${styles.productsGrid} ${products.length === 1 ? styles.productsGridSingle : ''}`}>
+              {products.map((p) => (
+                <div key={p.key} className={styles.productCard}>
+                  <h3 className={styles.productTitle}>{t(`${business.key}.products.${p.key}.title`)}</h3>
+                  <p className={styles.productTagline}>{t(`${business.key}.products.${p.key}.tagline`)}</p>
+                  <table className={styles.specTable}>
+                    <tbody>
+                      {specRows.map((s) => (
+                        <tr key={s}>
+                          <th>{t(`${business.key}.products.${p.key}.${s}.label`)}</th>
+                          <td>{t(`${business.key}.products.${p.key}.${s}.value`)}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                  <a href={p.pdf} className={styles.specLink} target="_blank" rel="noopener noreferrer">
+                    {t(`${business.key}.products.fullSpec`)}
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+                      <polyline points="7 10 12 15 17 10" />
+                      <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Quartz-Only: Gallery Section */}
       {isQuartz && (

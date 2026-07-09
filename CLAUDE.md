@@ -315,6 +315,74 @@ GlobalGroup/
 - **커밋**: `c9187a3` (63 files changed, +6032/-1104)
 - **배포 완료**: Firebase Hosting (https://global-group-777.web.app)
 
+### 2026-03-10 (Session 12)
+- **VISH 석영 미디어 자료 웹사이트 반영**
+  - `public/images/quartz/` 폴더 생성, 4장 사진 + 2개 영상 추가
+    - mining-site.jpg, quartz-samples.jpg, shipping-logistics.jpg, chemical-analysis.jpg
+    - quartz-mining-1.mp4, quartz-mining-2.mp4
+  - 석영 사업 상세 페이지에 갤러리 섹션 추가 (Overview ↔ Chemical Analysis 사이)
+    - 2×2 사진 그리드 + 2열 비디오 그리드
+  - 파트너 페이지 VISH 섹션 강화
+    - 3장 사진 그리드, VISH 슬로건 ("Purity Perfected for Future Technologies")
+    - "석영 사업 상세 보기" 링크 추가
+  - 9개 언어 번역 완료 (gallery, partner photo 키)
+  - **커밋**: `91bafdd`
+  - **배포 완료**
+- **파비콘 생성**
+  - `public/favicon.svg` - 네이비+골드 테마, "G" 레터 + 육각형(석영) 모티프
+  - `public/favicon-32.png` (32×32), `public/apple-touch-icon.png` (180×180)
+  - layout.tsx에 favicon 링크 업데이트
+  - **커밋**: `c5922aa`
+  - **배포 완료**
+- **비즈니스 이메일 설정 (진행 중)**
+  - 무료 솔루션 선정: Cloudflare Email Routing (수신) + SMTP2GO (발신)
+  - Cloudflare에 도메인 네임서버 연결 (whois.co.kr에서 NS 변경)
+  - SMTP2GO 가입 완료, 도메인 인증 DNS 레코드 설정 중
+    - CNAME: em885563 → return.smtp2go.net
+    - CNAME: s885563._domainkey → dkim.smtp2go.net
+    - CNAME: link → track.smtp2go.net
+  - Cloudflare Email Routing 수신 설정 완료 (info@, ceo@)
+  - Gmail "다른 주소로 보내기" 발신 설정 완료
+  - **이메일 세팅 완료** ✅
+- **웹사이트에 이메일 반영**
+  - Contact 페이지: 이메일 연락처 항목 추가
+  - Footer: 이메일 링크 추가
+  - JSON-LD 구조화 데이터: email 필드 추가
+  - constants.ts: COMPANY_EMAIL 상수 추가
+  - 9개 언어 번역 파일: contactPage.info.email 라벨 추가
+  - **커밋**: `dfa6378`
+  - **배포 완료**
+
+### 2026-04-05 (Session 13)
+- **Dr. Kassey Chandra Sekhar Paul 경영진 추가**
+  - Executive Leadership 섹션에 4번째 멤버로 추가
+  - 사진: `public/images/leadership/dr-kassey-paul.jpeg`
+  - 직책: Director of Technical Operations
+  - VKICL(탄자니아) 설립자/대표, HPQ 공급망 기술 총괄
+  - 9개 언어 번역 완료 (en, ko, ja, zh, sw, ar, hi, bn, fr)
+  - 사진 검정 테두리 제거 (원본 크롭 + 파일명 변경으로 캐시 무효화)
+  - Leadership.module.css: imageWrapper에 background 추가, profileImage에 border/outline none
+- **Firebase Hosting 커스텀 도메인 확인**
+  - `globalgroupkorea.com` + `www.globalgroupkorea.com` 연결됨 확인
+  - BASE_URL은 이미 `https://www.globalgroupkorea.com`으로 설정되어 있음
+- **빌드 성공** (111개 페이지)
+- **배포 완료**: Firebase Hosting
+
+### 2026-07-09 (Session 14)
+- **Energy & Fuels 버티컬 승격 (개편안 GGK-OPS-2026-WEB-001 안전 병합)**
+  - 외부 개편안 패키지(`GGK-EnergyFuels-Web-v1`) 수령 — 단, 패키지 base가 현재 저장소보다 구버전이라 **덮어쓰기 시 Session 10 SEO·Session 12 석영 섹션 유실 + 빌드 붕괴** 확인. 덮어쓰기 대신 **병합**으로 처리.
+  - Crude Oil → **Energy & Fuels** 플래그십 승격, 3제품(EN590 10ppm·Jet A-1·원유) 통합
+    - `Hero.tsx`: 롤링 배너 연료 3종 리드(하드코딩 라벨 → 9개 언어 빌드 안전)
+    - `Business.tsx`: 첫 카드 Energy & Fuels(`Flagship` 배지) + 석영 2순위(`Exclusive` 배지), `slug` 필드로 링크 버그 수정(`/business/energy-fuels`)
+    - `Footer.tsx`: 원유 링크 → `/business/energy-fuels`
+    - `Business.module.css`, `[slug]/page.module.css`: featured/badge, Products 사양표 스타일 추가
+  - `[slug]/page.tsx`: **현재 앞선 버전에 수동 이식** — `energy-fuels` 슬러그 + `crude-oil` 별칭(둘 다 key `energyFuels`), Products 사양표 섹션(제품 6행 + PDF). **9개 언어 정적생성·SEO hreflang·석영 갤러리/화학분석/광산/생산 섹션 전부 보존**
+  - `messages/*.json` 9개: `business.energyFuels` + `businessDetail.energyFuels`(products 포함) **문자열 삽입**(기존 내용 바이트 보존). en/ko 완역 + `business.crudeOil` 재값(러시아 삭제), 나머지 7개는 영어 fallback(추후 번역)
+  - 스펙 PDF 3종 추가: `public/specs/GGK-{EN590-10ppm-ULSD,Jet-A1,Crude-Oil}.pdf`
+  - **의사결정(대표님 확인)**: 석영 VISH 공급사명 **현행 노출 유지**(개편안의 소스보호 삭제 미적용) / **HPQ 지표 수치 게시 보류**(VKICL·SGS 확정 후) → 석영 콘텐츠·HPQ 사양표는 이번에 미반영
+  - **빌드 성공** (111 → **120개 페이지**, energy-fuels 슬러그 × 9언어 +9). 실제 `npm run build` 통과 확인
+- **미배포**: 배포는 대표님 승인 후 진행 예정
+
 ## 다음 작업
 - [x] 빌드 테스트 및 에러 수정
 - [x] 세계지도 + 7개 거점 GlobalNetwork 컴포넌트
@@ -335,6 +403,12 @@ GlobalGroup/
 - [ ] 경영진 실제 사진 추가 (현재 이니셜 플레이스홀더)
 - [x] 뉴스/공지사항 섹션 ✅
 - [x] 반응형 디자인 점검 ✅
+- [x] Energy & Fuels 버티컬 승격 (개편안 병합) ✅
+- [ ] Energy & Fuels 상세: 7개 언어(ja/zh/sw/ar/hi/bn/fr) 번역 반영 (현재 영어 fallback)
+- [ ] 7개 언어 `business.crudeOil` 카드 문구 Energy & Fuels로 번역 (현재 구 원유 문구)
+- [ ] HPQ 지표 수치 확정 후 석영 사양표(products) + `GGK-HPQ.pdf` 게시
+- [ ] (선택) `businessDetail.crudeOil` dead 블록 정리 (러시아 문구 잔존, 미렌더)
+- [ ] Session 14 개편안 배포 (대표님 승인 후)
 
 ## 메모
 - docs/Quartz 폴더에 참고자료 있음 (Dr. Kassey Paul 명함, Vish 법인등록증 등)

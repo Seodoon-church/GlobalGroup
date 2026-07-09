@@ -1,0 +1,10 @@
+# Prevent CRLF conversion from corrupting binary assets on checkout (core.autocrlf=true)
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mp4 binary
+*.woff binary
+*.woff2 binary

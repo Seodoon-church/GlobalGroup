@@ -97,6 +97,11 @@
         "name": "허성필 박사",
         "position": "부회장",
         "description": "신흥 시장 및 기술 분야에서 연구 우수성과 실용적인 비즈니스 응용을 결합한 학계 및 산업 리더십을 보유하고 있습니다."
+      },
+      "kasseyPaul": {
+        "name": "Dr. Kassey Chandra Sekhar Paul",
+        "position": "기술 운영 이사",
+        "description": "GGK의 고순도 석영 사업에 대한 모든 기술 및 공급 운영을 총괄합니다. 탄자니아 Vish Kvartz Intanz Company Limited (VKICL)의 창립자 겸 대표이사로서, Dr. Paul은 광물 자원 개발, 광산 운영 및 품질 인증 분야에서 25년 이상의 전문성을 보유하고 있으며, GGK의 HPQ 공급망 무결성을 위한 핵심 기술 책임자로 활동하고 있습니다."
       }
     },
     "advisors": {
@@ -201,9 +206,9 @@
     "title": "사업영역",
     "subtitle": "글로벌 자원 시장을 선도합니다",
     "crudeOil": {
-      "title": "원유 거래",
-      "subtitle": "Crude Oil Trading",
-      "description": "중동, 러시아, 미주 지역의 원유를 안정적으로 공급하며, 글로벌 정유사와의 파트너십을 통해 경쟁력 있는 거래를 실현합니다."
+      "title": "에너지 & 연료",
+      "subtitle": "석유 · 정제유 제품",
+      "description": "원유, EN590 10ppm 디젤, Jet A-1 항공유 — 검증된 정유·공급 채널을 통해, KYC 우선 절차와 안전한 은행 인스트루먼트로 공급합니다."
     },
     "copper": {
       "title": "구리 거래",
@@ -219,6 +224,11 @@
       "title": "금 거래",
       "subtitle": "Gold Trading",
       "description": "LBMA 인증 금괴를 중심으로 안전하고 투명한 금 거래 서비스를 제공하며, 투자 및 산업용 수요에 대응합니다."
+    },
+    "energyFuels": {
+      "title": "에너지 & 연료",
+      "subtitle": "석유 · 정제유 제품",
+      "description": "원유, EN590 10ppm 디젤, Jet A-1 항공유 — 검증된 정유·공급 채널을 통해, KYC 우선 절차와 안전한 은행 인스트루먼트로 공급합니다."
     }
   },
   "stats": {
@@ -385,6 +395,152 @@
         "process2": { "title": "주문", "text": "수량 및 거래 조건 확정" },
         "process3": { "title": "인증 확인", "text": "LBMA 인증서 및 품질 검증" },
         "process4": { "title": "인도", "text": "안전한 운송 및 인도" }
+      }
+    },
+    "energyFuels": {
+      "overview": {
+        "title": "사업 개요",
+        "text1": "글로벌그룹코리아는 중동·아프리카·아메리카의 검증된 정유·공급 채널을 통해 원유와 정제 석유제품(EN590 10ppm 디젤, Jet A-1 항공유)을 공급합니다. 우리는 단순 중개가 아닌, 프린시펄 중심의 트레이딩 회사입니다.",
+        "text2": "모든 거래는 KYC를 통과한 카운터파티와 국제 표준 결제 구조(양도가능 L/C·SBLC·에스크로) 위에서 진행됩니다. 물류·통관·서류 명목의 선지급은 요구하지 않으며, 이 표준 절차가 진성 파트너를 보호하고 사기성 접근을 걸러냅니다."
+      },
+      "stats": {
+        "stat1": {
+          "value": "3",
+          "label": "핵심 제품"
+        },
+        "stat2": {
+          "value": "SGS",
+          "label": "독립 검사"
+        },
+        "stat3": {
+          "value": "L/C",
+          "label": "안전 결제"
+        }
+      },
+      "features": {
+        "feature1": {
+          "title": "검증된 공급망",
+          "text": "검증된 정유·공급 채널을 통한 소싱, 화물별 원산지 증명·COQ 동반. 제재 대상 원산지 물량은 취급하지 않습니다."
+        },
+        "feature2": {
+          "title": "정제유·원유 라인업",
+          "text": "EN 590 기준 EN590 10ppm ULSD, DEF STAN 91-091 / ASTM D1655 기준 Jet A-1, 경질·중질·sweet·sour 등급 원유."
+        },
+        "feature3": {
+          "title": "은행 인스트루먼트 결제",
+          "text": "양도가능 L/C·SBLC·에스크로만 사용. 통관·물류·서류 명목의 선지급은 어떤 단계에서도 없습니다."
+        },
+        "feature4": {
+          "title": "독립 품질 검사",
+          "text": "SGS 등 국제 검사기관 검사, 선적 시 Certificate of Quality로 품질 확정."
+        }
+      },
+      "process": {
+        "process1": {
+          "title": "KYC·실사",
+          "text": "매수·매도 양측 신원·자격 상호 검증 (선행 조건)"
+        },
+        "process2": {
+          "title": "소프트 오퍼 / ICPO",
+          "text": "수량·사양·조건 합의"
+        },
+        "process3": {
+          "title": "계약·인스트루먼트",
+          "text": "바인딩 SPA 서명, 양도가능 L/C·SBLC·에스크로 설정"
+        },
+        "process4": {
+          "title": "검사·인도",
+          "text": "SGS/COQ 검사 후 합의 인코텀즈로 선적·인도"
+        }
+      },
+      "products": {
+        "title": "제품 라인업",
+        "intro": "아래는 핵심 사양입니다. 전체 사양은 각 제품의 PDF로 제공되며, 최종값은 선적 시 SGS 검사·COQ 기준으로 확정됩니다.",
+        "fullSpec": "풀스펙 (PDF)",
+        "en590": {
+          "title": "EN590 10ppm 디젤 (ULSD)",
+          "tagline": "EN 590 · 초저유황",
+          "spec1": {
+            "label": "유황 함량",
+            "value": "max 10.0 mg/kg"
+          },
+          "spec2": {
+            "label": "세탄가",
+            "value": "min 51.0"
+          },
+          "spec3": {
+            "label": "밀도 @15°C",
+            "value": "820.0–845.0 kg/m³"
+          },
+          "spec4": {
+            "label": "인화점",
+            "value": "> 55.0°C"
+          },
+          "spec5": {
+            "label": "동점도 @40°C",
+            "value": "2.000–4.500 mm²/s"
+          },
+          "spec6": {
+            "label": "증류 95%",
+            "value": "max 360.0°C"
+          }
+        },
+        "jetA1": {
+          "title": "Jet A-1",
+          "tagline": "DEF STAN 91-091 / ASTM D1655",
+          "spec1": {
+            "label": "밀도 @15°C",
+            "value": "775.0–840.0 kg/m³"
+          },
+          "spec2": {
+            "label": "인화점",
+            "value": "min 38.0°C"
+          },
+          "spec3": {
+            "label": "어는점",
+            "value": "max −47.0°C"
+          },
+          "spec4": {
+            "label": "총 유황",
+            "value": "max 0.30% m/m"
+          },
+          "spec5": {
+            "label": "순 연소열",
+            "value": "min 42.80 MJ/kg"
+          },
+          "spec6": {
+            "label": "동점도 @−20°C",
+            "value": "max 8.000 mm²/s"
+          }
+        },
+        "crude": {
+          "title": "원유",
+          "tagline": "경질·중질 · sweet·sour · spot·term",
+          "spec1": {
+            "label": "분류",
+            "value": "API·유황 기준"
+          },
+          "spec2": {
+            "label": "API 비중",
+            "value": "등급별"
+          },
+          "spec3": {
+            "label": "유황",
+            "value": "Sweet <0.5% / Sour ≥0.5%"
+          },
+          "spec4": {
+            "label": "BS&W",
+            "value": "≤ 1.0% v/v"
+          },
+          "spec5": {
+            "label": "공급",
+            "value": "Spot / Term · CIF / FOB"
+          },
+          "spec6": {
+            "label": "검사",
+            "value": "선적 시 SGS / COQ"
+          }
+        }
       }
     }
   },

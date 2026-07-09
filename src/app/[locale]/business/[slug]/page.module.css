@@ -825,3 +825,115 @@
     padding: 28px;
   }
 }
+
+/* Products Section — Energy & Fuels */
+.productsSection {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.productsIntro {
+  max-width: 720px;
+  margin: 16px auto 0;
+  font-size: 1.05rem;
+  color: #6c757d;
+  line-height: 1.8;
+}
+
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.productCard {
+  background: #f8f9fa;
+  border: 1px solid #eceff3;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+.productCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 50px rgba(10, 22, 40, 0.08);
+  border-color: #c9a962;
+}
+
+.productTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #0a1628;
+  margin: 0 0 6px;
+}
+
+.productTagline {
+  font-size: 0.9rem;
+  color: #c9a962;
+  font-weight: 600;
+  margin: 0 0 20px;
+}
+
+.specTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+.specTable tr {
+  border-bottom: 1px solid #e6e9ee;
+}
+
+.specTable tr:last-child {
+  border-bottom: none;
+}
+
+.specTable th {
+  text-align: left;
+  padding: 10px 8px 10px 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #6c757d;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+.specTable td {
+  text-align: right;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #0a1628;
+}
+
+.specLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+  color: #0a1628;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.specLink:hover {
+  color: #a88a3d;
+  gap: 12px;
+}
+
+@media (max-width: 900px) {
+  .productsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Single-product spec layout (e.g., High-Purity Quartz) */
+.productsGridSingle {
+  grid-template-columns: minmax(0, 540px);
+  justify-content: center;
+}

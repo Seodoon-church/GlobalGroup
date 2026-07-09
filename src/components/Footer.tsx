@@ -9,7 +9,7 @@ export default function Footer() {
   const locale = useLocale();
 
   const businessLinks = [
-    { key: 'crudeOil', href: '/business/crude-oil' },
+    { key: 'crudeOil', href: '/business/energy-fuels' },
     { key: 'copper', href: '/business/copper' },
     { key: 'quartz', href: '/business/quartz' },
     { key: 'gold', href: '/business/gold' },
