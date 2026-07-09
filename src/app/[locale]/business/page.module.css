@@ -199,7 +199,7 @@
 
 .imgStack {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: 1fr;
   gap: 6px;
   width: 100%;
   height: 100%;
@@ -211,6 +211,11 @@
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.imgContain {
+  object-fit: contain;
+  padding: 10px;
 }
 
 .chip {

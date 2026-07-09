@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { locales } from '../../../../../i18n';
 import { BASE_URL } from '@/lib/constants';
+import CopperSupplyChain from './CopperSupplyChain';
 import styles from './page.module.css';
 
 // 'energy-fuels' is the canonical slug; 'crude-oil' is kept as an alias so existing
@@ -214,6 +215,9 @@ export default async function BusinessDetailPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {/* Copper-Only: African Supply Chain */}
+      {business.key === 'copper' && <CopperSupplyChain />}
 
       {/* Products / Specification Section */}
       {products.length > 0 && (

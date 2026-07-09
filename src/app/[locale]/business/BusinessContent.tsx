@@ -11,6 +11,7 @@ const COMMODITIES: {
   accent: string;
   accentText: string;
   images?: string[];
+  fit?: 'cover' | 'contain';
 }[] = [
   {
     key: 'energyFuels', slug: 'energy-fuels', accent: '#1a1a1a', accentText: '#8a6d2f',
@@ -20,7 +21,10 @@ const COMMODITIES: {
     key: 'quartz', slug: 'quartz', accent: '#8f8f8f', accentText: '#6c757d',
     images: ['/images/business/quartz-1.jpg', '/images/business/quartz-2.jpg'],
   },
-  { key: 'copper', slug: 'copper', accent: '#b87333', accentText: '#a05e28' },
+  {
+    key: 'copper', slug: 'copper', accent: '#b87333', accentText: '#a05e28',
+    images: ['/images/business/copper-supply-chain.jpg'], fit: 'contain',
+  },
   { key: 'gold', slug: 'gold', accent: '#c9a962', accentText: '#a88a3d' },
 ];
 
@@ -81,7 +85,13 @@ export default function BusinessContent() {
                   {c.images ? (
                     <div className={styles.imgStack}>
                       {c.images.map((src, n) => (
-                        <img key={src} src={src} alt={`${t(`pages.business.commodities.${c.key}.name`)} ${n + 1}`} className={styles.imgPhoto} loading="lazy" />
+                        <img
+                          key={src}
+                          src={src}
+                          alt={`${t(`pages.business.commodities.${c.key}.name`)} ${n + 1}`}
+                          className={`${styles.imgPhoto} ${c.fit === 'contain' ? styles.imgContain : ''}`}
+                          loading="lazy"
+                        />
                       ))}
                     </div>
                   ) : (
@@ -96,12 +106,25 @@ export default function BusinessContent() {
                   <h2 className={styles.commodityName}>{t(`pages.business.commodities.${c.key}.name`)}</h2>
                   <p className={styles.commodityLong}>{t(`pages.business.commodities.${c.key}.long`)}</p>
                   <div className={styles.points}>
-                    {['p1', 'p2', 'p3'].map((p) => (
-                      <div key={p} className={styles.point}>
-                        <span className={styles.pointDash} style={{ color: c.accentText }}>—</span>
-                        <span>{t(`pages.business.commodities.${c.key}.${p}`)}</span>
-                      </div>
-                    ))}
+                    {['p1', 'p2', 'p3'].map((p) => {
+                      const text = t(`pages.business.commodities.${c.key}.${p}`);
+                      const idx = text.indexOf(': ');
+                      return (
+                        <div key={p} className={styles.point}>
+                          <span className={styles.pointDash} style={{ color: c.accentText }}>—</span>
+                          <span>
+                            {idx > 0 ? (
+                              <>
+                                <strong>{text.slice(0, idx + 1)}</strong>
+                                {text.slice(idx + 1)}
+                              </>
+                            ) : (
+                              text
+                            )}
+                          </span>
+                        </div>
+                      );
+                    })}
                   </div>
                   <a href={`/${locale}/business/${c.slug}`} className={styles.commodityLink}>
                     {t('common.learnMore')} →

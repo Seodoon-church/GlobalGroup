@@ -532,6 +532,29 @@
           "title": "डिलीवरी पूर्ण",
           "text": "अंतर्राष्ट्रीय रसद और सीमा शुल्क निकासी सहायता"
         }
+      },
+      "supplyChain": {
+        "title": "African Copper Supply Chain",
+        "subtitle": "Infrastructure & global connectivity",
+        "imageAlt": "Infographic map showing the African Copper Supply Chain, featuring major mines in DRC and Zambia, logistics routes to Lobito, Dar es Salaam and Durban ports, and global market connectivity.",
+        "items": {
+          "production": {
+            "title": "The Heart of Production: Central African Copperbelt",
+            "body": "At the center of the supply chain is the Central African Copperbelt, spanning the DRC and Zambia — home to some of the world's largest and highest-grade copper reserves. Key mining hubs include Kamoa-Kakula (one of the world's fastest-growing, highest-grade major copper mines), Tenke Fungurume (a premier copper-cobalt mine in the DRC), and Luanshya & Konkola (integral mining and processing centers in Zambia). The region produces premium copper ore and cathodes — the foundational raw materials for global industrialization."
+          },
+          "routes": {
+            "title": "Multi-Modal Export Routes",
+            "body": "Four strategic corridors ensure stable, flexible supply, shifting from traditional land routes to efficient rail and sea networks: the Western Route via Lobito Port (Angola) to the Atlantic; the Eastern Route via Dar es Salaam Port (Tanzania) to Asian markets; the Southern Route via Durban and Cape Town Ports (South Africa) and Beira Port (Mozambique); and the South-Western Route via Walvis Bay Port (Namibia) as an alternative Atlantic gateway."
+          },
+          "midstream": {
+            "title": "Smelting, Refining & Global Connectivity",
+            "body": "Beyond raw extraction, the chain integrates advanced midstream capabilities — smelting and refining complexes that process ore into high-purity copper cathodes locally, maximizing value before export. Processed copper then ships via major maritime routes to power global electrification, EV production, and renewable-energy infrastructure."
+          },
+          "outlook": {
+            "title": "Copper Supply Outlook",
+            "body": "As the global transition toward green energy and electrification accelerates, demand for copper is projected to grow steadily through 2028 and beyond. This African supply hub plays a critical role in meeting the world's future copper needs securely and sustainably."
+          }
+        }
       }
     },
     "quartz": {
@@ -1233,10 +1256,10 @@
         "copper": {
           "category": "औद्योगिक धातुएँ",
           "name": "तांबा",
-          "long": "प्रमुख तांबा-उत्पादक क्षेत्रों में फैले हमारे Africa नेटवर्क के माध्यम से प्राप्त, हम विद्युतीकरण, निर्माण और इलेक्ट्रॉनिक्स उद्योगों के लिए उच्च गुणवत्ता वाली तांबा सामग्री की स्थिर आपूर्ति प्रदान करते हैं।",
-          "p1": "अफ्रीकी सोर्सिंग नेटवर्क",
-          "p2": "उच्च-गुणवत्ता वाली तांबा सामग्री",
-          "p3": "स्थिर दीर्घकालिक आपूर्ति"
+          "long": "Strategic African Supply Infrastructure",
+          "p1": "The Copperbelt: Sourcing from premier hubs like Kamoa-Kakula & Konkola.",
+          "p2": "Multi-Modal Export: Connected via strategic Western, Eastern, and Southern routes.",
+          "p3": "Global Delivery: Seamless maritime transit to worldwide industrial partners."
         },
         "gold": {
           "category": "मूल्यवान धातुएँ",
