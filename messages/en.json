@@ -214,7 +214,7 @@
     "copper": {
       "title": "Copper Trading",
       "subtitle": "Industrial Metals",
-      "description": "Through our network with major copper-producing countries like Chile, Peru, and Australia, we provide stable supply of high-quality copper materials."
+      "description": "Through our African sourcing network across key copper-producing regions, we provide a stable supply of high-quality copper materials that meet our clients' quality standards."
     },
     "quartz": {
       "title": "Quartz Trading",
@@ -480,7 +480,7 @@
     "copper": {
       "overview": {
         "title": "Business Overview",
-        "text1": "Global Group Korea maintains a network with major copper-producing countries including Chile, Peru, and Australia to provide a stable supply of high-quality copper materials. We handle various products from copper cathode to copper wire.",
+        "text1": "Global Group Korea maintains a sourcing network across Africa's key copper-producing regions, providing a stable supply of high-quality copper materials for a range of industries.",
         "text2": "The importance of copper is growing in the transition to a low-carbon economy, making it essential for the electric vehicle, renewable energy, and electronics industries. We build stable supply chains based on demand from these growth sectors."
       },
       "stats": {
@@ -504,7 +504,7 @@
         },
         "feature2": {
           "title": "Stable Supply",
-          "text": "Secure stable sourcing through long-term partnerships with major mines in Chile, Peru, and Australia."
+          "text": "Secure stable sourcing through long-term partnerships with mines across Africa's copper-producing regions."
         },
         "feature3": {
           "title": "Price Competitiveness",
@@ -1114,7 +1114,7 @@
         "copper": {
           "name": "Copper",
           "category": "Industrial Metals",
-          "short": "Stable, high-quality copper supply from Chile, Peru, and Australia."
+          "short": "Stable, high-quality copper supply sourced across Africa."
         },
         "gold": {
           "name": "Gold",
@@ -1233,8 +1233,8 @@
         "copper": {
           "category": "Industrial Metals",
           "name": "Copper",
-          "long": "Through our network with major copper-producing countries — Chile, Peru, and Australia — we provide a stable supply of high-quality copper materials for the electrification, construction, and electronics industries.",
-          "p1": "Chile · Peru · Australia network",
+          "long": "Sourced through our African network across key copper-producing regions, we provide a stable supply of high-quality copper materials for the electrification, construction, and electronics industries.",
+          "p1": "African sourcing network",
           "p2": "High-quality copper materials",
           "p3": "Stable long-term supply"
         },

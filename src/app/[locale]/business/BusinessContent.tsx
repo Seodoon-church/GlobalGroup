@@ -16,7 +16,10 @@ const COMMODITIES: {
     key: 'energyFuels', slug: 'energy-fuels', accent: '#1a1a1a', accentText: '#8a6d2f',
     images: ['/images/business/energy-fuels-1.jpg', '/images/business/energy-fuels-2.jpg'],
   },
-  { key: 'quartz', slug: 'quartz', accent: '#8f8f8f', accentText: '#6c757d' },
+  {
+    key: 'quartz', slug: 'quartz', accent: '#8f8f8f', accentText: '#6c757d',
+    images: ['/images/business/quartz-1.jpg', '/images/business/quartz-2.jpg'],
+  },
   { key: 'copper', slug: 'copper', accent: '#b87333', accentText: '#a05e28' },
   { key: 'gold', slug: 'gold', accent: '#c9a962', accentText: '#a88a3d' },
 ];

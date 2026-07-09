@@ -214,7 +214,7 @@
     "copper": {
       "title": "Negoce de Cuivre",
       "subtitle": "Metaux Industriels",
-      "description": "Grace a notre reseau avec les principaux pays producteurs de cuivre tels que le Chili, le Perou et l'Australie, nous assurons un approvisionnement stable en materiaux de cuivre de haute qualite."
+      "description": "Grâce à notre réseau d'approvisionnement africain couvrant les principales régions productrices de cuivre, nous assurons un approvisionnement stable en matériaux de cuivre de haute qualité répondant aux normes de qualité de nos clients."
     },
     "quartz": {
       "title": "Negoce de Quartz",
@@ -480,7 +480,7 @@
     "copper": {
       "overview": {
         "title": "Apercu de l'Activite",
-        "text1": "Global Group Korea entretient un reseau avec les principaux pays producteurs de cuivre, notamment le Chili, le Perou et l'Australie, pour assurer un approvisionnement stable en materiaux de cuivre de haute qualite. Nous traitons divers produits, de la cathode de cuivre au fil de cuivre.",
+        "text1": "Global Group Korea entretient un réseau d'approvisionnement couvrant les principales régions productrices de cuivre d'Africa, assurant un approvisionnement stable en matériaux de cuivre de haute qualité pour un large éventail d'industries.",
         "text2": "L'importance du cuivre croit dans la transition vers une economie bas carbone, ce qui en fait un element essentiel pour les industries des vehicules electriques, des energies renouvelables et de l'electronique. Nous construisons des chaines d'approvisionnement stables basees sur la demande de ces secteurs en croissance."
       },
       "stats": {
@@ -504,7 +504,7 @@
         },
         "feature2": {
           "title": "Approvisionnement Stable",
-          "text": "Securisation de l'approvisionnement grace a des partenariats a long terme avec les principales mines au Chili, au Perou et en Australie."
+          "text": "Sécurisez un approvisionnement stable grâce à des partenariats à long terme avec des mines dans les régions productrices de cuivre d'Africa."
         },
         "feature3": {
           "title": "Competitivite des Prix",
@@ -1114,7 +1114,7 @@
         "copper": {
           "name": "Cuivre",
           "category": "Métaux industriels",
-          "short": "Approvisionnement stable en cuivre de haute qualité en provenance du Chile, du Peru et d'Australia."
+          "short": "Un approvisionnement stable en cuivre de haute qualité provenant de toute Africa."
         },
         "gold": {
           "name": "Or",
@@ -1233,8 +1233,8 @@
         "copper": {
           "category": "Métaux industriels",
           "name": "Cuivre",
-          "long": "Grâce à notre réseau avec les principaux pays producteurs de cuivre — le Chile, le Peru et l'Australia — nous assurons un approvisionnement stable en matières cuivreuses de haute qualité pour les industries de l'électrification, de la construction et de l'électronique.",
-          "p1": "Réseau Chile · Peru · Australia",
+          "long": "Approvisionnés via notre réseau en Africa couvrant les principales régions productrices de cuivre, nous assurons un approvisionnement stable en matériaux de cuivre de haute qualité pour les secteurs de l'électrification, de la construction et de l'électronique.",
+          "p1": "Réseau d'approvisionnement africain",
           "p2": "Matières cuivreuses de haute qualité",
           "p3": "Approvisionnement stable à long terme"
         },

@@ -214,7 +214,7 @@
     "copper": {
       "title": "Biashara ya Shaba",
       "subtitle": "Metali za Viwandani",
-      "description": "Kupitia mtandao wetu na nchi kuu zinazozalisha shaba kama Chile, Peru, na Australia, tunatoa ugavi thabiti wa malighafi ya shaba bora."
+      "description": "Kupitia mtandao wetu wa ununuzi barani Afrika katika maeneo makuu yanayozalisha shaba, tunatoa usambazaji thabiti wa vifaa vya shaba vya ubora wa juu vinavyokidhi viwango vya ubora vya wateja wetu."
     },
     "quartz": {
       "title": "Biashara ya Quarzi",
@@ -480,7 +480,7 @@
     "copper": {
       "overview": {
         "title": "Muhtasari wa Biashara",
-        "text1": "Global Group Korea inadumisha mtandao na nchi kuu zinazozalisha shaba ikiwa ni pamoja na Chile, Peru, na Australia ili kutoa ugavi thabiti wa malighafi ya shaba bora. Tunashughulikia bidhaa mbalimbali kutoka cathode ya shaba hadi waya wa shaba.",
+        "text1": "Global Group Korea inadumisha mtandao wa ununuzi kote katika maeneo makuu ya Africa yanayozalisha shaba, ikitoa usambazaji thabiti wa vifaa vya shaba vya ubora wa juu kwa sekta mbalimbali.",
         "text2": "Umuhimu wa shaba unakua katika mpito kuelekea uchumi wenye kaboni kidogo, na kuifanya kuwa muhimu kwa sekta za magari ya umeme, nishati mbadala, na umeme. Tunajenga minyororo thabiti ya ugavi kulingana na mahitaji kutoka sekta hizi zinazokua."
       },
       "stats": {
@@ -504,7 +504,7 @@
         },
         "feature2": {
           "title": "Ugavi Thabiti",
-          "text": "Kuhakikisha ununuzi thabiti kupitia ushirikiano wa muda mrefu na migodi mikubwa nchini Chile, Peru, na Australia."
+          "text": "Hakikisha ununuzi thabiti kupitia ushirikiano wa muda mrefu na migodi katika maeneo ya Africa yanayozalisha shaba."
         },
         "feature3": {
           "title": "Ushindani wa Bei",
@@ -1114,7 +1114,7 @@
         "copper": {
           "name": "Shaba",
           "category": "Metali za Viwandani",
-          "short": "Ugavi thabiti wa shaba ya ubora wa hali ya juu kutoka Chile, Peru, na Australia."
+          "short": "Usambazaji thabiti na wa ubora wa juu wa shaba unaotoka kote Africa."
         },
         "gold": {
           "name": "Dhahabu",
@@ -1233,8 +1233,8 @@
         "copper": {
           "category": "Metali za Viwandani",
           "name": "Shaba",
-          "long": "Kupitia mtandao wetu na nchi kuu zinazozalisha shaba — Chile, Peru, na Australia — tunatoa ugavi thabiti wa vifaa vya shaba vya ubora wa hali ya juu kwa viwanda vya umeme, ujenzi, na elektroniki.",
-          "p1": "Mtandao wa Chile · Peru · Australia",
+          "long": "Ikinunuliwa kupitia mtandao wetu wa Africa katika maeneo makuu yanayozalisha shaba, tunatoa usambazaji thabiti wa vifaa vya shaba vya ubora wa juu kwa sekta za umeme, ujenzi na elektroniki.",
+          "p1": "Mtandao wa ununuzi wa Afrika",
           "p2": "Vifaa vya shaba vya ubora wa hali ya juu",
           "p3": "Ugavi thabiti wa muda mrefu"
         },

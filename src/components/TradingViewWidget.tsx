@@ -4,11 +4,25 @@ import { useEffect, useRef, memo } from 'react';
 
 interface TradingViewTickerProps {
   colorTheme?: 'light' | 'dark';
+  isTransparent?: boolean;
+  showSymbolLogo?: boolean;
+  symbols?: { proName: string; title: string }[];
 }
+
+const DEFAULT_TICKER_SYMBOLS = [
+  { proName: 'COMEX:GC1!', title: 'Gold' },
+  { proName: 'COMEX:HG1!', title: 'Copper' },
+  { proName: 'NYMEX:CL1!', title: 'Crude Oil' },
+  { proName: 'TVC:SILVER', title: 'Silver' },
+  { proName: 'TVC:PLATINUM', title: 'Platinum' },
+];
 
 // Ticker Tape - 실시간 티커 테이프
 export const TradingViewTicker = memo(function TradingViewTicker({
-  colorTheme = 'light'
+  colorTheme = 'light',
+  isTransparent = false,
+  showSymbolLogo = true,
+  symbols = DEFAULT_TICKER_SYMBOLS,
 }: TradingViewTickerProps) {
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -23,22 +37,16 @@ export const TradingViewTicker = memo(function TradingViewTicker({
     script.type = 'text/javascript';
     script.async = true;
     script.innerHTML = JSON.stringify({
-      symbols: [
-        { proName: 'COMEX:GC1!', title: 'Gold' },
-        { proName: 'COMEX:HG1!', title: 'Copper' },
-        { proName: 'NYMEX:CL1!', title: 'Crude Oil' },
-        { proName: 'TVC:SILVER', title: 'Silver' },
-        { proName: 'TVC:PLATINUM', title: 'Platinum' },
-      ],
-      showSymbolLogo: true,
-      isTransparent: false,
+      symbols,
+      showSymbolLogo,
+      isTransparent,
       displayMode: 'adaptive',
-      colorTheme: colorTheme,
+      colorTheme,
       locale: 'en',
     });
 
     containerRef.current.appendChild(script);
-  }, [colorTheme]);
+  }, [colorTheme, isTransparent, showSymbolLogo, symbols]);
 
   return (
     <div className="tradingview-widget-container" ref={containerRef}>

@@ -4,16 +4,18 @@ import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
 import { useState } from 'react';
 import styles from './Header.module.css';
+import { TradingViewTicker } from './TradingViewWidget';
 
-const TICKER = [
-  { sym: 'BRENT', price: '82.14', change: '0.62%', up: true },
-  { sym: 'WTI', price: '78.03', change: '0.48%', up: true },
-  { sym: 'COPPER', price: '4.28', change: '1.10%', up: true },
-  { sym: 'GOLD', price: '2,341', change: '0.31%', up: false },
-  { sym: 'SILVER', price: '29.60', change: '0.74%', up: true },
-  { sym: 'PLATINUM', price: '986.0', change: '0.22%', up: false },
-  { sym: 'NAT GAS', price: '2.71', change: '1.35%', up: false },
-  { sym: 'USD/KRW', price: '1,372', change: '0.18%', up: true },
+// Live market ticker symbols (real-time via TradingView)
+const TICKER_SYMBOLS = [
+  { proName: 'TVC:UKOIL', title: 'Brent' },
+  { proName: 'TVC:USOIL', title: 'WTI' },
+  { proName: 'TVC:GOLD', title: 'Gold' },
+  { proName: 'COMEX:HG1!', title: 'Copper' },
+  { proName: 'TVC:SILVER', title: 'Silver' },
+  { proName: 'TVC:PLATINUM', title: 'Platinum' },
+  { proName: 'NYMEX:NG1!', title: 'Nat Gas' },
+  { proName: 'FX_IDC:USDKRW', title: 'USD/KRW' },
 ];
 
 const LANGS = [
@@ -60,26 +62,19 @@ export default function Header() {
     : rest === '/' ? 'home'
     : '';
 
-  const ticker = [...TICKER, ...TICKER];
-
   return (
     <div className={styles.wrapper}>
-      {/* Market ticker */}
+      {/* Live market ticker (real-time via TradingView) */}
       <div className={styles.tickerBar}>
         <div className={styles.tickerInner}>
           <span className={styles.tickerLabel}>{t('header.markets')}</span>
-          <div className={styles.tickerViewport}>
-            <div className={styles.tickerTrack}>
-              {ticker.map((q, i) => (
-                <span className={styles.quote} key={`${q.sym}-${i}`}>
-                  <span className={styles.qSym}>{q.sym}</span>
-                  <span className={styles.qPrice}>{q.price}</span>
-                  <span className={q.up ? styles.qUp : styles.qDown}>
-                    {q.up ? '▲' : '▼'} {q.change}
-                  </span>
-                </span>
-              ))}
-            </div>
+          <div className={styles.tickerWidget}>
+            <TradingViewTicker
+              colorTheme="dark"
+              isTransparent
+              showSymbolLogo={false}
+              symbols={TICKER_SYMBOLS}
+            />
           </div>
         </div>
       </div>

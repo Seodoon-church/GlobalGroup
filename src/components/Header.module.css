@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-/* ---- Ticker ---- */
+/* ---- Live ticker (TradingView) ---- */
 .tickerBar {
   background: var(--navy-900);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -15,8 +15,8 @@
   padding: 0 var(--gutter);
   display: flex;
   align-items: center;
-  height: 44px;
-  gap: 20px;
+  height: 46px;
+  gap: 16px;
 }
 
 .tickerLabel {
@@ -28,62 +28,17 @@
   text-transform: uppercase;
 }
 
-.tickerViewport {
+.tickerWidget {
   flex: 1;
+  min-width: 0;
+  height: 46px;
   overflow: hidden;
-  position: relative;
-  -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
-  mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
 }
 
-.tickerTrack {
-  display: inline-flex;
-  align-items: center;
-  width: max-content;
-  animation: ggk-ticker 40s linear infinite;
-}
-
-@keyframes ggk-ticker {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
-
-.quote {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 8px;
-  padding: 0 22px;
-  white-space: nowrap;
-  font-size: 0.82rem;
-  border-left: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.qSym {
-  color: rgba(255, 255, 255, 0.55);
-  font-weight: 600;
-  letter-spacing: 0.04em;
-}
-
-.qPrice {
-  color: #fff;
-  font-variant-numeric: tabular-nums;
-  font-weight: 600;
-}
-
-.qUp {
-  color: #4fd491;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-}
-
-.qDown {
-  color: #ff6b7d;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .tickerTrack { animation: none; }
+.tickerWidget :global(.tradingview-widget-container),
+.tickerWidget :global(.tradingview-widget-container__widget),
+.tickerWidget :global(iframe) {
+  height: 46px !important;
 }
 
 /* ---- Nav bar ---- */
