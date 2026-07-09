@@ -368,6 +368,22 @@ GlobalGroup/
 - **빌드 성공** (111개 페이지)
 - **배포 완료**: Firebase Hosting
 
+### 2026-07-10 (Session 16)
+- **전면 사이트 리디자인 (design_handoff_ggk_redesign 반영)**
+  - 외부 디자인 핸드오프(`.dc.html` 프로토타입 + `tokens.css`) 수령 → Next.js/CSS Modules로 재구성
+  - **디자인 토큰**: `globals.css`에 3-tier 토큰(primitive→semantic→component) 이식, 레거시 `--color-*` 별칭 유지. **Pretendard 폰트** 전면 적용(Playfair/Inter 대체)
+  - **IA 변경(대표님 결정)**: 내비 5개(Home·Company·Business·News·Contact)로 축소. Market·Partners는 URL 유지·내비 제거. About→Company 통합
+  - **Header**: 상단 마켓 티커(마퀴), sticky 네이비 내비, G 모노그램, Get a Consultation CTA, 9개 언어 전환기 유지
+  - **Footer**: 네이비-딥 4컬럼 + indicative 고지
+  - **Home**: 풀블리드 히어로+스탯 → Business 4카드(Flagship/Exclusive) → 인터랙티브 글로벌 지도(7거점 펄스핀) → Investment 3스텝 → CTA. Leadership/Stats/News 섹션 제거
+  - **Business Areas**: 페이지히어로 → GGK 거래 4스텝 → 원자재 4섹션(이미지/텍스트 교차) → 석영 독점 공급망(3스탯+3노드) → CTA
+  - **Company**: 히어로 → About(2컬럼+2x2) → Leadership 3그룹(경영진4/자문3/지역대표3, 로컬 이미지) → CTA
+  - **News**: 히어로 → 피처드 스토리 → 기사 2카드(Company/Market 배지)
+  - **Contact**: 히어로 → HQ정보+상담폼(Firebase 제출 로직 보존, success 상태) → 7개 오피스 그리드
+  - **다국어**: 새 `home`/`pages`/`header`/`footer` 키 en/ko 완역(pages는 KO 번역 에이전트 활용) + 7개 영어 fallback. 9개 언어 빌드 통과(129 페이지)
+  - **미완(후속)**: 글로벌 지도/오피스 거점 role·desc 다국어화(현재 영어), 내부 페이지 세부 콘텐츠 7개 언어 번역, Market/Partners 페이지 신토큰 재스타일
+  - **결정 준수**: 석영 HPQ 수치 미게시([[quartz-hpq-numbers-hold]]), VISH 노출 유지
+
 ### 2026-07-09 (Session 14)
 - **Energy & Fuels 버티컬 승격 (개편안 GGK-OPS-2026-WEB-001 안전 병합)**
   - 외부 개편안 패키지(`GGK-EnergyFuels-Web-v1`) 수령 — 단, 패키지 base가 현재 저장소보다 구버전이라 **덮어쓰기 시 Session 10 SEO·Session 12 석영 섹션 유실 + 빌드 붕괴** 확인. 덮어쓰기 대신 **병합**으로 처리.

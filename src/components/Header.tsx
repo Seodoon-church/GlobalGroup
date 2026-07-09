@@ -3,8 +3,38 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
 import { useState } from 'react';
-import Image from 'next/image';
 import styles from './Header.module.css';
+
+const TICKER = [
+  { sym: 'BRENT', price: '82.14', change: '0.62%', up: true },
+  { sym: 'WTI', price: '78.03', change: '0.48%', up: true },
+  { sym: 'COPPER', price: '4.28', change: '1.10%', up: true },
+  { sym: 'GOLD', price: '2,341', change: '0.31%', up: false },
+  { sym: 'SILVER', price: '29.60', change: '0.74%', up: true },
+  { sym: 'PLATINUM', price: '986.0', change: '0.22%', up: false },
+  { sym: 'NAT GAS', price: '2.71', change: '1.35%', up: false },
+  { sym: 'USD/KRW', price: '1,372', change: '0.18%', up: true },
+];
+
+const LANGS = [
+  { code: 'en', label: 'English' },
+  { code: 'ko', label: '한국어' },
+  { code: 'ja', label: '日本語' },
+  { code: 'zh', label: '中文' },
+  { code: 'fr', label: 'Français' },
+  { code: 'ar', label: 'العربية' },
+  { code: 'hi', label: 'हिन्दी' },
+  { code: 'bn', label: 'বাংলা' },
+  { code: 'sw', label: 'Kiswahili' },
+];
+
+const NAV = [
+  { key: 'home', href: '' },
+  { key: 'company', href: '/about' },
+  { key: 'business', href: '/business' },
+  { key: 'news', href: '/news' },
+  { key: 'contact', href: '/contact' },
+];
 
 export default function Header() {
   const t = useTranslations();
@@ -20,98 +50,110 @@ export default function Header() {
     setIsLangOpen(false);
   };
 
-  const navItems = [
-    { key: 'home', href: '/' },
-    { key: 'about', href: '/about' },
-    { key: 'business', href: '/business' },
-    { key: 'market', href: '/market' },
-    { key: 'partners', href: '/partners' },
-    { key: 'news', href: '/news' },
-    { key: 'contact', href: '/contact' },
-  ];
+  // strip locale prefix to compare route
+  const rest = pathname.replace(new RegExp(`^/${locale}`), '') || '/';
+  const activeKey =
+    rest.startsWith('/about') || rest.startsWith('/company') ? 'company'
+    : rest.startsWith('/business') ? 'business'
+    : rest.startsWith('/news') ? 'news'
+    : rest.startsWith('/contact') ? 'contact'
+    : rest === '/' ? 'home'
+    : '';
+
+  const ticker = [...TICKER, ...TICKER];
 
   return (
-    <header className={styles.header}>
-      <div className={styles.container}>
-        <a href={`/${locale}`} className={styles.logo}>
-          <Image
-            src="/images/logo.png"
-            alt="Global Group Korea"
-            width={160}
-            height={60}
-            priority
-            className={styles.logoImage}
-          />
-        </a>
-
-        <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ''}`}>
-          {navItems.map((item) => (
-            <a
-              key={item.key}
-              href={`/${locale}${item.href === '/' ? '' : item.href}`}
-              className={styles.navLink}
-            >
-              {t(`nav.${item.key}`)}
-            </a>
-          ))}
-        </nav>
-
-        <div className={styles.actions}>
-          <div className={styles.langWrapper}>
-            <button
-              className={styles.langBtn}
-              onClick={() => setIsLangOpen(!isLangOpen)}
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <circle cx="12" cy="12" r="10"/>
-                <line x1="2" y1="12" x2="22" y2="12"/>
-                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-              </svg>
-              <span>{locale.toUpperCase()}</span>
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <polyline points="6 9 12 15 18 9"/>
-              </svg>
-            </button>
-
-            {isLangOpen && (
-              <div className={styles.langDropdown}>
-                {[
-                  { code: 'en', flag: '🇺🇸', label: 'English' },
-                  { code: 'ko', flag: '🇰🇷', label: '한국어' },
-                  { code: 'ja', flag: '🇯🇵', label: '日本語' },
-                  { code: 'zh', flag: '🇨🇳', label: '中文' },
-                  { code: 'fr', flag: '🇫🇷', label: 'Français' },
-                  { code: 'ar', flag: '🇦🇪', label: 'العربية' },
-                  { code: 'hi', flag: '🇮🇳', label: 'हिन्दी' },
-                  { code: 'bn', flag: '🇧🇩', label: 'বাংলা' },
-                  { code: 'sw', flag: '🇹🇿', label: 'Kiswahili' },
-                ].map((lang) => (
-                  <button
-                    key={lang.code}
-                    className={`${styles.langOption} ${locale === lang.code ? styles.active : ''}`}
-                    onClick={() => switchLocale(lang.code)}
-                  >
-                    <span className={styles.flag}>{lang.flag}</span>
-                    <span>{lang.label}</span>
-                  </button>
-                ))}
-              </div>
-            )}
+    <div className={styles.wrapper}>
+      {/* Market ticker */}
+      <div className={styles.tickerBar}>
+        <div className={styles.tickerInner}>
+          <span className={styles.tickerLabel}>{t('header.markets')}</span>
+          <div className={styles.tickerViewport}>
+            <div className={styles.tickerTrack}>
+              {ticker.map((q, i) => (
+                <span className={styles.quote} key={`${q.sym}-${i}`}>
+                  <span className={styles.qSym}>{q.sym}</span>
+                  <span className={styles.qPrice}>{q.price}</span>
+                  <span className={q.up ? styles.qUp : styles.qDown}>
+                    {q.up ? '▲' : '▼'} {q.change}
+                  </span>
+                </span>
+              ))}
+            </div>
           </div>
-
-          <a href={`/${locale}/contact`} className={styles.contactBtn}>
-            {t('common.contactUs')}
-          </a>
-
-          <button
-            className={styles.menuToggle}
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            <span className={`${styles.hamburger} ${isMenuOpen ? styles.hamburgerOpen : ''}`}></span>
-          </button>
         </div>
       </div>
-    </header>
+
+      {/* Nav bar */}
+      <header className={styles.header}>
+        <div className={styles.container}>
+          <a href={`/${locale}`} className={styles.logo}>
+            <span className={styles.monogram}>G</span>
+            <span className={styles.wordmark}>
+              <span className={styles.brand}>Global Group Korea</span>
+              <span className={styles.eyebrow}>Commodity Trading</span>
+            </span>
+          </a>
+
+          <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ''}`}>
+            {NAV.map((item) => (
+              <a
+                key={item.key}
+                href={`/${locale}${item.href}`}
+                className={`${styles.navLink} ${activeKey === item.key ? styles.navActive : ''}`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {t(`nav.${item.key}`)}
+              </a>
+            ))}
+            <a href={`/${locale}/contact`} className={styles.ctaMobile}>
+              {t('header.getConsultation')}
+            </a>
+          </nav>
+
+          <div className={styles.actions}>
+            <div className={styles.langWrapper}>
+              <button
+                className={styles.langBtn}
+                onClick={() => setIsLangOpen(!isLangOpen)}
+                aria-label="Language"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <line x1="2" y1="12" x2="22" y2="12" />
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                </svg>
+                <span>{locale.toUpperCase()}</span>
+              </button>
+              {isLangOpen && (
+                <div className={styles.langDropdown}>
+                  {LANGS.map((lang) => (
+                    <button
+                      key={lang.code}
+                      className={`${styles.langOption} ${locale === lang.code ? styles.langActive : ''}`}
+                      onClick={() => switchLocale(lang.code)}
+                    >
+                      {lang.label}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <a href={`/${locale}/contact`} className={styles.cta}>
+              {t('header.getConsultation')}
+            </a>
+
+            <button
+              className={styles.menuToggle}
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              <span className={`${styles.hamburger} ${isMenuOpen ? styles.hamburgerOpen : ''}`}></span>
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
   );
 }

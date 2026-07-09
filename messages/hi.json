@@ -58,7 +58,8 @@
     "market": "बाज़ार अंतर्दृष्टि",
     "partners": "भागीदारी",
     "news": "समाचार",
-    "contact": "संपर्क करें"
+    "contact": "संपर्क करें",
+    "company": "Company"
   },
   "hero": {
     "title": "Global Group Korea",
@@ -403,7 +404,12 @@
     "fax": "फ़ैक्स",
     "tel": "+82-(0)2-400-3084",
     "faxNum": "+82-(0)2-3444-3084",
-    "copyright": "© 2026 GLOBAL GROUP KOREA CO.,LTD. सर्वाधिकार सुरक्षित।"
+    "copyright": "© 2026 GLOBAL GROUP KOREA CO.,LTD. सर्वाधिकार सुरक्षित।",
+    "brandBlurb": "Your trusted international business partner — connecting Korea with global markets through strategic commodity trading since 1987.",
+    "company": "Company",
+    "leadership": "Leadership",
+    "globalNetwork": "Global Network",
+    "indicative": "Market prices shown are indicative and for reference only."
   },
   "businessDetail": {
     "backToBusiness": "व्यापार क्षेत्रों पर वापस जाएँ",
@@ -421,21 +427,54 @@
         "text2": "वैश्विक रिफाइनरियों के साथ दीर्घकालिक अनुबंधों के माध्यम से, हम प्रतिस्पर्धी मूल्य निर्धारण प्राप्त करते हैं और स्थिर आपूर्ति की गारंटी देते हैं। 37 वर्षों की उद्योग विशेषज्ञता के साथ, हम जोखिम प्रबंधन से लेकर रसद अनुकूलन तक सभी चरणों का प्रबंधन करते हैं।"
       },
       "stats": {
-        "stat1": { "value": "15+", "label": "साझेदार देश" },
-        "stat2": { "value": "500K", "label": "बैरल/माह" },
-        "stat3": { "value": "99.5%", "label": "डिलीवरी दर" }
+        "stat1": {
+          "value": "15+",
+          "label": "साझेदार देश"
+        },
+        "stat2": {
+          "value": "500K",
+          "label": "बैरल/माह"
+        },
+        "stat3": {
+          "value": "99.5%",
+          "label": "डिलीवरी दर"
+        }
       },
       "features": {
-        "feature1": { "title": "वैश्विक सोर्सिंग", "text": "मध्य पूर्व, रूस और अमेरिका में प्रमुख उत्पादन स्थलों तक सीधी पहुँच, प्रत्येक क्षेत्र के लिए इष्टतम प्रापण शर्तें प्रदान करती है।" },
-        "feature2": { "title": "लचीले अनुबंध", "text": "स्पॉट ट्रेडिंग से लेकर दीर्घकालिक अनुबंधों तक विभिन्न अनुबंध विकल्प प्रदान करते हैं, ग्राहक की आवश्यकताओं के अनुसार इष्टतम रणनीतियाँ बनाते हैं।" },
-        "feature3": { "title": "गुणवत्ता आश्वासन", "text": "हल्के मीठे कच्चे तेल और भारी खट्टे कच्चे तेल सहित विभिन्न कच्चे तेल ग्रेड की आपूर्ति करते हैं, संपूर्ण गुणवत्ता प्रबंधन के साथ।" },
-        "feature4": { "title": "रसद अनुकूलन", "text": "उत्पादन स्थल से रिफाइनरी तक संपूर्ण परिवहन मार्ग को अनुकूलित करते हैं, प्रमुख शिपिंग कंपनियों के साथ भागीदारी के माध्यम से लागत दक्षता प्राप्त करते हैं।" }
+        "feature1": {
+          "title": "वैश्विक सोर्सिंग",
+          "text": "मध्य पूर्व, रूस और अमेरिका में प्रमुख उत्पादन स्थलों तक सीधी पहुँच, प्रत्येक क्षेत्र के लिए इष्टतम प्रापण शर्तें प्रदान करती है।"
+        },
+        "feature2": {
+          "title": "लचीले अनुबंध",
+          "text": "स्पॉट ट्रेडिंग से लेकर दीर्घकालिक अनुबंधों तक विभिन्न अनुबंध विकल्प प्रदान करते हैं, ग्राहक की आवश्यकताओं के अनुसार इष्टतम रणनीतियाँ बनाते हैं।"
+        },
+        "feature3": {
+          "title": "गुणवत्ता आश्वासन",
+          "text": "हल्के मीठे कच्चे तेल और भारी खट्टे कच्चे तेल सहित विभिन्न कच्चे तेल ग्रेड की आपूर्ति करते हैं, संपूर्ण गुणवत्ता प्रबंधन के साथ।"
+        },
+        "feature4": {
+          "title": "रसद अनुकूलन",
+          "text": "उत्पादन स्थल से रिफाइनरी तक संपूर्ण परिवहन मार्ग को अनुकूलित करते हैं, प्रमुख शिपिंग कंपनियों के साथ भागीदारी के माध्यम से लागत दक्षता प्राप्त करते हैं।"
+        }
       },
       "process": {
-        "process1": { "title": "मांग विश्लेषण", "text": "आवश्यकताओं को समझें और इष्टतम सोर्सिंग रणनीतियाँ प्रस्तावित करें" },
-        "process2": { "title": "अनुबंध वार्ता", "text": "उत्पादन स्थलों के साथ मूल्य वार्ता और अनुबंध प्रारूपण" },
-        "process3": { "title": "रसद व्यवस्था", "text": "शिपिंग बुकिंग और बीमा, परिवहन मार्ग अनुकूलन" },
-        "process4": { "title": "डिलीवरी और निपटान", "text": "समय पर डिलीवरी और पारदर्शी निपटान प्रसंस्करण" }
+        "process1": {
+          "title": "मांग विश्लेषण",
+          "text": "आवश्यकताओं को समझें और इष्टतम सोर्सिंग रणनीतियाँ प्रस्तावित करें"
+        },
+        "process2": {
+          "title": "अनुबंध वार्ता",
+          "text": "उत्पादन स्थलों के साथ मूल्य वार्ता और अनुबंध प्रारूपण"
+        },
+        "process3": {
+          "title": "रसद व्यवस्था",
+          "text": "शिपिंग बुकिंग और बीमा, परिवहन मार्ग अनुकूलन"
+        },
+        "process4": {
+          "title": "डिलीवरी और निपटान",
+          "text": "समय पर डिलीवरी और पारदर्शी निपटान प्रसंस्करण"
+        }
       }
     },
     "copper": {
@@ -445,21 +484,54 @@
         "text2": "कम-कार्बन अर्थव्यवस्था में परिवर्तन में तांबे का महत्व बढ़ रहा है, जो इसे इलेक्ट्रिक वाहन, नवीकरणीय ऊर्जा और इलेक्ट्रॉनिक्स उद्योगों के लिए आवश्यक बनाता है। हम इन विकास क्षेत्रों की मांग के आधार पर स्थिर आपूर्ति श्रृंखलाएँ बनाते हैं।"
       },
       "stats": {
-        "stat1": { "value": "8", "label": "साझेदार खदानें" },
-        "stat2": { "value": "99.99%", "label": "शुद्धता मानक" },
-        "stat3": { "value": "10K+", "label": "टन/माह" }
+        "stat1": {
+          "value": "8",
+          "label": "साझेदार खदानें"
+        },
+        "stat2": {
+          "value": "99.99%",
+          "label": "शुद्धता मानक"
+        },
+        "stat3": {
+          "value": "10K+",
+          "label": "टन/माह"
+        }
       },
       "features": {
-        "feature1": { "title": "प्रीमियम गुणवत्ता", "text": "हम मुख्य रूप से LME-पंजीकृत ग्रेड A तांबा कैथोड (99.99% या उच्चतर शुद्धता) की आपूर्ति करते हैं और आवश्यकता अनुसार विभिन्न प्रसंस्कृत उत्पाद भी संभालते हैं।" },
-        "feature2": { "title": "स्थिर आपूर्ति", "text": "चिली, पेरू और ऑस्ट्रेलिया में प्रमुख खदानों के साथ दीर्घकालिक भागीदारी के माध्यम से स्थिर सोर्सिंग सुरक्षित करें।" },
-        "feature3": { "title": "मूल्य प्रतिस्पर्धात्मकता", "text": "LME मानक मूल्यों पर आधारित बड़ी मात्रा के व्यापार के माध्यम से प्रतिस्पर्धी मूल्य प्रदान करें।" },
-        "feature4": { "title": "कस्टम समाधान", "text": "तांबा कैथोड से तार और ट्यूब तक विभिन्न रूपों और विनिर्देशों पर लचीले ढंग से प्रतिक्रिया दें।" }
+        "feature1": {
+          "title": "प्रीमियम गुणवत्ता",
+          "text": "हम मुख्य रूप से LME-पंजीकृत ग्रेड A तांबा कैथोड (99.99% या उच्चतर शुद्धता) की आपूर्ति करते हैं और आवश्यकता अनुसार विभिन्न प्रसंस्कृत उत्पाद भी संभालते हैं।"
+        },
+        "feature2": {
+          "title": "स्थिर आपूर्ति",
+          "text": "चिली, पेरू और ऑस्ट्रेलिया में प्रमुख खदानों के साथ दीर्घकालिक भागीदारी के माध्यम से स्थिर सोर्सिंग सुरक्षित करें।"
+        },
+        "feature3": {
+          "title": "मूल्य प्रतिस्पर्धात्मकता",
+          "text": "LME मानक मूल्यों पर आधारित बड़ी मात्रा के व्यापार के माध्यम से प्रतिस्पर्धी मूल्य प्रदान करें।"
+        },
+        "feature4": {
+          "title": "कस्टम समाधान",
+          "text": "तांबा कैथोड से तार और ट्यूब तक विभिन्न रूपों और विनिर्देशों पर लचीले ढंग से प्रतिक्रिया दें।"
+        }
       },
       "process": {
-        "process1": { "title": "आवश्यकता पुष्टि", "text": "विनिर्देश, मात्रा और डिलीवरी अनुसूची की पुष्टि करें" },
-        "process2": { "title": "आपूर्ति स्रोत चयन", "text": "इष्टतम आपूर्ति स्रोत का चयन करें और मूल्य पर वार्ता करें" },
-        "process3": { "title": "गुणवत्ता निरीक्षण", "text": "शिपमेंट से पहले गुणवत्ता प्रमाणन और बीमा व्यवस्था" },
-        "process4": { "title": "डिलीवरी पूर्ण", "text": "अंतर्राष्ट्रीय रसद और सीमा शुल्क निकासी सहायता" }
+        "process1": {
+          "title": "आवश्यकता पुष्टि",
+          "text": "विनिर्देश, मात्रा और डिलीवरी अनुसूची की पुष्टि करें"
+        },
+        "process2": {
+          "title": "आपूर्ति स्रोत चयन",
+          "text": "इष्टतम आपूर्ति स्रोत का चयन करें और मूल्य पर वार्ता करें"
+        },
+        "process3": {
+          "title": "गुणवत्ता निरीक्षण",
+          "text": "शिपमेंट से पहले गुणवत्ता प्रमाणन और बीमा व्यवस्था"
+        },
+        "process4": {
+          "title": "डिलीवरी पूर्ण",
+          "text": "अंतर्राष्ट्रीय रसद और सीमा शुल्क निकासी सहायता"
+        }
       }
     },
     "quartz": {
@@ -469,18 +541,48 @@
         "text2": "VISH KVARTZ INTANZ तंज़ानिया के 2 क्षेत्रों और 3 स्थानों में 18 क्वार्ट्ज़ खदानों का संचालन करता है, जिसका पुष्ट भंडार 1.8 करोड़ मीट्रिक टन है। SiO₂ शुद्धता +99.9% से +99.99% और विद्युत चालकता 4 μS/cm से कम के साथ, हमारा क्वार्ट्ज़ वैश्विक सेमीकंडक्टर, सौर ऊर्जा और फाइबर ऑप्टिक उद्योगों की कड़ी आवश्यकताओं को पूरा करता है।"
       },
       "stats": {
-        "stat1": { "value": "18M", "label": "मीट्रिक टन भंडार" },
-        "stat2": { "value": "99.99%", "label": "शुद्धता" },
-        "stat3": { "value": "18", "label": "क्वार्ट्ज़ खदानें" },
-        "stat4": { "value": "विशेष", "label": "वैश्विक SPA हस्ताक्षरित" }
+        "stat1": {
+          "value": "18M",
+          "label": "मीट्रिक टन भंडार"
+        },
+        "stat2": {
+          "value": "99.99%",
+          "label": "शुद्धता"
+        },
+        "stat3": {
+          "value": "18",
+          "label": "क्वार्ट्ज़ खदानें"
+        },
+        "stat4": {
+          "value": "विशेष",
+          "label": "वैश्विक SPA हस्ताक्षरित"
+        }
       },
       "features": {
-        "feature1": { "title": "विशेष वितरण", "text": "VISH KVARTZ INTANZ तंज़ानियाई क्वार्ट्ज़ के विश्वव्यापी वितरण अधिकार वाली एकमात्र कंपनी।" },
-        "feature2": { "title": "अति-उच्च शुद्धता", "text": "99.99% या उच्चतर उच्च-शुद्धता क्वार्ट्ज़ की आपूर्ति करता है, अर्धचालक और सौर उद्योग मानकों को पूरा करता है।" },
-        "feature3": { "title": "स्थिर आपूर्ति", "text": "1.8 करोड़ मीट्रिक टन पुष्ट भंडार और 18 खदानों के आधार पर, प्रत्येक खदान से मासिक 5,000 से 10,000 टन की दीर्घकालिक स्थिर आपूर्ति की गारंटी।" },
-        "feature4": { "title": "सुसंगत गुणवत्ता", "text": "एकल खदान से क्वार्ट्ज़ सुसंगत गुणवत्ता प्रबंधन को सक्षम बनाता है, उत्पादन विचलन को न्यूनतम करता है।" },
-        "feature5": { "title": "सेमीकंडक्टर ग्रेड", "text": "सेमीकंडक्टर सिलिकॉन वेफर उत्पादन, सौर PV सेल निर्माण और फाइबर ऑप्टिक सिस्टम सहित महत्वपूर्ण अनुप्रयोगों की पूर्ति।" },
-        "feature6": { "title": "विशाल भंडार", "text": "18 खदानों में 1.8 करोड़ मीट्रिक टन पुष्ट भंडार के साथ, आपकी दीर्घकालिक परियोजनाओं के लिए दशकों तक निर्बाध आपूर्ति की गारंटी।" }
+        "feature1": {
+          "title": "विशेष वितरण",
+          "text": "VISH KVARTZ INTANZ तंज़ानियाई क्वार्ट्ज़ के विश्वव्यापी वितरण अधिकार वाली एकमात्र कंपनी।"
+        },
+        "feature2": {
+          "title": "अति-उच्च शुद्धता",
+          "text": "99.99% या उच्चतर उच्च-शुद्धता क्वार्ट्ज़ की आपूर्ति करता है, अर्धचालक और सौर उद्योग मानकों को पूरा करता है।"
+        },
+        "feature3": {
+          "title": "स्थिर आपूर्ति",
+          "text": "1.8 करोड़ मीट्रिक टन पुष्ट भंडार और 18 खदानों के आधार पर, प्रत्येक खदान से मासिक 5,000 से 10,000 टन की दीर्घकालिक स्थिर आपूर्ति की गारंटी।"
+        },
+        "feature4": {
+          "title": "सुसंगत गुणवत्ता",
+          "text": "एकल खदान से क्वार्ट्ज़ सुसंगत गुणवत्ता प्रबंधन को सक्षम बनाता है, उत्पादन विचलन को न्यूनतम करता है।"
+        },
+        "feature5": {
+          "title": "सेमीकंडक्टर ग्रेड",
+          "text": "सेमीकंडक्टर सिलिकॉन वेफर उत्पादन, सौर PV सेल निर्माण और फाइबर ऑप्टिक सिस्टम सहित महत्वपूर्ण अनुप्रयोगों की पूर्ति।"
+        },
+        "feature6": {
+          "title": "विशाल भंडार",
+          "text": "18 खदानों में 1.8 करोड़ मीट्रिक टन पुष्ट भंडार के साथ, आपकी दीर्घकालिक परियोजनाओं के लिए दशकों तक निर्बाध आपूर्ति की गारंटी।"
+        }
       },
       "gallery": {
         "title": "तंज़ानिया क्वार्ट्ज़ संचालन",
@@ -504,9 +606,18 @@
       "mining": {
         "title": "खनन संचालन और रसद",
         "subtitle": "तंज़ानिया के 2 क्षेत्रों और 3 स्थानों में 18 क्वार्ट्ज़ खदानें",
-        "kwaluguru": { "name": "क्वालुगुरु", "region": "तांगा क्षेत्र" },
-        "magali": { "name": "मगाली", "region": "मोरोगोरो क्षेत्र" },
-        "msongozi": { "name": "म्सोंगोज़ी", "region": "मोरोगोरो क्षेत्र" },
+        "kwaluguru": {
+          "name": "क्वालुगुरु",
+          "region": "तांगा क्षेत्र"
+        },
+        "magali": {
+          "name": "मगाली",
+          "region": "मोरोगोरो क्षेत्र"
+        },
+        "msongozi": {
+          "name": "म्सोंगोज़ी",
+          "region": "मोरोगोरो क्षेत्र"
+        },
         "mineLabel": "क्वार्ट्ज़ खदानें",
         "highway": "राष्ट्रीय राजमार्ग",
         "port": "दार एस सलाम बंदरगाह",
@@ -517,15 +628,35 @@
         "subtitle": "बढ़ती मांग को पूरा करने के लिए प्रत्येक खनन स्थल से विस्तार योग्य उत्पादन",
         "sizeLabel": "आकार",
         "capacityLabel": "क्षमता",
-        "boulders": { "title": "छांटे गए बोल्डर", "size": "50–300 mm", "capacity": "प्रति खदान 5,000–10,000 टन/माह" },
-        "lumps": { "title": "ड्रेस्ड लम्प्स", "size": "50–150 mm", "capacity": "प्रति स्थान 1,000–2,000 टन/माह" },
+        "boulders": {
+          "title": "छांटे गए बोल्डर",
+          "size": "50–300 mm",
+          "capacity": "प्रति खदान 5,000–10,000 टन/माह"
+        },
+        "lumps": {
+          "title": "ड्रेस्ड लम्प्स",
+          "size": "50–150 mm",
+          "capacity": "प्रति स्थान 1,000–2,000 टन/माह"
+        },
         "scalable": "सुसंगत गुणवत्ता आश्वासन के साथ मांग वृद्धि के अनुसार उत्पादन क्षमता विस्तार योग्य है।"
       },
       "process": {
-        "process1": { "title": "पूछताछ", "text": "आवश्यकता पुष्टि और आपूर्ति व्यवहार्यता समीक्षा" },
-        "process2": { "title": "नमूना आपूर्ति", "text": "गुणवत्ता सत्यापन के लिए नमूने प्रदान करें" },
-        "process3": { "title": "अनुबंध हस्ताक्षर", "text": "मात्रा, अनुसूची और मूल्य निर्धारण के लिए अनुबंध" },
-        "process4": { "title": "उत्पादन और शिपमेंट", "text": "खनन, प्रसंस्करण और अंतर्राष्ट्रीय शिपिंग" }
+        "process1": {
+          "title": "पूछताछ",
+          "text": "आवश्यकता पुष्टि और आपूर्ति व्यवहार्यता समीक्षा"
+        },
+        "process2": {
+          "title": "नमूना आपूर्ति",
+          "text": "गुणवत्ता सत्यापन के लिए नमूने प्रदान करें"
+        },
+        "process3": {
+          "title": "अनुबंध हस्ताक्षर",
+          "text": "मात्रा, अनुसूची और मूल्य निर्धारण के लिए अनुबंध"
+        },
+        "process4": {
+          "title": "उत्पादन और शिपमेंट",
+          "text": "खनन, प्रसंस्करण और अंतर्राष्ट्रीय शिपिंग"
+        }
       }
     },
     "gold": {
@@ -535,21 +666,54 @@
         "text2": "हम निवेश सोने की सिल्लियाँ, आभूषण कच्चा माल और औद्योगिक सोने सहित विभिन्न उत्पादों को संभालते हैं, स्विट्ज़रलैंड और हांगकांग में रिफाइनरियों के साथ दीर्घकालिक भागीदारी के आधार पर स्थिर आपूर्ति श्रृंखलाएँ बनाते हैं।"
       },
       "stats": {
-        "stat1": { "value": "LBMA", "label": "प्रमाणित" },
-        "stat2": { "value": "99.99%", "label": "शुद्धता" },
-        "stat3": { "value": "24/7", "label": "मूल्य निगरानी" }
+        "stat1": {
+          "value": "LBMA",
+          "label": "प्रमाणित"
+        },
+        "stat2": {
+          "value": "99.99%",
+          "label": "शुद्धता"
+        },
+        "stat3": {
+          "value": "24/7",
+          "label": "मूल्य निगरानी"
+        }
       },
       "features": {
-        "feature1": { "title": "LBMA प्रमाणन", "text": "सभी सोने की सिल्लियाँ LBMA प्रमाणित हैं, विश्वसनीय गुणवत्ता और पारदर्शी उत्पत्ति की गारंटी देती हैं।" },
-        "feature2": { "title": "विविध उत्पाद", "text": "1oz सोने के सिक्कों से 1kg सिल्लियों तक विभिन्न विनिर्देशों की आपूर्ति करते हैं, निवेश और औद्योगिक दोनों आवश्यकताओं को पूरा करते हैं।" },
-        "feature3": { "title": "वास्तविक समय मूल्य निर्धारण", "text": "24 घंटे वास्तविक समय मूल्य निगरानी के साथ अंतर्राष्ट्रीय सोने के मूल्यों पर आधारित प्रतिस्पर्धी व्यापार शर्तें प्रदान करते हैं।" },
-        "feature4": { "title": "सुरक्षित रसद", "text": "विशेष बहुमूल्य धातु रसद कंपनियों के साथ भागीदारी के माध्यम से सुरक्षित डिलीवरी, पूर्ण बीमा कवरेज के साथ।" }
+        "feature1": {
+          "title": "LBMA प्रमाणन",
+          "text": "सभी सोने की सिल्लियाँ LBMA प्रमाणित हैं, विश्वसनीय गुणवत्ता और पारदर्शी उत्पत्ति की गारंटी देती हैं।"
+        },
+        "feature2": {
+          "title": "विविध उत्पाद",
+          "text": "1oz सोने के सिक्कों से 1kg सिल्लियों तक विभिन्न विनिर्देशों की आपूर्ति करते हैं, निवेश और औद्योगिक दोनों आवश्यकताओं को पूरा करते हैं।"
+        },
+        "feature3": {
+          "title": "वास्तविक समय मूल्य निर्धारण",
+          "text": "24 घंटे वास्तविक समय मूल्य निगरानी के साथ अंतर्राष्ट्रीय सोने के मूल्यों पर आधारित प्रतिस्पर्धी व्यापार शर्तें प्रदान करते हैं।"
+        },
+        "feature4": {
+          "title": "सुरक्षित रसद",
+          "text": "विशेष बहुमूल्य धातु रसद कंपनियों के साथ भागीदारी के माध्यम से सुरक्षित डिलीवरी, पूर्ण बीमा कवरेज के साथ।"
+        }
       },
       "process": {
-        "process1": { "title": "पूछताछ", "text": "उत्पाद विनिर्देश और मात्रा की पुष्टि करें" },
-        "process2": { "title": "कोटेशन", "text": "अंतर्राष्ट्रीय मूल्यों पर आधारित वास्तविक समय कोटेशन" },
-        "process3": { "title": "भुगतान और बीमा", "text": "सुरक्षित भुगतान प्रसंस्करण और बीमा व्यवस्था" },
-        "process4": { "title": "सुरक्षित डिलीवरी", "text": "विशेष बहुमूल्य धातु रसद के माध्यम से डिलीवरी" }
+        "process1": {
+          "title": "पूछताछ",
+          "text": "उत्पाद विनिर्देश और मात्रा की पुष्टि करें"
+        },
+        "process2": {
+          "title": "कोटेशन",
+          "text": "अंतर्राष्ट्रीय मूल्यों पर आधारित वास्तविक समय कोटेशन"
+        },
+        "process3": {
+          "title": "भुगतान और बीमा",
+          "text": "सुरक्षित भुगतान प्रसंस्करण और बीमा व्यवस्था"
+        },
+        "process4": {
+          "title": "सुरक्षित डिलीवरी",
+          "text": "विशेष बहुमूल्य धातु रसद के माध्यम से डिलीवरी"
+        }
       }
     },
     "energyFuels": {
@@ -914,6 +1078,296 @@
     "cta": {
       "title": "सूचित रहना चाहते हैं?",
       "text": "व्यक्तिगत बाज़ार अंतर्दृष्टि और उद्योग अपडेट के लिए हमसे संपर्क करें।"
+    }
+  },
+  "header": {
+    "markets": "Markets",
+    "getConsultation": "Get a Consultation"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Hub of the World · Since 1987",
+      "title": "International commodity trading, delivered with certainty",
+      "lede": "Crude oil, copper, quartz and gold — sourced across 25+ countries in Africa, the Middle East and beyond, and traded end-to-end from our Seoul headquarters.",
+      "ctaSecondary": "Explore Business Areas"
+    },
+    "stats": {
+      "established": "Established",
+      "years": "Years of excellence",
+      "countries": "Countries",
+      "partners": "Global partners"
+    },
+    "areas": {
+      "title": "Four pillars of global trade",
+      "subtitle": "Each commodity is backed by a dedicated sourcing network, verified origin, and rigorous quality assurance — so partners trade with certainty.",
+      "cards": {
+        "energyFuels": {
+          "name": "Energy & Fuels",
+          "category": "Petroleum & Refined Products",
+          "short": "Crude oil, EN590 10ppm diesel, and Jet A-1 aviation fuel."
+        },
+        "quartz": {
+          "name": "Quartz",
+          "category": "Industrial Minerals",
+          "short": "High-purity quartz for the semiconductor and solar industries."
+        },
+        "copper": {
+          "name": "Copper",
+          "category": "Industrial Metals",
+          "short": "Stable, high-quality copper supply from Chile, Peru, and Australia."
+        },
+        "gold": {
+          "name": "Gold",
+          "category": "Precious Metals",
+          "short": "Safe, transparent gold trading centred on LBMA-certified bars."
+        }
+      }
+    },
+    "network": {
+      "title": "Our global network",
+      "subtitle": "Seven strategic offices linking resource origins in Africa and the Middle East to markets worldwide — coordinated from our Seoul headquarters.",
+      "tapHint": "Tap a marker to explore each office",
+      "statCountries": "Countries traded across",
+      "statPartners": "Global partners",
+      "statVolume": "Annual trading volume",
+      "statYears": "Years of excellence"
+    },
+    "approach": {
+      "title": "How we invest & execute",
+      "subtitle": "A disciplined three-stage approach that turns local market knowledge into secure, high-conviction transactions.",
+      "step1": {
+        "title": "Market Research & Analysis",
+        "detail": "Comprehensive due diligence and risk assessment through our network of local experts and market intelligence."
+      },
+      "step2": {
+        "title": "Strategic Partnership Development",
+        "detail": "Building sustainable relationships with local partners and government entities to ensure long-term success."
+      },
+      "step3": {
+        "title": "Risk Mitigation & Optimization",
+        "detail": "Proven strategies that minimize investment risk while maximizing returns through careful project management."
+      }
+    },
+    "cta": {
+      "eyebrow": "Ready to Expand Globally?",
+      "title": "Let's build your supply chain with confidence",
+      "text": "Connect with our experts to discuss cross-border sourcing, market entry, and partnership development across our global network.",
+      "primary": "Get Free Consultation",
+      "secondary": "Explore Business Areas"
+    }
+  },
+  "pages": {
+    "business": {
+      "hero": {
+        "eyebrow": "Business Areas",
+        "title": "Leading the global resource market",
+        "lede": "Four commodity desks — energy, industrial metals, high-purity minerals, and precious metals — each backed by verified origin, quality assurance, and end-to-end trade execution."
+      },
+      "trade": {
+        "title": "How a GGK trade works",
+        "subtitle": "Trading is a service. Every deal moves through the same disciplined path — so partners always know exactly where their transaction stands.",
+        "step1": {
+          "title": "Demand Analysis",
+          "detail": "We map your specification, volume and delivery window, then match it to verified supply."
+        },
+        "step2": {
+          "title": "Structuring & Contract",
+          "detail": "KYC-first onboarding, secure banking instruments and clear, enforceable terms."
+        },
+        "step3": {
+          "title": "Logistics & Inspection",
+          "detail": "Freight, insurance and independent quality inspection managed end-to-end."
+        },
+        "step4": {
+          "title": "Secure Settlement",
+          "detail": "Documented, transparent settlement — a single accountable counterparty throughout."
+        }
+      },
+      "commodities": {
+        "energyFuels": {
+          "category": "Petroleum & Refined Products",
+          "name": "Energy & Fuels",
+          "long": "Crude oil, EN590 10ppm diesel, and Jet A-1 aviation fuel — supplied through verified refining and supply channels, with KYC-first procedures and secure banking instruments protecting every transaction.",
+          "p1": "Crude oil, EN590 10ppm & Jet A-1",
+          "p2": "Verified refining & supply channels",
+          "p3": "KYC-first with secure banking instruments"
+        },
+        "quartz": {
+          "category": "Industrial Minerals",
+          "name": "Quartz",
+          "long": "High-purity quartz essential to the semiconductor and solar industries, backed by our exclusive worldwide distribution partnership with VISH KVARTZ INTANZ in Morogoro, Tanzania — 18 mines, 18M-tonne reserves, exported via Dar es Salaam Port.",
+          "p1": "Semiconductor & solar grade purity",
+          "p2": "18 mines · 18M-tonne reserves (Tanzania)",
+          "p3": "Exclusive worldwide distribution rights"
+        },
+        "copper": {
+          "category": "Industrial Metals",
+          "name": "Copper",
+          "long": "Through our network with major copper-producing countries — Chile, Peru, and Australia — we provide a stable supply of high-quality copper materials for the electrification, construction, and electronics industries.",
+          "p1": "Chile · Peru · Australia network",
+          "p2": "High-quality copper materials",
+          "p3": "Stable long-term supply"
+        },
+        "gold": {
+          "category": "Precious Metals",
+          "name": "Gold",
+          "long": "Safe and transparent gold trading services centred on LBMA-certified gold bars, meeting both investment and industrial demand with secure, fully documented settlement.",
+          "p1": "LBMA-certified gold bars",
+          "p2": "Investment & industrial demand",
+          "p3": "Safe, transparent settlement"
+        }
+      },
+      "supply": {
+        "eyebrow": "Exclusive · Quartz",
+        "title": "A supply chain we own end-to-end",
+        "subtitle": "Our exclusive partnership with VISH KVARTZ INTANZ gives GGK worldwide distribution rights over one of the largest high-purity quartz resources in East Africa.",
+        "stat1": "Active quartz mines",
+        "stat2": "Metric tonnes in reserve",
+        "stat3": "Exclusive distribution",
+        "flow1": {
+          "title": "Morogoro Mines",
+          "detail": "18 mines · 18M-tonne high-purity reserves, Tanzania"
+        },
+        "flow2": {
+          "title": "Dar es Salaam Port",
+          "detail": "Consolidated export, inspection & quality control"
+        },
+        "flow3": {
+          "title": "Global Distribution",
+          "detail": "Exclusive worldwide rights to semiconductor & solar markets"
+        }
+      },
+      "cta": {
+        "eyebrow": "Partner With Us",
+        "title": "Let's build your supply chain with confidence",
+        "text": "Tell us what you source and where you operate. Our trading desk will respond with a tailored supply proposal.",
+        "secondary": "View Global Network"
+      }
+    },
+    "company": {
+      "hero": {
+        "eyebrow": "Company",
+        "title": "A trusted partner, connecting Korea with global markets",
+        "lede": "Since 1987, Global Group Korea has delivered strategic sourcing, trade finance, and end-to-end supply-chain solutions across crude oil, copper, quartz, and gold — building 37 years of heritage in international resource trading."
+      },
+      "about": {
+        "title": "Hub of the World",
+        "p1": "Global Group Korea (GGK) is an international commodity trading and investment partner specializing in crude oil, copper, quartz, and gold across 25+ countries in Africa, the Middle East, and beyond.",
+        "p2": "From our Seoul headquarters and six regional offices, we combine deep local knowledge with rigorous risk management to give partners a single, accountable counterparty from sourcing through settlement."
+      },
+      "leadership": {
+        "title": "Executive leadership team",
+        "subtitle": "Decades of international business experience with deep market knowledge across industries and regions."
+      },
+      "groups": {
+        "execs": "Executive Leadership",
+        "advisory": "Strategic Advisory & Technical Excellence",
+        "regional": "Regional Market Leadership"
+      },
+      "people": {
+        "michaelLee": {
+          "title": "Chairman",
+          "bio": "Strategic vision and corporate governance leadership with extensive experience in international market development and cross-cultural business operations."
+        },
+        "davidHan": {
+          "title": "CEO / Managing Director",
+          "bio": "Operational excellence and business development expertise, driving growth initiatives across our global network of partnerships and investments."
+        },
+        "huhSeongphil": {
+          "title": "Vice Chairman",
+          "bio": "Academic and industry leadership combining research excellence with practical business applications in emerging markets and technology sectors."
+        },
+        "kasseyPaul": {
+          "title": "Director of Technical Operations",
+          "bio": "Leads all technical and supply operations for GGK's high-purity quartz business. Founder and MD of VKICL, Tanzania, with over 25 years in mineral resource development, mine operations, and quality certification."
+        },
+        "byungheunJang": {
+          "title": "Special Advisor",
+          "bio": "Provides strategic counsel on complex international transactions and regulatory compliance across multiple jurisdictions — risk assessment, market entry, and partnership structuring."
+        },
+        "seongtaekHong": {
+          "title": "Technical Director",
+          "bio": "Leads technical due diligence and project feasibility assessments, ensuring thorough evaluation of specifications, quality standards, and implementation methodologies."
+        },
+        "kateLee": {
+          "title": "Overseas Marketing Director",
+          "bio": "Develops and executes international marketing strategies, managing brand positioning and cross-cultural campaigns across multiple regions."
+        },
+        "ramyReddy": {
+          "title": "Overseas Director (Trading Dept.)",
+          "bio": "Leads international commodity trading in gold, copper, and crude oil — strategic sourcing, supplier negotiation, market analysis, and risk management across global markets."
+        },
+        "ansahJoseph": {
+          "title": "Director / Ghana",
+          "bio": "Manages West African operations with expertise in mining, agriculture, and infrastructure, providing insight into regional regulatory frameworks and business practices."
+        },
+        "alexKakoma": {
+          "title": "Regional Representative — Southern Africa",
+          "bio": "Oversees Southern Africa operations from the Cape Town office, leading business development and partnership building across the region."
+        }
+      },
+      "cta": {
+        "eyebrow": "Work With Us",
+        "title": "Let's discuss your next opportunity"
+      }
+    },
+    "news": {
+      "hero": {
+        "eyebrow": "Newsroom",
+        "title": "News & market insights",
+        "lede": "Company milestones and analyst perspectives on the forces shaping global commodity markets."
+      },
+      "badge": {
+        "company": "Company",
+        "market": "Market"
+      },
+      "feature": {
+        "title": "GGK Signs Strategic Partnership for Tanzanian Quartz Production Hub",
+        "excerpt": "Global Group Korea and VISH KVARTZ INTANZ formalize an exclusive worldwide distribution agreement for high-purity quartz from Morogoro, Tanzania — 18 mines and 18M-tonne reserves, exported via Dar es Salaam Port."
+      },
+      "articles": {
+        "a1": {
+          "title": "2026 Global Commodity Market Outlook: Key Trends to Watch",
+          "excerpt": "Our analysts examine the major forces shaping commodity prices in 2026, from the energy transition to semiconductor demand growth."
+        },
+        "a2": {
+          "title": "GGK Expands South Asia Operations with Dhaka Office Upgrade",
+          "excerpt": "Global Group Korea strengthens its Bangladesh presence with expanded facilities and a larger team to support growing regional trade."
+        }
+      },
+      "readStory": "Read the story",
+      "readMore": "Read More"
+    },
+    "contact": {
+      "hero": {
+        "eyebrow": "Contact Us",
+        "title": "Let's start a conversation",
+        "lede": "Tell us what you source and where you operate. Our trading desk responds with a tailored supply proposal."
+      },
+      "hq": {
+        "title": "Headquarters"
+      },
+      "form": {
+        "title": "Request a consultation"
+      },
+      "success": {
+        "title": "Thank you — message received",
+        "text": "Our team will be in touch shortly.",
+        "another": "Send another"
+      },
+      "offices": {
+        "title": "Our offices",
+        "subtitle": "Seven strategic locations across the globe, coordinated from Seoul.",
+        "roles": {
+          "seoul": "Headquarters",
+          "morogoro": "Quartz Production Hub",
+          "dubai": "Middle East Office",
+          "accra": "West Africa Office",
+          "capeTown": "Africa Regional Office",
+          "dhaka": "South Asia Office",
+          "montreal": "North America Office"
+        }
+      }
     }
   }
 }

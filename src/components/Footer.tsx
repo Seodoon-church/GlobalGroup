@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations, useLocale } from 'next-intl';
-import Image from 'next/image';
 import styles from './Footer.module.css';
 
 export default function Footer() {
@@ -10,129 +9,61 @@ export default function Footer() {
 
   const businessLinks = [
     { key: 'crudeOil', href: '/business/energy-fuels' },
-    { key: 'copper', href: '/business/copper' },
     { key: 'quartz', href: '/business/quartz' },
+    { key: 'copper', href: '/business/copper' },
     { key: 'gold', href: '/business/gold' },
-  ];
-
-  const quickLinks = [
-    { key: 'about', href: '/about' },
-    { key: 'business', href: '/business' },
-    { key: 'partners', href: '/partners' },
-    { key: 'news', href: '/news' },
-    { key: 'contact', href: '/contact' },
   ];
 
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.grid}>
-          {/* Company Info */}
-          <div className={styles.column}>
-            <div className={styles.logo}>
-              <Image
-                src="/images/logo.png"
-                alt="Global Group Korea"
-                width={140}
-                height={52}
-                className={styles.logoImage}
-              />
+          {/* Brand */}
+          <div>
+            <div className={styles.brandRow}>
+              <span className={styles.monogram}>G</span>
+              <span className={styles.brandName}>Global Group Korea</span>
             </div>
-            <p className={styles.companyDesc}>
-              {t('common.tagline')}
-            </p>
-            <div className={styles.socialLinks}>
-              <a href="#" className={styles.socialLink} aria-label="LinkedIn">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                </svg>
-              </a>
-              <a href="#" className={styles.socialLink} aria-label="Twitter">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                </svg>
-              </a>
-            </div>
+            <p className={styles.blurb}>{t('footer.brandBlurb')}</p>
           </div>
 
           {/* Business Areas */}
-          <div className={styles.column}>
-            <h4 className={styles.columnTitle}>{t('footer.businessAreas')}</h4>
-            <ul className={styles.linkList}>
+          <div>
+            <div className={styles.colTitle}>{t('footer.businessAreas')}</div>
+            <div className={styles.linkList}>
               {businessLinks.map((link) => (
-                <li key={link.key}>
-                  <a href={`/${locale}${link.href}`}>
-                    {t(`business.${link.key}.title`)}
-                  </a>
-                </li>
+                <a key={link.key} href={`/${locale}${link.href}`}>
+                  {t(`business.${link.key}.title`)}
+                </a>
               ))}
-            </ul>
+            </div>
           </div>
 
-          {/* Quick Links */}
-          <div className={styles.column}>
-            <h4 className={styles.columnTitle}>{t('footer.quickLinks')}</h4>
-            <ul className={styles.linkList}>
-              {quickLinks.map((link) => (
-                <li key={link.key}>
-                  <a href={`/${locale}${link.href}`}>
-                    {t(`nav.${link.key}`)}
-                  </a>
-                </li>
-              ))}
-            </ul>
+          {/* Company */}
+          <div>
+            <div className={styles.colTitle}>{t('footer.company')}</div>
+            <div className={styles.linkList}>
+              <a href={`/${locale}/about`}>{t('nav.about')}</a>
+              <a href={`/${locale}/about#leadership`}>{t('footer.leadership')}</a>
+              <a href={`/${locale}#network`}>{t('footer.globalNetwork')}</a>
+              <a href={`/${locale}/news`}>{t('nav.news')}</a>
+            </div>
           </div>
 
           {/* Contact */}
-          <div className={styles.column}>
-            <h4 className={styles.columnTitle}>{t('footer.contactInfo')}</h4>
-            <ul className={styles.contactList}>
-              <li>
-                <span className={styles.contactIcon}>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                    <circle cx="12" cy="10" r="3"></circle>
-                  </svg>
-                </span>
-                <span>{t('footer.address')}</span>
-              </li>
-              <li>
-                <span className={styles.contactIcon}>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                  </svg>
-                </span>
-                <a href="tel:+82-2-400-3084">{t('footer.tel')}</a>
-              </li>
-              <li>
-                <span className={styles.contactIcon}>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                    <polyline points="22,6 12,13 2,6"></polyline>
-                  </svg>
-                </span>
-                <a href="mailto:info@globalgroupkorea.com">info@globalgroupkorea.com</a>
-              </li>
-              <li>
-                <span className={styles.contactIcon}>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                    <polyline points="22,6 12,13 2,6"></polyline>
-                  </svg>
-                </span>
-                <span>{t('footer.fax')}: {t('footer.faxNum')}</span>
-              </li>
-            </ul>
+          <div>
+            <div className={styles.colTitle}>{t('footer.contactInfo')}</div>
+            <div className={styles.linkList}>
+              <span className={styles.address}>{t('footer.address')}</span>
+              <a href="mailto:info@globalgroupkorea.com">info@globalgroupkorea.com</a>
+              <a href="tel:+82-2-400-3084">+82-(0)2-400-3084</a>
+            </div>
           </div>
         </div>
 
-        {/* Bottom Bar */}
         <div className={styles.bottomBar}>
-          <p className={styles.copyright}>{t('footer.copyright')}</p>
-          <div className={styles.bottomLinks}>
-            <a href={`/${locale}/privacy`}>Privacy Policy</a>
-            <a href={`/${locale}/terms`}>Terms of Service</a>
-          </div>
+          <span>{t('footer.copyright')}</span>
+          <span>{t('footer.indicative')}</span>
         </div>
       </div>
     </footer>

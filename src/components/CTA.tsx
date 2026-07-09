@@ -4,27 +4,27 @@ import { useTranslations, useLocale } from 'next-intl';
 import styles from './CTA.module.css';
 
 export default function CTA() {
-  const t = useTranslations('cta');
+  const t = useTranslations();
   const locale = useLocale();
 
   return (
-    <section className={styles.cta}>
+    <section className={styles.section}>
       <div className={styles.container}>
-        <div className={styles.content}>
-          <h2 className={styles.title}>{t('title')}</h2>
-          <p className={styles.description}>{t('description')}</p>
-          <a href={`/${locale}/contact`} className={styles.button}>
-            {t('button')}
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <line x1="5" y1="12" x2="19" y2="12"/>
-              <polyline points="12 5 19 12 12 19"/>
-            </svg>
-          </a>
-        </div>
-
-        <div className={styles.decoration}>
-          <div className={styles.circle}></div>
-          <div className={styles.circle2}></div>
+        <div className={styles.panel}>
+          <div className={styles.glow} />
+          <div className={styles.inner}>
+            <p className={styles.eyebrow}>{t('home.cta.eyebrow')}</p>
+            <h2 className={styles.title}>{t('home.cta.title')}</h2>
+            <p className={styles.text}>{t('home.cta.text')}</p>
+            <div className={styles.actions}>
+              <a href={`/${locale}/contact`} className={styles.btnPrimary}>
+                {t('home.cta.primary')}
+              </a>
+              <a href={`/${locale}/business`} className={styles.btnOutline}>
+                {t('home.cta.secondary')}
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

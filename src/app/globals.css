@@ -1,18 +1,19 @@
 /* Global Styles for Global Group Korea */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
 
+/* ============================================================
+   Design Tokens — 3 tiers (primitive → semantic → component)
+   Redesign v1 · single source of truth. Legacy --color-* aliases
+   are kept so existing components keep working.
+   ============================================================ */
 :root {
-  /* Primary Colors - Navy & Gold */
+  /* ---- Legacy aliases (existing components reference these) ---- */
   --color-navy: #0a1628;
   --color-navy-light: #1a2d4a;
   --color-navy-dark: #050d18;
-
   --color-gold: #c9a962;
   --color-gold-light: #e0c98a;
   --color-gold-dark: #a88a3d;
-
-  /* Neutral Colors */
   --color-white: #ffffff;
   --color-gray-100: #f8f9fa;
   --color-gray-200: #e9ecef;
@@ -21,27 +22,162 @@
   --color-gray-500: #adb5bd;
   --color-gray-600: #6c757d;
   --color-gray-700: #495057;
-  --color-gray-800: #343a40;
+  --color-gray-800: #212529;
   --color-gray-900: #212529;
-
-  /* Resource Colors */
   --color-oil: #1a1a1a;
   --color-copper: #b87333;
-  --color-quartz: #e8e8e8;
+  --color-quartz: #a8a8a8;
   --color-gold-metal: #ffd700;
 
-  /* Typography */
-  --font-primary: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  --font-display: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* ---- TIER 1 — PRIMITIVES ---- */
+  --gold-100: #f5f0e6;
+  --gold-200: #ebe5d9;
+  --gold-300: #e0c98a;
+  --gold-500: #c9a962;
+  --gold-700: #a88a3d;
+  --navy-500: #1a2d4a;
+  --navy-700: #0a1628;
+  --navy-800: #0d1e36;
+  --navy-900: #050d18;
+  --neutral-0:   #ffffff;
+  --neutral-50:  #f8f9fa;
+  --neutral-100: #e9ecef;
+  --neutral-200: #dee2e6;
+  --neutral-300: #ced4da;
+  --neutral-400: #adb5bd;
+  --neutral-500: #6c757d;
+  --neutral-600: #495057;
+  --neutral-700: #343a40;
+  --neutral-800: #212529;
+  --green-400: #6ee7a8;
+  --green-500: #4fd491;
+  --red-500:   #c41e3a;
+  --red-600:   #a01830;
+  --oil-base: #1a1a1a;
+  --oil-light: #2d2d2d;
+  --copper-base: #b87333;
+  --copper-light: #da8a47;
+  --quartz-base: #8f8f8f;
+  --quartz-light: #d4d4d4;
+  --precious-base: #c9a962;
+  --precious-light: #e0c98a;
 
-  /* Spacing */
-  --section-padding: 100px;
-  --container-max-width: 1280px;
+  /* ---- TIER 2 — SEMANTIC (use these) ---- */
+  --color-brand: var(--gold-500);
+  --color-brand-emphasis: var(--gold-700);
+  --color-brand-subtle: var(--gold-100);
+  --bg-base: var(--neutral-0);
+  --bg-subtle: var(--neutral-50);
+  --bg-cream: var(--gold-100);
+  --bg-inverse: var(--navy-700);
+  --bg-inverse-deep: var(--navy-900);
+  --text-primary: var(--neutral-800);
+  --text-secondary: var(--neutral-500);
+  --text-brand: var(--gold-700);
+  --text-on-inverse: var(--neutral-0);
+  --text-on-inverse-muted: rgba(255,255,255,0.72);
+  --border-subtle: var(--neutral-200);
+  --border-default: #e8e8e8;
+  --border-strong: var(--neutral-300);
+  --border-on-inverse: rgba(255,255,255,0.14);
+  --color-up: var(--green-500);
+  --color-down: var(--red-500);
+  --color-success: var(--green-500);
+  --color-danger: var(--red-500);
+  --accent-oil: var(--oil-base);
+  --accent-copper: var(--copper-base);
+  --accent-quartz: var(--quartz-base);
+  --accent-gold: var(--precious-base);
+  --focus-ring: 0 0 0 3px rgba(201,169,98,0.45);
 
-  /* Transitions */
+  /* ---- TYPOGRAPHY — Pretendard everywhere ---- */
+  --font-pretendard: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  --font-primary: var(--font-pretendard);
+  --font-display: var(--font-pretendard);
+  --font-body: var(--font-pretendard);
+  --font-mono: ui-monospace, 'SFMono-Regular', 'Menlo', monospace;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.125rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.5rem;
+  --text-4xl: 3rem;
+  --text-hero: clamp(2.75rem, 6vw, 4.5rem);
+  --text-section: clamp(2rem, 4vw, 3rem);
+  --text-h3: clamp(1.25rem, 2.5vw, 1.75rem);
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --lh-tight: 1.2;
+  --lh-snug: 1.4;
+  --lh-normal: 1.6;
+  --ls-tight: -0.02em;
+  --ls-wide: 0.08em;
+
+  /* ---- SPACING (4/8) ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-15: 60px;
+  --space-20: 80px;
+  --space-25: 100px;
+
+  /* ---- RADIUS ---- */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-pill: 30px;
+  --radius-full: 50%;
+
+  /* ---- ELEVATION ---- */
+  --shadow-sm: 0 4px 20px rgba(0,0,0,0.06);
+  --shadow-md: 0 8px 25px rgba(0,0,0,0.15);
+  --shadow-lg: 0 20px 50px rgba(0,0,0,0.10);
+  --shadow-gold: 0 8px 25px rgba(201,169,98,0.30);
+  --shadow-navy: 0 20px 40px rgba(10,22,40,0.10);
+
+  /* ---- MOTION ---- */
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s ease;
   --transition-slow: 0.5s ease;
+
+  /* ---- LAYOUT ---- */
+  --container-max: 1280px;
+  --container-max-width: 1280px;
+  --section-padding: 100px;
+  --section-py: 100px;
+  --gutter: 24px;
+
+  /* ---- TIER 3 — COMPONENT TOKENS ---- */
+  --btn-primary-bg: var(--color-brand);
+  --btn-primary-bg-hover: var(--color-brand-emphasis);
+  --btn-primary-text: var(--navy-900);
+  --btn-primary-shadow: var(--shadow-gold);
+  --btn-outline-border: var(--color-brand);
+  --btn-outline-text: var(--text-brand);
+  --btn-radius: var(--radius-pill);
+  --card-bg: var(--bg-base);
+  --card-border: var(--border-default);
+  --card-radius: var(--radius-lg);
+  --card-shadow: var(--shadow-sm);
+  --card-shadow-hover: var(--shadow-lg);
+  --card-pad: var(--space-8);
+  --badge-bg: var(--color-brand-subtle);
+  --badge-text: var(--color-brand-emphasis);
+  --rule-brand-w: 48px;
+  --rule-brand-h: 3px;
+  --rule-brand-bg: var(--color-brand);
+  --grad-gold: linear-gradient(90deg, var(--gold-500), var(--gold-700));
+  --grad-navy: linear-gradient(135deg, var(--navy-700), var(--navy-500));
 }
 
 * {
@@ -209,9 +345,17 @@ a {
   }
 }
 
+@media (max-width: 900px) {
+  :root {
+    --section-py: 80px;
+  }
+}
+
 @media (max-width: 768px) {
   :root {
     --section-padding: 60px;
+    --section-py: 60px;
+    --gutter: 16px;
   }
 
   .container {
@@ -222,5 +366,14 @@ a {
 @media (max-width: 480px) {
   :root {
     --section-padding: 50px;
+    --section-py: 50px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0s;
+    --transition-normal: 0s;
+    --transition-slow: 0s;
   }
 }

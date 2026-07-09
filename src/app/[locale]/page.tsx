@@ -2,12 +2,9 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { locales } from '../../../i18n';
 import { BASE_URL, SITE_NAME } from '@/lib/constants';
 import Hero from '@/components/Hero';
-import GlobalNetwork from '@/components/GlobalNetwork';
 import Business from '@/components/Business';
-import Leadership from '@/components/Leadership';
-import Stats from '@/components/Stats';
+import GlobalNetwork from '@/components/GlobalNetwork';
 import InvestmentApproach from '@/components/InvestmentApproach';
-import News from '@/components/News';
 import CTA from '@/components/CTA';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -55,12 +52,9 @@ export default async function HomePage({
   return (
     <>
       <Hero />
-      <GlobalNetwork />
       <Business />
-      <Leadership />
-      <Stats />
+      <GlobalNetwork />
       <InvestmentApproach />
-      <News />
       <CTA />
     </>
   );

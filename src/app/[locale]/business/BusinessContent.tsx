@@ -1,149 +1,157 @@
 'use client';
 
 import { useTranslations, useLocale } from 'next-intl';
-import Link from 'next/link';
 import styles from './page.module.css';
 
-const businessAreas = [
-  {
-    key: 'crudeOil',
-    slug: 'crude-oil',
-    icon: (
-      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M12 2C12 2 4 8 4 14a8 8 0 1016 0c0-6-8-12-8-12z" />
-      </svg>
-    ),
-    color: '#1a1a1a',
-  },
-  {
-    key: 'copper',
-    slug: 'copper',
-    icon: (
-      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <circle cx="12" cy="12" r="10" />
-        <path d="M12 6v12M6 12h12" />
-      </svg>
-    ),
-    color: '#b87333',
-  },
-  {
-    key: 'quartz',
-    slug: 'quartz',
-    icon: (
-      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <polygon points="12,2 22,8.5 22,15.5 12,22 2,15.5 2,8.5" />
-        <line x1="12" y1="22" x2="12" y2="15.5" />
-        <line x1="22" y1="8.5" x2="12" y2="15.5" />
-        <line x1="2" y1="8.5" x2="12" y2="15.5" />
-      </svg>
-    ),
-    color: '#9ca3af',
-    featured: true,
-  },
-  {
-    key: 'gold',
-    slug: 'gold',
-    icon: (
-      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <rect x="2" y="7" width="20" height="14" rx="2" />
-        <path d="M16 7V5a4 4 0 00-8 0v2" />
-      </svg>
-    ),
-    color: '#c9a962',
-  },
+const TRADE = ['step1', 'step2', 'step3', 'step4'];
+
+const COMMODITIES = [
+  { key: 'energyFuels', slug: 'energy-fuels', accent: '#1a1a1a', accentText: '#8a6d2f' },
+  { key: 'quartz', slug: 'quartz', accent: '#8f8f8f', accentText: '#6c757d' },
+  { key: 'copper', slug: 'copper', accent: '#b87333', accentText: '#a05e28' },
+  { key: 'gold', slug: 'gold', accent: '#c9a962', accentText: '#a88a3d' },
 ];
 
+const SUPPLY_FLOW = ['flow1', 'flow2', 'flow3'];
+
 export default function BusinessContent() {
-  const t = useTranslations('businessPage');
-  const tBusiness = useTranslations('business');
+  const t = useTranslations();
   const locale = useLocale();
 
   return (
-    <main className={styles.main}>
-      {/* Hero Section */}
-      <section className={styles.hero}>
-        <div className={styles.heroOverlay}></div>
-        <div className={styles.heroContent}>
-          <div className={styles.goldLine}></div>
-          <h1 className={styles.heroTitle}>{t('hero.title')}</h1>
-          <p className={styles.heroSubtitle}>{t('hero.subtitle')}</p>
+    <main>
+      {/* Page hero */}
+      <section className={styles.pageHero}>
+        <div className={styles.heroGlow} />
+        <div className={styles.container}>
+          <p className={styles.eyebrow}>{t('pages.business.hero.eyebrow')}</p>
+          <h1 className={styles.heroTitle}>{t('pages.business.hero.title')}</h1>
+          <p className={styles.heroLede}>{t('pages.business.hero.lede')}</p>
         </div>
       </section>
 
-      {/* Intro Section */}
-      <section className={styles.introSection}>
+      {/* How a trade works */}
+      <section className={styles.tradeSection}>
         <div className={styles.container}>
-          <p className={styles.introText}>{t('intro')}</p>
-        </div>
-      </section>
-
-      {/* Business Areas Grid */}
-      <section className={styles.businessSection}>
-        <div className={styles.container}>
-          <div className={styles.businessGrid}>
-            {businessAreas.map((area) => (
-              <Link
-                key={area.key}
-                href={`/${locale}/business/${area.slug}`}
-                className={`${styles.businessCard} ${area.featured ? styles.featuredCard : ''}`}
-              >
-                <div className={styles.cardIcon} style={{ color: area.color }}>
-                  {area.icon}
+          <div className={styles.headerLeft}>
+            <div className={styles.rule} />
+            <h2 className={styles.sectionTitleLight}>{t('pages.business.trade.title')}</h2>
+            <p className={styles.sectionSubLight}>{t('pages.business.trade.subtitle')}</p>
+          </div>
+          <div className={styles.tradeGrid}>
+            {TRADE.map((s, i) => (
+              <div key={s} className={styles.tradeStep}>
+                <div className={styles.tradeStepTop}>
+                  <span className={styles.tradeNum}>{String(i + 1).padStart(2, '0')}</span>
+                  <span className={styles.tradeLine} />
                 </div>
-                <div className={styles.cardContent}>
-                  <h3 className={styles.cardTitle}>{tBusiness(`${area.key}.title`)}</h3>
-                  <span className={styles.cardSubtitle}>{tBusiness(`${area.key}.subtitle`)}</span>
-                  <p className={styles.cardDescription}>{tBusiness(`${area.key}.description`)}</p>
-                </div>
-                <div className={styles.cardArrow}>
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </div>
-                {area.featured && (
-                  <span className={styles.featuredBadge}>{t('exclusive')}</span>
-                )}
-              </Link>
+                <h3 className={styles.tradeStepTitle}>{t(`pages.business.trade.${s}.title`)}</h3>
+                <p className={styles.tradeStepText}>{t(`pages.business.trade.${s}.detail`)}</p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Why Choose Us */}
-      <section className={styles.whySection}>
+      {/* Commodity detail sections */}
+      {COMMODITIES.map((c, i) => {
+        const dark = i % 2 === 1;
+        const imgFirst = i % 2 === 0;
+        const sectionCls = `${styles.commodity} ${dark ? styles.commodityDark : i === 0 ? styles.commodityWhite : styles.commoditySubtle}`;
+        return (
+          <section key={c.key} id={c.slug} className={sectionCls}>
+            <div className={styles.container}>
+              <div className={styles.commodityRow}>
+                <div
+                  className={`${styles.commodityImg} ${imgFirst ? '' : styles.imgSecond}`}
+                  style={{ background: `linear-gradient(135deg, ${c.accent}22, ${c.accent}0a)` }}
+                >
+                  <span className={styles.imgDot} style={{ background: c.accent }} />
+                </div>
+                <div className={imgFirst ? '' : styles.textFirst}>
+                  <div className={`${styles.chip} ${dark ? styles.chipDark : ''}`}>
+                    <span className={styles.chipDot} style={{ background: c.accent }} />
+                    <span>{t(`pages.business.commodities.${c.key}.category`)}</span>
+                  </div>
+                  <h2 className={styles.commodityName}>{t(`pages.business.commodities.${c.key}.name`)}</h2>
+                  <p className={styles.commodityLong}>{t(`pages.business.commodities.${c.key}.long`)}</p>
+                  <div className={styles.points}>
+                    {['p1', 'p2', 'p3'].map((p) => (
+                      <div key={p} className={styles.point}>
+                        <span className={styles.pointDash} style={{ color: c.accentText }}>—</span>
+                        <span>{t(`pages.business.commodities.${c.key}.${p}`)}</span>
+                      </div>
+                    ))}
+                  </div>
+                  <a href={`/${locale}/business/${c.slug}`} className={styles.commodityLink}>
+                    {t('common.learnMore')} →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+        );
+      })}
+
+      {/* Quartz exclusive supply chain */}
+      <section className={styles.supply}>
         <div className={styles.container}>
-          <div className={styles.sectionHeader}>
-            <div className={styles.goldLine}></div>
-            <h2 className={styles.sectionTitle}>{t('why.title')}</h2>
+          <div className={styles.supplyHeader}>
+            <div className={styles.chipCenter}>
+              <span className={styles.chipDot} style={{ background: '#8f8f8f' }} />
+              <span>{t('pages.business.supply.eyebrow')}</span>
+            </div>
+            <h2 className={styles.sectionTitle}>{t('pages.business.supply.title')}</h2>
+            <p className={styles.sectionSub}>{t('pages.business.supply.subtitle')}</p>
           </div>
-          <div className={styles.whyGrid}>
-            <div className={styles.whyCard}>
-              <div className={styles.whyNumber}>01</div>
-              <h4 className={styles.whyTitle}>{t('why.network.title')}</h4>
-              <p className={styles.whyText}>{t('why.network.text')}</p>
+          <div className={styles.supplyStats}>
+            <div className={styles.supplyStat}>
+              <div className={styles.supplyStatValue}>18</div>
+              <div className={styles.supplyStatLabel}>{t('pages.business.supply.stat1')}</div>
             </div>
-            <div className={styles.whyCard}>
-              <div className={styles.whyNumber}>02</div>
-              <h4 className={styles.whyTitle}>{t('why.expertise.title')}</h4>
-              <p className={styles.whyText}>{t('why.expertise.text')}</p>
+            <div className={styles.supplyStat}>
+              <div className={styles.supplyStatValue}>18M<span className={styles.unit}> t</span></div>
+              <div className={styles.supplyStatLabel}>{t('pages.business.supply.stat2')}</div>
             </div>
-            <div className={styles.whyCard}>
-              <div className={styles.whyNumber}>03</div>
-              <h4 className={styles.whyTitle}>{t('why.trust.title')}</h4>
-              <p className={styles.whyText}>{t('why.trust.text')}</p>
+            <div className={styles.supplyStat}>
+              <div className={styles.supplyStatValue}>100<span className={styles.unit}>%</span></div>
+              <div className={styles.supplyStatLabel}>{t('pages.business.supply.stat3')}</div>
             </div>
+          </div>
+          <div className={styles.supplyFlow}>
+            {SUPPLY_FLOW.map((f, i) => (
+              <div key={f} className={styles.flowItem}>
+                <div className={styles.flowCard}>
+                  <div className={styles.flowStep}>{String(i + 1).padStart(2, '0')}</div>
+                  <div className={styles.flowTitle}>{t(`pages.business.supply.${f}.title`)}</div>
+                  <p className={styles.flowText}>{t(`pages.business.supply.${f}.detail`)}</p>
+                </div>
+                {i < SUPPLY_FLOW.length - 1 && <span className={styles.flowArrow}>→</span>}
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* CTA */}
       <section className={styles.ctaSection}>
         <div className={styles.container}>
-          <h2 className={styles.ctaTitle}>{t('cta.title')}</h2>
-          <p className={styles.ctaText}>{t('cta.text')}</p>
-          <Link href={`/${locale}/contact`} className={styles.ctaButton}>
-            {t('cta.button')}
-          </Link>
+          <div className={styles.ctaPanel}>
+            <div className={styles.ctaGlow} />
+            <div className={styles.ctaInner}>
+              <p className={styles.ctaEyebrow}>{t('pages.business.cta.eyebrow')}</p>
+              <h2 className={styles.ctaTitle}>{t('pages.business.cta.title')}</h2>
+              <p className={styles.ctaText}>{t('pages.business.cta.text')}</p>
+              <div className={styles.ctaActions}>
+                <a href={`/${locale}/contact`} className={styles.btnPrimary}>
+                  {t('header.getConsultation')}
+                </a>
+                <a href={`/${locale}#network`} className={styles.btnOutline}>
+                  {t('pages.business.cta.secondary')}
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>

@@ -1,162 +1,140 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
-import Image from 'next/image';
+import { useTranslations, useLocale } from 'next-intl';
 import styles from './page.module.css';
 
-const milestones = [
-  { year: '1987', key: 'founded' },
-  { year: '1995', key: 'africa' },
-  { year: '2005', key: 'middleEast' },
-  { year: '2015', key: 'expansion' },
-  { year: '2023', key: 'quartz' },
+const STATS = [
+  { value: '1987', key: 'established' },
+  { value: '37', key: 'years' },
+  { value: '25+', key: 'countries' },
+  { value: '150+', key: 'partners' },
 ];
 
-const values = [
-  {
-    key: 'trust',
-    icon: (
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-      </svg>
-    ),
-  },
-  {
-    key: 'global',
-    icon: (
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <circle cx="12" cy="12" r="10" />
-        <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
-      </svg>
-    ),
-  },
-  {
-    key: 'excellence',
-    icon: (
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-      </svg>
-    ),
-  },
-  {
-    key: 'partnership',
-    icon: (
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-      </svg>
-    ),
-  },
+type Person = { id: string; name: string; img: string };
+
+const EXECS: Person[] = [
+  { id: 'michaelLee', name: 'Michael Lee', img: 'Michale-lee.jpeg' },
+  { id: 'davidHan', name: 'David Han', img: 'david-han.jpeg' },
+  { id: 'huhSeongphil', name: 'Dr. Huh, Seong-phil', img: 'huh-seongphil.jpeg' },
+  { id: 'kasseyPaul', name: 'Dr. Kassey Chandra Sekhar Paul', img: 'dr-kassey-paul.jpeg' },
 ];
+const ADVISORY: Person[] = [
+  { id: 'byungheunJang', name: 'Byungheun Jang', img: 'byungheun-jang.jpeg' },
+  { id: 'seongtaekHong', name: 'Dr. Seongtaek Hong', img: 'seongtaek-hong.jpeg' },
+  { id: 'kateLee', name: 'Kate Lee', img: 'kate-lee.jpeg' },
+];
+const REGIONAL: Person[] = [
+  { id: 'ramyReddy', name: 'Dr. Pallapolu Venkata Rami Reddy', img: 'ramy-reddy.jpeg' },
+  { id: 'ansahJoseph', name: 'Ansah Joseph', img: 'ansah-joseph.jpeg' },
+  { id: 'alexKakoma', name: 'Alex Chinyama Kakoma', img: 'Alex.jpeg' },
+];
+
+function initials(name: string) {
+  const clean = name.replace(/^Dr\.\s*/i, '').trim().split(/\s+/).filter(Boolean);
+  const first = clean[0] ? clean[0][0] : '';
+  const last = clean.length > 1 ? clean[clean.length - 1][0] : '';
+  return (first + last).toUpperCase();
+}
 
 export default function AboutContent() {
-  const t = useTranslations('aboutPage');
+  const t = useTranslations();
+  const locale = useLocale();
+
+  const groups = [
+    { key: 'execs', people: EXECS, wide: true },
+    { key: 'advisory', people: ADVISORY, wide: false },
+    { key: 'regional', people: REGIONAL, wide: false },
+  ];
 
   return (
-    <main className={styles.main}>
-      {/* Hero Section */}
-      <section className={styles.hero}>
-        <div className={styles.heroOverlay}></div>
-        <div className={styles.heroContent}>
-          <div className={styles.goldLine}></div>
-          <h1 className={styles.heroTitle}>{t('hero.title')}</h1>
-          <p className={styles.heroSubtitle}>{t('hero.subtitle')}</p>
+    <main>
+      {/* Page hero */}
+      <section className={styles.pageHero}>
+        <div className={styles.heroGlow} />
+        <div className={styles.container}>
+          <p className={styles.eyebrow}>{t('pages.company.hero.eyebrow')}</p>
+          <h1 className={styles.heroTitle}>{t('pages.company.hero.title')}</h1>
+          <p className={styles.heroLede}>{t('pages.company.hero.lede')}</p>
         </div>
       </section>
 
-      {/* CEO Message */}
-      <section className={styles.ceoSection}>
+      {/* About */}
+      <section id="about" className={styles.about}>
         <div className={styles.container}>
-          <div className={styles.ceoGrid}>
-            <div className={styles.ceoImageWrapper}>
-              <Image
-                src="/images/leadership/chairman350.jpeg"
-                alt="Michael Lee - Chairman"
-                fill
-                sizes="(max-width: 768px) 100vw, 400px"
-                className={styles.ceoImage}
-              />
+          <div className={styles.aboutGrid}>
+            <div>
+              <div className={styles.rule} />
+              <h2 className={styles.aboutTitle}>{t('pages.company.about.title')}</h2>
+              <p className={styles.aboutText}>{t('pages.company.about.p1')}</p>
+              <p className={styles.aboutText}>{t('pages.company.about.p2')}</p>
             </div>
-            <div className={styles.ceoContent}>
-              <div className={styles.goldLine}></div>
-              <h2 className={styles.sectionTitle}>{t('ceo.title')}</h2>
-              <div className={styles.ceoMessage}>
-                <p>{t('ceo.message1')}</p>
-                <p>{t('ceo.message2')}</p>
-                <p>{t('ceo.message3')}</p>
-              </div>
-              <div className={styles.ceoSignature}>
-                <span className={styles.ceoName}>{t('ceo.name')}</span>
-                <span className={styles.ceoPosition}>{t('ceo.position')}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Vision & Mission */}
-      <section className={styles.visionSection}>
-        <div className={styles.container}>
-          <div className={styles.visionGrid}>
-            <div className={styles.visionCard}>
-              <div className={styles.visionIcon}>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                  <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                  <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                </svg>
-              </div>
-              <h3 className={styles.visionTitle}>{t('vision.title')}</h3>
-              <p className={styles.visionText}>{t('vision.text')}</p>
-            </div>
-            <div className={styles.visionCard}>
-              <div className={styles.visionIcon}>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                  <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" />
-                </svg>
-              </div>
-              <h3 className={styles.visionTitle}>{t('mission.title')}</h3>
-              <p className={styles.visionText}>{t('mission.text')}</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Core Values */}
-      <section className={styles.valuesSection}>
-        <div className={styles.container}>
-          <div className={styles.sectionHeader}>
-            <div className={styles.goldLine}></div>
-            <h2 className={styles.sectionTitle}>{t('values.title')}</h2>
-          </div>
-          <div className={styles.valuesGrid}>
-            {values.map((value) => (
-              <div key={value.key} className={styles.valueCard}>
-                <div className={styles.valueIcon}>{value.icon}</div>
-                <h4 className={styles.valueTitle}>{t(`values.${value.key}.title`)}</h4>
-                <p className={styles.valueText}>{t(`values.${value.key}.text`)}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* History Timeline */}
-      <section className={styles.historySection}>
-        <div className={styles.container}>
-          <div className={styles.sectionHeader}>
-            <div className={styles.goldLine}></div>
-            <h2 className={styles.sectionTitle}>{t('history.title')}</h2>
-          </div>
-          <div className={styles.timeline}>
-            {milestones.map((milestone, index) => (
-              <div key={milestone.year} className={styles.timelineItem}>
-                <div className={styles.timelineYear}>{milestone.year}</div>
-                <div className={styles.timelineDot}></div>
-                <div className={styles.timelineContent}>
-                  <h4 className={styles.timelineTitle}>{t(`history.${milestone.key}.title`)}</h4>
-                  <p className={styles.timelineText}>{t(`history.${milestone.key}.text`)}</p>
+            <div className={styles.statsGrid}>
+              {STATS.map((s) => (
+                <div key={s.key} className={styles.statCell}>
+                  <div className={styles.statValue}>{s.value}</div>
+                  <div className={styles.statLabel}>{t(`home.stats.${s.key}`)}</div>
                 </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Leadership */}
+      <section id="leadership" className={styles.leadership}>
+        <div className={styles.container}>
+          <div className={styles.headerLeft}>
+            <div className={styles.rule} />
+            <h2 className={styles.sectionTitle}>{t('pages.company.leadership.title')}</h2>
+            <p className={styles.sectionSub}>{t('pages.company.leadership.subtitle')}</p>
+          </div>
+
+          {groups.map((g) => (
+            <div key={g.key} className={styles.group}>
+              <h3 className={styles.groupTitle}>{t(`pages.company.groups.${g.key}`)}</h3>
+              <div className={`${styles.peopleGrid} ${g.wide ? styles.grid4 : styles.grid3}`}>
+                {g.people.map((m) => (
+                  <div key={m.id} className={styles.personCard}>
+                    <div className={styles.portrait}>
+                      <span className={styles.initials}>{initials(m.name)}</span>
+                      <img
+                        src={`/images/leadership/${m.img}`}
+                        alt={m.name}
+                        loading="lazy"
+                        className={styles.portraitImg}
+                        onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
+                      />
+                    </div>
+                    <div className={styles.personBody}>
+                      <h4 className={styles.personName}>{m.name}</h4>
+                      <div className={styles.personTitle}>{t(`pages.company.people.${m.id}.title`)}</div>
+                      <p className={styles.personBio}>{t(`pages.company.people.${m.id}.bio`)}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className={styles.ctaSection}>
+        <div className={styles.container}>
+          <div className={styles.ctaPanel}>
+            <div className={styles.ctaGlow} />
+            <div className={styles.ctaInner}>
+              <p className={styles.ctaEyebrow}>{t('pages.company.cta.eyebrow')}</p>
+              <h2 className={styles.ctaTitle}>{t('pages.company.cta.title')}</h2>
+              <div className={styles.ctaActions}>
+                <a href={`/${locale}/contact`} className={styles.btnPrimary}>
+                  {t('header.getConsultation')}
+                </a>
+                <a href={`/${locale}/business`} className={styles.btnOutline}>
+                  {t('home.hero.ctaSecondary')}
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
