@@ -79,11 +79,14 @@
   width: 100%;
   aspect-ratio: 1;
   overflow: hidden;
+  background: #e8e8e8;
 }
 
 .profileImage {
   object-fit: cover;
   object-position: center top;
+  border: none;
+  outline: none;
 }
 
 .placeholder {

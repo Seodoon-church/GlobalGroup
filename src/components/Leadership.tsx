@@ -8,6 +8,7 @@ const executives = [
   { key: 'michaelLee', image: '/images/leadership/Michale-lee.jpeg' },
   { key: 'davidHan', image: '/images/leadership/david-han.jpeg' },
   { key: 'huhSeongphil', image: '/images/leadership/huh-seongphil.jpeg' },
+  { key: 'kasseyPaul', image: '/images/leadership/dr-kassey-paul.jpeg' },
 ];
 
 const advisors = [
