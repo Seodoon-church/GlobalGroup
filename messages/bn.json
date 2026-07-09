@@ -59,7 +59,7 @@
     "partners": "অংশীদারিত্ব",
     "news": "সংবাদ",
     "contact": "যোগাযোগ করুন",
-    "company": "Company"
+    "company": "কোম্পানি"
   },
   "hero": {
     "title": "Global Group Korea",
@@ -405,11 +405,11 @@
     "tel": "+82-(0)2-400-3084",
     "faxNum": "+82-(0)2-3444-3084",
     "copyright": "© 2026 GLOBAL GROUP KOREA CO.,LTD. সর্বস্বত্ব সংরক্ষিত।",
-    "brandBlurb": "Your trusted international business partner — connecting Korea with global markets through strategic commodity trading since 1987.",
-    "company": "Company",
-    "leadership": "Leadership",
-    "globalNetwork": "Global Network",
-    "indicative": "Market prices shown are indicative and for reference only."
+    "brandBlurb": "আপনার বিশ্বস্ত আন্তর্জাতিক ব্যবসায়িক অংশীদার — ১৯৮৭ সাল থেকে কৌশলগত পণ্য বাণিজ্যের মাধ্যমে কোরিয়াকে বৈশ্বিক বাজারের সঙ্গে সংযুক্ত করছি।",
+    "company": "কোম্পানি",
+    "leadership": "নেতৃত্ব",
+    "globalNetwork": "গ্লোবাল নেটওয়ার্ক",
+    "indicative": "প্রদর্শিত বাজারমূল্য নির্দেশক এবং শুধুমাত্র রেফারেন্সের জন্য।"
   },
   "businessDetail": {
     "backToBusiness": "ব্যবসায়িক ক্ষেত্রে ফিরে যান",
@@ -1081,291 +1081,321 @@
     }
   },
   "header": {
-    "markets": "Markets",
-    "getConsultation": "Get a Consultation"
+    "markets": "মার্কেট",
+    "getConsultation": "পরামর্শ নিন"
   },
   "home": {
     "hero": {
-      "eyebrow": "Hub of the World · Since 1987",
-      "title": "International commodity trading, delivered with certainty",
-      "lede": "Crude oil, copper, quartz and gold — sourced across 25+ countries in Africa, the Middle East and beyond, and traded end-to-end from our Seoul headquarters.",
-      "ctaSecondary": "Explore Business Areas"
+      "eyebrow": "বিশ্বের কেন্দ্রবিন্দু · Since 1987",
+      "title": "আন্তর্জাতিক পণ্য বাণিজ্য, নিশ্চয়তার সঙ্গে সরবরাহকৃত",
+      "lede": "অপরিশোধিত তেল, তামা, কোয়ার্টজ এবং স্বর্ণ — আফ্রিকা, মধ্যপ্রাচ্য এবং তার বাইরে 25+ দেশ থেকে সংগৃহীত, এবং আমাদের Seoul সদর দপ্তর থেকে প্রান্ত-থেকে-প্রান্ত পর্যন্ত ব্যবসায়িত।",
+      "ctaSecondary": "ব্যবসায়িক ক্ষেত্রসমূহ অন্বেষণ করুন"
     },
     "stats": {
-      "established": "Established",
-      "years": "Years of excellence",
-      "countries": "Countries",
-      "partners": "Global partners"
+      "established": "প্রতিষ্ঠিত",
+      "years": "উৎকর্ষের বছর",
+      "countries": "দেশ",
+      "partners": "গ্লোবাল অংশীদার"
     },
     "areas": {
-      "title": "Four pillars of global trade",
-      "subtitle": "Each commodity is backed by a dedicated sourcing network, verified origin, and rigorous quality assurance — so partners trade with certainty.",
+      "title": "বৈশ্বিক বাণিজ্যের চারটি স্তম্ভ",
+      "subtitle": "প্রতিটি পণ্য একটি নিবেদিত সোর্সিং নেটওয়ার্ক, যাচাইকৃত উৎস এবং কঠোর মান নিশ্চয়তা দ্বারা সমর্থিত — যাতে অংশীদাররা নিশ্চয়তার সঙ্গে ব্যবসা করতে পারে।",
       "cards": {
         "energyFuels": {
-          "name": "Energy & Fuels",
-          "category": "Petroleum & Refined Products",
-          "short": "Crude oil, EN590 10ppm diesel, and Jet A-1 aviation fuel."
+          "name": "জ্বালানি ও ফুয়েল",
+          "category": "পেট্রোলিয়াম ও পরিশোধিত পণ্য",
+          "short": "অপরিশোধিত তেল, EN590 10ppm ডিজেল এবং Jet A-1 বিমান জ্বালানি।"
         },
         "quartz": {
-          "name": "Quartz",
-          "category": "Industrial Minerals",
-          "short": "High-purity quartz for the semiconductor and solar industries."
+          "name": "কোয়ার্টজ",
+          "category": "শিল্প খনিজ",
+          "short": "সেমিকন্ডাক্টর ও সৌর শিল্পের জন্য উচ্চ-বিশুদ্ধতার কোয়ার্টজ।"
         },
         "copper": {
-          "name": "Copper",
-          "category": "Industrial Metals",
-          "short": "Stable, high-quality copper supply from Chile, Peru, and Australia."
+          "name": "তামা",
+          "category": "শিল্প ধাতু",
+          "short": "Chile, Peru এবং Australia থেকে স্থিতিশীল, উচ্চমানের তামার সরবরাহ।"
         },
         "gold": {
-          "name": "Gold",
-          "category": "Precious Metals",
-          "short": "Safe, transparent gold trading centred on LBMA-certified bars."
+          "name": "স্বর্ণ",
+          "category": "মূল্যবান ধাতু",
+          "short": "LBMA-প্রত্যয়িত বার-কেন্দ্রিক নিরাপদ, স্বচ্ছ স্বর্ণ বাণিজ্য।"
         }
       }
     },
     "network": {
-      "title": "Our global network",
-      "subtitle": "Seven strategic offices linking resource origins in Africa and the Middle East to markets worldwide — coordinated from our Seoul headquarters.",
-      "tapHint": "Tap a marker to explore each office",
-      "statCountries": "Countries traded across",
-      "statPartners": "Global partners",
-      "statVolume": "Annual trading volume",
-      "statYears": "Years of excellence"
+      "title": "আমাদের গ্লোবাল নেটওয়ার্ক",
+      "subtitle": "আফ্রিকা ও মধ্যপ্রাচ্যের সম্পদ উৎসকে বিশ্বজুড়ে বাজারের সঙ্গে সংযোগকারী সাতটি কৌশলগত কার্যালয় — আমাদের Seoul সদর দপ্তর থেকে সমন্বিত।",
+      "tapHint": "প্রতিটি কার্যালয় অন্বেষণ করতে একটি মার্কারে ট্যাপ করুন",
+      "statCountries": "যেসব দেশে ব্যবসা হয়",
+      "statPartners": "গ্লোবাল অংশীদার",
+      "statVolume": "বার্ষিক বাণিজ্য পরিমাণ",
+      "statYears": "উৎকর্ষের বছর",
+      "offices": {
+        "seoul": {
+          "role": "সদর দপ্তর",
+          "desc": "অর্থ, সাধারণ বিষয়াবলি, প্রশাসন এবং আন্তর্জাতিক ব্যবসা উন্নয়ন।"
+        },
+        "montreal": {
+          "role": "উত্তর আমেরিকা কার্যালয়",
+          "desc": "উত্তর আমেরিকার কার্যক্রম এবং বাজার প্রবেশাধিকার।"
+        },
+        "dubai": {
+          "role": "মধ্যপ্রাচ্য কার্যালয়",
+          "desc": "বাণিজ্য অর্থায়ন, লজিস্টিকস এবং জ্বালানি খাতের অংশীদারিত্ব।"
+        },
+        "dhaka": {
+          "role": "দক্ষিণ এশিয়া কার্যালয়",
+          "desc": "দক্ষিণ এশীয় বাজার উন্নয়ন এবং অংশীদারিত্ব।"
+        },
+        "accra": {
+          "role": "পশ্চিম আফ্রিকা কার্যালয়",
+          "desc": "খনন, কৃষি এবং অবকাঠামো খাত।"
+        },
+        "morogoro": {
+          "role": "কোয়ার্টজ উৎপাদন হাব",
+          "desc": "VISH KVARTZ INTANZ-এর সঙ্গে একচেটিয়া অংশীদারিত্ব — 18 কোয়ার্টজ খনি, 18M-টন মজুদ, বিশ্বব্যাপী পরিবেশন অধিকার। Dar es Salaam বন্দর দিয়ে রপ্তানি।"
+        },
+        "capeTown": {
+          "role": "আফ্রিকা আঞ্চলিক কার্যালয়",
+          "desc": "দক্ষিণ আফ্রিকার কার্যক্রম এবং আঞ্চলিক সমন্বয়।"
+        }
+      }
     },
     "approach": {
-      "title": "How we invest & execute",
-      "subtitle": "A disciplined three-stage approach that turns local market knowledge into secure, high-conviction transactions.",
+      "title": "আমরা যেভাবে বিনিয়োগ ও বাস্তবায়ন করি",
+      "subtitle": "একটি সুশৃঙ্খল তিন-পর্যায়ের পদ্ধতি যা স্থানীয় বাজার জ্ঞানকে নিরাপদ, উচ্চ-দৃঢ়তাসম্পন্ন লেনদেনে রূপান্তরিত করে।",
       "step1": {
-        "title": "Market Research & Analysis",
-        "detail": "Comprehensive due diligence and risk assessment through our network of local experts and market intelligence."
+        "title": "বাজার গবেষণা ও বিশ্লেষণ",
+        "detail": "আমাদের স্থানীয় বিশেষজ্ঞ ও বাজার তথ্যের নেটওয়ার্কের মাধ্যমে ব্যাপক যথাযথ যাচাই এবং ঝুঁকি মূল্যায়ন।"
       },
       "step2": {
-        "title": "Strategic Partnership Development",
-        "detail": "Building sustainable relationships with local partners and government entities to ensure long-term success."
+        "title": "কৌশলগত অংশীদারিত্ব উন্নয়ন",
+        "detail": "দীর্ঘমেয়াদী সাফল্য নিশ্চিত করতে স্থানীয় অংশীদার ও সরকারি সংস্থার সঙ্গে টেকসই সম্পর্ক গড়ে তোলা।"
       },
       "step3": {
-        "title": "Risk Mitigation & Optimization",
-        "detail": "Proven strategies that minimize investment risk while maximizing returns through careful project management."
+        "title": "ঝুঁকি প্রশমন ও অপ্টিমাইজেশন",
+        "detail": "সতর্ক প্রকল্প ব্যবস্থাপনার মাধ্যমে বিনিয়োগ ঝুঁকি হ্রাস করে সর্বোচ্চ রিটার্ন অর্জনের প্রমাণিত কৌশল।"
       }
     },
     "cta": {
-      "eyebrow": "Ready to Expand Globally?",
-      "title": "Let's build your supply chain with confidence",
-      "text": "Connect with our experts to discuss cross-border sourcing, market entry, and partnership development across our global network.",
-      "primary": "Get Free Consultation",
-      "secondary": "Explore Business Areas"
+      "eyebrow": "বিশ্বব্যাপী সম্প্রসারণে প্রস্তুত?",
+      "title": "আসুন আত্মবিশ্বাসের সঙ্গে আপনার সরবরাহ শৃঙ্খল গড়ি",
+      "text": "আমাদের গ্লোবাল নেটওয়ার্ক জুড়ে সীমান্ত-পারাপার সোর্সিং, বাজারে প্রবেশ এবং অংশীদারিত্ব উন্নয়ন নিয়ে আলোচনা করতে আমাদের বিশেষজ্ঞদের সঙ্গে যুক্ত হন।",
+      "primary": "বিনামূল্যে পরামর্শ নিন",
+      "secondary": "ব্যবসায়িক ক্ষেত্রসমূহ অন্বেষণ করুন"
     }
   },
   "pages": {
     "business": {
       "hero": {
-        "eyebrow": "Business Areas",
-        "title": "Leading the global resource market",
-        "lede": "Four commodity desks — energy, industrial metals, high-purity minerals, and precious metals — each backed by verified origin, quality assurance, and end-to-end trade execution."
+        "eyebrow": "ব্যবসায়িক ক্ষেত্রসমূহ",
+        "title": "বৈশ্বিক সম্পদ বাজারে নেতৃত্ব",
+        "lede": "চারটি পণ্য ডেস্ক — জ্বালানি, শিল্প ধাতু, উচ্চ-বিশুদ্ধতার খনিজ এবং মূল্যবান ধাতু — প্রতিটি যাচাইকৃত উৎস, মান নিশ্চয়তা এবং প্রান্ত-থেকে-প্রান্ত বাণিজ্য বাস্তবায়ন দ্বারা সমর্থিত।"
       },
       "trade": {
-        "title": "How a GGK trade works",
-        "subtitle": "Trading is a service. Every deal moves through the same disciplined path — so partners always know exactly where their transaction stands.",
+        "title": "একটি GGK বাণিজ্য যেভাবে কাজ করে",
+        "subtitle": "বাণিজ্য একটি সেবা। প্রতিটি চুক্তি একই সুশৃঙ্খল পথে অগ্রসর হয় — যাতে অংশীদাররা সবসময় জানে তাদের লেনদেন ঠিক কোথায় দাঁড়িয়ে আছে।",
         "step1": {
-          "title": "Demand Analysis",
-          "detail": "We map your specification, volume and delivery window, then match it to verified supply."
+          "title": "চাহিদা বিশ্লেষণ",
+          "detail": "আমরা আপনার স্পেসিফিকেশন, পরিমাণ এবং সরবরাহের সময়সীমা চিহ্নিত করি, তারপর সেটিকে যাচাইকৃত সরবরাহের সঙ্গে মেলাই।"
         },
         "step2": {
-          "title": "Structuring & Contract",
-          "detail": "KYC-first onboarding, secure banking instruments and clear, enforceable terms."
+          "title": "কাঠামো নির্মাণ ও চুক্তি",
+          "detail": "KYC-প্রথম অনবোর্ডিং, নিরাপদ ব্যাংকিং উপকরণ এবং স্পষ্ট, প্রয়োগযোগ্য শর্তাবলি।"
         },
         "step3": {
-          "title": "Logistics & Inspection",
-          "detail": "Freight, insurance and independent quality inspection managed end-to-end."
+          "title": "লজিস্টিকস ও পরিদর্শন",
+          "detail": "মালবহন, বিমা এবং স্বাধীন মান পরিদর্শন প্রান্ত-থেকে-প্রান্ত পরিচালিত।"
         },
         "step4": {
-          "title": "Secure Settlement",
-          "detail": "Documented, transparent settlement — a single accountable counterparty throughout."
+          "title": "নিরাপদ নিষ্পত্তি",
+          "detail": "নথিভুক্ত, স্বচ্ছ নিষ্পত্তি — সমগ্র প্রক্রিয়া জুড়ে একটি জবাবদিহিমূলক প্রতিপক্ষ।"
         }
       },
       "commodities": {
         "energyFuels": {
-          "category": "Petroleum & Refined Products",
-          "name": "Energy & Fuels",
-          "long": "Crude oil, EN590 10ppm diesel, and Jet A-1 aviation fuel — supplied through verified refining and supply channels, with KYC-first procedures and secure banking instruments protecting every transaction.",
-          "p1": "Crude oil, EN590 10ppm & Jet A-1",
-          "p2": "Verified refining & supply channels",
-          "p3": "KYC-first with secure banking instruments"
+          "category": "পেট্রোলিয়াম ও পরিশোধিত পণ্য",
+          "name": "জ্বালানি ও ফুয়েল",
+          "long": "অপরিশোধিত তেল, EN590 10ppm ডিজেল এবং Jet A-1 বিমান জ্বালানি — যাচাইকৃত পরিশোধন ও সরবরাহ চ্যানেলের মাধ্যমে সরবরাহকৃত, KYC-প্রথম পদ্ধতি এবং নিরাপদ ব্যাংকিং উপকরণ প্রতিটি লেনদেনকে সুরক্ষিত করে।",
+          "p1": "অপরিশোধিত তেল, EN590 10ppm ও Jet A-1",
+          "p2": "যাচাইকৃত পরিশোধন ও সরবরাহ চ্যানেল",
+          "p3": "নিরাপদ ব্যাংকিং উপকরণসহ KYC-প্রথম"
         },
         "quartz": {
-          "category": "Industrial Minerals",
-          "name": "Quartz",
-          "long": "High-purity quartz essential to the semiconductor and solar industries, backed by our exclusive worldwide distribution partnership with VISH KVARTZ INTANZ in Morogoro, Tanzania — 18 mines, 18M-tonne reserves, exported via Dar es Salaam Port.",
-          "p1": "Semiconductor & solar grade purity",
-          "p2": "18 mines · 18M-tonne reserves (Tanzania)",
-          "p3": "Exclusive worldwide distribution rights"
+          "category": "শিল্প খনিজ",
+          "name": "কোয়ার্টজ",
+          "long": "সেমিকন্ডাক্টর ও সৌর শিল্পের জন্য অপরিহার্য উচ্চ-বিশুদ্ধতার কোয়ার্টজ, Morogoro, Tanzania-তে VISH KVARTZ INTANZ-এর সঙ্গে আমাদের একচেটিয়া বিশ্বব্যাপী পরিবেশন অংশীদারিত্ব দ্বারা সমর্থিত — 18 খনি, 18M-টন মজুদ, Dar es Salaam বন্দর দিয়ে রপ্তানি।",
+          "p1": "সেমিকন্ডাক্টর ও সৌর গ্রেড বিশুদ্ধতা",
+          "p2": "18 খনি · 18M-টন মজুদ (Tanzania)",
+          "p3": "একচেটিয়া বিশ্বব্যাপী পরিবেশন অধিকার"
         },
         "copper": {
-          "category": "Industrial Metals",
-          "name": "Copper",
-          "long": "Through our network with major copper-producing countries — Chile, Peru, and Australia — we provide a stable supply of high-quality copper materials for the electrification, construction, and electronics industries.",
-          "p1": "Chile · Peru · Australia network",
-          "p2": "High-quality copper materials",
-          "p3": "Stable long-term supply"
+          "category": "শিল্প ধাতু",
+          "name": "তামা",
+          "long": "প্রধান তামা-উৎপাদনকারী দেশ — Chile, Peru এবং Australia — এর সঙ্গে আমাদের নেটওয়ার্কের মাধ্যমে আমরা বিদ্যুতায়ন, নির্মাণ এবং ইলেকট্রনিক্স শিল্পের জন্য উচ্চমানের তামার উপকরণের স্থিতিশীল সরবরাহ প্রদান করি।",
+          "p1": "Chile · Peru · Australia নেটওয়ার্ক",
+          "p2": "উচ্চমানের তামার উপকরণ",
+          "p3": "স্থিতিশীল দীর্ঘমেয়াদী সরবরাহ"
         },
         "gold": {
-          "category": "Precious Metals",
-          "name": "Gold",
-          "long": "Safe and transparent gold trading services centred on LBMA-certified gold bars, meeting both investment and industrial demand with secure, fully documented settlement.",
-          "p1": "LBMA-certified gold bars",
-          "p2": "Investment & industrial demand",
-          "p3": "Safe, transparent settlement"
+          "category": "মূল্যবান ধাতু",
+          "name": "স্বর্ণ",
+          "long": "LBMA-প্রত্যয়িত স্বর্ণের বার-কেন্দ্রিক নিরাপদ ও স্বচ্ছ স্বর্ণ বাণিজ্য সেবা, নিরাপদ ও পূর্ণ নথিভুক্ত নিষ্পত্তির মাধ্যমে বিনিয়োগ ও শিল্প উভয় চাহিদা পূরণ করে।",
+          "p1": "LBMA-প্রত্যয়িত স্বর্ণের বার",
+          "p2": "বিনিয়োগ ও শিল্প চাহিদা",
+          "p3": "নিরাপদ, স্বচ্ছ নিষ্পত্তি"
         }
       },
       "supply": {
-        "eyebrow": "Exclusive · Quartz",
-        "title": "A supply chain we own end-to-end",
-        "subtitle": "Our exclusive partnership with VISH KVARTZ INTANZ gives GGK worldwide distribution rights over one of the largest high-purity quartz resources in East Africa.",
-        "stat1": "Active quartz mines",
-        "stat2": "Metric tonnes in reserve",
-        "stat3": "Exclusive distribution",
+        "eyebrow": "একচেটিয়া · কোয়ার্টজ",
+        "title": "একটি সরবরাহ শৃঙ্খল যা আমরা প্রান্ত-থেকে-প্রান্ত পরিচালনা করি",
+        "subtitle": "VISH KVARTZ INTANZ-এর সঙ্গে আমাদের একচেটিয়া অংশীদারিত্ব GGK-কে পূর্ব আফ্রিকার বৃহত্তম উচ্চ-বিশুদ্ধতার কোয়ার্টজ সম্পদের একটির উপর বিশ্বব্যাপী পরিবেশন অধিকার প্রদান করে।",
+        "stat1": "সক্রিয় কোয়ার্টজ খনি",
+        "stat2": "মজুদে মেট্রিক টন",
+        "stat3": "একচেটিয়া পরিবেশন",
         "flow1": {
-          "title": "Morogoro Mines",
-          "detail": "18 mines · 18M-tonne high-purity reserves, Tanzania"
+          "title": "Morogoro খনি",
+          "detail": "18 খনি · 18M-টন উচ্চ-বিশুদ্ধতার মজুদ, Tanzania"
         },
         "flow2": {
-          "title": "Dar es Salaam Port",
-          "detail": "Consolidated export, inspection & quality control"
+          "title": "Dar es Salaam বন্দর",
+          "detail": "সমন্বিত রপ্তানি, পরিদর্শন ও মান নিয়ন্ত্রণ"
         },
         "flow3": {
-          "title": "Global Distribution",
-          "detail": "Exclusive worldwide rights to semiconductor & solar markets"
+          "title": "গ্লোবাল পরিবেশন",
+          "detail": "সেমিকন্ডাক্টর ও সৌর বাজারে একচেটিয়া বিশ্বব্যাপী অধিকার"
         }
       },
       "cta": {
-        "eyebrow": "Partner With Us",
-        "title": "Let's build your supply chain with confidence",
-        "text": "Tell us what you source and where you operate. Our trading desk will respond with a tailored supply proposal.",
-        "secondary": "View Global Network"
+        "eyebrow": "আমাদের সঙ্গে অংশীদার হোন",
+        "title": "আসুন আত্মবিশ্বাসের সঙ্গে আপনার সরবরাহ শৃঙ্খল গড়ি",
+        "text": "আপনি কী সংগ্রহ করেন এবং কোথায় কার্যক্রম পরিচালনা করেন তা আমাদের জানান। আমাদের ট্রেডিং ডেস্ক একটি উপযোগী সরবরাহ প্রস্তাব নিয়ে সাড়া দেবে।",
+        "secondary": "গ্লোবাল নেটওয়ার্ক দেখুন"
       }
     },
     "company": {
       "hero": {
-        "eyebrow": "Company",
-        "title": "A trusted partner, connecting Korea with global markets",
-        "lede": "Since 1987, Global Group Korea has delivered strategic sourcing, trade finance, and end-to-end supply-chain solutions across crude oil, copper, quartz, and gold — building 37 years of heritage in international resource trading."
+        "eyebrow": "কোম্পানি",
+        "title": "একটি বিশ্বস্ত অংশীদার, কোরিয়াকে বৈশ্বিক বাজারের সঙ্গে সংযুক্তকারী",
+        "lede": "১৯৮৭ সাল থেকে Global Group Korea অপরিশোধিত তেল, তামা, কোয়ার্টজ এবং স্বর্ণ জুড়ে কৌশলগত সোর্সিং, বাণিজ্য অর্থায়ন এবং প্রান্ত-থেকে-প্রান্ত সরবরাহ-শৃঙ্খল সমাধান সরবরাহ করছে — আন্তর্জাতিক সম্পদ বাণিজ্যে 37 বছরের ঐতিহ্য গড়ে তুলছে।"
       },
       "about": {
-        "title": "Hub of the World",
-        "p1": "Global Group Korea (GGK) is an international commodity trading and investment partner specializing in crude oil, copper, quartz, and gold across 25+ countries in Africa, the Middle East, and beyond.",
-        "p2": "From our Seoul headquarters and six regional offices, we combine deep local knowledge with rigorous risk management to give partners a single, accountable counterparty from sourcing through settlement."
+        "title": "বিশ্বের কেন্দ্রবিন্দু",
+        "p1": "Global Group Korea (GGK) হলো একটি আন্তর্জাতিক পণ্য বাণিজ্য ও বিনিয়োগ অংশীদার যা আফ্রিকা, মধ্যপ্রাচ্য এবং তার বাইরে 25+ দেশ জুড়ে অপরিশোধিত তেল, তামা, কোয়ার্টজ এবং স্বর্ণে বিশেষজ্ঞ।",
+        "p2": "আমাদের Seoul সদর দপ্তর এবং ছয়টি আঞ্চলিক কার্যালয় থেকে আমরা গভীর স্থানীয় জ্ঞানকে কঠোর ঝুঁকি ব্যবস্থাপনার সঙ্গে সমন্বিত করি, যাতে অংশীদাররা সোর্সিং থেকে নিষ্পত্তি পর্যন্ত একটি একক, জবাবদিহিমূলক প্রতিপক্ষ পায়।"
       },
       "leadership": {
-        "title": "Executive leadership team",
-        "subtitle": "Decades of international business experience with deep market knowledge across industries and regions."
+        "title": "নির্বাহী নেতৃত্ব দল",
+        "subtitle": "শিল্প ও অঞ্চল জুড়ে গভীর বাজার জ্ঞানসহ কয়েক দশকের আন্তর্জাতিক ব্যবসায়িক অভিজ্ঞতা।"
       },
       "groups": {
-        "execs": "Executive Leadership",
-        "advisory": "Strategic Advisory & Technical Excellence",
-        "regional": "Regional Market Leadership"
+        "execs": "নির্বাহী নেতৃত্ব",
+        "advisory": "কৌশলগত পরামর্শ ও কারিগরি উৎকর্ষ",
+        "regional": "আঞ্চলিক বাজার নেতৃত্ব"
       },
       "people": {
         "michaelLee": {
-          "title": "Chairman",
-          "bio": "Strategic vision and corporate governance leadership with extensive experience in international market development and cross-cultural business operations."
+          "title": "চেয়ারম্যান",
+          "bio": "আন্তর্জাতিক বাজার উন্নয়ন এবং সংস্কৃতি-অতিক্রমকারী ব্যবসায়িক কার্যক্রমে ব্যাপক অভিজ্ঞতাসহ কৌশলগত দৃষ্টিভঙ্গি ও কর্পোরেট গভর্ন্যান্স নেতৃত্ব।"
         },
         "davidHan": {
-          "title": "CEO / Managing Director",
-          "bio": "Operational excellence and business development expertise, driving growth initiatives across our global network of partnerships and investments."
+          "title": "CEO / ব্যবস্থাপনা পরিচালক",
+          "bio": "কার্যকরী উৎকর্ষ ও ব্যবসা উন্নয়ন দক্ষতা, আমাদের অংশীদারিত্ব ও বিনিয়োগের গ্লোবাল নেটওয়ার্ক জুড়ে প্রবৃদ্ধি উদ্যোগকে এগিয়ে নিয়ে যাওয়া।"
         },
         "huhSeongphil": {
-          "title": "Vice Chairman",
-          "bio": "Academic and industry leadership combining research excellence with practical business applications in emerging markets and technology sectors."
+          "title": "ভাইস চেয়ারম্যান",
+          "bio": "উদীয়মান বাজার ও প্রযুক্তি খাতে ব্যবহারিক ব্যবসায়িক প্রয়োগের সঙ্গে গবেষণার উৎকর্ষ সমন্বিত একাডেমিক ও শিল্প নেতৃত্ব।"
         },
         "kasseyPaul": {
-          "title": "Director of Technical Operations",
-          "bio": "Leads all technical and supply operations for GGK's high-purity quartz business. Founder and MD of VKICL, Tanzania, with over 25 years in mineral resource development, mine operations, and quality certification."
+          "title": "কারিগরি কার্যক্রমের পরিচালক",
+          "bio": "GGK-এর উচ্চ-বিশুদ্ধতার কোয়ার্টজ ব্যবসার সমস্ত কারিগরি ও সরবরাহ কার্যক্রম পরিচালনা করেন। VKICL, Tanzania-এর প্রতিষ্ঠাতা ও MD, খনিজ সম্পদ উন্নয়ন, খনি কার্যক্রম এবং মান প্রত্যয়নে 25 বছরের বেশি অভিজ্ঞতাসম্পন্ন।"
         },
         "byungheunJang": {
-          "title": "Special Advisor",
-          "bio": "Provides strategic counsel on complex international transactions and regulatory compliance across multiple jurisdictions — risk assessment, market entry, and partnership structuring."
+          "title": "বিশেষ উপদেষ্টা",
+          "bio": "একাধিক এখতিয়ার জুড়ে জটিল আন্তর্জাতিক লেনদেন ও নিয়ন্ত্রক সম্মতি বিষয়ে কৌশলগত পরামর্শ প্রদান করেন — ঝুঁকি মূল্যায়ন, বাজারে প্রবেশ এবং অংশীদারিত্ব কাঠামো নির্মাণ।"
         },
         "seongtaekHong": {
-          "title": "Technical Director",
-          "bio": "Leads technical due diligence and project feasibility assessments, ensuring thorough evaluation of specifications, quality standards, and implementation methodologies."
+          "title": "কারিগরি পরিচালক",
+          "bio": "কারিগরি যথাযথ যাচাই ও প্রকল্প সম্ভাব্যতা মূল্যায়নে নেতৃত্ব দেন, স্পেসিফিকেশন, মান মানদণ্ড এবং বাস্তবায়ন পদ্ধতির পুঙ্খানুপুঙ্খ মূল্যায়ন নিশ্চিত করেন।"
         },
         "kateLee": {
-          "title": "Overseas Marketing Director",
-          "bio": "Develops and executes international marketing strategies, managing brand positioning and cross-cultural campaigns across multiple regions."
+          "title": "বৈদেশিক বিপণন পরিচালক",
+          "bio": "আন্তর্জাতিক বিপণন কৌশল উন্নয়ন ও বাস্তবায়ন করেন, একাধিক অঞ্চল জুড়ে ব্র্যান্ড অবস্থান ও সংস্কৃতি-অতিক্রমকারী প্রচারাভিযান পরিচালনা করেন।"
         },
         "ramyReddy": {
-          "title": "Overseas Director (Trading Dept.)",
-          "bio": "Leads international commodity trading in gold, copper, and crude oil — strategic sourcing, supplier negotiation, market analysis, and risk management across global markets."
+          "title": "বৈদেশিক পরিচালক (ট্রেডিং বিভাগ)",
+          "bio": "স্বর্ণ, তামা এবং অপরিশোধিত তেলে আন্তর্জাতিক পণ্য বাণিজ্যে নেতৃত্ব দেন — বৈশ্বিক বাজার জুড়ে কৌশলগত সোর্সিং, সরবরাহকারী আলোচনা, বাজার বিশ্লেষণ এবং ঝুঁকি ব্যবস্থাপনা।"
         },
         "ansahJoseph": {
-          "title": "Director / Ghana",
-          "bio": "Manages West African operations with expertise in mining, agriculture, and infrastructure, providing insight into regional regulatory frameworks and business practices."
+          "title": "পরিচালক / Ghana",
+          "bio": "খনন, কৃষি এবং অবকাঠামোয় দক্ষতাসহ পশ্চিম আফ্রিকার কার্যক্রম পরিচালনা করেন, আঞ্চলিক নিয়ন্ত্রক কাঠামো ও ব্যবসায়িক প্রথায় অন্তর্দৃষ্টি প্রদান করেন।"
         },
         "alexKakoma": {
-          "title": "Regional Representative — Southern Africa",
-          "bio": "Oversees Southern Africa operations from the Cape Town office, leading business development and partnership building across the region."
+          "title": "আঞ্চলিক প্রতিনিধি — দক্ষিণ আফ্রিকা",
+          "bio": "Cape Town কার্যালয় থেকে দক্ষিণ আফ্রিকার কার্যক্রম তত্ত্বাবধান করেন, অঞ্চলজুড়ে ব্যবসা উন্নয়ন ও অংশীদারিত্ব গঠনে নেতৃত্ব দেন।"
         }
       },
       "cta": {
-        "eyebrow": "Work With Us",
-        "title": "Let's discuss your next opportunity"
+        "eyebrow": "আমাদের সঙ্গে কাজ করুন",
+        "title": "আসুন আপনার পরবর্তী সুযোগ নিয়ে আলোচনা করি"
       }
     },
     "news": {
       "hero": {
-        "eyebrow": "Newsroom",
-        "title": "News & market insights",
-        "lede": "Company milestones and analyst perspectives on the forces shaping global commodity markets."
+        "eyebrow": "নিউজরুম",
+        "title": "সংবাদ ও বাজার অন্তর্দৃষ্টি",
+        "lede": "কোম্পানির মাইলফলক এবং বৈশ্বিক পণ্য বাজারকে রূপদানকারী শক্তিগুলোর উপর বিশ্লেষকদের দৃষ্টিভঙ্গি।"
       },
       "badge": {
-        "company": "Company",
-        "market": "Market"
+        "company": "কোম্পানি",
+        "market": "মার্কেট"
       },
       "feature": {
-        "title": "GGK Signs Strategic Partnership for Tanzanian Quartz Production Hub",
-        "excerpt": "Global Group Korea and VISH KVARTZ INTANZ formalize an exclusive worldwide distribution agreement for high-purity quartz from Morogoro, Tanzania — 18 mines and 18M-tonne reserves, exported via Dar es Salaam Port."
+        "title": "GGK Tanzania-র কোয়ার্টজ উৎপাদন হাবের জন্য কৌশলগত অংশীদারিত্ব চুক্তি স্বাক্ষর করেছে",
+        "excerpt": "Global Group Korea এবং VISH KVARTZ INTANZ, Morogoro, Tanzania-র উচ্চ-বিশুদ্ধতার কোয়ার্টজের জন্য একটি একচেটিয়া বিশ্বব্যাপী পরিবেশন চুক্তি আনুষ্ঠানিক করেছে — 18 খনি ও 18M-টন মজুদ, Dar es Salaam বন্দর দিয়ে রপ্তানি।"
       },
       "articles": {
         "a1": {
-          "title": "2026 Global Commodity Market Outlook: Key Trends to Watch",
-          "excerpt": "Our analysts examine the major forces shaping commodity prices in 2026, from the energy transition to semiconductor demand growth."
+          "title": "2026 গ্লোবাল পণ্য বাজার পূর্বাভাস: লক্ষণীয় প্রধান প্রবণতা",
+          "excerpt": "আমাদের বিশ্লেষকরা জ্বালানি রূপান্তর থেকে সেমিকন্ডাক্টর চাহিদা বৃদ্ধি পর্যন্ত 2026 সালে পণ্যমূল্যকে রূপদানকারী প্রধান শক্তিগুলো পরীক্ষা করেন।"
         },
         "a2": {
-          "title": "GGK Expands South Asia Operations with Dhaka Office Upgrade",
-          "excerpt": "Global Group Korea strengthens its Bangladesh presence with expanded facilities and a larger team to support growing regional trade."
+          "title": "GGK Dhaka কার্যালয় উন্নয়নের মাধ্যমে দক্ষিণ এশিয়ার কার্যক্রম সম্প্রসারণ করেছে",
+          "excerpt": "Global Group Korea বর্ধিত সুবিধা এবং ক্রমবর্ধমান আঞ্চলিক বাণিজ্যকে সমর্থনের জন্য একটি বৃহত্তর দল দিয়ে তার Bangladesh উপস্থিতি জোরদার করেছে।"
         }
       },
-      "readStory": "Read the story",
-      "readMore": "Read More"
+      "readStory": "গল্পটি পড়ুন",
+      "readMore": "আরও পড়ুন"
     },
     "contact": {
       "hero": {
-        "eyebrow": "Contact Us",
-        "title": "Let's start a conversation",
-        "lede": "Tell us what you source and where you operate. Our trading desk responds with a tailored supply proposal."
+        "eyebrow": "যোগাযোগ করুন",
+        "title": "আসুন একটি কথোপকথন শুরু করি",
+        "lede": "আপনি কী সংগ্রহ করেন এবং কোথায় কার্যক্রম পরিচালনা করেন তা আমাদের জানান। আমাদের ট্রেডিং ডেস্ক একটি উপযোগী সরবরাহ প্রস্তাব নিয়ে সাড়া দেয়।"
       },
       "hq": {
-        "title": "Headquarters"
+        "title": "সদর দপ্তর"
       },
       "form": {
-        "title": "Request a consultation"
+        "title": "পরামর্শের অনুরোধ করুন"
       },
       "success": {
-        "title": "Thank you — message received",
-        "text": "Our team will be in touch shortly.",
-        "another": "Send another"
+        "title": "ধন্যবাদ — বার্তা গৃহীত হয়েছে",
+        "text": "আমাদের দল শীঘ্রই যোগাযোগ করবে।",
+        "another": "আরেকটি পাঠান"
       },
       "offices": {
-        "title": "Our offices",
-        "subtitle": "Seven strategic locations across the globe, coordinated from Seoul.",
+        "title": "আমাদের কার্যালয়সমূহ",
+        "subtitle": "বিশ্বজুড়ে সাতটি কৌশলগত অবস্থান, Seoul থেকে সমন্বিত।",
         "roles": {
-          "seoul": "Headquarters",
-          "morogoro": "Quartz Production Hub",
-          "dubai": "Middle East Office",
-          "accra": "West Africa Office",
-          "capeTown": "Africa Regional Office",
-          "dhaka": "South Asia Office",
-          "montreal": "North America Office"
+          "seoul": "সদর দপ্তর",
+          "morogoro": "কোয়ার্টজ উৎপাদন হাব",
+          "dubai": "মধ্যপ্রাচ্য কার্যালয়",
+          "accra": "পশ্চিম আফ্রিকা কার্যালয়",
+          "capeTown": "আফ্রিকা আঞ্চলিক কার্যালয়",
+          "dhaka": "দক্ষিণ এশিয়া কার্যালয়",
+          "montreal": "উত্তর আমেরিকা কার্যালয়"
         }
       }
     }

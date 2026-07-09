@@ -1130,7 +1130,37 @@
       "statCountries": "거래 진출 국가",
       "statPartners": "글로벌 파트너",
       "statVolume": "연간 거래액",
-      "statYears": "업력"
+      "statYears": "업력",
+      "offices": {
+        "seoul": {
+          "role": "본사",
+          "desc": "재무, 총무, 관리 및 국제 사업 개발."
+        },
+        "montreal": {
+          "role": "북미 사무소",
+          "desc": "북미 운영 및 시장 접근."
+        },
+        "dubai": {
+          "role": "중동 사무소",
+          "desc": "무역 금융, 물류, 에너지 부문 파트너십."
+        },
+        "dhaka": {
+          "role": "남아시아 사무소",
+          "desc": "남아시아 시장 개발 및 파트너십."
+        },
+        "accra": {
+          "role": "서아프리카 사무소",
+          "desc": "광업, 농업, 인프라 부문."
+        },
+        "morogoro": {
+          "role": "석영 생산 허브",
+          "desc": "VISH KVARTZ INTANZ와의 독점 파트너십 — 18개 석영 광산, 1,800만 톤 매장량, 전세계 유통권. Dar es Salaam Port를 통해 수출."
+        },
+        "capeTown": {
+          "role": "아프리카 지역 사무소",
+          "desc": "남부 아프리카 운영 및 지역 총괄."
+        }
+      }
     },
     "approach": {
       "title": "투자·실행 방식",

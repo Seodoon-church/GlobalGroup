@@ -7,21 +7,20 @@ import styles from './GlobalNetwork.module.css';
 type Kind = 'hq' | 'quartz' | 'std';
 
 const OFFICES: {
+  id: string;
   city: string;
   country: string;
-  role: string;
-  desc: string;
   x: number;
   y: number;
   kind: Kind;
 }[] = [
-  { city: 'Seoul', country: 'South Korea', role: 'Headquarters', x: 85.3, y: 29.2, kind: 'hq', desc: 'Finance, general affairs, administration and international business development.' },
-  { city: 'Montreal', country: 'Canada', role: 'North America Office', x: 29.6, y: 24.7, kind: 'std', desc: 'North American operations and market access.' },
-  { city: 'Dubai', country: 'UAE', role: 'Middle East Office', x: 65.4, y: 36.0, kind: 'std', desc: 'Trade finance, logistics and energy-sector partnerships.' },
-  { city: 'Dhaka', country: 'Bangladesh', role: 'South Asia Office', x: 75.1, y: 36.8, kind: 'std', desc: 'South Asian market development and partnerships.' },
-  { city: 'Accra', country: 'Ghana', role: 'West Africa Office', x: 49.9, y: 46.9, kind: 'std', desc: 'Mining, agriculture and infrastructure sectors.' },
-  { city: 'Morogoro', country: 'Tanzania', role: 'Quartz Production Hub', x: 60.5, y: 53.8, kind: 'quartz', desc: 'Exclusive partnership with VISH KVARTZ INTANZ — 18 quartz mines, 18M-tonne reserves, worldwide distribution rights. Export via Dar es Salaam Port.' },
-  { city: 'Cape Town', country: 'South Africa', role: 'Africa Regional Office', x: 55.1, y: 68.8, kind: 'std', desc: 'Southern Africa operations and regional coordination.' },
+  { id: 'seoul', city: 'Seoul', country: 'South Korea', x: 85.3, y: 29.2, kind: 'hq' },
+  { id: 'montreal', city: 'Montreal', country: 'Canada', x: 29.6, y: 24.7, kind: 'std' },
+  { id: 'dubai', city: 'Dubai', country: 'UAE', x: 65.4, y: 36.0, kind: 'std' },
+  { id: 'dhaka', city: 'Dhaka', country: 'Bangladesh', x: 75.1, y: 36.8, kind: 'std' },
+  { id: 'accra', city: 'Accra', country: 'Ghana', x: 49.9, y: 46.9, kind: 'std' },
+  { id: 'morogoro', city: 'Morogoro', country: 'Tanzania', x: 60.5, y: 53.8, kind: 'quartz' },
+  { id: 'capeTown', city: 'Cape Town', country: 'South Africa', x: 55.1, y: 68.8, kind: 'std' },
 ];
 
 const STATS = [
@@ -82,8 +81,8 @@ export default function GlobalNetwork() {
               <h3 className={styles.panelCity}>{selected.city}</h3>
               <span className={styles.panelCountry}>{selected.country}</span>
             </div>
-            <div className={styles.roleBadge}>{selected.role}</div>
-            <p className={styles.panelDesc}>{selected.desc}</p>
+            <div className={styles.roleBadge}>{t(`home.network.offices.${selected.id}.role`)}</div>
+            <p className={styles.panelDesc}>{t(`home.network.offices.${selected.id}.desc`)}</p>
             <p className={styles.tapHint}>{t('home.network.tapHint')} →</p>
           </div>
         </div>

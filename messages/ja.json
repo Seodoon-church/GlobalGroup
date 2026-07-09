@@ -59,7 +59,7 @@
     "partners": "パートナーシップ",
     "contact": "お問い合わせ",
     "news": "ニュース",
-    "company": "Company"
+    "company": "会社情報"
   },
   "hero": {
     "title": "Global Group Korea",
@@ -405,11 +405,11 @@
     "tel": "+82-(0)2-400-3084",
     "faxNum": "+82-(0)2-3444-3084",
     "copyright": "© 2026 GLOBAL GROUP KOREA CO.,LTD. All Rights Reserved.",
-    "brandBlurb": "Your trusted international business partner — connecting Korea with global markets through strategic commodity trading since 1987.",
-    "company": "Company",
-    "leadership": "Leadership",
-    "globalNetwork": "Global Network",
-    "indicative": "Market prices shown are indicative and for reference only."
+    "brandBlurb": "信頼される国際ビジネスパートナー — 1987年以来、戦略的な資源トレーディングを通じて韓国とグローバル市場をつなぎます。",
+    "company": "会社情報",
+    "leadership": "経営陣",
+    "globalNetwork": "グローバルネットワーク",
+    "indicative": "表示される市場価格は参考値であり、目安としてご利用ください。"
   },
   "businessDetail": {
     "backToBusiness": "事業領域一覧へ戻る",
@@ -1081,291 +1081,321 @@
     }
   },
   "header": {
-    "markets": "Markets",
-    "getConsultation": "Get a Consultation"
+    "markets": "マーケット",
+    "getConsultation": "ご相談はこちら"
   },
   "home": {
     "hero": {
-      "eyebrow": "Hub of the World · Since 1987",
-      "title": "International commodity trading, delivered with certainty",
-      "lede": "Crude oil, copper, quartz and gold — sourced across 25+ countries in Africa, the Middle East and beyond, and traded end-to-end from our Seoul headquarters.",
-      "ctaSecondary": "Explore Business Areas"
+      "eyebrow": "世界のハブ · 1987年設立",
+      "title": "確実性をもってお届けする、国際資源トレーディング",
+      "lede": "原油、銅、石英、金 — アフリカや中東をはじめとする25カ国以上から調達し、ソウル本社を拠点にエンドツーエンドで取引します。",
+      "ctaSecondary": "事業領域を見る"
     },
     "stats": {
-      "established": "Established",
-      "years": "Years of excellence",
-      "countries": "Countries",
-      "partners": "Global partners"
+      "established": "設立",
+      "years": "卓越の歴史",
+      "countries": "取引国",
+      "partners": "グローバルパートナー"
     },
     "areas": {
-      "title": "Four pillars of global trade",
-      "subtitle": "Each commodity is backed by a dedicated sourcing network, verified origin, and rigorous quality assurance — so partners trade with certainty.",
+      "title": "グローバル取引を支える4つの柱",
+      "subtitle": "各資源は専任の調達ネットワーク、原産地の検証、厳格な品質保証に支えられ、パートナーは確実性をもって取引いただけます。",
       "cards": {
         "energyFuels": {
-          "name": "Energy & Fuels",
-          "category": "Petroleum & Refined Products",
-          "short": "Crude oil, EN590 10ppm diesel, and Jet A-1 aviation fuel."
+          "name": "エネルギー・燃料",
+          "category": "石油・精製製品",
+          "short": "原油、EN590 10ppmディーゼル、Jet A-1航空燃料。"
         },
         "quartz": {
-          "name": "Quartz",
-          "category": "Industrial Minerals",
-          "short": "High-purity quartz for the semiconductor and solar industries."
+          "name": "石英",
+          "category": "工業用鉱物",
+          "short": "半導体・太陽光産業向けの高純度石英。"
         },
         "copper": {
-          "name": "Copper",
-          "category": "Industrial Metals",
-          "short": "Stable, high-quality copper supply from Chile, Peru, and Australia."
+          "name": "銅",
+          "category": "工業用金属",
+          "short": "Chile、Peru、Australiaからの安定した高品質な銅の供給。"
         },
         "gold": {
-          "name": "Gold",
-          "category": "Precious Metals",
-          "short": "Safe, transparent gold trading centred on LBMA-certified bars."
+          "name": "金",
+          "category": "貴金属",
+          "short": "LBMA認証バーを中心とした、安全で透明性の高い金取引。"
         }
       }
     },
     "network": {
-      "title": "Our global network",
-      "subtitle": "Seven strategic offices linking resource origins in Africa and the Middle East to markets worldwide — coordinated from our Seoul headquarters.",
-      "tapHint": "Tap a marker to explore each office",
-      "statCountries": "Countries traded across",
-      "statPartners": "Global partners",
-      "statVolume": "Annual trading volume",
-      "statYears": "Years of excellence"
+      "title": "私たちのグローバルネットワーク",
+      "subtitle": "アフリカと中東の資源原産地を世界の市場へとつなぐ7つの戦略拠点を、ソウル本社が統括します。",
+      "tapHint": "マーカーをタップして各拠点をご覧ください",
+      "statCountries": "取引国数",
+      "statPartners": "グローバルパートナー",
+      "statVolume": "年間取引量",
+      "statYears": "卓越の歴史",
+      "offices": {
+        "seoul": {
+          "role": "本社",
+          "desc": "財務、総務、管理、および国際事業開発。"
+        },
+        "montreal": {
+          "role": "北米オフィス",
+          "desc": "北米地域の事業運営と市場アクセス。"
+        },
+        "dubai": {
+          "role": "中東オフィス",
+          "desc": "貿易金融、物流、エネルギー分野のパートナーシップ。"
+        },
+        "dhaka": {
+          "role": "南アジアオフィス",
+          "desc": "南アジア市場の開拓とパートナーシップ。"
+        },
+        "accra": {
+          "role": "西アフリカオフィス",
+          "desc": "鉱業、農業、インフラ分野。"
+        },
+        "morogoro": {
+          "role": "石英生産ハブ",
+          "desc": "VISH KVARTZ INTANZとの独占的パートナーシップ — 18の石英鉱山、1,800万トンの埋蔵量、世界流通権。Dar es Salaam港経由で輸出。"
+        },
+        "capeTown": {
+          "role": "アフリカ地域オフィス",
+          "desc": "南部アフリカの事業運営と地域統括。"
+        }
+      }
     },
     "approach": {
-      "title": "How we invest & execute",
-      "subtitle": "A disciplined three-stage approach that turns local market knowledge into secure, high-conviction transactions.",
+      "title": "私たちの投資と実行のプロセス",
+      "subtitle": "現地市場の知見を、確実で確信度の高い取引へと変える、規律ある3段階のアプローチ。",
       "step1": {
-        "title": "Market Research & Analysis",
-        "detail": "Comprehensive due diligence and risk assessment through our network of local experts and market intelligence."
+        "title": "市場調査・分析",
+        "detail": "現地専門家のネットワークと市場インテリジェンスを通じた、包括的なデューデリジェンスとリスク評価。"
       },
       "step2": {
-        "title": "Strategic Partnership Development",
-        "detail": "Building sustainable relationships with local partners and government entities to ensure long-term success."
+        "title": "戦略的パートナーシップの構築",
+        "detail": "長期的な成功を確実にするため、現地パートナーや政府機関との持続可能な関係を構築します。"
       },
       "step3": {
-        "title": "Risk Mitigation & Optimization",
-        "detail": "Proven strategies that minimize investment risk while maximizing returns through careful project management."
+        "title": "リスク軽減と最適化",
+        "detail": "綿密なプロジェクト管理を通じて投資リスクを最小化し、リターンを最大化する実証済みの戦略。"
       }
     },
     "cta": {
-      "eyebrow": "Ready to Expand Globally?",
-      "title": "Let's build your supply chain with confidence",
-      "text": "Connect with our experts to discuss cross-border sourcing, market entry, and partnership development across our global network.",
-      "primary": "Get Free Consultation",
-      "secondary": "Explore Business Areas"
+      "eyebrow": "グローバル展開の準備はできていますか？",
+      "title": "確信をもって、貴社のサプライチェーンを構築しましょう",
+      "text": "国境を越えた調達、市場参入、パートナーシップ開発について、私たちのグローバルネットワークの専門家にご相談ください。",
+      "primary": "無料相談を受ける",
+      "secondary": "事業領域を見る"
     }
   },
   "pages": {
     "business": {
       "hero": {
-        "eyebrow": "Business Areas",
-        "title": "Leading the global resource market",
-        "lede": "Four commodity desks — energy, industrial metals, high-purity minerals, and precious metals — each backed by verified origin, quality assurance, and end-to-end trade execution."
+        "eyebrow": "事業領域",
+        "title": "グローバル資源市場をリードする",
+        "lede": "エネルギー、工業用金属、高純度鉱物、貴金属の4つの取引デスク — それぞれが原産地の検証、品質保証、エンドツーエンドの取引実行に支えられています。"
       },
       "trade": {
-        "title": "How a GGK trade works",
-        "subtitle": "Trading is a service. Every deal moves through the same disciplined path — so partners always know exactly where their transaction stands.",
+        "title": "GGKの取引の仕組み",
+        "subtitle": "トレーディングはサービスです。すべての取引は同じ規律あるプロセスを経るため、パートナーは常に取引の状況を正確に把握できます。",
         "step1": {
-          "title": "Demand Analysis",
-          "detail": "We map your specification, volume and delivery window, then match it to verified supply."
+          "title": "需要分析",
+          "detail": "貴社の仕様、数量、納期を把握し、検証済みの供給とマッチングします。"
         },
         "step2": {
-          "title": "Structuring & Contract",
-          "detail": "KYC-first onboarding, secure banking instruments and clear, enforceable terms."
+          "title": "ストラクチャリング・契約",
+          "detail": "KYCを最優先とするオンボーディング、安全な銀行取引手段、明確で拘束力のある条件。"
         },
         "step3": {
-          "title": "Logistics & Inspection",
-          "detail": "Freight, insurance and independent quality inspection managed end-to-end."
+          "title": "物流・検査",
+          "detail": "輸送、保険、独立した品質検査をエンドツーエンドで管理します。"
         },
         "step4": {
-          "title": "Secure Settlement",
-          "detail": "Documented, transparent settlement — a single accountable counterparty throughout."
+          "title": "安全な決済",
+          "detail": "文書化された透明性の高い決済 — 全工程を通じて単一の責任ある取引相手が対応します。"
         }
       },
       "commodities": {
         "energyFuels": {
-          "category": "Petroleum & Refined Products",
-          "name": "Energy & Fuels",
-          "long": "Crude oil, EN590 10ppm diesel, and Jet A-1 aviation fuel — supplied through verified refining and supply channels, with KYC-first procedures and secure banking instruments protecting every transaction.",
-          "p1": "Crude oil, EN590 10ppm & Jet A-1",
-          "p2": "Verified refining & supply channels",
-          "p3": "KYC-first with secure banking instruments"
+          "category": "石油・精製製品",
+          "name": "エネルギー・燃料",
+          "long": "原油、EN590 10ppmディーゼル、Jet A-1航空燃料 — 検証済みの精製・供給チャネルを通じて供給し、KYCを最優先とする手続きと安全な銀行取引手段がすべての取引を保護します。",
+          "p1": "原油、EN590 10ppm、Jet A-1",
+          "p2": "検証済みの精製・供給チャネル",
+          "p3": "KYC最優先と安全な銀行取引手段"
         },
         "quartz": {
-          "category": "Industrial Minerals",
-          "name": "Quartz",
-          "long": "High-purity quartz essential to the semiconductor and solar industries, backed by our exclusive worldwide distribution partnership with VISH KVARTZ INTANZ in Morogoro, Tanzania — 18 mines, 18M-tonne reserves, exported via Dar es Salaam Port.",
-          "p1": "Semiconductor & solar grade purity",
-          "p2": "18 mines · 18M-tonne reserves (Tanzania)",
-          "p3": "Exclusive worldwide distribution rights"
+          "category": "工業用鉱物",
+          "name": "石英",
+          "long": "半導体・太陽光産業に不可欠な高純度石英。Tanzania・Morogoroの VISH KVARTZ INTANZ との独占的な世界流通パートナーシップに支えられています — 18の鉱山、1,800万トンの埋蔵量、Dar es Salaam港経由で輸出。",
+          "p1": "半導体・太陽光グレードの純度",
+          "p2": "18鉱山 · 1,800万トンの埋蔵量（Tanzania）",
+          "p3": "独占的な世界流通権"
         },
         "copper": {
-          "category": "Industrial Metals",
-          "name": "Copper",
-          "long": "Through our network with major copper-producing countries — Chile, Peru, and Australia — we provide a stable supply of high-quality copper materials for the electrification, construction, and electronics industries.",
-          "p1": "Chile · Peru · Australia network",
-          "p2": "High-quality copper materials",
-          "p3": "Stable long-term supply"
+          "category": "工業用金属",
+          "name": "銅",
+          "long": "主要な銅生産国である Chile、Peru、Australia とのネットワークを通じて、電化、建設、電子産業向けに高品質な銅材料を安定的に供給します。",
+          "p1": "Chile · Peru · Australia ネットワーク",
+          "p2": "高品質な銅材料",
+          "p3": "安定した長期供給"
         },
         "gold": {
-          "category": "Precious Metals",
-          "name": "Gold",
-          "long": "Safe and transparent gold trading services centred on LBMA-certified gold bars, meeting both investment and industrial demand with secure, fully documented settlement.",
-          "p1": "LBMA-certified gold bars",
-          "p2": "Investment & industrial demand",
-          "p3": "Safe, transparent settlement"
+          "category": "貴金属",
+          "name": "金",
+          "long": "LBMA認証の金地金を中心とした、安全で透明性の高い金取引サービス。安全で完全に文書化された決済により、投資と工業の両方の需要にお応えします。",
+          "p1": "LBMA認証の金地金",
+          "p2": "投資・工業需要",
+          "p3": "安全で透明性の高い決済"
         }
       },
       "supply": {
-        "eyebrow": "Exclusive · Quartz",
-        "title": "A supply chain we own end-to-end",
-        "subtitle": "Our exclusive partnership with VISH KVARTZ INTANZ gives GGK worldwide distribution rights over one of the largest high-purity quartz resources in East Africa.",
-        "stat1": "Active quartz mines",
-        "stat2": "Metric tonnes in reserve",
-        "stat3": "Exclusive distribution",
+        "eyebrow": "独占 · 石英",
+        "title": "エンドツーエンドで自社が所有するサプライチェーン",
+        "subtitle": "VISH KVARTZ INTANZ との独占的パートナーシップにより、GGKは東アフリカ最大級の高純度石英資源に対する世界流通権を有しています。",
+        "stat1": "稼働中の石英鉱山",
+        "stat2": "埋蔵メトリックトン",
+        "stat3": "独占流通",
         "flow1": {
-          "title": "Morogoro Mines",
-          "detail": "18 mines · 18M-tonne high-purity reserves, Tanzania"
+          "title": "Morogoro鉱山",
+          "detail": "18鉱山 · 1,800万トンの高純度埋蔵量、Tanzania"
         },
         "flow2": {
-          "title": "Dar es Salaam Port",
-          "detail": "Consolidated export, inspection & quality control"
+          "title": "Dar es Salaam港",
+          "detail": "集約輸出、検査、品質管理"
         },
         "flow3": {
-          "title": "Global Distribution",
-          "detail": "Exclusive worldwide rights to semiconductor & solar markets"
+          "title": "グローバル流通",
+          "detail": "半導体・太陽光市場への独占的な世界流通権"
         }
       },
       "cta": {
-        "eyebrow": "Partner With Us",
-        "title": "Let's build your supply chain with confidence",
-        "text": "Tell us what you source and where you operate. Our trading desk will respond with a tailored supply proposal.",
-        "secondary": "View Global Network"
+        "eyebrow": "私たちとパートナーに",
+        "title": "確信をもって、貴社のサプライチェーンを構築しましょう",
+        "text": "調達品目と事業拠点をお知らせください。当社のトレーディングデスクがお客様に合わせた供給提案でご返答いたします。",
+        "secondary": "グローバルネットワークを見る"
       }
     },
     "company": {
       "hero": {
-        "eyebrow": "Company",
-        "title": "A trusted partner, connecting Korea with global markets",
-        "lede": "Since 1987, Global Group Korea has delivered strategic sourcing, trade finance, and end-to-end supply-chain solutions across crude oil, copper, quartz, and gold — building 37 years of heritage in international resource trading."
+        "eyebrow": "会社情報",
+        "title": "韓国とグローバル市場をつなぐ、信頼のパートナー",
+        "lede": "1987年以来、Global Group Korea は原油、銅、石英、金にわたる戦略的調達、貿易金融、エンドツーエンドのサプライチェーンソリューションを提供し、国際資源トレーディングにおいて37年の歴史を築いてきました。"
       },
       "about": {
-        "title": "Hub of the World",
-        "p1": "Global Group Korea (GGK) is an international commodity trading and investment partner specializing in crude oil, copper, quartz, and gold across 25+ countries in Africa, the Middle East, and beyond.",
-        "p2": "From our Seoul headquarters and six regional offices, we combine deep local knowledge with rigorous risk management to give partners a single, accountable counterparty from sourcing through settlement."
+        "title": "世界のハブ",
+        "p1": "Global Group Korea（GGK）は、アフリカ、中東をはじめとする25カ国以上で原油、銅、石英、金を専門とする国際資源トレーディングおよび投資パートナーです。",
+        "p2": "ソウル本社と6つの地域オフィスから、深い現地知識と厳格なリスク管理を組み合わせ、調達から決済までパートナーに単一の責任ある取引相手を提供します。"
       },
       "leadership": {
-        "title": "Executive leadership team",
-        "subtitle": "Decades of international business experience with deep market knowledge across industries and regions."
+        "title": "経営陣",
+        "subtitle": "業界や地域を横断する深い市場知識と、数十年にわたる国際ビジネスの経験。"
       },
       "groups": {
-        "execs": "Executive Leadership",
-        "advisory": "Strategic Advisory & Technical Excellence",
-        "regional": "Regional Market Leadership"
+        "execs": "経営リーダーシップ",
+        "advisory": "戦略アドバイザリー・技術の卓越性",
+        "regional": "地域市場リーダーシップ"
       },
       "people": {
         "michaelLee": {
-          "title": "Chairman",
-          "bio": "Strategic vision and corporate governance leadership with extensive experience in international market development and cross-cultural business operations."
+          "title": "会長",
+          "bio": "国際市場開発と異文化間ビジネス運営における豊富な経験を有し、戦略的ビジョンとコーポレートガバナンスのリーダーシップを発揮します。"
         },
         "davidHan": {
-          "title": "CEO / Managing Director",
-          "bio": "Operational excellence and business development expertise, driving growth initiatives across our global network of partnerships and investments."
+          "title": "CEO / マネージングディレクター",
+          "bio": "卓越したオペレーションと事業開発の専門性を有し、グローバルなパートナーシップと投資のネットワーク全体で成長施策を推進します。"
         },
         "huhSeongphil": {
-          "title": "Vice Chairman",
-          "bio": "Academic and industry leadership combining research excellence with practical business applications in emerging markets and technology sectors."
+          "title": "副会長",
+          "bio": "研究における卓越性と、新興市場・技術分野における実践的なビジネス応用を融合させた、学術界と産業界のリーダーシップ。"
         },
         "kasseyPaul": {
-          "title": "Director of Technical Operations",
-          "bio": "Leads all technical and supply operations for GGK's high-purity quartz business. Founder and MD of VKICL, Tanzania, with over 25 years in mineral resource development, mine operations, and quality certification."
+          "title": "技術オペレーション担当ディレクター",
+          "bio": "GGKの高純度石英事業におけるすべての技術・供給オペレーションを統括。VKICL（Tanzania）の創業者兼マネージングディレクターであり、鉱物資源開発、鉱山運営、品質認証において25年以上の経験を有します。"
         },
         "byungheunJang": {
-          "title": "Special Advisor",
-          "bio": "Provides strategic counsel on complex international transactions and regulatory compliance across multiple jurisdictions — risk assessment, market entry, and partnership structuring."
+          "title": "特別顧問",
+          "bio": "複数の法域にわたる複雑な国際取引と規制遵守について戦略的助言を提供 — リスク評価、市場参入、パートナーシップの構築。"
         },
         "seongtaekHong": {
-          "title": "Technical Director",
-          "bio": "Leads technical due diligence and project feasibility assessments, ensuring thorough evaluation of specifications, quality standards, and implementation methodologies."
+          "title": "技術ディレクター",
+          "bio": "技術デューデリジェンスとプロジェクト実現可能性評価を主導し、仕様、品質基準、実装手法の徹底的な評価を確実にします。"
         },
         "kateLee": {
-          "title": "Overseas Marketing Director",
-          "bio": "Develops and executes international marketing strategies, managing brand positioning and cross-cultural campaigns across multiple regions."
+          "title": "海外マーケティングディレクター",
+          "bio": "国際的なマーケティング戦略を策定・実行し、複数地域にわたるブランドポジショニングと異文化間キャンペーンを管理します。"
         },
         "ramyReddy": {
-          "title": "Overseas Director (Trading Dept.)",
-          "bio": "Leads international commodity trading in gold, copper, and crude oil — strategic sourcing, supplier negotiation, market analysis, and risk management across global markets."
+          "title": "海外ディレクター（トレーディング部門）",
+          "bio": "金、銅、原油の国際資源トレーディングを主導 — 戦略的調達、サプライヤー交渉、市場分析、グローバル市場全体のリスク管理。"
         },
         "ansahJoseph": {
-          "title": "Director / Ghana",
-          "bio": "Manages West African operations with expertise in mining, agriculture, and infrastructure, providing insight into regional regulatory frameworks and business practices."
+          "title": "ディレクター / Ghana",
+          "bio": "鉱業、農業、インフラの専門知識をもって西アフリカの事業を管理し、地域の規制枠組みや商慣行に関する知見を提供します。"
         },
         "alexKakoma": {
-          "title": "Regional Representative — Southern Africa",
-          "bio": "Oversees Southern Africa operations from the Cape Town office, leading business development and partnership building across the region."
+          "title": "地域代表 — 南部アフリカ",
+          "bio": "Cape Townオフィスから南部アフリカの事業を統括し、地域全体で事業開発とパートナーシップ構築を主導します。"
         }
       },
       "cta": {
-        "eyebrow": "Work With Us",
-        "title": "Let's discuss your next opportunity"
+        "eyebrow": "私たちと共に",
+        "title": "次なる機会について、ぜひご相談ください"
       }
     },
     "news": {
       "hero": {
-        "eyebrow": "Newsroom",
-        "title": "News & market insights",
-        "lede": "Company milestones and analyst perspectives on the forces shaping global commodity markets."
+        "eyebrow": "ニュースルーム",
+        "title": "ニュース・市場インサイト",
+        "lede": "会社の節目と、グローバル資源市場を形づくる要因についてのアナリストの見解。"
       },
       "badge": {
-        "company": "Company",
-        "market": "Market"
+        "company": "会社",
+        "market": "市場"
       },
       "feature": {
-        "title": "GGK Signs Strategic Partnership for Tanzanian Quartz Production Hub",
-        "excerpt": "Global Group Korea and VISH KVARTZ INTANZ formalize an exclusive worldwide distribution agreement for high-purity quartz from Morogoro, Tanzania — 18 mines and 18M-tonne reserves, exported via Dar es Salaam Port."
+        "title": "GGK、Tanzania石英生産ハブに向けた戦略的パートナーシップを締結",
+        "excerpt": "Global Group Korea と VISH KVARTZ INTANZ は、Tanzania・Morogoro産の高純度石英に関する独占的な世界流通契約を正式に締結 — 18の鉱山、1,800万トンの埋蔵量、Dar es Salaam港経由で輸出。"
       },
       "articles": {
         "a1": {
-          "title": "2026 Global Commodity Market Outlook: Key Trends to Watch",
-          "excerpt": "Our analysts examine the major forces shaping commodity prices in 2026, from the energy transition to semiconductor demand growth."
+          "title": "2026年グローバル資源市場の展望：注目すべき主要トレンド",
+          "excerpt": "エネルギー転換から半導体需要の拡大まで、2026年の資源価格を形づくる主要な要因を当社のアナリストが分析します。"
         },
         "a2": {
-          "title": "GGK Expands South Asia Operations with Dhaka Office Upgrade",
-          "excerpt": "Global Group Korea strengthens its Bangladesh presence with expanded facilities and a larger team to support growing regional trade."
+          "title": "GGK、Dhakaオフィスの拡充により南アジア事業を拡大",
+          "excerpt": "Global Group Korea は、施設の拡張とチームの増強により、拡大する地域取引を支えるべく Bangladesh でのプレゼンスを強化します。"
         }
       },
-      "readStory": "Read the story",
-      "readMore": "Read More"
+      "readStory": "記事を読む",
+      "readMore": "続きを読む"
     },
     "contact": {
       "hero": {
-        "eyebrow": "Contact Us",
-        "title": "Let's start a conversation",
-        "lede": "Tell us what you source and where you operate. Our trading desk responds with a tailored supply proposal."
+        "eyebrow": "お問い合わせ",
+        "title": "まずはご相談から始めましょう",
+        "lede": "調達品目と事業拠点をお知らせください。当社のトレーディングデスクがお客様に合わせた供給提案でご返答いたします。"
       },
       "hq": {
-        "title": "Headquarters"
+        "title": "本社"
       },
       "form": {
-        "title": "Request a consultation"
+        "title": "ご相談を申し込む"
       },
       "success": {
-        "title": "Thank you — message received",
-        "text": "Our team will be in touch shortly.",
-        "another": "Send another"
+        "title": "ありがとうございます — メッセージを受け付けました",
+        "text": "担当チームより追ってご連絡いたします。",
+        "another": "別のメッセージを送る"
       },
       "offices": {
-        "title": "Our offices",
-        "subtitle": "Seven strategic locations across the globe, coordinated from Seoul.",
+        "title": "拠点一覧",
+        "subtitle": "世界7つの戦略拠点を、ソウルが統括します。",
         "roles": {
-          "seoul": "Headquarters",
-          "morogoro": "Quartz Production Hub",
-          "dubai": "Middle East Office",
-          "accra": "West Africa Office",
-          "capeTown": "Africa Regional Office",
-          "dhaka": "South Asia Office",
-          "montreal": "North America Office"
+          "seoul": "本社",
+          "morogoro": "石英生産ハブ",
+          "dubai": "中東オフィス",
+          "accra": "西アフリカオフィス",
+          "capeTown": "アフリカ地域オフィス",
+          "dhaka": "南アジアオフィス",
+          "montreal": "北米オフィス"
         }
       }
     }

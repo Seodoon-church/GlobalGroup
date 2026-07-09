@@ -87,12 +87,8 @@ export default function Header() {
       {/* Nav bar */}
       <header className={styles.header}>
         <div className={styles.container}>
-          <a href={`/${locale}`} className={styles.logo}>
-            <span className={styles.monogram}>G</span>
-            <span className={styles.wordmark}>
-              <span className={styles.brand}>Global Group Korea</span>
-              <span className={styles.eyebrow}>Commodity Trading</span>
-            </span>
+          <a href={`/${locale}`} className={styles.logo} aria-label="Global Group Korea">
+            <img src="/images/logo.png" alt="Global Group Korea" className={styles.logoImg} />
           </a>
 
           <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ''}`}>

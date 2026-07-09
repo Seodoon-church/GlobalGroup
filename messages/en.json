@@ -1130,7 +1130,37 @@
       "statCountries": "Countries traded across",
       "statPartners": "Global partners",
       "statVolume": "Annual trading volume",
-      "statYears": "Years of excellence"
+      "statYears": "Years of excellence",
+      "offices": {
+        "seoul": {
+          "role": "Headquarters",
+          "desc": "Finance, general affairs, administration and international business development."
+        },
+        "montreal": {
+          "role": "North America Office",
+          "desc": "North American operations and market access."
+        },
+        "dubai": {
+          "role": "Middle East Office",
+          "desc": "Trade finance, logistics and energy-sector partnerships."
+        },
+        "dhaka": {
+          "role": "South Asia Office",
+          "desc": "South Asian market development and partnerships."
+        },
+        "accra": {
+          "role": "West Africa Office",
+          "desc": "Mining, agriculture and infrastructure sectors."
+        },
+        "morogoro": {
+          "role": "Quartz Production Hub",
+          "desc": "Exclusive partnership with VISH KVARTZ INTANZ — 18 quartz mines, 18M-tonne reserves, worldwide distribution rights. Export via Dar es Salaam Port."
+        },
+        "capeTown": {
+          "role": "Africa Regional Office",
+          "desc": "Southern Africa operations and regional coordination."
+        }
+      }
     },
     "approach": {
       "title": "How we invest & execute",

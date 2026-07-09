@@ -21,8 +21,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className={styles.brandRow}>
-              <span className={styles.monogram}>G</span>
-              <span className={styles.brandName}>Global Group Korea</span>
+              <img src="/images/logo.png" alt="Global Group Korea" className={styles.footerLogo} />
             </div>
             <p className={styles.blurb}>{t('footer.brandBlurb')}</p>
           </div>

@@ -21,27 +21,13 @@
 .brandRow {
   display: flex;
   align-items: center;
-  gap: 12px;
-  color: #fff;
   margin-bottom: 16px;
 }
 
-.monogram {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border: 1.5px solid var(--gold-500);
-  border-radius: 6px;
-  font-weight: 700;
-  color: var(--gold-500);
-}
-
-.brandName {
-  font-weight: 700;
-  font-size: 1rem;
-  color: #fff;
+.footerLogo {
+  height: 44px;
+  width: auto;
+  display: block;
 }
 
 .blurb {

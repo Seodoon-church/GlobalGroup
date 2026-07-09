@@ -381,8 +381,13 @@ GlobalGroup/
   - **News**: 히어로 → 피처드 스토리 → 기사 2카드(Company/Market 배지)
   - **Contact**: 히어로 → HQ정보+상담폼(Firebase 제출 로직 보존, success 상태) → 7개 오피스 그리드
   - **다국어**: 새 `home`/`pages`/`header`/`footer` 키 en/ko 완역(pages는 KO 번역 에이전트 활용) + 7개 영어 fallback. 9개 언어 빌드 통과(129 페이지)
-  - **미완(후속)**: 글로벌 지도/오피스 거점 role·desc 다국어화(현재 영어), 내부 페이지 세부 콘텐츠 7개 언어 번역, Market/Partners 페이지 신토큰 재스타일
   - **결정 준수**: 석영 HPQ 수치 미게시([[quartz-hpq-numbers-hold]]), VISH 노출 유지
+  - **후속 완료(동일 세션)**:
+    - **로고 교체**: Header·Footer의 CSS "G" 모노그램 → 실제 로고 이미지(`/images/logo.png`, 초록 GLOBAL GROUP)
+    - **글로벌 지도/오피스 거점 다국어화**: `home.network.offices` role·desc를 i18n으로 이동, en/ko 완역
+    - **7개 언어 전체 번역**: `home`+`pages`(오피스 포함) ja/zh/sw/ar/hi/bn/fr 번역(에이전트 병렬) 주입 → 9개 언어 완역
+    - **Energy & Fuels 실사진 2장**: `public/images/business/energy-fuels-{1,2}.jpg`(정유소 야경·저장탱크, sharp 최적화 145/213KB) Business Areas 상세 섹션에 배치
+  - **미완(후속)**: Market/Partners 페이지 신토큰 재스타일(현재 off-nav·토큰 상속만), 기타 원자재/뉴스 실사진
 
 ### 2026-07-09 (Session 14)
 - **Energy & Fuels 버티컬 승격 (개편안 GGK-OPS-2026-WEB-001 안전 병합)**

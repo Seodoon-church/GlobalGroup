@@ -59,7 +59,7 @@
     "partners": "Ushirikiano",
     "contact": "Wasiliana Nasi",
     "news": "Habari",
-    "company": "Company"
+    "company": "Kampuni"
   },
   "hero": {
     "title": "Global Group Korea",
@@ -405,11 +405,11 @@
     "tel": "+82-(0)2-400-3084",
     "faxNum": "+82-(0)2-3444-3084",
     "copyright": "© 2026 GLOBAL GROUP KOREA CO.,LTD. Haki Zote Zimehifadhiwa.",
-    "brandBlurb": "Your trusted international business partner — connecting Korea with global markets through strategic commodity trading since 1987.",
-    "company": "Company",
-    "leadership": "Leadership",
-    "globalNetwork": "Global Network",
-    "indicative": "Market prices shown are indicative and for reference only."
+    "brandBlurb": "Mshirika wako wa kimataifa wa biashara unayemwamini — tukiunganisha Korea na masoko ya kimataifa kupitia biashara ya kimkakati ya bidhaa tangu 1987.",
+    "company": "Kampuni",
+    "leadership": "Uongozi",
+    "globalNetwork": "Mtandao wa Kimataifa",
+    "indicative": "Bei za soko zinazoonyeshwa ni za mwongozo na kwa marejeleo tu."
   },
   "businessDetail": {
     "backToBusiness": "Rudi kwenye Maeneo ya Biashara",
@@ -1081,291 +1081,321 @@
     }
   },
   "header": {
-    "markets": "Markets",
-    "getConsultation": "Get a Consultation"
+    "markets": "Masoko",
+    "getConsultation": "Pata Ushauri"
   },
   "home": {
     "hero": {
-      "eyebrow": "Hub of the World · Since 1987",
-      "title": "International commodity trading, delivered with certainty",
-      "lede": "Crude oil, copper, quartz and gold — sourced across 25+ countries in Africa, the Middle East and beyond, and traded end-to-end from our Seoul headquarters.",
-      "ctaSecondary": "Explore Business Areas"
+      "eyebrow": "Kitovu cha Dunia · Tangu 1987",
+      "title": "Biashara ya kimataifa ya bidhaa, inayowasilishwa kwa uhakika",
+      "lede": "Mafuta ghafi, shaba, kwarizi na dhahabu — vinavyopatikana katika nchi 25+ barani Afrika, Mashariki ya Kati na kwingineko, na kufanyiwa biashara kutoka mwanzo hadi mwisho kutoka makao makuu yetu ya Seoul.",
+      "ctaSecondary": "Chunguza Maeneo ya Biashara"
     },
     "stats": {
-      "established": "Established",
-      "years": "Years of excellence",
-      "countries": "Countries",
-      "partners": "Global partners"
+      "established": "Ilianzishwa",
+      "years": "Miaka ya ubora",
+      "countries": "Nchi",
+      "partners": "Washirika wa kimataifa"
     },
     "areas": {
-      "title": "Four pillars of global trade",
-      "subtitle": "Each commodity is backed by a dedicated sourcing network, verified origin, and rigorous quality assurance — so partners trade with certainty.",
+      "title": "Nguzo nne za biashara ya kimataifa",
+      "subtitle": "Kila bidhaa inaungwa mkono na mtandao maalum wa upataji, asili iliyothibitishwa, na uhakikisho madhubuti wa ubora — ili washirika wafanye biashara kwa uhakika.",
       "cards": {
         "energyFuels": {
-          "name": "Energy & Fuels",
-          "category": "Petroleum & Refined Products",
-          "short": "Crude oil, EN590 10ppm diesel, and Jet A-1 aviation fuel."
+          "name": "Nishati na Mafuta",
+          "category": "Petroli na Bidhaa Zilizosafishwa",
+          "short": "Mafuta ghafi, dizeli ya EN590 10ppm, na mafuta ya ndege ya Jet A-1."
         },
         "quartz": {
-          "name": "Quartz",
-          "category": "Industrial Minerals",
-          "short": "High-purity quartz for the semiconductor and solar industries."
+          "name": "Kwarizi",
+          "category": "Madini ya Viwandani",
+          "short": "Kwarizi ya usafi wa hali ya juu kwa viwanda vya semikondakta na nishati ya jua."
         },
         "copper": {
-          "name": "Copper",
-          "category": "Industrial Metals",
-          "short": "Stable, high-quality copper supply from Chile, Peru, and Australia."
+          "name": "Shaba",
+          "category": "Metali za Viwandani",
+          "short": "Ugavi thabiti wa shaba ya ubora wa hali ya juu kutoka Chile, Peru, na Australia."
         },
         "gold": {
-          "name": "Gold",
-          "category": "Precious Metals",
-          "short": "Safe, transparent gold trading centred on LBMA-certified bars."
+          "name": "Dhahabu",
+          "category": "Metali za Thamani",
+          "short": "Biashara salama na ya uwazi ya dhahabu inayozingatia baa zilizothibitishwa na LBMA."
         }
       }
     },
     "network": {
-      "title": "Our global network",
-      "subtitle": "Seven strategic offices linking resource origins in Africa and the Middle East to markets worldwide — coordinated from our Seoul headquarters.",
-      "tapHint": "Tap a marker to explore each office",
-      "statCountries": "Countries traded across",
-      "statPartners": "Global partners",
-      "statVolume": "Annual trading volume",
-      "statYears": "Years of excellence"
+      "title": "Mtandao wetu wa kimataifa",
+      "subtitle": "Ofisi saba za kimkakati zinazounganisha vyanzo vya rasilimali barani Afrika na Mashariki ya Kati na masoko duniani kote — zikiratibiwa kutoka makao makuu yetu ya Seoul.",
+      "tapHint": "Gusa alama ili kuchunguza kila ofisi",
+      "statCountries": "Nchi zinazofanyiwa biashara",
+      "statPartners": "Washirika wa kimataifa",
+      "statVolume": "Kiasi cha biashara kwa mwaka",
+      "statYears": "Miaka ya ubora",
+      "offices": {
+        "seoul": {
+          "role": "Makao Makuu",
+          "desc": "Fedha, masuala ya jumla, utawala na maendeleo ya biashara ya kimataifa."
+        },
+        "montreal": {
+          "role": "Ofisi ya Amerika Kaskazini",
+          "desc": "Shughuli za Amerika Kaskazini na ufikiaji wa soko."
+        },
+        "dubai": {
+          "role": "Ofisi ya Mashariki ya Kati",
+          "desc": "Ufadhili wa biashara, usafirishaji na ushirikiano wa sekta ya nishati."
+        },
+        "dhaka": {
+          "role": "Ofisi ya Asia ya Kusini",
+          "desc": "Maendeleo ya soko la Asia ya Kusini na ushirikiano."
+        },
+        "accra": {
+          "role": "Ofisi ya Afrika Magharibi",
+          "desc": "Sekta za uchimbaji madini, kilimo na miundombinu."
+        },
+        "morogoro": {
+          "role": "Kitovu cha Uzalishaji wa Kwarizi",
+          "desc": "Ushirikiano wa kipekee na VISH KVARTZ INTANZ — migodi 18 ya kwarizi, akiba ya tani 18M, haki za usambazaji duniani kote. Usafirishaji kupitia Bandari ya Dar es Salaam."
+        },
+        "capeTown": {
+          "role": "Ofisi ya Kanda ya Afrika",
+          "desc": "Shughuli za Kusini mwa Afrika na uratibu wa kikanda."
+        }
+      }
     },
     "approach": {
-      "title": "How we invest & execute",
-      "subtitle": "A disciplined three-stage approach that turns local market knowledge into secure, high-conviction transactions.",
+      "title": "Jinsi tunavyowekeza na kutekeleza",
+      "subtitle": "Mbinu ya nidhamu ya hatua tatu inayogeuza maarifa ya soko la ndani kuwa miamala salama na ya uhakika wa hali ya juu.",
       "step1": {
-        "title": "Market Research & Analysis",
-        "detail": "Comprehensive due diligence and risk assessment through our network of local experts and market intelligence."
+        "title": "Utafiti na Uchambuzi wa Soko",
+        "detail": "Uchunguzi wa kina wa uangalifu na tathmini ya hatari kupitia mtandao wetu wa wataalamu wa ndani na akili ya soko."
       },
       "step2": {
-        "title": "Strategic Partnership Development",
-        "detail": "Building sustainable relationships with local partners and government entities to ensure long-term success."
+        "title": "Uendelezaji wa Ushirikiano wa Kimkakati",
+        "detail": "Kujenga mahusiano endelevu na washirika wa ndani na taasisi za serikali ili kuhakikisha mafanikio ya muda mrefu."
       },
       "step3": {
-        "title": "Risk Mitigation & Optimization",
-        "detail": "Proven strategies that minimize investment risk while maximizing returns through careful project management."
+        "title": "Kupunguza Hatari na Kuboresha",
+        "detail": "Mikakati iliyothibitishwa inayopunguza hatari ya uwekezaji huku ikiongeza faida kupitia usimamizi makini wa miradi."
       }
     },
     "cta": {
-      "eyebrow": "Ready to Expand Globally?",
-      "title": "Let's build your supply chain with confidence",
-      "text": "Connect with our experts to discuss cross-border sourcing, market entry, and partnership development across our global network.",
-      "primary": "Get Free Consultation",
-      "secondary": "Explore Business Areas"
+      "eyebrow": "Uko Tayari Kupanuka Kimataifa?",
+      "title": "Hebu tujenge msururu wako wa ugavi kwa uhakika",
+      "text": "Wasiliana na wataalamu wetu ili kujadili upataji wa bidhaa kuvuka mipaka, kuingia sokoni, na uendelezaji wa ushirikiano katika mtandao wetu wa kimataifa.",
+      "primary": "Pata Ushauri wa Bure",
+      "secondary": "Chunguza Maeneo ya Biashara"
     }
   },
   "pages": {
     "business": {
       "hero": {
-        "eyebrow": "Business Areas",
-        "title": "Leading the global resource market",
-        "lede": "Four commodity desks — energy, industrial metals, high-purity minerals, and precious metals — each backed by verified origin, quality assurance, and end-to-end trade execution."
+        "eyebrow": "Maeneo ya Biashara",
+        "title": "Tukiongoza soko la kimataifa la rasilimali",
+        "lede": "Dawati nne za bidhaa — nishati, metali za viwandani, madini ya usafi wa hali ya juu, na metali za thamani — kila moja ikiungwa mkono na asili iliyothibitishwa, uhakikisho wa ubora, na utekelezaji wa biashara kutoka mwanzo hadi mwisho."
       },
       "trade": {
-        "title": "How a GGK trade works",
-        "subtitle": "Trading is a service. Every deal moves through the same disciplined path — so partners always know exactly where their transaction stands.",
+        "title": "Jinsi biashara ya GGK inavyofanya kazi",
+        "subtitle": "Biashara ni huduma. Kila mkataba hupitia njia ile ile ya nidhamu — ili washirika wajue daima hasa muamala wao ulipofikia.",
         "step1": {
-          "title": "Demand Analysis",
-          "detail": "We map your specification, volume and delivery window, then match it to verified supply."
+          "title": "Uchambuzi wa Mahitaji",
+          "detail": "Tunachanganua vipimo vyako, kiasi na dirisha la uwasilishaji, kisha tunavilinganisha na ugavi uliothibitishwa."
         },
         "step2": {
-          "title": "Structuring & Contract",
-          "detail": "KYC-first onboarding, secure banking instruments and clear, enforceable terms."
+          "title": "Kupanga na Mkataba",
+          "detail": "Usajili unaoanza na KYC, vyombo salama vya kibenki na masharti wazi yanayotekelezeka."
         },
         "step3": {
-          "title": "Logistics & Inspection",
-          "detail": "Freight, insurance and independent quality inspection managed end-to-end."
+          "title": "Usafirishaji na Ukaguzi",
+          "detail": "Usafirishaji, bima na ukaguzi huru wa ubora unaosimamiwa kutoka mwanzo hadi mwisho."
         },
         "step4": {
-          "title": "Secure Settlement",
-          "detail": "Documented, transparent settlement — a single accountable counterparty throughout."
+          "title": "Malipo Salama",
+          "detail": "Malipo yaliyoandikwa na ya uwazi — mshirika mmoja anayewajibika katika kipindi chote."
         }
       },
       "commodities": {
         "energyFuels": {
-          "category": "Petroleum & Refined Products",
-          "name": "Energy & Fuels",
-          "long": "Crude oil, EN590 10ppm diesel, and Jet A-1 aviation fuel — supplied through verified refining and supply channels, with KYC-first procedures and secure banking instruments protecting every transaction.",
-          "p1": "Crude oil, EN590 10ppm & Jet A-1",
-          "p2": "Verified refining & supply channels",
-          "p3": "KYC-first with secure banking instruments"
+          "category": "Petroli na Bidhaa Zilizosafishwa",
+          "name": "Nishati na Mafuta",
+          "long": "Mafuta ghafi, dizeli ya EN590 10ppm, na mafuta ya ndege ya Jet A-1 — yanayotolewa kupitia njia zilizothibitishwa za kusafisha na ugavi, na taratibu zinazoanza na KYC pamoja na vyombo salama vya kibenki vinavyolinda kila muamala.",
+          "p1": "Mafuta ghafi, EN590 10ppm na Jet A-1",
+          "p2": "Njia zilizothibitishwa za kusafisha na ugavi",
+          "p3": "KYC kwanza pamoja na vyombo salama vya kibenki"
         },
         "quartz": {
-          "category": "Industrial Minerals",
-          "name": "Quartz",
-          "long": "High-purity quartz essential to the semiconductor and solar industries, backed by our exclusive worldwide distribution partnership with VISH KVARTZ INTANZ in Morogoro, Tanzania — 18 mines, 18M-tonne reserves, exported via Dar es Salaam Port.",
-          "p1": "Semiconductor & solar grade purity",
-          "p2": "18 mines · 18M-tonne reserves (Tanzania)",
-          "p3": "Exclusive worldwide distribution rights"
+          "category": "Madini ya Viwandani",
+          "name": "Kwarizi",
+          "long": "Kwarizi ya usafi wa hali ya juu muhimu kwa viwanda vya semikondakta na nishati ya jua, ikiungwa mkono na ushirikiano wetu wa kipekee wa usambazaji duniani kote na VISH KVARTZ INTANZ mjini Morogoro, Tanzania — migodi 18, akiba ya tani 18M, inayosafirishwa kupitia Bandari ya Dar es Salaam.",
+          "p1": "Usafi wa daraja la semikondakta na nishati ya jua",
+          "p2": "Migodi 18 · akiba ya tani 18M (Tanzania)",
+          "p3": "Haki za kipekee za usambazaji duniani kote"
         },
         "copper": {
-          "category": "Industrial Metals",
-          "name": "Copper",
-          "long": "Through our network with major copper-producing countries — Chile, Peru, and Australia — we provide a stable supply of high-quality copper materials for the electrification, construction, and electronics industries.",
-          "p1": "Chile · Peru · Australia network",
-          "p2": "High-quality copper materials",
-          "p3": "Stable long-term supply"
+          "category": "Metali za Viwandani",
+          "name": "Shaba",
+          "long": "Kupitia mtandao wetu na nchi kuu zinazozalisha shaba — Chile, Peru, na Australia — tunatoa ugavi thabiti wa vifaa vya shaba vya ubora wa hali ya juu kwa viwanda vya umeme, ujenzi, na elektroniki.",
+          "p1": "Mtandao wa Chile · Peru · Australia",
+          "p2": "Vifaa vya shaba vya ubora wa hali ya juu",
+          "p3": "Ugavi thabiti wa muda mrefu"
         },
         "gold": {
-          "category": "Precious Metals",
-          "name": "Gold",
-          "long": "Safe and transparent gold trading services centred on LBMA-certified gold bars, meeting both investment and industrial demand with secure, fully documented settlement.",
-          "p1": "LBMA-certified gold bars",
-          "p2": "Investment & industrial demand",
-          "p3": "Safe, transparent settlement"
+          "category": "Metali za Thamani",
+          "name": "Dhahabu",
+          "long": "Huduma salama na za uwazi za biashara ya dhahabu zinazozingatia baa za dhahabu zilizothibitishwa na LBMA, zikikidhi mahitaji ya uwekezaji na ya viwandani kwa malipo salama na yaliyoandikwa kikamilifu.",
+          "p1": "Baa za dhahabu zilizothibitishwa na LBMA",
+          "p2": "Mahitaji ya uwekezaji na ya viwandani",
+          "p3": "Malipo salama na ya uwazi"
         }
       },
       "supply": {
-        "eyebrow": "Exclusive · Quartz",
-        "title": "A supply chain we own end-to-end",
-        "subtitle": "Our exclusive partnership with VISH KVARTZ INTANZ gives GGK worldwide distribution rights over one of the largest high-purity quartz resources in East Africa.",
-        "stat1": "Active quartz mines",
-        "stat2": "Metric tonnes in reserve",
-        "stat3": "Exclusive distribution",
+        "eyebrow": "Kipekee · Kwarizi",
+        "title": "Msururu wa ugavi tunaoumiliki kutoka mwanzo hadi mwisho",
+        "subtitle": "Ushirikiano wetu wa kipekee na VISH KVARTZ INTANZ humpa GGK haki za usambazaji duniani kote juu ya mojawapo ya rasilimali kubwa za kwarizi ya usafi wa hali ya juu Afrika Mashariki.",
+        "stat1": "Migodi hai ya kwarizi",
+        "stat2": "Tani za metriki katika akiba",
+        "stat3": "Usambazaji wa kipekee",
         "flow1": {
-          "title": "Morogoro Mines",
-          "detail": "18 mines · 18M-tonne high-purity reserves, Tanzania"
+          "title": "Migodi ya Morogoro",
+          "detail": "Migodi 18 · akiba ya usafi wa hali ya juu ya tani 18M, Tanzania"
         },
         "flow2": {
-          "title": "Dar es Salaam Port",
-          "detail": "Consolidated export, inspection & quality control"
+          "title": "Bandari ya Dar es Salaam",
+          "detail": "Usafirishaji uliojumuishwa, ukaguzi na udhibiti wa ubora"
         },
         "flow3": {
-          "title": "Global Distribution",
-          "detail": "Exclusive worldwide rights to semiconductor & solar markets"
+          "title": "Usambazaji wa Kimataifa",
+          "detail": "Haki za kipekee duniani kote kwa masoko ya semikondakta na nishati ya jua"
         }
       },
       "cta": {
-        "eyebrow": "Partner With Us",
-        "title": "Let's build your supply chain with confidence",
-        "text": "Tell us what you source and where you operate. Our trading desk will respond with a tailored supply proposal.",
-        "secondary": "View Global Network"
+        "eyebrow": "Shirikiana Nasi",
+        "title": "Hebu tujenge msururu wako wa ugavi kwa uhakika",
+        "text": "Tuambie unachopata na mahali unapofanyia kazi. Dawati letu la biashara litajibu kwa pendekezo la ugavi lililoboreshwa mahsusi.",
+        "secondary": "Angalia Mtandao wa Kimataifa"
       }
     },
     "company": {
       "hero": {
-        "eyebrow": "Company",
-        "title": "A trusted partner, connecting Korea with global markets",
-        "lede": "Since 1987, Global Group Korea has delivered strategic sourcing, trade finance, and end-to-end supply-chain solutions across crude oil, copper, quartz, and gold — building 37 years of heritage in international resource trading."
+        "eyebrow": "Kampuni",
+        "title": "Mshirika unayemwamini, akiunganisha Korea na masoko ya kimataifa",
+        "lede": "Tangu 1987, Global Group Korea imewasilisha upataji wa kimkakati, ufadhili wa biashara, na suluhu za msururu wa ugavi kutoka mwanzo hadi mwisho katika mafuta ghafi, shaba, kwarizi, na dhahabu — ikijenga urithi wa miaka 37 katika biashara ya kimataifa ya rasilimali."
       },
       "about": {
-        "title": "Hub of the World",
-        "p1": "Global Group Korea (GGK) is an international commodity trading and investment partner specializing in crude oil, copper, quartz, and gold across 25+ countries in Africa, the Middle East, and beyond.",
-        "p2": "From our Seoul headquarters and six regional offices, we combine deep local knowledge with rigorous risk management to give partners a single, accountable counterparty from sourcing through settlement."
+        "title": "Kitovu cha Dunia",
+        "p1": "Global Group Korea (GGK) ni mshirika wa kimataifa wa biashara na uwekezaji wa bidhaa unaobobea katika mafuta ghafi, shaba, kwarizi, na dhahabu katika nchi 25+ barani Afrika, Mashariki ya Kati, na kwingineko.",
+        "p2": "Kutoka makao makuu yetu ya Seoul na ofisi sita za kikanda, tunachanganya maarifa ya kina ya ndani na usimamizi madhubuti wa hatari ili kuwapa washirika mshirika mmoja anayewajibika kutoka upataji hadi malipo."
       },
       "leadership": {
-        "title": "Executive leadership team",
-        "subtitle": "Decades of international business experience with deep market knowledge across industries and regions."
+        "title": "Timu ya uongozi mkuu",
+        "subtitle": "Miongo kadhaa ya uzoefu wa biashara ya kimataifa pamoja na maarifa ya kina ya soko katika sekta na kanda mbalimbali."
       },
       "groups": {
-        "execs": "Executive Leadership",
-        "advisory": "Strategic Advisory & Technical Excellence",
-        "regional": "Regional Market Leadership"
+        "execs": "Uongozi Mkuu",
+        "advisory": "Ushauri wa Kimkakati na Ubora wa Kiufundi",
+        "regional": "Uongozi wa Soko la Kikanda"
       },
       "people": {
         "michaelLee": {
-          "title": "Chairman",
-          "bio": "Strategic vision and corporate governance leadership with extensive experience in international market development and cross-cultural business operations."
+          "title": "Mwenyekiti",
+          "bio": "Uongozi wa maono ya kimkakati na utawala bora wa kampuni pamoja na uzoefu mkubwa katika maendeleo ya soko la kimataifa na shughuli za biashara za tamaduni mbalimbali."
         },
         "davidHan": {
-          "title": "CEO / Managing Director",
-          "bio": "Operational excellence and business development expertise, driving growth initiatives across our global network of partnerships and investments."
+          "title": "Mkurugenzi Mtendaji / Mkurugenzi Msimamizi",
+          "bio": "Ubora wa kiutendaji na utaalamu wa maendeleo ya biashara, akiendesha mipango ya ukuaji katika mtandao wetu wa kimataifa wa ushirikiano na uwekezaji."
         },
         "huhSeongphil": {
-          "title": "Vice Chairman",
-          "bio": "Academic and industry leadership combining research excellence with practical business applications in emerging markets and technology sectors."
+          "title": "Makamu wa Mwenyekiti",
+          "bio": "Uongozi wa kitaaluma na kiviwanda unaochanganya ubora wa utafiti na matumizi ya vitendo ya biashara katika masoko yanayoibuka na sekta za teknolojia."
         },
         "kasseyPaul": {
-          "title": "Director of Technical Operations",
-          "bio": "Leads all technical and supply operations for GGK's high-purity quartz business. Founder and MD of VKICL, Tanzania, with over 25 years in mineral resource development, mine operations, and quality certification."
+          "title": "Mkurugenzi wa Shughuli za Kiufundi",
+          "bio": "Anaongoza shughuli zote za kiufundi na ugavi kwa biashara ya kwarizi ya usafi wa hali ya juu ya GGK. Mwanzilishi na Mkurugenzi Msimamizi wa VKICL, Tanzania, mwenye zaidi ya miaka 25 katika maendeleo ya rasilimali za madini, shughuli za migodi, na uthibitishaji wa ubora."
         },
         "byungheunJang": {
-          "title": "Special Advisor",
-          "bio": "Provides strategic counsel on complex international transactions and regulatory compliance across multiple jurisdictions — risk assessment, market entry, and partnership structuring."
+          "title": "Mshauri Maalum",
+          "bio": "Anatoa ushauri wa kimkakati kuhusu miamala tata ya kimataifa na uzingatiaji wa kanuni katika mamlaka mbalimbali — tathmini ya hatari, kuingia sokoni, na kupanga ushirikiano."
         },
         "seongtaekHong": {
-          "title": "Technical Director",
-          "bio": "Leads technical due diligence and project feasibility assessments, ensuring thorough evaluation of specifications, quality standards, and implementation methodologies."
+          "title": "Mkurugenzi wa Kiufundi",
+          "bio": "Anaongoza uchunguzi wa uangalifu wa kiufundi na tathmini za uwezekano wa miradi, akihakikisha tathmini ya kina ya vipimo, viwango vya ubora, na mbinu za utekelezaji."
         },
         "kateLee": {
-          "title": "Overseas Marketing Director",
-          "bio": "Develops and executes international marketing strategies, managing brand positioning and cross-cultural campaigns across multiple regions."
+          "title": "Mkurugenzi wa Masoko ya Nje",
+          "bio": "Anaunda na kutekeleza mikakati ya masoko ya kimataifa, akisimamia uwekaji wa chapa na kampeni za tamaduni mbalimbali katika kanda nyingi."
         },
         "ramyReddy": {
-          "title": "Overseas Director (Trading Dept.)",
-          "bio": "Leads international commodity trading in gold, copper, and crude oil — strategic sourcing, supplier negotiation, market analysis, and risk management across global markets."
+          "title": "Mkurugenzi wa Nje (Idara ya Biashara)",
+          "bio": "Anaongoza biashara ya kimataifa ya bidhaa ya dhahabu, shaba, na mafuta ghafi — upataji wa kimkakati, mazungumzo na wasambazaji, uchambuzi wa soko, na usimamizi wa hatari katika masoko ya kimataifa."
         },
         "ansahJoseph": {
-          "title": "Director / Ghana",
-          "bio": "Manages West African operations with expertise in mining, agriculture, and infrastructure, providing insight into regional regulatory frameworks and business practices."
+          "title": "Mkurugenzi / Ghana",
+          "bio": "Anasimamia shughuli za Afrika Magharibi kwa utaalamu katika uchimbaji madini, kilimo, na miundombinu, akitoa ufahamu kuhusu mifumo ya kikanda ya kanuni na mbinu za biashara."
         },
         "alexKakoma": {
-          "title": "Regional Representative — Southern Africa",
-          "bio": "Oversees Southern Africa operations from the Cape Town office, leading business development and partnership building across the region."
+          "title": "Mwakilishi wa Kanda — Kusini mwa Afrika",
+          "bio": "Anasimamia shughuli za Kusini mwa Afrika kutoka ofisi ya Cape Town, akiongoza maendeleo ya biashara na kujenga ushirikiano katika kanda nzima."
         }
       },
       "cta": {
-        "eyebrow": "Work With Us",
-        "title": "Let's discuss your next opportunity"
+        "eyebrow": "Fanya Kazi Nasi",
+        "title": "Hebu tujadili fursa yako inayofuata"
       }
     },
     "news": {
       "hero": {
-        "eyebrow": "Newsroom",
-        "title": "News & market insights",
-        "lede": "Company milestones and analyst perspectives on the forces shaping global commodity markets."
+        "eyebrow": "Chumba cha Habari",
+        "title": "Habari na maarifa ya soko",
+        "lede": "Hatua muhimu za kampuni na mitazamo ya wachambuzi kuhusu nguvu zinazoumba masoko ya kimataifa ya bidhaa."
       },
       "badge": {
-        "company": "Company",
-        "market": "Market"
+        "company": "Kampuni",
+        "market": "Soko"
       },
       "feature": {
-        "title": "GGK Signs Strategic Partnership for Tanzanian Quartz Production Hub",
-        "excerpt": "Global Group Korea and VISH KVARTZ INTANZ formalize an exclusive worldwide distribution agreement for high-purity quartz from Morogoro, Tanzania — 18 mines and 18M-tonne reserves, exported via Dar es Salaam Port."
+        "title": "GGK Yatia Saini Ushirikiano wa Kimkakati kwa Kitovu cha Uzalishaji wa Kwarizi cha Tanzania",
+        "excerpt": "Global Group Korea na VISH KVARTZ INTANZ zinaridhia makubaliano ya kipekee ya usambazaji duniani kote ya kwarizi ya usafi wa hali ya juu kutoka Morogoro, Tanzania — migodi 18 na akiba ya tani 18M, inayosafirishwa kupitia Bandari ya Dar es Salaam."
       },
       "articles": {
         "a1": {
-          "title": "2026 Global Commodity Market Outlook: Key Trends to Watch",
-          "excerpt": "Our analysts examine the major forces shaping commodity prices in 2026, from the energy transition to semiconductor demand growth."
+          "title": "Mtazamo wa Soko la Kimataifa la Bidhaa 2026: Mienendo Muhimu ya Kufuatilia",
+          "excerpt": "Wachambuzi wetu wanachunguza nguvu kuu zinazoumba bei za bidhaa mwaka 2026, kutoka mpito wa nishati hadi ukuaji wa mahitaji ya semikondakta."
         },
         "a2": {
-          "title": "GGK Expands South Asia Operations with Dhaka Office Upgrade",
-          "excerpt": "Global Group Korea strengthens its Bangladesh presence with expanded facilities and a larger team to support growing regional trade."
+          "title": "GGK Yapanua Shughuli za Asia ya Kusini kwa Uboreshaji wa Ofisi ya Dhaka",
+          "excerpt": "Global Group Korea inaimarisha uwepo wake nchini Bangladesh kwa vituo vilivyopanuliwa na timu kubwa zaidi ili kusaidia biashara ya kikanda inayokua."
         }
       },
-      "readStory": "Read the story",
-      "readMore": "Read More"
+      "readStory": "Soma habari",
+      "readMore": "Soma Zaidi"
     },
     "contact": {
       "hero": {
-        "eyebrow": "Contact Us",
-        "title": "Let's start a conversation",
-        "lede": "Tell us what you source and where you operate. Our trading desk responds with a tailored supply proposal."
+        "eyebrow": "Wasiliana Nasi",
+        "title": "Hebu tuanze mazungumzo",
+        "lede": "Tuambie unachopata na mahali unapofanyia kazi. Dawati letu la biashara hujibu kwa pendekezo la ugavi lililoboreshwa mahsusi."
       },
       "hq": {
-        "title": "Headquarters"
+        "title": "Makao Makuu"
       },
       "form": {
-        "title": "Request a consultation"
+        "title": "Omba ushauri"
       },
       "success": {
-        "title": "Thank you — message received",
-        "text": "Our team will be in touch shortly.",
-        "another": "Send another"
+        "title": "Asante — ujumbe umepokelewa",
+        "text": "Timu yetu itawasiliana nawe hivi karibuni.",
+        "another": "Tuma mwingine"
       },
       "offices": {
-        "title": "Our offices",
-        "subtitle": "Seven strategic locations across the globe, coordinated from Seoul.",
+        "title": "Ofisi zetu",
+        "subtitle": "Maeneo saba ya kimkakati duniani kote, yakiratibiwa kutoka Seoul.",
         "roles": {
-          "seoul": "Headquarters",
-          "morogoro": "Quartz Production Hub",
-          "dubai": "Middle East Office",
-          "accra": "West Africa Office",
-          "capeTown": "Africa Regional Office",
-          "dhaka": "South Asia Office",
-          "montreal": "North America Office"
+          "seoul": "Makao Makuu",
+          "morogoro": "Kitovu cha Uzalishaji wa Kwarizi",
+          "dubai": "Ofisi ya Mashariki ya Kati",
+          "accra": "Ofisi ya Afrika Magharibi",
+          "capeTown": "Ofisi ya Kanda ya Afrika",
+          "dhaka": "Ofisi ya Asia ya Kusini",
+          "montreal": "Ofisi ya Amerika Kaskazini"
         }
       }
     }
