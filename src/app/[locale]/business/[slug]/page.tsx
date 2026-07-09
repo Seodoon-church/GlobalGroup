@@ -7,7 +7,7 @@ import styles from './page.module.css';
 
 // 'energy-fuels' is the canonical slug; 'crude-oil' is kept as an alias so existing
 // links/bookmarks continue to resolve to the same (expanded) content.
-const slugs = ['energy-fuels', 'crude-oil', 'copper', 'quartz', 'gold'];
+const slugs = ['energy-fuels', 'crude-oil', 'crudeOil', 'copper', 'quartz', 'gold'];
 
 export function generateStaticParams() {
   return locales.flatMap((locale) =>
@@ -26,6 +26,13 @@ const businessData: Record<string, {
     gradient: 'linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%)',
   },
   'crude-oil': {
+    key: 'energyFuels',
+    color: '#0a1628',
+    gradient: 'linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%)',
+  },
+  // camelCase alias — old homepage cards linked to /business/crudeOil (key, not slug),
+  // which Google may have indexed. Keep it resolving instead of 404.
+  'crudeOil': {
     key: 'energyFuels',
     color: '#0a1628',
     gradient: 'linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%)',
@@ -139,7 +146,7 @@ export default async function BusinessDetailPage({ params }: Props) {
             {t('backToBusiness')}
           </Link>
           <div className={styles.heroIcon}>
-            {(slug === 'energy-fuels' || slug === 'crude-oil') && (
+            {(slug === 'energy-fuels' || slug === 'crude-oil' || slug === 'crudeOil') && (
               <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M12 2C12 2 4 8 4 14a8 8 0 1016 0c0-6-8-12-8-12z" />
               </svg>

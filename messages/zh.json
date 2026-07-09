@@ -206,9 +206,9 @@
     "title": "业务领域",
     "subtitle": "引领全球资源市场",
     "crudeOil": {
-      "title": "原油贸易",
-      "subtitle": "能源资源",
-      "description": "我们提供来自中东、俄罗斯和美洲的稳定原油供应，通过与全球炼油厂的合作实现具有竞争力的交易。"
+      "title": "能源与燃料",
+      "subtitle": "石油与成品油",
+      "description": "原油、EN590 10ppm 柴油及 Jet A-1 航空燃油——通过经核实的炼化与供应渠道供应，采用 KYC 优先流程和安全的银行金融工具。"
     },
     "copper": {
       "title": "铜贸易",
@@ -226,9 +226,9 @@
       "description": "我们以LBMA认证金条为核心，提供安全透明的黄金交易服务，满足投资和工业的双重需求。"
     },
     "energyFuels": {
-      "title": "Energy & Fuels",
-      "subtitle": "Petroleum & Refined Products",
-      "description": "Crude oil, EN590 10ppm diesel and Jet A-1 aviation fuel — supplied through verified refining and supply channels, with KYC-first procedures and secure banking instruments."
+      "title": "能源与燃料",
+      "subtitle": "石油与成品油",
+      "description": "原油、EN590 10ppm 柴油及 Jet A-1 航空燃油——通过经核实的炼化与供应渠道供应，采用 KYC 优先流程和安全的银行金融工具。"
     }
   },
   "stats": {
@@ -554,89 +554,89 @@
     },
     "energyFuels": {
       "overview": {
-        "title": "Business Overview",
-        "text1": "Global Group Korea supplies crude oil and refined petroleum products — EN590 10ppm diesel and Jet A-1 aviation fuel — through verified refining and supply channels across the Middle East, Africa, and the Americas. We are a principal-focused trading company, not a broker chain.",
-        "text2": "Every transaction is built on KYC-cleared counterparties and internationally standard payment structures — transferable L/C, SBLC, or escrow. We do not request advance payments for logistics, customs, or documentation. This standard procedure protects genuine partners and filters out fraudulent approaches."
+        "title": "业务概览",
+        "text1": "Global Group Korea 通过遍布中东、非洲和美洲的经核实炼化与供应渠道，供应原油及成品油产品——EN590 10ppm 柴油和 Jet A-1 航空燃油。我们是以委托方为核心的贸易公司，而非中间商链条。",
+        "text2": "每笔交易均建立在通过 KYC 审核的交易对手和国际标准付款结构之上——可转让 L/C、SBLC 或第三方托管。我们不会为物流、清关或单证收取预付款。这一标准流程可保护真正的合作伙伴，并过滤掉欺诈性接洽。"
       },
       "stats": {
         "stat1": {
           "value": "3",
-          "label": "Core Products"
+          "label": "核心产品"
         },
         "stat2": {
           "value": "SGS",
-          "label": "Independent Inspection"
+          "label": "独立检验"
         },
         "stat3": {
           "value": "L/C",
-          "label": "Secure Settlement"
+          "label": "安全结算"
         }
       },
       "features": {
         "feature1": {
-          "title": "Verified Supply Chains",
-          "text": "Sourcing through verified refining and supply channels, with certificate of origin and COQ for every cargo. Sanctioned-origin cargoes are not handled."
+          "title": "经核实的供应链",
+          "text": "通过经核实的炼化与供应渠道采购，每批货物均附有原产地证书和 COQ。不经手受制裁来源的货物。"
         },
         "feature2": {
-          "title": "Refined & Crude Range",
-          "text": "EN590 10ppm ULSD to EN 590, Jet A-1 to DEF STAN 91-091 / ASTM D1655, and crude oil across light/heavy, sweet/sour grades."
+          "title": "成品油与原油品类",
+          "text": "符合 EN 590 标准的 EN590 10ppm ULSD、符合 DEF STAN 91-091 / ASTM D1655 标准的 Jet A-1，以及涵盖轻质/重质、含硫低/高（甜/酸）等级的原油。"
         },
         "feature3": {
-          "title": "Bank-Instrument Settlement",
-          "text": "Transferable L/C, SBLC and escrow only. No advance payments for customs, logistics, or documentation at any stage."
+          "title": "银行金融工具结算",
+          "text": "仅接受可转让 L/C、SBLC 及第三方托管。任何阶段均不为清关、物流或单证收取预付款。"
         },
         "feature4": {
-          "title": "Independent Quality Control",
-          "text": "Cargoes inspected by an international agency such as SGS, with quality confirmed by Certificate of Quality at loading."
+          "title": "独立质量控制",
+          "text": "货物由 SGS 等国际机构检验，装货时以质量证书（Certificate of Quality）确认品质。"
         }
       },
       "process": {
         "process1": {
-          "title": "KYC & Due Diligence",
-          "text": "Mutual verification of buyer and seller identity and standing as a prerequisite"
+          "title": "KYC 与尽职调查",
+          "text": "以买卖双方身份和资信的相互核实为前提"
         },
         "process2": {
-          "title": "Soft Offer / ICPO",
-          "text": "Quantity, specification and terms agreed"
+          "title": "软报盘 / ICPO",
+          "text": "商定数量、规格及条款"
         },
         "process3": {
-          "title": "Contract & Instrument",
-          "text": "Binding SPA signed; transferable L/C, SBLC or escrow established"
+          "title": "合同与金融工具",
+          "text": "签署具约束力的 SPA；建立可转让 L/C、SBLC 或第三方托管"
         },
         "process4": {
-          "title": "Inspection & Delivery",
-          "text": "SGS/COQ inspection, then shipment and delivery on agreed Incoterms"
+          "title": "检验与交付",
+          "text": "SGS/COQ 检验，随后按约定的 Incoterms 装运并交付"
         }
       },
       "products": {
-        "title": "Product Line-up",
-        "intro": "Core specifications shown below. Full specifications are available as PDF on each product. Final values are confirmed by SGS inspection and Certificate of Quality at loading.",
-        "fullSpec": "Full specification (PDF)",
+        "title": "产品系列",
+        "intro": "以下列出核心规格。完整规格以 PDF 形式随每款产品提供。最终数值以装货时的 SGS 检验和质量证书为准。",
+        "fullSpec": "完整规格（PDF）",
         "en590": {
-          "title": "EN590 10ppm Diesel (ULSD)",
-          "tagline": "EN 590 · Ultra-low sulphur",
+          "title": "EN590 10ppm 柴油（ULSD）",
+          "tagline": "EN 590 · 超低硫",
           "spec1": {
-            "label": "Sulphur content",
+            "label": "硫含量",
             "value": "max 10.0 mg/kg"
           },
           "spec2": {
-            "label": "Cetane number",
+            "label": "十六烷值",
             "value": "min 51.0"
           },
           "spec3": {
-            "label": "Density @15°C",
+            "label": "密度 @15°C",
             "value": "820.0–845.0 kg/m³"
           },
           "spec4": {
-            "label": "Flash point",
+            "label": "闪点",
             "value": "> 55.0°C"
           },
           "spec5": {
-            "label": "Viscosity @40°C",
+            "label": "运动粘度 @40°C",
             "value": "2.000–4.500 mm²/s"
           },
           "spec6": {
-            "label": "Distillation, 95%",
+            "label": "馏程，95%",
             "value": "max 360.0°C"
           }
         },
@@ -644,56 +644,56 @@
           "title": "Jet A-1",
           "tagline": "DEF STAN 91-091 / ASTM D1655",
           "spec1": {
-            "label": "Density @15°C",
+            "label": "密度 @15°C",
             "value": "775.0–840.0 kg/m³"
           },
           "spec2": {
-            "label": "Flash point",
+            "label": "闪点",
             "value": "min 38.0°C"
           },
           "spec3": {
-            "label": "Freezing point",
+            "label": "冰点",
             "value": "max −47.0°C"
           },
           "spec4": {
-            "label": "Total sulphur",
+            "label": "总硫含量",
             "value": "max 0.30% m/m"
           },
           "spec5": {
-            "label": "Net heat of combustion",
+            "label": "净热值",
             "value": "min 42.80 MJ/kg"
           },
           "spec6": {
-            "label": "Viscosity @−20°C",
+            "label": "运动粘度 @−20°C",
             "value": "max 8.000 mm²/s"
           }
         },
         "crude": {
-          "title": "Crude Oil",
-          "tagline": "Light/heavy · sweet/sour · spot & term",
+          "title": "原油",
+          "tagline": "轻质/重质 · 甜/酸 · 现货与期货",
           "spec1": {
-            "label": "Classification",
-            "value": "By API & sulphur"
+            "label": "分类",
+            "value": "按 API 与硫含量"
           },
           "spec2": {
-            "label": "API gravity",
-            "value": "Grade-dependent"
+            "label": "API 比重",
+            "value": "视等级而定"
           },
           "spec3": {
-            "label": "Sulphur",
-            "value": "Sweet <0.5% / Sour ≥0.5%"
+            "label": "硫含量",
+            "value": "甜 <0.5% / 酸 ≥0.5%"
           },
           "spec4": {
             "label": "BS&W",
             "value": "≤ 1.0% v/v"
           },
           "spec5": {
-            "label": "Supply",
-            "value": "Spot / Term · CIF / FOB"
+            "label": "供应",
+            "value": "现货 / 期货 · CIF / FOB"
           },
           "spec6": {
-            "label": "Inspection",
-            "value": "SGS / COQ at loading"
+            "label": "检验",
+            "value": "装货时 SGS / COQ"
           }
         }
       }

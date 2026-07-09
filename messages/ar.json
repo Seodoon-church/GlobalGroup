@@ -206,9 +206,9 @@
     "title": "مجالات الأعمال",
     "subtitle": "ريادة سوق الموارد العالمية",
     "crudeOil": {
-      "title": "تجارة النفط الخام",
-      "subtitle": "موارد الطاقة",
-      "description": "نوفر إمدادات مستقرة من النفط الخام من الشرق الأوسط وروسيا والأمريكتين، ونحقق تجارة تنافسية من خلال الشراكات مع مصافي التكرير العالمية."
+      "title": "الطاقة والوقود",
+      "subtitle": "البترول والمنتجات المكررة",
+      "description": "النفط الخام وديزل EN590 10ppm ووقود الطيران Jet A-1 — يتم توريدها عبر قنوات تكرير وتوريد موثقة، مع إجراءات تعتمد مبدأ KYC أولاً وأدوات مصرفية آمنة."
     },
     "copper": {
       "title": "تجارة النحاس",
@@ -226,9 +226,9 @@
       "description": "نقدم خدمات تجارة ذهب آمنة وشفافة تتمحور حول سبائك الذهب المعتمدة من LBMA، لتلبية احتياجات الاستثمار والصناعة على حد سواء."
     },
     "energyFuels": {
-      "title": "Energy & Fuels",
-      "subtitle": "Petroleum & Refined Products",
-      "description": "Crude oil, EN590 10ppm diesel and Jet A-1 aviation fuel — supplied through verified refining and supply channels, with KYC-first procedures and secure banking instruments."
+      "title": "الطاقة والوقود",
+      "subtitle": "البترول والمنتجات المكررة",
+      "description": "النفط الخام وديزل EN590 10ppm ووقود الطيران Jet A-1 — يتم توريدها عبر قنوات تكرير وتوريد موثقة، مع إجراءات تعتمد مبدأ KYC أولاً وأدوات مصرفية آمنة."
     }
   },
   "stats": {
@@ -554,89 +554,89 @@
     },
     "energyFuels": {
       "overview": {
-        "title": "Business Overview",
-        "text1": "Global Group Korea supplies crude oil and refined petroleum products — EN590 10ppm diesel and Jet A-1 aviation fuel — through verified refining and supply channels across the Middle East, Africa, and the Americas. We are a principal-focused trading company, not a broker chain.",
-        "text2": "Every transaction is built on KYC-cleared counterparties and internationally standard payment structures — transferable L/C, SBLC, or escrow. We do not request advance payments for logistics, customs, or documentation. This standard procedure protects genuine partners and filters out fraudulent approaches."
+        "title": "نظرة عامة على الأعمال",
+        "text1": "توفّر Global Group Korea النفط الخام والمنتجات البترولية المكررة — ديزل EN590 10ppm ووقود الطيران Jet A-1 — عبر قنوات تكرير وتوريد موثقة في الشرق الأوسط وأفريقيا والأمريكتين. نحن شركة تداول تركّز على العمل كطرف أصيل، ولسنا سلسلة وساطة.",
+        "text2": "تُبنى كل معاملة على أطراف مقابلة مُدقّقة عبر إجراءات KYC وهياكل دفع وفق المعايير الدولية — L/C قابل للتحويل أو SBLC أو حساب ضمان. لا نطلب دفعات مقدمة مقابل الخدمات اللوجستية أو الجمارك أو المستندات. هذا الإجراء المعياري يحمي الشركاء الحقيقيين ويستبعد المحاولات الاحتيالية."
       },
       "stats": {
         "stat1": {
           "value": "3",
-          "label": "Core Products"
+          "label": "المنتجات الأساسية"
         },
         "stat2": {
           "value": "SGS",
-          "label": "Independent Inspection"
+          "label": "فحص مستقل"
         },
         "stat3": {
           "value": "L/C",
-          "label": "Secure Settlement"
+          "label": "تسوية آمنة"
         }
       },
       "features": {
         "feature1": {
-          "title": "Verified Supply Chains",
-          "text": "Sourcing through verified refining and supply channels, with certificate of origin and COQ for every cargo. Sanctioned-origin cargoes are not handled."
+          "title": "سلاسل توريد موثقة",
+          "text": "التوريد عبر قنوات تكرير وتوريد موثقة، مع شهادة منشأ وCOQ لكل شحنة. لا يتم التعامل مع الشحنات ذات المنشأ الخاضع للعقوبات."
         },
         "feature2": {
-          "title": "Refined & Crude Range",
-          "text": "EN590 10ppm ULSD to EN 590, Jet A-1 to DEF STAN 91-091 / ASTM D1655, and crude oil across light/heavy, sweet/sour grades."
+          "title": "نطاق المنتجات المكررة والخام",
+          "text": "ديزل EN590 10ppm ULSD وفق EN 590، وJet A-1 وفق DEF STAN 91-091 / ASTM D1655، والنفط الخام بأنواعه الخفيفة/الثقيلة والحلوة/الحامضة."
         },
         "feature3": {
-          "title": "Bank-Instrument Settlement",
-          "text": "Transferable L/C, SBLC and escrow only. No advance payments for customs, logistics, or documentation at any stage."
+          "title": "التسوية بالأدوات المصرفية",
+          "text": "L/C قابل للتحويل وSBLC وحساب ضمان فقط. لا دفعات مقدمة مقابل الجمارك أو الخدمات اللوجستية أو المستندات في أي مرحلة."
         },
         "feature4": {
-          "title": "Independent Quality Control",
-          "text": "Cargoes inspected by an international agency such as SGS, with quality confirmed by Certificate of Quality at loading."
+          "title": "مراقبة جودة مستقلة",
+          "text": "تُفحص الشحنات من قِبل وكالة دولية مثل SGS، مع تأكيد الجودة بموجب شهادة الجودة عند التحميل."
         }
       },
       "process": {
         "process1": {
-          "title": "KYC & Due Diligence",
-          "text": "Mutual verification of buyer and seller identity and standing as a prerequisite"
+          "title": "KYC والعناية الواجبة",
+          "text": "التحقق المتبادل من هوية المشتري والبائع ومكانتهما كشرط مسبق"
         },
         "process2": {
-          "title": "Soft Offer / ICPO",
-          "text": "Quantity, specification and terms agreed"
+          "title": "عرض مبدئي / ICPO",
+          "text": "الاتفاق على الكمية والمواصفات والشروط"
         },
         "process3": {
-          "title": "Contract & Instrument",
-          "text": "Binding SPA signed; transferable L/C, SBLC or escrow established"
+          "title": "العقد والأداة",
+          "text": "توقيع SPA مُلزم؛ وإنشاء L/C قابل للتحويل أو SBLC أو حساب ضمان"
         },
         "process4": {
-          "title": "Inspection & Delivery",
-          "text": "SGS/COQ inspection, then shipment and delivery on agreed Incoterms"
+          "title": "الفحص والتسليم",
+          "text": "فحص SGS/COQ، ثم الشحن والتسليم وفق شروط Incoterms المتفق عليها"
         }
       },
       "products": {
-        "title": "Product Line-up",
-        "intro": "Core specifications shown below. Full specifications are available as PDF on each product. Final values are confirmed by SGS inspection and Certificate of Quality at loading.",
-        "fullSpec": "Full specification (PDF)",
+        "title": "تشكيلة المنتجات",
+        "intro": "المواصفات الأساسية موضّحة أدناه. تتوفر المواصفات الكاملة بصيغة PDF لكل منتج. تُؤكَّد القيم النهائية بواسطة فحص SGS وشهادة الجودة عند التحميل.",
+        "fullSpec": "المواصفات الكاملة (PDF)",
         "en590": {
-          "title": "EN590 10ppm Diesel (ULSD)",
-          "tagline": "EN 590 · Ultra-low sulphur",
+          "title": "ديزل EN590 10ppm (ULSD)",
+          "tagline": "EN 590 · كبريت منخفض للغاية",
           "spec1": {
-            "label": "Sulphur content",
+            "label": "محتوى الكبريت",
             "value": "max 10.0 mg/kg"
           },
           "spec2": {
-            "label": "Cetane number",
+            "label": "الرقم السيتاني",
             "value": "min 51.0"
           },
           "spec3": {
-            "label": "Density @15°C",
+            "label": "الكثافة @15°C",
             "value": "820.0–845.0 kg/m³"
           },
           "spec4": {
-            "label": "Flash point",
+            "label": "نقطة الوميض",
             "value": "> 55.0°C"
           },
           "spec5": {
-            "label": "Viscosity @40°C",
+            "label": "اللزوجة @40°C",
             "value": "2.000–4.500 mm²/s"
           },
           "spec6": {
-            "label": "Distillation, 95%",
+            "label": "التقطير، 95%",
             "value": "max 360.0°C"
           }
         },
@@ -644,56 +644,56 @@
           "title": "Jet A-1",
           "tagline": "DEF STAN 91-091 / ASTM D1655",
           "spec1": {
-            "label": "Density @15°C",
+            "label": "الكثافة @15°C",
             "value": "775.0–840.0 kg/m³"
           },
           "spec2": {
-            "label": "Flash point",
+            "label": "نقطة الوميض",
             "value": "min 38.0°C"
           },
           "spec3": {
-            "label": "Freezing point",
+            "label": "نقطة التجمّد",
             "value": "max −47.0°C"
           },
           "spec4": {
-            "label": "Total sulphur",
+            "label": "إجمالي الكبريت",
             "value": "max 0.30% m/m"
           },
           "spec5": {
-            "label": "Net heat of combustion",
+            "label": "صافي حرارة الاحتراق",
             "value": "min 42.80 MJ/kg"
           },
           "spec6": {
-            "label": "Viscosity @−20°C",
+            "label": "اللزوجة @−20°C",
             "value": "max 8.000 mm²/s"
           }
         },
         "crude": {
-          "title": "Crude Oil",
-          "tagline": "Light/heavy · sweet/sour · spot & term",
+          "title": "النفط الخام",
+          "tagline": "خفيف/ثقيل · حلو/حامض · فوري وآجل",
           "spec1": {
-            "label": "Classification",
-            "value": "By API & sulphur"
+            "label": "التصنيف",
+            "value": "حسب API والكبريت"
           },
           "spec2": {
-            "label": "API gravity",
-            "value": "Grade-dependent"
+            "label": "كثافة API",
+            "value": "حسب الدرجة"
           },
           "spec3": {
-            "label": "Sulphur",
-            "value": "Sweet <0.5% / Sour ≥0.5%"
+            "label": "الكبريت",
+            "value": "حلو <0.5% / حامض ≥0.5%"
           },
           "spec4": {
             "label": "BS&W",
             "value": "≤ 1.0% v/v"
           },
           "spec5": {
-            "label": "Supply",
-            "value": "Spot / Term · CIF / FOB"
+            "label": "التوريد",
+            "value": "فوري / آجل · CIF / FOB"
           },
           "spec6": {
-            "label": "Inspection",
-            "value": "SGS / COQ at loading"
+            "label": "الفحص",
+            "value": "SGS / COQ عند التحميل"
           }
         }
       }

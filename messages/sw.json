@@ -206,9 +206,9 @@
     "title": "Maeneo ya Biashara",
     "subtitle": "Kuongoza Soko la Rasilimali Duniani",
     "crudeOil": {
-      "title": "Biashara ya Mafuta Ghafi",
-      "subtitle": "Rasilimali za Nishati",
-      "description": "Tunatoa ugavi thabiti wa mafuta ghafi kutoka Mashariki ya Kati, Urusi, na Amerika, tukipata biashara yenye ushindani kupitia ushirikiano na viwanda vya kusafisha mafuta duniani."
+      "title": "Nishati na Mafuta",
+      "subtitle": "Petroli na Bidhaa Zilizosafishwa",
+      "description": "Mafuta ghafi, dizeli ya EN590 10ppm na mafuta ya ndege Jet A-1 — vinavyotolewa kupitia njia zilizothibitishwa za kusafisha na kusambaza, kwa taratibu za KYC-kwanza na vyombo salama vya kibenki."
     },
     "copper": {
       "title": "Biashara ya Shaba",
@@ -226,9 +226,9 @@
       "description": "Tunatoa huduma salama na za uwazi za biashara ya dhahabu zinazozingatia baa za dhahabu zilizoidhinishwa na LBMA, tukikidhi mahitaji ya uwekezaji na ya kiviwanda."
     },
     "energyFuels": {
-      "title": "Energy & Fuels",
-      "subtitle": "Petroleum & Refined Products",
-      "description": "Crude oil, EN590 10ppm diesel and Jet A-1 aviation fuel — supplied through verified refining and supply channels, with KYC-first procedures and secure banking instruments."
+      "title": "Nishati na Mafuta",
+      "subtitle": "Petroli na Bidhaa Zilizosafishwa",
+      "description": "Mafuta ghafi, dizeli ya EN590 10ppm na mafuta ya ndege Jet A-1 — vinavyotolewa kupitia njia zilizothibitishwa za kusafisha na kusambaza, kwa taratibu za KYC-kwanza na vyombo salama vya kibenki."
     }
   },
   "stats": {
@@ -554,89 +554,89 @@
     },
     "energyFuels": {
       "overview": {
-        "title": "Business Overview",
-        "text1": "Global Group Korea supplies crude oil and refined petroleum products — EN590 10ppm diesel and Jet A-1 aviation fuel — through verified refining and supply channels across the Middle East, Africa, and the Americas. We are a principal-focused trading company, not a broker chain.",
-        "text2": "Every transaction is built on KYC-cleared counterparties and internationally standard payment structures — transferable L/C, SBLC, or escrow. We do not request advance payments for logistics, customs, or documentation. This standard procedure protects genuine partners and filters out fraudulent approaches."
+        "title": "Muhtasari wa Biashara",
+        "text1": "Global Group Korea husambaza mafuta ghafi na bidhaa za petroli zilizosafishwa — dizeli ya EN590 10ppm na mafuta ya ndege Jet A-1 — kupitia njia zilizothibitishwa za kusafisha na kusambaza katika Mashariki ya Kati, Afrika, na Amerika. Sisi ni kampuni ya biashara inayolenga mwenye mtaji, si mnyororo wa madalali.",
+        "text2": "Kila muamala umejengwa juu ya washirika waliopitishwa na KYC na miundo ya malipo ya kiwango cha kimataifa — L/C inayohamishika, SBLC, au escrow. Hatuombi malipo ya awali kwa ajili ya usafirishaji, forodha, au nyaraka. Utaratibu huu wa kawaida hulinda washirika wa kweli na huchuja mbinu za udanganyifu."
       },
       "stats": {
         "stat1": {
           "value": "3",
-          "label": "Core Products"
+          "label": "Bidhaa Kuu"
         },
         "stat2": {
           "value": "SGS",
-          "label": "Independent Inspection"
+          "label": "Ukaguzi Huru"
         },
         "stat3": {
           "value": "L/C",
-          "label": "Secure Settlement"
+          "label": "Malipo Salama"
         }
       },
       "features": {
         "feature1": {
-          "title": "Verified Supply Chains",
-          "text": "Sourcing through verified refining and supply channels, with certificate of origin and COQ for every cargo. Sanctioned-origin cargoes are not handled."
+          "title": "Minyororo ya Ugavi Iliyothibitishwa",
+          "text": "Kupata kupitia njia zilizothibitishwa za kusafisha na kusambaza, ikiwa na cheti cha asili na COQ kwa kila shehena. Shehena kutoka asili zilizowekewa vikwazo hazishughulikiwi."
         },
         "feature2": {
-          "title": "Refined & Crude Range",
-          "text": "EN590 10ppm ULSD to EN 590, Jet A-1 to DEF STAN 91-091 / ASTM D1655, and crude oil across light/heavy, sweet/sour grades."
+          "title": "Aina za Zilizosafishwa na Ghafi",
+          "text": "EN590 10ppm ULSD kwa mujibu wa EN 590, Jet A-1 kwa mujibu wa DEF STAN 91-091 / ASTM D1655, na mafuta ghafi katika aina za nyepesi/nzito, sweet/sour."
         },
         "feature3": {
-          "title": "Bank-Instrument Settlement",
-          "text": "Transferable L/C, SBLC and escrow only. No advance payments for customs, logistics, or documentation at any stage."
+          "title": "Malipo kwa Vyombo vya Kibenki",
+          "text": "L/C inayohamishika, SBLC na escrow pekee. Hakuna malipo ya awali kwa forodha, usafirishaji, au nyaraka katika hatua yoyote."
         },
         "feature4": {
-          "title": "Independent Quality Control",
-          "text": "Cargoes inspected by an international agency such as SGS, with quality confirmed by Certificate of Quality at loading."
+          "title": "Udhibiti Huru wa Ubora",
+          "text": "Shehena hukaguliwa na wakala wa kimataifa kama vile SGS, huku ubora ukithibitishwa kwa Certificate of Quality wakati wa kupakia."
         }
       },
       "process": {
         "process1": {
-          "title": "KYC & Due Diligence",
-          "text": "Mutual verification of buyer and seller identity and standing as a prerequisite"
+          "title": "KYC na Uchunguzi wa Kina",
+          "text": "Uthibitishaji wa pande zote wa utambulisho na hadhi ya mnunuzi na muuzaji kama sharti la awali"
         },
         "process2": {
           "title": "Soft Offer / ICPO",
-          "text": "Quantity, specification and terms agreed"
+          "text": "Kiasi, vipimo na masharti yamekubaliwa"
         },
         "process3": {
-          "title": "Contract & Instrument",
-          "text": "Binding SPA signed; transferable L/C, SBLC or escrow established"
+          "title": "Mkataba na Chombo",
+          "text": "SPA yenye kufunga imesainiwa; L/C inayohamishika, SBLC au escrow imeanzishwa"
         },
         "process4": {
-          "title": "Inspection & Delivery",
-          "text": "SGS/COQ inspection, then shipment and delivery on agreed Incoterms"
+          "title": "Ukaguzi na Utoaji",
+          "text": "Ukaguzi wa SGS/COQ, kisha usafirishaji na utoaji kwa Incoterms zilizokubaliwa"
         }
       },
       "products": {
-        "title": "Product Line-up",
-        "intro": "Core specifications shown below. Full specifications are available as PDF on each product. Final values are confirmed by SGS inspection and Certificate of Quality at loading.",
-        "fullSpec": "Full specification (PDF)",
+        "title": "Mfululizo wa Bidhaa",
+        "intro": "Vipimo vikuu vimeonyeshwa hapa chini. Vipimo kamili vinapatikana kama PDF kwa kila bidhaa. Thamani za mwisho zinathibitishwa kwa ukaguzi wa SGS na Certificate of Quality wakati wa kupakia.",
+        "fullSpec": "Vipimo kamili (PDF)",
         "en590": {
-          "title": "EN590 10ppm Diesel (ULSD)",
-          "tagline": "EN 590 · Ultra-low sulphur",
+          "title": "Dizeli ya EN590 10ppm (ULSD)",
+          "tagline": "EN 590 · Salfa ya kiwango cha chini sana",
           "spec1": {
-            "label": "Sulphur content",
+            "label": "Kiwango cha salfa",
             "value": "max 10.0 mg/kg"
           },
           "spec2": {
-            "label": "Cetane number",
+            "label": "Nambari ya cetane",
             "value": "min 51.0"
           },
           "spec3": {
-            "label": "Density @15°C",
+            "label": "Msongamano @15°C",
             "value": "820.0–845.0 kg/m³"
           },
           "spec4": {
-            "label": "Flash point",
+            "label": "Kiwango cha kuwaka",
             "value": "> 55.0°C"
           },
           "spec5": {
-            "label": "Viscosity @40°C",
+            "label": "Mnato @40°C",
             "value": "2.000–4.500 mm²/s"
           },
           "spec6": {
-            "label": "Distillation, 95%",
+            "label": "Uchujaji, 95%",
             "value": "max 360.0°C"
           }
         },
@@ -644,43 +644,43 @@
           "title": "Jet A-1",
           "tagline": "DEF STAN 91-091 / ASTM D1655",
           "spec1": {
-            "label": "Density @15°C",
+            "label": "Msongamano @15°C",
             "value": "775.0–840.0 kg/m³"
           },
           "spec2": {
-            "label": "Flash point",
+            "label": "Kiwango cha kuwaka",
             "value": "min 38.0°C"
           },
           "spec3": {
-            "label": "Freezing point",
+            "label": "Kiwango cha kuganda",
             "value": "max −47.0°C"
           },
           "spec4": {
-            "label": "Total sulphur",
+            "label": "Salfa jumla",
             "value": "max 0.30% m/m"
           },
           "spec5": {
-            "label": "Net heat of combustion",
+            "label": "Joto halisi la mwako",
             "value": "min 42.80 MJ/kg"
           },
           "spec6": {
-            "label": "Viscosity @−20°C",
+            "label": "Mnato @−20°C",
             "value": "max 8.000 mm²/s"
           }
         },
         "crude": {
-          "title": "Crude Oil",
-          "tagline": "Light/heavy · sweet/sour · spot & term",
+          "title": "Mafuta Ghafi",
+          "tagline": "Nyepesi/nzito · sweet/sour · spot na muda",
           "spec1": {
-            "label": "Classification",
-            "value": "By API & sulphur"
+            "label": "Uainishaji",
+            "value": "Kwa API na salfa"
           },
           "spec2": {
-            "label": "API gravity",
-            "value": "Grade-dependent"
+            "label": "Uzito wa API",
+            "value": "Inategemea aina"
           },
           "spec3": {
-            "label": "Sulphur",
+            "label": "Salfa",
             "value": "Sweet <0.5% / Sour ≥0.5%"
           },
           "spec4": {
@@ -688,12 +688,12 @@
             "value": "≤ 1.0% v/v"
           },
           "spec5": {
-            "label": "Supply",
-            "value": "Spot / Term · CIF / FOB"
+            "label": "Ugavi",
+            "value": "Spot / Muda · CIF / FOB"
           },
           "spec6": {
-            "label": "Inspection",
-            "value": "SGS / COQ at loading"
+            "label": "Ukaguzi",
+            "value": "SGS / COQ wakati wa kupakia"
           }
         }
       }

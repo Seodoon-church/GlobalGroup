@@ -206,9 +206,9 @@
     "title": "व्यापार क्षेत्र",
     "subtitle": "वैश्विक संसाधन बाज़ार का नेतृत्व",
     "crudeOil": {
-      "title": "कच्चे तेल का व्यापार",
-      "subtitle": "ऊर्जा संसाधन",
-      "description": "हम मध्य पूर्व, रूस और अमेरिका से स्थिर कच्चे तेल की आपूर्ति प्रदान करते हैं, वैश्विक रिफाइनरियों के साथ भागीदारी के माध्यम से प्रतिस्पर्धी व्यापार हासिल करते हैं।"
+      "title": "ऊर्जा और ईंधन",
+      "subtitle": "पेट्रोलियम और परिष्कृत उत्पाद",
+      "description": "कच्चा तेल, EN590 10ppm डीज़ल और Jet A-1 विमानन ईंधन — सत्यापित रिफाइनिंग और आपूर्ति चैनलों के माध्यम से प्रदान किया जाता है, KYC-प्रथम प्रक्रियाओं और सुरक्षित बैंकिंग उपकरणों के साथ।"
     },
     "copper": {
       "title": "तांबे का व्यापार",
@@ -226,9 +226,9 @@
       "description": "हम LBMA-प्रमाणित सोने की सिल्लियों पर केंद्रित सुरक्षित और पारदर्शी सोने की व्यापार सेवाएँ प्रदान करते हैं, निवेश और औद्योगिक दोनों मांगों को पूरा करते हैं।"
     },
     "energyFuels": {
-      "title": "Energy & Fuels",
-      "subtitle": "Petroleum & Refined Products",
-      "description": "Crude oil, EN590 10ppm diesel and Jet A-1 aviation fuel — supplied through verified refining and supply channels, with KYC-first procedures and secure banking instruments."
+      "title": "ऊर्जा और ईंधन",
+      "subtitle": "पेट्रोलियम और परिष्कृत उत्पाद",
+      "description": "कच्चा तेल, EN590 10ppm डीज़ल और Jet A-1 विमानन ईंधन — सत्यापित रिफाइनिंग और आपूर्ति चैनलों के माध्यम से प्रदान किया जाता है, KYC-प्रथम प्रक्रियाओं और सुरक्षित बैंकिंग उपकरणों के साथ।"
     }
   },
   "stats": {
@@ -554,89 +554,89 @@
     },
     "energyFuels": {
       "overview": {
-        "title": "Business Overview",
-        "text1": "Global Group Korea supplies crude oil and refined petroleum products — EN590 10ppm diesel and Jet A-1 aviation fuel — through verified refining and supply channels across the Middle East, Africa, and the Americas. We are a principal-focused trading company, not a broker chain.",
-        "text2": "Every transaction is built on KYC-cleared counterparties and internationally standard payment structures — transferable L/C, SBLC, or escrow. We do not request advance payments for logistics, customs, or documentation. This standard procedure protects genuine partners and filters out fraudulent approaches."
+        "title": "व्यवसाय अवलोकन",
+        "text1": "Global Group Korea मध्य पूर्व, अफ्रीका और अमेरिका में सत्यापित रिफाइनिंग और आपूर्ति चैनलों के माध्यम से कच्चा तेल और परिष्कृत पेट्रोलियम उत्पाद — EN590 10ppm डीज़ल और Jet A-1 विमानन ईंधन — की आपूर्ति करता है। हम एक प्रिंसिपल-केंद्रित ट्रेडिंग कंपनी हैं, न कि दलालों की श्रृंखला।",
+        "text2": "प्रत्येक लेन-देन KYC-स्वीकृत प्रतिपक्षों और अंतरराष्ट्रीय स्तर पर मानक भुगतान संरचनाओं — हस्तांतरणीय L/C, SBLC, या एस्क्रो — पर आधारित होता है। हम लॉजिस्टिक्स, सीमा शुल्क या दस्तावेज़ीकरण के लिए अग्रिम भुगतान का अनुरोध नहीं करते। यह मानक प्रक्रिया वास्तविक भागीदारों की रक्षा करती है और धोखाधड़ी वाले प्रयासों को छांट देती है।"
       },
       "stats": {
         "stat1": {
           "value": "3",
-          "label": "Core Products"
+          "label": "मुख्य उत्पाद"
         },
         "stat2": {
           "value": "SGS",
-          "label": "Independent Inspection"
+          "label": "स्वतंत्र निरीक्षण"
         },
         "stat3": {
           "value": "L/C",
-          "label": "Secure Settlement"
+          "label": "सुरक्षित निपटान"
         }
       },
       "features": {
         "feature1": {
-          "title": "Verified Supply Chains",
-          "text": "Sourcing through verified refining and supply channels, with certificate of origin and COQ for every cargo. Sanctioned-origin cargoes are not handled."
+          "title": "सत्यापित आपूर्ति श्रृंखलाएँ",
+          "text": "सत्यापित रिफाइनिंग और आपूर्ति चैनलों के माध्यम से स्रोतन, प्रत्येक कार्गो के लिए मूल प्रमाणपत्र और COQ के साथ। प्रतिबंधित-मूल के कार्गो को नहीं संभाला जाता।"
         },
         "feature2": {
-          "title": "Refined & Crude Range",
-          "text": "EN590 10ppm ULSD to EN 590, Jet A-1 to DEF STAN 91-091 / ASTM D1655, and crude oil across light/heavy, sweet/sour grades."
+          "title": "परिष्कृत और कच्चे तेल की श्रेणी",
+          "text": "EN 590 के अनुरूप EN590 10ppm ULSD, DEF STAN 91-091 / ASTM D1655 के अनुरूप Jet A-1, और हल्के/भारी, स्वीट/सॉर श्रेणियों में कच्चा तेल।"
         },
         "feature3": {
-          "title": "Bank-Instrument Settlement",
-          "text": "Transferable L/C, SBLC and escrow only. No advance payments for customs, logistics, or documentation at any stage."
+          "title": "बैंक-उपकरण निपटान",
+          "text": "केवल हस्तांतरणीय L/C, SBLC और एस्क्रो। किसी भी चरण में सीमा शुल्क, लॉजिस्टिक्स या दस्तावेज़ीकरण के लिए कोई अग्रिम भुगतान नहीं।"
         },
         "feature4": {
-          "title": "Independent Quality Control",
-          "text": "Cargoes inspected by an international agency such as SGS, with quality confirmed by Certificate of Quality at loading."
+          "title": "स्वतंत्र गुणवत्ता नियंत्रण",
+          "text": "कार्गो का निरीक्षण SGS जैसी किसी अंतरराष्ट्रीय एजेंसी द्वारा किया जाता है, लोडिंग के समय गुणवत्ता प्रमाणपत्र द्वारा गुणवत्ता की पुष्टि की जाती है।"
         }
       },
       "process": {
         "process1": {
-          "title": "KYC & Due Diligence",
-          "text": "Mutual verification of buyer and seller identity and standing as a prerequisite"
+          "title": "KYC और उचित सावधानी",
+          "text": "पूर्वापेक्षा के रूप में क्रेता और विक्रेता की पहचान एवं स्थिति का पारस्परिक सत्यापन"
         },
         "process2": {
-          "title": "Soft Offer / ICPO",
-          "text": "Quantity, specification and terms agreed"
+          "title": "सॉफ्ट ऑफर / ICPO",
+          "text": "मात्रा, विशिष्टता और शर्तें सहमत"
         },
         "process3": {
-          "title": "Contract & Instrument",
-          "text": "Binding SPA signed; transferable L/C, SBLC or escrow established"
+          "title": "अनुबंध और उपकरण",
+          "text": "बाध्यकारी SPA पर हस्ताक्षर; हस्तांतरणीय L/C, SBLC या एस्क्रो स्थापित"
         },
         "process4": {
-          "title": "Inspection & Delivery",
-          "text": "SGS/COQ inspection, then shipment and delivery on agreed Incoterms"
+          "title": "निरीक्षण और वितरण",
+          "text": "SGS/COQ निरीक्षण, फिर सहमत Incoterms पर शिपमेंट और वितरण"
         }
       },
       "products": {
-        "title": "Product Line-up",
-        "intro": "Core specifications shown below. Full specifications are available as PDF on each product. Final values are confirmed by SGS inspection and Certificate of Quality at loading.",
-        "fullSpec": "Full specification (PDF)",
+        "title": "उत्पाद श्रृंखला",
+        "intro": "मुख्य विशिष्टताएँ नीचे दर्शाई गई हैं। पूर्ण विशिष्टताएँ प्रत्येक उत्पाद पर PDF के रूप में उपलब्ध हैं। अंतिम मान लोडिंग के समय SGS निरीक्षण और गुणवत्ता प्रमाणपत्र द्वारा पुष्ट किए जाते हैं।",
+        "fullSpec": "पूर्ण विशिष्टता (PDF)",
         "en590": {
-          "title": "EN590 10ppm Diesel (ULSD)",
-          "tagline": "EN 590 · Ultra-low sulphur",
+          "title": "EN590 10ppm डीज़ल (ULSD)",
+          "tagline": "EN 590 · अति-निम्न सल्फर",
           "spec1": {
-            "label": "Sulphur content",
+            "label": "सल्फर सामग्री",
             "value": "max 10.0 mg/kg"
           },
           "spec2": {
-            "label": "Cetane number",
+            "label": "सीटेन संख्या",
             "value": "min 51.0"
           },
           "spec3": {
-            "label": "Density @15°C",
+            "label": "घनत्व @15°C",
             "value": "820.0–845.0 kg/m³"
           },
           "spec4": {
-            "label": "Flash point",
+            "label": "फ्लैश बिंदु",
             "value": "> 55.0°C"
           },
           "spec5": {
-            "label": "Viscosity @40°C",
+            "label": "श्यानता @40°C",
             "value": "2.000–4.500 mm²/s"
           },
           "spec6": {
-            "label": "Distillation, 95%",
+            "label": "आसवन, 95%",
             "value": "max 360.0°C"
           }
         },
@@ -644,43 +644,43 @@
           "title": "Jet A-1",
           "tagline": "DEF STAN 91-091 / ASTM D1655",
           "spec1": {
-            "label": "Density @15°C",
+            "label": "घनत्व @15°C",
             "value": "775.0–840.0 kg/m³"
           },
           "spec2": {
-            "label": "Flash point",
+            "label": "फ्लैश बिंदु",
             "value": "min 38.0°C"
           },
           "spec3": {
-            "label": "Freezing point",
+            "label": "हिमांक बिंदु",
             "value": "max −47.0°C"
           },
           "spec4": {
-            "label": "Total sulphur",
+            "label": "कुल सल्फर",
             "value": "max 0.30% m/m"
           },
           "spec5": {
-            "label": "Net heat of combustion",
+            "label": "दहन की शुद्ध ऊष्मा",
             "value": "min 42.80 MJ/kg"
           },
           "spec6": {
-            "label": "Viscosity @−20°C",
+            "label": "श्यानता @−20°C",
             "value": "max 8.000 mm²/s"
           }
         },
         "crude": {
-          "title": "Crude Oil",
-          "tagline": "Light/heavy · sweet/sour · spot & term",
+          "title": "कच्चा तेल",
+          "tagline": "हल्का/भारी · स्वीट/सॉर · स्पॉट और टर्म",
           "spec1": {
-            "label": "Classification",
-            "value": "By API & sulphur"
+            "label": "वर्गीकरण",
+            "value": "API और सल्फर के अनुसार"
           },
           "spec2": {
-            "label": "API gravity",
-            "value": "Grade-dependent"
+            "label": "API गुरुत्व",
+            "value": "श्रेणी-निर्भर"
           },
           "spec3": {
-            "label": "Sulphur",
+            "label": "सल्फर",
             "value": "Sweet <0.5% / Sour ≥0.5%"
           },
           "spec4": {
@@ -688,12 +688,12 @@
             "value": "≤ 1.0% v/v"
           },
           "spec5": {
-            "label": "Supply",
-            "value": "Spot / Term · CIF / FOB"
+            "label": "आपूर्ति",
+            "value": "स्पॉट / टर्म · CIF / FOB"
           },
           "spec6": {
-            "label": "Inspection",
-            "value": "SGS / COQ at loading"
+            "label": "निरीक्षण",
+            "value": "लोडिंग के समय SGS / COQ"
           }
         }
       }

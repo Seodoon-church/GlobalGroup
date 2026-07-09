@@ -206,9 +206,9 @@
     "title": "事業領域",
     "subtitle": "グローバル資源市場をリードします",
     "crudeOil": {
-      "title": "原油取引",
-      "subtitle": "エネルギー資源",
-      "description": "中東、ロシア、南北アメリカの原油を安定的に供給し、グローバルな精製企業とのパートナーシップを通じて競争力のある取引を実現しております。"
+      "title": "エネルギー・燃料",
+      "subtitle": "石油・精製製品",
+      "description": "原油、EN590 10ppmディーゼル、Jet A-1航空燃料 — 検証済みの精製・供給チャネルを通じて供給し、KYCを最優先とする手続きと安全な銀行決済手段を採用しています。"
     },
     "copper": {
       "title": "銅取引",
@@ -226,9 +226,9 @@
       "description": "LBMA認証の金地金を中心に、安全で透明性の高い金取引サービスを提供し、投資および産業用の需要にお応えしております。"
     },
     "energyFuels": {
-      "title": "Energy & Fuels",
-      "subtitle": "Petroleum & Refined Products",
-      "description": "Crude oil, EN590 10ppm diesel and Jet A-1 aviation fuel — supplied through verified refining and supply channels, with KYC-first procedures and secure banking instruments."
+      "title": "エネルギー・燃料",
+      "subtitle": "石油・精製製品",
+      "description": "原油、EN590 10ppmディーゼル、Jet A-1航空燃料 — 検証済みの精製・供給チャネルを通じて供給し、KYCを最優先とする手続きと安全な銀行決済手段を採用しています。"
     }
   },
   "stats": {
@@ -554,89 +554,89 @@
     },
     "energyFuels": {
       "overview": {
-        "title": "Business Overview",
-        "text1": "Global Group Korea supplies crude oil and refined petroleum products — EN590 10ppm diesel and Jet A-1 aviation fuel — through verified refining and supply channels across the Middle East, Africa, and the Americas. We are a principal-focused trading company, not a broker chain.",
-        "text2": "Every transaction is built on KYC-cleared counterparties and internationally standard payment structures — transferable L/C, SBLC, or escrow. We do not request advance payments for logistics, customs, or documentation. This standard procedure protects genuine partners and filters out fraudulent approaches."
+        "title": "事業概要",
+        "text1": "Global Group Koreaは、中東、アフリカ、南北アメリカにわたる検証済みの精製・供給チャネルを通じて、原油および精製石油製品 — EN590 10ppmディーゼルおよびJet A-1航空燃料 — を供給しています。当社はブローカーの連鎖ではなく、プリンシパルに徹したトレーディング企業です。",
+        "text2": "すべての取引は、KYC審査を通過した取引相手と、国際標準の決済構造 — 譲渡可能L/C、SBLC、またはエスクロー — の上に成り立っています。当社は物流、通関、書類手続きに対する前払いを一切要求しません。この標準手続きは、真のパートナーを保護し、不正な接触を排除します。"
       },
       "stats": {
         "stat1": {
           "value": "3",
-          "label": "Core Products"
+          "label": "主要製品"
         },
         "stat2": {
           "value": "SGS",
-          "label": "Independent Inspection"
+          "label": "独立検査"
         },
         "stat3": {
           "value": "L/C",
-          "label": "Secure Settlement"
+          "label": "安全な決済"
         }
       },
       "features": {
         "feature1": {
-          "title": "Verified Supply Chains",
-          "text": "Sourcing through verified refining and supply channels, with certificate of origin and COQ for every cargo. Sanctioned-origin cargoes are not handled."
+          "title": "検証済みサプライチェーン",
+          "text": "検証済みの精製・供給チャネルを通じて調達し、すべてのカーゴに原産地証明書とCOQを付帯します。制裁対象原産地のカーゴは取り扱いません。"
         },
         "feature2": {
-          "title": "Refined & Crude Range",
-          "text": "EN590 10ppm ULSD to EN 590, Jet A-1 to DEF STAN 91-091 / ASTM D1655, and crude oil across light/heavy, sweet/sour grades."
+          "title": "精製品・原油の取扱範囲",
+          "text": "EN 590に適合するEN590 10ppm ULSD、DEF STAN 91-091 / ASTM D1655に適合するJet A-1、そして軽質/重質、スイート/サワー各グレードにわたる原油。"
         },
         "feature3": {
-          "title": "Bank-Instrument Settlement",
-          "text": "Transferable L/C, SBLC and escrow only. No advance payments for customs, logistics, or documentation at any stage."
+          "title": "銀行決済手段による決済",
+          "text": "譲渡可能L/C、SBLC、エスクローのみ。いかなる段階においても、通関、物流、書類手続きに対する前払いはありません。"
         },
         "feature4": {
-          "title": "Independent Quality Control",
-          "text": "Cargoes inspected by an international agency such as SGS, with quality confirmed by Certificate of Quality at loading."
+          "title": "独立した品質管理",
+          "text": "カーゴはSGSなどの国際機関により検査され、船積み時に品質証明書（Certificate of Quality）で品質が確認されます。"
         }
       },
       "process": {
         "process1": {
-          "title": "KYC & Due Diligence",
-          "text": "Mutual verification of buyer and seller identity and standing as a prerequisite"
+          "title": "KYC・デューデリジェンス",
+          "text": "前提条件として、買主と売主の身元および信用状況を相互に検証"
         },
         "process2": {
-          "title": "Soft Offer / ICPO",
-          "text": "Quantity, specification and terms agreed"
+          "title": "ソフトオファー / ICPO",
+          "text": "数量、仕様、条件について合意"
         },
         "process3": {
-          "title": "Contract & Instrument",
-          "text": "Binding SPA signed; transferable L/C, SBLC or escrow established"
+          "title": "契約・決済手段",
+          "text": "拘束力のあるSPAを締結し、譲渡可能L/C、SBLC、またはエスクローを設定"
         },
         "process4": {
-          "title": "Inspection & Delivery",
-          "text": "SGS/COQ inspection, then shipment and delivery on agreed Incoterms"
+          "title": "検査・引渡し",
+          "text": "SGS/COQ検査を実施し、その後、合意したIncotermsに基づき船積みおよび引渡し"
         }
       },
       "products": {
-        "title": "Product Line-up",
-        "intro": "Core specifications shown below. Full specifications are available as PDF on each product. Final values are confirmed by SGS inspection and Certificate of Quality at loading.",
-        "fullSpec": "Full specification (PDF)",
+        "title": "製品ラインアップ",
+        "intro": "主要仕様を以下に示します。全仕様は各製品のPDFでご覧いただけます。最終値は船積み時のSGS検査および品質証明書（Certificate of Quality）により確定されます。",
+        "fullSpec": "全仕様（PDF）",
         "en590": {
-          "title": "EN590 10ppm Diesel (ULSD)",
-          "tagline": "EN 590 · Ultra-low sulphur",
+          "title": "EN590 10ppmディーゼル（ULSD）",
+          "tagline": "EN 590 · 超低硫黄",
           "spec1": {
-            "label": "Sulphur content",
+            "label": "硫黄含有量",
             "value": "max 10.0 mg/kg"
           },
           "spec2": {
-            "label": "Cetane number",
+            "label": "セタン価",
             "value": "min 51.0"
           },
           "spec3": {
-            "label": "Density @15°C",
+            "label": "密度 @15°C",
             "value": "820.0–845.0 kg/m³"
           },
           "spec4": {
-            "label": "Flash point",
+            "label": "引火点",
             "value": "> 55.0°C"
           },
           "spec5": {
-            "label": "Viscosity @40°C",
+            "label": "動粘度 @40°C",
             "value": "2.000–4.500 mm²/s"
           },
           "spec6": {
-            "label": "Distillation, 95%",
+            "label": "蒸留、95%",
             "value": "max 360.0°C"
           }
         },
@@ -644,56 +644,56 @@
           "title": "Jet A-1",
           "tagline": "DEF STAN 91-091 / ASTM D1655",
           "spec1": {
-            "label": "Density @15°C",
+            "label": "密度 @15°C",
             "value": "775.0–840.0 kg/m³"
           },
           "spec2": {
-            "label": "Flash point",
+            "label": "引火点",
             "value": "min 38.0°C"
           },
           "spec3": {
-            "label": "Freezing point",
+            "label": "凝固点",
             "value": "max −47.0°C"
           },
           "spec4": {
-            "label": "Total sulphur",
+            "label": "総硫黄分",
             "value": "max 0.30% m/m"
           },
           "spec5": {
-            "label": "Net heat of combustion",
+            "label": "真発熱量",
             "value": "min 42.80 MJ/kg"
           },
           "spec6": {
-            "label": "Viscosity @−20°C",
+            "label": "動粘度 @−20°C",
             "value": "max 8.000 mm²/s"
           }
         },
         "crude": {
-          "title": "Crude Oil",
-          "tagline": "Light/heavy · sweet/sour · spot & term",
+          "title": "原油",
+          "tagline": "軽質/重質 · スイート/サワー · スポット・ターム",
           "spec1": {
-            "label": "Classification",
-            "value": "By API & sulphur"
+            "label": "分類",
+            "value": "APIと硫黄分による"
           },
           "spec2": {
-            "label": "API gravity",
-            "value": "Grade-dependent"
+            "label": "API比重",
+            "value": "グレードによる"
           },
           "spec3": {
-            "label": "Sulphur",
-            "value": "Sweet <0.5% / Sour ≥0.5%"
+            "label": "硫黄分",
+            "value": "スイート <0.5% / サワー ≥0.5%"
           },
           "spec4": {
             "label": "BS&W",
             "value": "≤ 1.0% v/v"
           },
           "spec5": {
-            "label": "Supply",
-            "value": "Spot / Term · CIF / FOB"
+            "label": "供給",
+            "value": "スポット / ターム · CIF / FOB"
           },
           "spec6": {
-            "label": "Inspection",
-            "value": "SGS / COQ at loading"
+            "label": "検査",
+            "value": "船積み時のSGS / COQ"
           }
         }
       }

@@ -206,9 +206,9 @@
     "title": "Secteurs d'Activite",
     "subtitle": "Leader sur le Marche Mondial des Ressources",
     "crudeOil": {
-      "title": "Negoce de Petrole Brut",
-      "subtitle": "Ressources Energetiques",
-      "description": "Nous assurons un approvisionnement stable en petrole brut depuis le Moyen-Orient, la Russie et les Ameriques, en realisant des operations competitives grace a des partenariats avec des raffineries mondiales."
+      "title": "Énergie & Carburants",
+      "subtitle": "Pétrole & Produits raffinés",
+      "description": "Pétrole brut, gazole EN590 10ppm et carburant d'aviation Jet A-1 — fournis via des canaux de raffinage et d'approvisionnement vérifiés, avec des procédures axées sur le KYC et des instruments bancaires sécurisés."
     },
     "copper": {
       "title": "Negoce de Cuivre",
@@ -226,9 +226,9 @@
       "description": "Nous offrons des services de negoce d'or surs et transparents centres sur les lingots certifies LBMA, repondant aux besoins d'investissement et industriels."
     },
     "energyFuels": {
-      "title": "Energy & Fuels",
-      "subtitle": "Petroleum & Refined Products",
-      "description": "Crude oil, EN590 10ppm diesel and Jet A-1 aviation fuel — supplied through verified refining and supply channels, with KYC-first procedures and secure banking instruments."
+      "title": "Énergie & Carburants",
+      "subtitle": "Pétrole & Produits raffinés",
+      "description": "Pétrole brut, gazole EN590 10ppm et carburant d'aviation Jet A-1 — fournis via des canaux de raffinage et d'approvisionnement vérifiés, avec des procédures axées sur le KYC et des instruments bancaires sécurisés."
     }
   },
   "stats": {
@@ -554,85 +554,85 @@
     },
     "energyFuels": {
       "overview": {
-        "title": "Business Overview",
-        "text1": "Global Group Korea supplies crude oil and refined petroleum products — EN590 10ppm diesel and Jet A-1 aviation fuel — through verified refining and supply channels across the Middle East, Africa, and the Americas. We are a principal-focused trading company, not a broker chain.",
-        "text2": "Every transaction is built on KYC-cleared counterparties and internationally standard payment structures — transferable L/C, SBLC, or escrow. We do not request advance payments for logistics, customs, or documentation. This standard procedure protects genuine partners and filters out fraudulent approaches."
+        "title": "Présentation de l'activité",
+        "text1": "Global Group Korea fournit du pétrole brut et des produits pétroliers raffinés — gazole EN590 10ppm et carburant d'aviation Jet A-1 — via des canaux de raffinage et d'approvisionnement vérifiés au Moyen-Orient, en Afrique et dans les Amériques. Nous sommes une société de négoce axée sur le principal, et non une chaîne de courtiers.",
+        "text2": "Chaque transaction repose sur des contreparties validées par KYC et des structures de paiement conformes aux normes internationales — L/C transférable, SBLC ou séquestre. Nous ne demandons aucun paiement anticipé pour la logistique, les douanes ou la documentation. Cette procédure standard protège les partenaires authentiques et écarte les approches frauduleuses."
       },
       "stats": {
         "stat1": {
           "value": "3",
-          "label": "Core Products"
+          "label": "Produits principaux"
         },
         "stat2": {
           "value": "SGS",
-          "label": "Independent Inspection"
+          "label": "Inspection indépendante"
         },
         "stat3": {
           "value": "L/C",
-          "label": "Secure Settlement"
+          "label": "Règlement sécurisé"
         }
       },
       "features": {
         "feature1": {
-          "title": "Verified Supply Chains",
-          "text": "Sourcing through verified refining and supply channels, with certificate of origin and COQ for every cargo. Sanctioned-origin cargoes are not handled."
+          "title": "Chaînes d'approvisionnement vérifiées",
+          "text": "Approvisionnement via des canaux de raffinage et d'approvisionnement vérifiés, avec certificat d'origine et COQ pour chaque cargaison. Les cargaisons d'origine sanctionnée ne sont pas traitées."
         },
         "feature2": {
-          "title": "Refined & Crude Range",
-          "text": "EN590 10ppm ULSD to EN 590, Jet A-1 to DEF STAN 91-091 / ASTM D1655, and crude oil across light/heavy, sweet/sour grades."
+          "title": "Gamme raffinée & brut",
+          "text": "Gazole EN590 10ppm ULSD conforme à EN 590, Jet A-1 conforme à DEF STAN 91-091 / ASTM D1655, et pétrole brut de qualités léger/lourd, doux/soufré."
         },
         "feature3": {
-          "title": "Bank-Instrument Settlement",
-          "text": "Transferable L/C, SBLC and escrow only. No advance payments for customs, logistics, or documentation at any stage."
+          "title": "Règlement par instrument bancaire",
+          "text": "L/C transférable, SBLC et séquestre uniquement. Aucun paiement anticipé pour les douanes, la logistique ou la documentation à aucun stade."
         },
         "feature4": {
-          "title": "Independent Quality Control",
-          "text": "Cargoes inspected by an international agency such as SGS, with quality confirmed by Certificate of Quality at loading."
+          "title": "Contrôle qualité indépendant",
+          "text": "Cargaisons inspectées par une agence internationale telle que SGS, avec qualité confirmée par un Certificat de Qualité au chargement."
         }
       },
       "process": {
         "process1": {
-          "title": "KYC & Due Diligence",
-          "text": "Mutual verification of buyer and seller identity and standing as a prerequisite"
+          "title": "KYC & Vérification préalable",
+          "text": "Vérification mutuelle de l'identité et de la solidité de l'acheteur et du vendeur comme condition préalable"
         },
         "process2": {
-          "title": "Soft Offer / ICPO",
-          "text": "Quantity, specification and terms agreed"
+          "title": "Offre indicative / ICPO",
+          "text": "Quantité, spécification et conditions convenues"
         },
         "process3": {
-          "title": "Contract & Instrument",
-          "text": "Binding SPA signed; transferable L/C, SBLC or escrow established"
+          "title": "Contrat & Instrument",
+          "text": "SPA contraignant signé ; L/C transférable, SBLC ou séquestre établi"
         },
         "process4": {
-          "title": "Inspection & Delivery",
-          "text": "SGS/COQ inspection, then shipment and delivery on agreed Incoterms"
+          "title": "Inspection & Livraison",
+          "text": "Inspection SGS/COQ, puis expédition et livraison selon les Incoterms convenus"
         }
       },
       "products": {
-        "title": "Product Line-up",
-        "intro": "Core specifications shown below. Full specifications are available as PDF on each product. Final values are confirmed by SGS inspection and Certificate of Quality at loading.",
-        "fullSpec": "Full specification (PDF)",
+        "title": "Gamme de produits",
+        "intro": "Les spécifications principales sont présentées ci-dessous. Les spécifications complètes sont disponibles au format PDF pour chaque produit. Les valeurs finales sont confirmées par inspection SGS et Certificat de Qualité au chargement.",
+        "fullSpec": "Spécification complète (PDF)",
         "en590": {
-          "title": "EN590 10ppm Diesel (ULSD)",
-          "tagline": "EN 590 · Ultra-low sulphur",
+          "title": "Gazole EN590 10ppm (ULSD)",
+          "tagline": "EN 590 · Très faible teneur en soufre",
           "spec1": {
-            "label": "Sulphur content",
+            "label": "Teneur en soufre",
             "value": "max 10.0 mg/kg"
           },
           "spec2": {
-            "label": "Cetane number",
+            "label": "Indice de cétane",
             "value": "min 51.0"
           },
           "spec3": {
-            "label": "Density @15°C",
+            "label": "Densité @15°C",
             "value": "820.0–845.0 kg/m³"
           },
           "spec4": {
-            "label": "Flash point",
+            "label": "Point d'éclair",
             "value": "> 55.0°C"
           },
           "spec5": {
-            "label": "Viscosity @40°C",
+            "label": "Viscosité @40°C",
             "value": "2.000–4.500 mm²/s"
           },
           "spec6": {
@@ -644,56 +644,56 @@
           "title": "Jet A-1",
           "tagline": "DEF STAN 91-091 / ASTM D1655",
           "spec1": {
-            "label": "Density @15°C",
+            "label": "Densité @15°C",
             "value": "775.0–840.0 kg/m³"
           },
           "spec2": {
-            "label": "Flash point",
+            "label": "Point d'éclair",
             "value": "min 38.0°C"
           },
           "spec3": {
-            "label": "Freezing point",
+            "label": "Point de congélation",
             "value": "max −47.0°C"
           },
           "spec4": {
-            "label": "Total sulphur",
+            "label": "Soufre total",
             "value": "max 0.30% m/m"
           },
           "spec5": {
-            "label": "Net heat of combustion",
+            "label": "Pouvoir calorifique net",
             "value": "min 42.80 MJ/kg"
           },
           "spec6": {
-            "label": "Viscosity @−20°C",
+            "label": "Viscosité @−20°C",
             "value": "max 8.000 mm²/s"
           }
         },
         "crude": {
-          "title": "Crude Oil",
-          "tagline": "Light/heavy · sweet/sour · spot & term",
+          "title": "Pétrole brut",
+          "tagline": "Léger/lourd · doux/soufré · spot & terme",
           "spec1": {
             "label": "Classification",
-            "value": "By API & sulphur"
+            "value": "Selon API & soufre"
           },
           "spec2": {
-            "label": "API gravity",
-            "value": "Grade-dependent"
+            "label": "Densité API",
+            "value": "Selon la qualité"
           },
           "spec3": {
-            "label": "Sulphur",
-            "value": "Sweet <0.5% / Sour ≥0.5%"
+            "label": "Soufre",
+            "value": "Doux <0.5% / Soufré ≥0.5%"
           },
           "spec4": {
             "label": "BS&W",
             "value": "≤ 1.0% v/v"
           },
           "spec5": {
-            "label": "Supply",
-            "value": "Spot / Term · CIF / FOB"
+            "label": "Approvisionnement",
+            "value": "Spot / Terme · CIF / FOB"
           },
           "spec6": {
             "label": "Inspection",
-            "value": "SGS / COQ at loading"
+            "value": "SGS / COQ au chargement"
           }
         }
       }

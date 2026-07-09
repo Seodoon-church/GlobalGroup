@@ -381,7 +381,18 @@ GlobalGroup/
   - 스펙 PDF 3종 추가: `public/specs/GGK-{EN590-10ppm-ULSD,Jet-A1,Crude-Oil}.pdf`
   - **의사결정(대표님 확인)**: 석영 VISH 공급사명 **현행 노출 유지**(개편안의 소스보호 삭제 미적용) / **HPQ 지표 수치 게시 보류**(VKICL·SGS 확정 후) → 석영 콘텐츠·HPQ 사양표는 이번에 미반영
   - **빌드 성공** (111 → **120개 페이지**, energy-fuels 슬러그 × 9언어 +9). 실제 `npm run build` 통과 확인
-- **미배포**: 배포는 대표님 승인 후 진행 예정
+- **커밋·푸시·배포 완료** (커밋 `5620cb5`, `0490f44`) — Firebase Hosting + globalgroupkorea.com 반영
+
+### 2026-07-10 (Session 15)
+- **`/business/crudeOil` 404 수정** — 구버전 홈 카드가 `/business/${key}`(카멜케이스)로 링크했던 잔재. 색인·북마크 보존 위해 `crudeOil`을 별칭 슬러그로 추가(→ `energyFuels`)
+- **Energy & Fuels 7개 언어 번역 완료** (ja·zh·sw·ar·hi·bn·fr)
+  - 영어 fallback이던 `business.energyFuels`·`businessDetail.energyFuels` 전면 번역
+  - `business.crudeOil` 카드도 각 언어 "에너지 & 연료"로 번역(러시아 문구 완전 제거)
+  - 스펙 수치값(EN590·Jet A-1 숫자·단위)은 언어 무관 고정, 라벨·산문만 번역. 기술 약어(L/C·SBLC·SGS·COQ·ICPO·SPA·KYC·API·BS&W·Incoterms 등) 원문 유지
+  - 언어별 병렬 번역 에이전트 활용, 조립 시 수치 무결성 검증
+  - 석영 갤러리/화학분석 섹션 전 언어 보존 확인
+- **빌드 성공** (120 → **129개 페이지**, crudeOil 별칭 × 9언어 +9)
+- **배포 완료**: Firebase Hosting + globalgroupkorea.com
 
 ## 다음 작업
 - [x] 빌드 테스트 및 에러 수정
@@ -404,8 +415,8 @@ GlobalGroup/
 - [x] 뉴스/공지사항 섹션 ✅
 - [x] 반응형 디자인 점검 ✅
 - [x] Energy & Fuels 버티컬 승격 (개편안 병합) ✅
-- [ ] Energy & Fuels 상세: 7개 언어(ja/zh/sw/ar/hi/bn/fr) 번역 반영 (현재 영어 fallback)
-- [ ] 7개 언어 `business.crudeOil` 카드 문구 Energy & Fuels로 번역 (현재 구 원유 문구)
+- [x] Energy & Fuels 상세: 7개 언어(ja/zh/sw/ar/hi/bn/fr) 번역 반영 ✅
+- [x] 7개 언어 `business.crudeOil` 카드 문구 Energy & Fuels로 번역 ✅
 - [ ] HPQ 지표 수치 확정 후 석영 사양표(products) + `GGK-HPQ.pdf` 게시
 - [ ] (선택) `businessDetail.crudeOil` dead 블록 정리 (러시아 문구 잔존, 미렌더)
 - [ ] Session 14 개편안 배포 (대표님 승인 후)
