@@ -534,25 +534,25 @@
         }
       },
       "supplyChain": {
-        "title": "African Copper Supply Chain",
-        "subtitle": "Infrastructure & global connectivity",
-        "imageAlt": "Infographic map showing the African Copper Supply Chain, featuring major mines in DRC and Zambia, logistics routes to Lobito, Dar es Salaam and Durban ports, and global market connectivity.",
+        "title": "Chaîne d'approvisionnement africaine du cuivre",
+        "subtitle": "Infrastructure et connectivité mondiale",
+        "imageAlt": "Carte infographique illustrant la chaîne d'approvisionnement africaine du cuivre, présentant les principales mines en DRC et en Zambia, les routes logistiques vers les ports de Lobito, Dar es Salaam et Durban, ainsi que la connectivité aux marchés mondiaux.",
         "items": {
           "production": {
-            "title": "The Heart of Production: Central African Copperbelt",
-            "body": "At the center of the supply chain is the Central African Copperbelt, spanning the DRC and Zambia — home to some of the world's largest and highest-grade copper reserves. Key mining hubs include Kamoa-Kakula (one of the world's fastest-growing, highest-grade major copper mines), Tenke Fungurume (a premier copper-cobalt mine in the DRC), and Luanshya & Konkola (integral mining and processing centers in Zambia). The region produces premium copper ore and cathodes — the foundational raw materials for global industrialization."
+            "title": "Le cœur de la production : Central African Copperbelt",
+            "body": "Au centre de la chaîne d'approvisionnement se trouve le Central African Copperbelt, s'étendant sur la DRC et la Zambia — abritant certaines des réserves de cuivre les plus vastes et les plus riches au monde. Les principaux pôles miniers comprennent Kamoa-Kakula (l'une des grandes mines de cuivre à la croissance la plus rapide et à la teneur la plus élevée au monde), Tenke Fungurume (une mine de cuivre-cobalt de premier plan en DRC), et Luanshya & Konkola (des centres d'extraction et de traitement essentiels en Zambia). La région produit du minerai de cuivre et des cathodes de qualité supérieure — les matières premières fondamentales de l'industrialisation mondiale."
           },
           "routes": {
-            "title": "Multi-Modal Export Routes",
-            "body": "Four strategic corridors ensure stable, flexible supply, shifting from traditional land routes to efficient rail and sea networks: the Western Route via Lobito Port (Angola) to the Atlantic; the Eastern Route via Dar es Salaam Port (Tanzania) to Asian markets; the Southern Route via Durban and Cape Town Ports (South Africa) and Beira Port (Mozambique); and the South-Western Route via Walvis Bay Port (Namibia) as an alternative Atlantic gateway."
+            "title": "Routes d'exportation multimodales",
+            "body": "Quatre corridors stratégiques garantissent un approvisionnement stable et flexible, passant des routes terrestres traditionnelles à des réseaux ferroviaires et maritimes efficaces : la Western Route via le Lobito Port (Angola) vers l'Atlantic ; la Eastern Route via le Dar es Salaam Port (Tanzania) vers les marchés asiatiques ; la Southern Route via les Durban et Cape Town Ports (South Africa) et le Beira Port (Mozambique) ; et la South-Western Route via le Walvis Bay Port (Namibia) comme passerelle alternative vers l'Atlantic."
           },
           "midstream": {
-            "title": "Smelting, Refining & Global Connectivity",
-            "body": "Beyond raw extraction, the chain integrates advanced midstream capabilities — smelting and refining complexes that process ore into high-purity copper cathodes locally, maximizing value before export. Processed copper then ships via major maritime routes to power global electrification, EV production, and renewable-energy infrastructure."
+            "title": "Fusion, raffinage et connectivité mondiale",
+            "body": "Au-delà de la simple extraction, la chaîne intègre des capacités de transformation intermédiaire avancées — des complexes de fusion et de raffinage qui transforment localement le minerai en cathodes de cuivre de haute pureté, maximisant la valeur avant l'exportation. Le cuivre traité est ensuite expédié via les principales routes maritimes pour alimenter l'électrification mondiale, la production d'EV et les infrastructures d'énergies renouvelables."
           },
           "outlook": {
-            "title": "Copper Supply Outlook",
-            "body": "As the global transition toward green energy and electrification accelerates, demand for copper is projected to grow steadily through 2028 and beyond. This African supply hub plays a critical role in meeting the world's future copper needs securely and sustainably."
+            "title": "Perspectives de l'approvisionnement en cuivre",
+            "body": "À mesure que la transition mondiale vers l'énergie verte et l'électrification s'accélère, la demande de cuivre devrait croître de manière constante jusqu'en 2028 et au-delà. Ce pôle d'approvisionnement africain joue un rôle essentiel pour répondre de manière sûre et durable aux besoins futurs du monde en cuivre."
           }
         }
       }
@@ -1256,10 +1256,10 @@
         "copper": {
           "category": "Métaux industriels",
           "name": "Cuivre",
-          "long": "Strategic African Supply Infrastructure",
-          "p1": "The Copperbelt: Sourcing from premier hubs like Kamoa-Kakula & Konkola.",
-          "p2": "Multi-Modal Export: Connected via strategic Western, Eastern, and Southern routes.",
-          "p3": "Global Delivery: Seamless maritime transit to worldwide industrial partners."
+          "long": "Infrastructure d'approvisionnement stratégique en Afrique",
+          "p1": "The Copperbelt : Approvisionnement auprès de pôles de premier plan tels que Kamoa-Kakula et Konkola.",
+          "p2": "Exportation multimodale : Connectée via les routes stratégiques Western, Eastern et Southern.",
+          "p3": "Livraison mondiale : Transit maritime fluide vers les partenaires industriels du monde entier."
         },
         "gold": {
           "category": "Métaux précieux",

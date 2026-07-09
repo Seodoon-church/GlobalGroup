@@ -534,25 +534,25 @@
         }
       },
       "supplyChain": {
-        "title": "African Copper Supply Chain",
-        "subtitle": "Infrastructure & global connectivity",
-        "imageAlt": "Infographic map showing the African Copper Supply Chain, featuring major mines in DRC and Zambia, logistics routes to Lobito, Dar es Salaam and Durban ports, and global market connectivity.",
+        "title": "Msururu wa Ugavi wa Shaba wa Afrika",
+        "subtitle": "Miundombinu na muunganisho wa kimataifa",
+        "imageAlt": "Ramani ya infografiki inayoonyesha Msururu wa Ugavi wa Shaba wa Afrika, ikijumuisha migodi mikuu katika DRC na Zambia, njia za usafirishaji kuelekea bandari za Lobito, Dar es Salaam na Durban, na muunganisho wa soko la kimataifa.",
         "items": {
           "production": {
-            "title": "The Heart of Production: Central African Copperbelt",
-            "body": "At the center of the supply chain is the Central African Copperbelt, spanning the DRC and Zambia — home to some of the world's largest and highest-grade copper reserves. Key mining hubs include Kamoa-Kakula (one of the world's fastest-growing, highest-grade major copper mines), Tenke Fungurume (a premier copper-cobalt mine in the DRC), and Luanshya & Konkola (integral mining and processing centers in Zambia). The region produces premium copper ore and cathodes — the foundational raw materials for global industrialization."
+            "title": "Moyo wa Uzalishaji: Central African Copperbelt",
+            "body": "Katikati ya msururu wa ugavi kuna Central African Copperbelt, inayoenea DRC na Zambia — makao ya baadhi ya akiba kubwa zaidi na ya kiwango cha juu zaidi cha shaba duniani. Vituo vikuu vya uchimbaji ni pamoja na Kamoa-Kakula (mojawapo ya migodi mikubwa ya shaba inayokua kwa kasi zaidi na ya kiwango cha juu zaidi duniani), Tenke Fungurume (mgodi bora wa shaba na cobalt katika DRC), na Luanshya & Konkola (vituo muhimu vya uchimbaji na usindikaji nchini Zambia). Eneo hili linazalisha madini ya shaba ya hali ya juu na cathode — malighafi ya msingi kwa uendelezaji wa viwanda duniani."
           },
           "routes": {
-            "title": "Multi-Modal Export Routes",
-            "body": "Four strategic corridors ensure stable, flexible supply, shifting from traditional land routes to efficient rail and sea networks: the Western Route via Lobito Port (Angola) to the Atlantic; the Eastern Route via Dar es Salaam Port (Tanzania) to Asian markets; the Southern Route via Durban and Cape Town Ports (South Africa) and Beira Port (Mozambique); and the South-Western Route via Walvis Bay Port (Namibia) as an alternative Atlantic gateway."
+            "title": "Njia za Usafirishaji za Njia Nyingi",
+            "body": "Njia nne za kimkakati zinahakikisha ugavi thabiti na wenye kubadilika, zikihama kutoka njia za jadi za nchi kavu kwenda mitandao yenye ufanisi ya reli na bahari: Western Route kupitia Lobito Port (Angola) kuelekea Atlantic; Eastern Route kupitia Dar es Salaam Port (Tanzania) kuelekea masoko ya Asia; Southern Route kupitia Durban na Cape Town Ports (South Africa) na Beira Port (Mozambique); na South-Western Route kupitia Walvis Bay Port (Namibia) kama lango mbadala la Atlantic."
           },
           "midstream": {
-            "title": "Smelting, Refining & Global Connectivity",
-            "body": "Beyond raw extraction, the chain integrates advanced midstream capabilities — smelting and refining complexes that process ore into high-purity copper cathodes locally, maximizing value before export. Processed copper then ships via major maritime routes to power global electrification, EV production, and renewable-energy infrastructure."
+            "title": "Uyeyushaji, Usafishaji & Muunganisho wa Kimataifa",
+            "body": "Zaidi ya uchimbaji wa malighafi, msururu huu unaunganisha uwezo wa hali ya juu wa kati — vituo vya uyeyushaji na usafishaji vinavyosindika madini kuwa cathode za shaba za usafi wa hali ya juu ndani ya nchi, vikiongeza thamani kwa kiwango cha juu kabla ya usafirishaji nje. Shaba iliyosindikwa kisha husafirishwa kupitia njia kuu za baharini ili kuwezesha uwekaji umeme wa kimataifa, uzalishaji wa EV, na miundombinu ya nishati mbadala."
           },
           "outlook": {
-            "title": "Copper Supply Outlook",
-            "body": "As the global transition toward green energy and electrification accelerates, demand for copper is projected to grow steadily through 2028 and beyond. This African supply hub plays a critical role in meeting the world's future copper needs securely and sustainably."
+            "title": "Mtazamo wa Ugavi wa Shaba",
+            "body": "Kadiri mabadiliko ya kimataifa kuelekea nishati ya kijani na uwekaji umeme yanavyoharakisha, mahitaji ya shaba yanatarajiwa kukua kwa uthabiti hadi 2028 na kuendelea. Kituo hiki cha ugavi cha Afrika kinacheza jukumu muhimu katika kukidhi mahitaji ya baadaye ya shaba ya dunia kwa usalama na uendelevu."
           }
         }
       }
@@ -1256,10 +1256,10 @@
         "copper": {
           "category": "Metali za Viwandani",
           "name": "Shaba",
-          "long": "Strategic African Supply Infrastructure",
-          "p1": "The Copperbelt: Sourcing from premier hubs like Kamoa-Kakula & Konkola.",
-          "p2": "Multi-Modal Export: Connected via strategic Western, Eastern, and Southern routes.",
-          "p3": "Global Delivery: Seamless maritime transit to worldwide industrial partners."
+          "long": "Miundombinu ya Kimkakati ya Ugavi wa Afrika",
+          "p1": "Copperbelt: Kupata malighafi kutoka vituo vikuu kama Kamoa-Kakula & Konkola.",
+          "p2": "Usafirishaji wa Njia Nyingi: Kuunganishwa kupitia njia za kimkakati za Western, Eastern, na Southern.",
+          "p3": "Usambazaji wa Kimataifa: Usafiri wa baharini usio na vikwazo kwa washirika wa viwanda duniani kote."
         },
         "gold": {
           "category": "Metali za Thamani",

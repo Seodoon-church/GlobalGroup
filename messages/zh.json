@@ -534,25 +534,25 @@
         }
       },
       "supplyChain": {
-        "title": "African Copper Supply Chain",
-        "subtitle": "Infrastructure & global connectivity",
-        "imageAlt": "Infographic map showing the African Copper Supply Chain, featuring major mines in DRC and Zambia, logistics routes to Lobito, Dar es Salaam and Durban ports, and global market connectivity.",
+        "title": "非洲铜供应链",
+        "subtitle": "基础设施与全球互联",
+        "imageAlt": "一幅展示非洲铜供应链的信息图地图，标示了DRC和Zambia的主要矿山、通往Lobito、Dar es Salaam和Durban港口的物流路线，以及全球市场互联性。",
         "items": {
           "production": {
-            "title": "The Heart of Production: Central African Copperbelt",
-            "body": "At the center of the supply chain is the Central African Copperbelt, spanning the DRC and Zambia — home to some of the world's largest and highest-grade copper reserves. Key mining hubs include Kamoa-Kakula (one of the world's fastest-growing, highest-grade major copper mines), Tenke Fungurume (a premier copper-cobalt mine in the DRC), and Luanshya & Konkola (integral mining and processing centers in Zambia). The region produces premium copper ore and cathodes — the foundational raw materials for global industrialization."
+            "title": "生产的核心：Central African Copperbelt",
+            "body": "供应链的核心是横跨DRC和Zambia的Central African Copperbelt——这里拥有全球规模最大、品位最高的铜储量之一。主要采矿枢纽包括Kamoa-Kakula（全球增长最快、品位最高的大型铜矿之一）、Tenke Fungurume（DRC一流的铜钴矿），以及Luanshya和Konkola（Zambia不可或缺的采矿与加工中心）。该地区生产优质铜矿石和铜阴极——全球工业化的基础原材料。"
           },
           "routes": {
-            "title": "Multi-Modal Export Routes",
-            "body": "Four strategic corridors ensure stable, flexible supply, shifting from traditional land routes to efficient rail and sea networks: the Western Route via Lobito Port (Angola) to the Atlantic; the Eastern Route via Dar es Salaam Port (Tanzania) to Asian markets; the Southern Route via Durban and Cape Town Ports (South Africa) and Beira Port (Mozambique); and the South-Western Route via Walvis Bay Port (Namibia) as an alternative Atlantic gateway."
+            "title": "多式联运出口路线",
+            "body": "四条战略走廊确保稳定、灵活的供应，从传统陆路转向高效的铁路和海运网络：经Lobito Port（Angola）通往Atlantic的Western Route；经Dar es Salaam Port（Tanzania）通往亚洲市场的Eastern Route；经Durban和Cape Town Ports（South Africa）以及Beira Port（Mozambique）的Southern Route；以及作为替代性Atlantic门户、经Walvis Bay Port（Namibia）的South-Western Route。"
           },
           "midstream": {
-            "title": "Smelting, Refining & Global Connectivity",
-            "body": "Beyond raw extraction, the chain integrates advanced midstream capabilities — smelting and refining complexes that process ore into high-purity copper cathodes locally, maximizing value before export. Processed copper then ships via major maritime routes to power global electrification, EV production, and renewable-energy infrastructure."
+            "title": "冶炼、精炼与全球互联",
+            "body": "供应链超越了单纯的原料开采，整合了先进的中游能力——冶炼和精炼综合设施在本地将矿石加工成高纯度铜阴极，在出口前实现价值最大化。加工后的铜随后通过主要海运航线运输，为全球电气化、EV生产和可再生能源基础设施提供动力。"
           },
           "outlook": {
-            "title": "Copper Supply Outlook",
-            "body": "As the global transition toward green energy and electrification accelerates, demand for copper is projected to grow steadily through 2028 and beyond. This African supply hub plays a critical role in meeting the world's future copper needs securely and sustainably."
+            "title": "铜供应展望",
+            "body": "随着全球向绿色能源和电气化转型的加速，预计铜需求将在2028年及以后稳步增长。这一非洲供应枢纽在安全、可持续地满足全球未来铜需求方面发挥着关键作用。"
           }
         }
       }
@@ -1256,10 +1256,10 @@
         "copper": {
           "category": "工业金属",
           "name": "铜",
-          "long": "Strategic African Supply Infrastructure",
-          "p1": "The Copperbelt: Sourcing from premier hubs like Kamoa-Kakula & Konkola.",
-          "p2": "Multi-Modal Export: Connected via strategic Western, Eastern, and Southern routes.",
-          "p3": "Global Delivery: Seamless maritime transit to worldwide industrial partners."
+          "long": "战略性非洲供应基础设施",
+          "p1": "Copperbelt：从Kamoa-Kakula和Konkola等一流枢纽采购。",
+          "p2": "多式联运出口：通过战略性的Western、Eastern和Southern路线互联。",
+          "p3": "全球交付：无缝海运至世界各地的工业合作伙伴。"
         },
         "gold": {
           "category": "贵金属",

@@ -534,25 +534,25 @@
         }
       },
       "supplyChain": {
-        "title": "African Copper Supply Chain",
-        "subtitle": "Infrastructure & global connectivity",
-        "imageAlt": "Infographic map showing the African Copper Supply Chain, featuring major mines in DRC and Zambia, logistics routes to Lobito, Dar es Salaam and Durban ports, and global market connectivity.",
+        "title": "আফ্রিকান তামা সরবরাহ শৃঙ্খল",
+        "subtitle": "অবকাঠামো ও বৈশ্বিক সংযোগ",
+        "imageAlt": "আফ্রিকান তামা সরবরাহ শৃঙ্খল প্রদর্শনকারী একটি ইনফোগ্রাফিক মানচিত্র, যাতে DRC ও Zambia-এর প্রধান খনি, Lobito, Dar es Salaam এবং Durban বন্দরের লজিস্টিক রুট, এবং বৈশ্বিক বাজার সংযোগ দেখানো হয়েছে।",
         "items": {
           "production": {
-            "title": "The Heart of Production: Central African Copperbelt",
-            "body": "At the center of the supply chain is the Central African Copperbelt, spanning the DRC and Zambia — home to some of the world's largest and highest-grade copper reserves. Key mining hubs include Kamoa-Kakula (one of the world's fastest-growing, highest-grade major copper mines), Tenke Fungurume (a premier copper-cobalt mine in the DRC), and Luanshya & Konkola (integral mining and processing centers in Zambia). The region produces premium copper ore and cathodes — the foundational raw materials for global industrialization."
+            "title": "উৎপাদনের হৃদয়: Central African Copperbelt",
+            "body": "সরবরাহ শৃঙ্খলের কেন্দ্রে রয়েছে Central African Copperbelt, যা DRC ও Zambia জুড়ে বিস্তৃত — বিশ্বের কিছু বৃহত্তম ও সর্বোচ্চ-গ্রেডের তামার মজুদের আবাসস্থল। প্রধান খনন কেন্দ্রগুলোর মধ্যে রয়েছে Kamoa-Kakula (বিশ্বের দ্রুততম বর্ধনশীল ও সর্বোচ্চ-গ্রেডের প্রধান তামার খনিগুলোর একটি), Tenke Fungurume (DRC-তে একটি শীর্ষস্থানীয় তামা-কোবাল্ট খনি), এবং Luanshya ও Konkola (Zambia-তে অপরিহার্য খনন ও প্রক্রিয়াকরণ কেন্দ্র)। এই অঞ্চলটি প্রিমিয়াম তামার আকরিক ও ক্যাথোড উৎপাদন করে — বৈশ্বিক শিল্পায়নের ভিত্তিমূলক কাঁচামাল।"
           },
           "routes": {
-            "title": "Multi-Modal Export Routes",
-            "body": "Four strategic corridors ensure stable, flexible supply, shifting from traditional land routes to efficient rail and sea networks: the Western Route via Lobito Port (Angola) to the Atlantic; the Eastern Route via Dar es Salaam Port (Tanzania) to Asian markets; the Southern Route via Durban and Cape Town Ports (South Africa) and Beira Port (Mozambique); and the South-Western Route via Walvis Bay Port (Namibia) as an alternative Atlantic gateway."
+            "title": "মাল্টি-মোডাল রপ্তানি রুট",
+            "body": "চারটি কৌশলগত করিডোর স্থিতিশীল, নমনীয় সরবরাহ নিশ্চিত করে, ঐতিহ্যবাহী স্থল রুট থেকে দক্ষ রেল ও সমুদ্র নেটওয়ার্কে স্থানান্তরিত হয়: Lobito Port (Angola) হয়ে Atlantic-এর দিকে Western Route; Dar es Salaam Port (Tanzania) হয়ে এশীয় বাজারের দিকে Eastern Route; Durban ও Cape Town Ports (South Africa) এবং Beira Port (Mozambique) হয়ে Southern Route; এবং একটি বিকল্প Atlantic প্রবেশদ্বার হিসেবে Walvis Bay Port (Namibia) হয়ে South-Western Route।"
           },
           "midstream": {
-            "title": "Smelting, Refining & Global Connectivity",
-            "body": "Beyond raw extraction, the chain integrates advanced midstream capabilities — smelting and refining complexes that process ore into high-purity copper cathodes locally, maximizing value before export. Processed copper then ships via major maritime routes to power global electrification, EV production, and renewable-energy infrastructure."
+            "title": "গলানো, পরিশোধন ও বৈশ্বিক সংযোগ",
+            "body": "কাঁচা উত্তোলনের বাইরে, শৃঙ্খলটি উন্নত মিডস্ট্রিম সক্ষমতা একীভূত করে — গলানো ও পরিশোধন কমপ্লেক্স যা স্থানীয়ভাবে আকরিককে উচ্চ-বিশুদ্ধতার তামার ক্যাথোডে প্রক্রিয়াজাত করে, রপ্তানির আগে মূল্য সর্বাধিক করে। প্রক্রিয়াজাত তামা এরপর প্রধান সামুদ্রিক রুটের মাধ্যমে চালান করা হয় যাতে বৈশ্বিক বিদ্যুতায়ন, EV উৎপাদন, এবং নবায়নযোগ্য-শক্তি অবকাঠামোকে শক্তি জোগানো যায়।"
           },
           "outlook": {
-            "title": "Copper Supply Outlook",
-            "body": "As the global transition toward green energy and electrification accelerates, demand for copper is projected to grow steadily through 2028 and beyond. This African supply hub plays a critical role in meeting the world's future copper needs securely and sustainably."
+            "title": "তামা সরবরাহ পূর্বাভাস",
+            "body": "সবুজ শক্তি ও বিদ্যুতায়নের দিকে বৈশ্বিক রূপান্তর যত ত্বরান্বিত হচ্ছে, তামার চাহিদা 2028 ও তার পরেও ক্রমাগত বৃদ্ধি পাবে বলে অনুমান করা হচ্ছে। এই আফ্রিকান সরবরাহ কেন্দ্রটি নিরাপদ ও টেকসইভাবে বিশ্বের ভবিষ্যৎ তামার চাহিদা পূরণে একটি গুরুত্বপূর্ণ ভূমিকা পালন করে।"
           }
         }
       }
@@ -1256,10 +1256,10 @@
         "copper": {
           "category": "শিল্প ধাতু",
           "name": "তামা",
-          "long": "Strategic African Supply Infrastructure",
-          "p1": "The Copperbelt: Sourcing from premier hubs like Kamoa-Kakula & Konkola.",
-          "p2": "Multi-Modal Export: Connected via strategic Western, Eastern, and Southern routes.",
-          "p3": "Global Delivery: Seamless maritime transit to worldwide industrial partners."
+          "long": "কৌশলগত আফ্রিকান সরবরাহ অবকাঠামো",
+          "p1": "Copperbelt: Kamoa-Kakula ও Konkola-এর মতো শীর্ষস্থানীয় কেন্দ্র থেকে সোর্সিং।",
+          "p2": "মাল্টি-মোডাল রপ্তানি: কৌশলগত Western, Eastern এবং Southern রুটের মাধ্যমে সংযুক্ত।",
+          "p3": "বৈশ্বিক সরবরাহ: বিশ্বজুড়ে শিল্প অংশীদারদের কাছে নির্বিঘ্ন সামুদ্রিক পরিবহন।"
         },
         "gold": {
           "category": "মূল্যবান ধাতু",

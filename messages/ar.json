@@ -534,25 +534,25 @@
         }
       },
       "supplyChain": {
-        "title": "African Copper Supply Chain",
-        "subtitle": "Infrastructure & global connectivity",
-        "imageAlt": "Infographic map showing the African Copper Supply Chain, featuring major mines in DRC and Zambia, logistics routes to Lobito, Dar es Salaam and Durban ports, and global market connectivity.",
+        "title": "سلسلة إمداد النحاس الأفريقية",
+        "subtitle": "البنية التحتية والاتصال العالمي",
+        "imageAlt": "خريطة إنفوجرافيك توضح سلسلة إمداد النحاس الأفريقية، وتضم المناجم الرئيسية في DRC و Zambia، ومسارات النقل اللوجستي إلى موانئ Lobito و Dar es Salaam و Durban، والاتصال بالأسواق العالمية.",
         "items": {
           "production": {
-            "title": "The Heart of Production: Central African Copperbelt",
-            "body": "At the center of the supply chain is the Central African Copperbelt, spanning the DRC and Zambia — home to some of the world's largest and highest-grade copper reserves. Key mining hubs include Kamoa-Kakula (one of the world's fastest-growing, highest-grade major copper mines), Tenke Fungurume (a premier copper-cobalt mine in the DRC), and Luanshya & Konkola (integral mining and processing centers in Zambia). The region produces premium copper ore and cathodes — the foundational raw materials for global industrialization."
+            "title": "قلب الإنتاج: Central African Copperbelt",
+            "body": "يقع في قلب سلسلة الإمداد Central African Copperbelt، الممتد عبر DRC و Zambia — موطن بعض أكبر احتياطيات النحاس وأعلاها جودة في العالم. تشمل مراكز التعدين الرئيسية Kamoa-Kakula (أحد أسرع مناجم النحاس الكبرى نموًا وأعلاها جودة في العالم)، و Tenke Fungurume (منجم رائد للنحاس والكوبالت في DRC)، و Luanshya و Konkola (مركزا تعدين ومعالجة أساسيان في Zambia). تنتج المنطقة خام النحاس الفاخر والكاثودات — المواد الخام الأساسية للتصنيع العالمي."
           },
           "routes": {
-            "title": "Multi-Modal Export Routes",
-            "body": "Four strategic corridors ensure stable, flexible supply, shifting from traditional land routes to efficient rail and sea networks: the Western Route via Lobito Port (Angola) to the Atlantic; the Eastern Route via Dar es Salaam Port (Tanzania) to Asian markets; the Southern Route via Durban and Cape Town Ports (South Africa) and Beira Port (Mozambique); and the South-Western Route via Walvis Bay Port (Namibia) as an alternative Atlantic gateway."
+            "title": "مسارات التصدير متعددة الوسائط",
+            "body": "تضمن أربعة ممرات استراتيجية إمدادًا مستقرًا ومرنًا، بالانتقال من المسارات البرية التقليدية إلى شبكات السكك الحديدية والبحر الفعّالة: Western Route عبر Lobito Port (Angola) إلى Atlantic؛ و Eastern Route عبر Dar es Salaam Port (Tanzania) إلى الأسواق الآسيوية؛ و Southern Route عبر Durban و Cape Town Ports (South Africa) و Beira Port (Mozambique)؛ و South-Western Route عبر Walvis Bay Port (Namibia) كبوابة بديلة إلى Atlantic."
           },
           "midstream": {
-            "title": "Smelting, Refining & Global Connectivity",
-            "body": "Beyond raw extraction, the chain integrates advanced midstream capabilities — smelting and refining complexes that process ore into high-purity copper cathodes locally, maximizing value before export. Processed copper then ships via major maritime routes to power global electrification, EV production, and renewable-energy infrastructure."
+            "title": "الصهر والتكرير والاتصال العالمي",
+            "body": "إلى جانب الاستخراج الخام، تدمج السلسلة قدرات متقدمة في المرحلة الوسطى — مجمعات الصهر والتكرير التي تعالج الخام لتحويله إلى كاثودات نحاس عالية النقاء محليًا، مما يعظّم القيمة قبل التصدير. ثم يُشحن النحاس المعالَج عبر المسارات البحرية الرئيسية لتشغيل الكهربة العالمية وإنتاج EV والبنية التحتية للطاقة المتجددة."
           },
           "outlook": {
-            "title": "Copper Supply Outlook",
-            "body": "As the global transition toward green energy and electrification accelerates, demand for copper is projected to grow steadily through 2028 and beyond. This African supply hub plays a critical role in meeting the world's future copper needs securely and sustainably."
+            "title": "آفاق إمداد النحاس",
+            "body": "مع تسارع التحول العالمي نحو الطاقة الخضراء والكهربة، يُتوقع أن ينمو الطلب على النحاس بثبات حتى عام 2028 وما بعده. يؤدي مركز الإمداد الأفريقي هذا دورًا حاسمًا في تلبية احتياجات العالم المستقبلية من النحاس بأمان واستدامة."
           }
         }
       }
@@ -1256,10 +1256,10 @@
         "copper": {
           "category": "المعادن الصناعية",
           "name": "النحاس",
-          "long": "Strategic African Supply Infrastructure",
-          "p1": "The Copperbelt: Sourcing from premier hubs like Kamoa-Kakula & Konkola.",
-          "p2": "Multi-Modal Export: Connected via strategic Western, Eastern, and Southern routes.",
-          "p3": "Global Delivery: Seamless maritime transit to worldwide industrial partners."
+          "long": "بنية تحتية استراتيجية للإمداد الأفريقي",
+          "p1": "Copperbelt: التوريد من مراكز رائدة مثل Kamoa-Kakula و Konkola.",
+          "p2": "التصدير متعدد الوسائط: مرتبط عبر مسارات Western و Eastern و Southern الاستراتيجية.",
+          "p3": "التسليم العالمي: نقل بحري سلس إلى الشركاء الصناعيين حول العالم."
         },
         "gold": {
           "category": "المعادن النفيسة",
