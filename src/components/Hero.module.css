@@ -8,7 +8,7 @@
   align-items: center;
   /* Navy diagonal gradient so the hero reads as deep navy (not flat black) even
      without a hero image. */
-  background: linear-gradient(135deg, #16294a 0%, #0a1628 52%, #050d18 100%);
+  background: linear-gradient(135deg, #1d3357 0%, #0a1628 52%, #050d18 100%);
 }
 
 /* Optional world-map texture — faint, does not darken the gradient. */
@@ -30,7 +30,7 @@
   inset: 0;
   z-index: 1;
   pointer-events: none;
-  background: radial-gradient(70% 90% at 92% 8%, rgba(201, 169, 98, 0.30), rgba(201, 169, 98, 0.08) 40%, transparent 68%);
+  background: radial-gradient(70% 90% at 92% 8%, rgba(201, 169, 98, 0.42), rgba(201, 169, 98, 0.10) 40%, transparent 68%);
 }
 
 /* Left-side readability scrim (lighter than before) for headline contrast. */
