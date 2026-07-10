@@ -368,6 +368,20 @@ GlobalGroup/
 - **빌드 성공** (111개 페이지)
 - **배포 완료**: Firebase Hosting
 
+### 2026-07-10 (Session 17)
+- **리디자인 후속 반영 (실사진·데이터·톤·서체·지도)**
+  - **로고**: Header·Footer CSS 모노그램 → 실제 로고 이미지(`/images/logo.png`)
+  - **9개 언어 완역**: `home`/`pages`/오피스 거점 role·desc를 ja/zh/sw/ar/hi/bn/fr 번역(에이전트 병렬)
+  - **실사진**: Energy&Fuels 2장(정유소·탱크), Quartz 2장(VISH 근접샷·수출트럭). assay 리포트 사진은 HPQ 수치 노출로 제외([[quartz-hpq-numbers-hold]])
+  - **헤더 티커 실시간화**: 정적 옛날 값 → TradingView 실시간 위젯(시세·환율 정확)
+  - **Copper 대개편**: 소싱 Chile·Peru·Australia → **아프리카**로 교정. `/business/copper`에 "African Copper Supply Chain" 인포그래픽 + 4파트 아코디언(생산·수출루트·제련·전망). Business Areas 구리 카드에 인포그래픽 + 요약. 9개 언어 번역
+  - **허구 지표 제거**: "$2B+ 연간 거래액" 스탯 밴드에서 삭제(25+/150+/37)
+  - **지도 핀 정렬 보정**: Wikimedia SVG(비-플랫카레·레터박스)로 핀 어긋남 → `world.geo.json`으로 플랫카레 지도 SVG 생성(`world-plate.svg`, 핀과 동일 투영·object-fit:fill)
+  - **Market·Partners 재스타일**: 신 디자인 토큰으로 전면(TradingView·VISH 콘텐츠 보존). 여전히 off-nav
+  - **핸드오프 v1 (CHANGES/TONE_PASS) 반영**:
+    - 제목/디스플레이/대형 스탯 → **명조 serif(Noto Serif KR)**, 본문·버튼·라벨·티커는 Pretendard 유지
+    - Business Areas 톤 라이트닝: "How a trade works" 네이비→크림, 원자재 네이비 교차 제거(white/#f8f9fa)
+
 ### 2026-07-10 (Session 16)
 - **전면 사이트 리디자인 (design_handoff_ggk_redesign 반영)**
   - 외부 디자인 핸드오프(`.dc.html` 프로토타입 + `tokens.css`) 수령 → Next.js/CSS Modules로 재구성
