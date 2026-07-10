@@ -26,7 +26,6 @@ const OFFICES: {
 const STATS = [
   { value: '25+', key: 'statCountries' },
   { value: '150+', key: 'statPartners' },
-  { value: '$2B+', key: 'statVolume' },
   { value: '37', key: 'statYears' },
 ];
 
@@ -48,7 +47,7 @@ export default function GlobalNetwork() {
         <div className={styles.mapLayout}>
           <div className={styles.mapWrap}>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/e/ec/World_map_blank_without_borders.svg"
+              src="/images/world-plate.svg"
               alt="World map"
               className={styles.map}
             />
