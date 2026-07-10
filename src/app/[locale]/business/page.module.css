@@ -97,10 +97,10 @@
   margin-bottom: 52px;
 }
 
-/* ---- How a trade works ---- */
+/* ---- How a trade works (light / cream) ---- */
 .tradeSection {
-  background: var(--navy-900);
-  color: #fff;
+  background: var(--gold-100);
+  color: var(--text-primary);
   padding: 96px 0;
 }
 
@@ -126,7 +126,8 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  border: 1.5px solid rgba(201, 169, 98, 0.5);
+  background: var(--navy-700);
+  border: 1.5px solid var(--navy-700);
   color: var(--gold-500);
   display: flex;
   align-items: center;
@@ -138,18 +139,18 @@
 .tradeLine {
   flex: 1;
   height: 1px;
-  background: linear-gradient(90deg, rgba(201, 169, 98, 0.5), rgba(201, 169, 98, 0.05));
+  background: linear-gradient(90deg, rgba(201, 169, 98, 0.7), rgba(201, 169, 98, 0.1));
 }
 
 .tradeStepTitle {
   font-size: 1.15rem;
   font-weight: 600;
   margin: 0;
-  color: #fff;
+  color: var(--text-primary);
 }
 
 .tradeStepText {
-  color: rgba(255, 255, 255, 0.62);
+  color: var(--text-secondary);
   font-size: 0.92rem;
   margin: 10px 0 0;
   line-height: 1.55;
@@ -349,6 +350,7 @@
 }
 
 .supplyStatValue {
+  font-family: var(--font-heading);
   font-size: 3rem;
   font-weight: 700;
   color: var(--gold-700);

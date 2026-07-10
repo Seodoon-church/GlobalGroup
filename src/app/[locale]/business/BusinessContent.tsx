@@ -51,8 +51,8 @@ export default function BusinessContent() {
         <div className={styles.container}>
           <div className={styles.headerLeft}>
             <div className={styles.rule} />
-            <h2 className={styles.sectionTitleLight}>{t('pages.business.trade.title')}</h2>
-            <p className={styles.sectionSubLight}>{t('pages.business.trade.subtitle')}</p>
+            <h2 className={styles.sectionTitle}>{t('pages.business.trade.title')}</h2>
+            <p className={styles.sectionSub}>{t('pages.business.trade.subtitle')}</p>
           </div>
           <div className={styles.tradeGrid}>
             {TRADE.map((s, i) => (
@@ -71,9 +71,8 @@ export default function BusinessContent() {
 
       {/* Commodity detail sections */}
       {COMMODITIES.map((c, i) => {
-        const dark = i % 2 === 1;
         const imgFirst = i % 2 === 0;
-        const sectionCls = `${styles.commodity} ${dark ? styles.commodityDark : i === 0 ? styles.commodityWhite : styles.commoditySubtle}`;
+        const sectionCls = `${styles.commodity} ${i % 2 === 0 ? styles.commodityWhite : styles.commoditySubtle}`;
         return (
           <section key={c.key} id={c.slug} className={sectionCls}>
             <div className={styles.container}>
@@ -99,7 +98,7 @@ export default function BusinessContent() {
                   )}
                 </div>
                 <div className={imgFirst ? '' : styles.textFirst}>
-                  <div className={`${styles.chip} ${dark ? styles.chipDark : ''}`}>
+                  <div className={styles.chip}>
                     <span className={styles.chipDot} style={{ background: c.accent }} />
                     <span>{t(`pages.business.commodities.${c.key}.category`)}</span>
                   </div>
